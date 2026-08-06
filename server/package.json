@@ -1,0 +1,17 @@
+{
+  "name": "bb-atlas-tutor",
+  "version": "1.0.0",
+  "description": "AI tutor backend for BB Atlas — proxies the Anthropic Messages API with web search",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "express": "^4.21.0"
+  }
+}
