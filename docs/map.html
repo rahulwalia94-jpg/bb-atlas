@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Atlas — Master Domino Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
+</head>
+<body data-page="map">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
+    <div class="nav-links">
+      <a href="index.html">Modules</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="compare.html">Compare</a>
+      <a href="map.html" class="active">Domino Map</a>
+      <a href="glossary.html">Glossary</a>
+    </div>
+    <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
+  </div>
+  <div class="search-pop" id="search-pop"></div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker"><span class="tick">◈</span> Cause → effect → ECL</p>
+    <h1 class="display">The <em>Master Domino Map.</em></h1>
+    <p class="lede">Every module's causal chain, plus the master spine that connects them. Click any node to open the module it lives in.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="master-chain">
+    <p class="kicker"><span class="tick">◈</span> <span id="master-title">Master chain</span></p>
+    <p style="font-size:0.85rem;color:var(--ink-dim);margin:0.8rem 0 1.2rem;max-width:38rem" id="master-note"></p>
+    <div id="master-host"></div>
+  </div>
+
+  <div id="module-chains"></div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>BB Atlas · pull one domino and watch the coverage ratio move</span>
+    <a href="sources.html">Sources</a>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/tutor.js"></script>
+<script src="js/domino.js"></script>
+<script src="js/map.js"></script>
+</body>
+</html>

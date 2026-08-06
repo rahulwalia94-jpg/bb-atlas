@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Atlas — Competitor Matrix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
+</head>
+<body data-page="compare">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
+    <div class="nav-links">
+      <a href="index.html">Modules</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="compare.html" class="active">Compare</a>
+      <a href="map.html">Domino Map</a>
+      <a href="glossary.html">Glossary</a>
+    </div>
+    <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
+  </div>
+  <div class="search-pop" id="search-pop"></div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker"><span class="tick">◈</span> The field · <span id="cmp-asat"></span></p>
+    <h1 class="display">Who's lending to whom — <em>and at what risk.</em></h1>
+    <p class="lede">The full competitor matrix from Module 5. Click any column header to sort. <span style="color:var(--gold)">Gold</span> = Barclays · <span style="color:var(--violet)">violet</span> = incumbents · <span style="color:var(--green)">acid</span> = challengers &amp; specialists.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="cmp-wrap">
+    <table class="cmp" id="cmp-table"></table>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>BB Atlas · every lender's loss experience is a lesson</span>
+    <a href="sources.html">Sources</a>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/tutor.js"></script>
+<script src="js/compare.js"></script>
+</body>
+</html>

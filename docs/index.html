@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Atlas — Business Banking, mastered</title>
+<meta name="description" content="A mastery platform for UK Business Banking, its competitive landscape, and SME impairment mechanics — built for the Barclays BB Impairment desk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
+</head>
+<body data-page="home">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Modules</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="compare.html">Compare</a>
+      <a href="map.html">Domino Map</a>
+      <a href="glossary.html">Glossary</a>
+    </div>
+    <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
+  </div>
+  <div class="search-pop" id="search-pop"></div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-main">
+      <p class="kicker"><span class="tick">◈</span> A field manual for the impairment desk</p>
+      <h1 class="display">Business Banking, <em>in and out.</em></h1>
+      <p class="lede">Ten modules from the Quaker goldsmiths of 1690 to the BBLS run-off — every concept traced through to its ECL consequence. History, mechanics, competitors, and the domino chains that connect them.</p>
+    </div>
+    <div class="ring-card">
+      <svg id="ring" width="150" height="150" viewBox="0 0 150 150">
+        <circle cx="75" cy="75" r="64" fill="none" stroke="#26262E" stroke-width="6"/>
+        <circle id="ring-arc" cx="75" cy="75" r="64" fill="none" stroke="#D4AF37" stroke-width="6"
+                stroke-linecap="round" stroke-dasharray="402" stroke-dashoffset="402"
+                transform="rotate(-90 75 75)"/>
+        <text class="ring-num" x="75" y="72" text-anchor="middle" id="ring-num">0%</text>
+        <text class="ring-label" x="75" y="92" text-anchor="middle">Readiness</text>
+      </svg>
+      <p class="ring-sub"><span id="modules-read">0</span>/10 read · <span class="streak" id="streak">0-day streak</span></p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="module-grid" id="module-grid">
+    <!-- populated by home.js from content/modules-index.json -->
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>BB Atlas · built for one analyst, sharpened daily</span>
+    <a href="sources.html">Sources</a>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/tutor.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Atlas — Sources</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
+<style>
+  .src-mod { margin-bottom: 2.6rem; }
+  .src-mod .kicker { margin-bottom: 0.9rem; }
+  .src-mod .kicker a { text-decoration: none; color: var(--ink-dim); }
+  .src-mod .kicker a:hover { color: var(--gold); }
+  .src-list { list-style: none; }
+  .src-list li { border-top: 1px solid var(--rule); padding: 0.7rem 0; }
+  .src-list a { font-size: 0.92rem; text-decoration: none; }
+  .src-list a:hover { color: var(--gold); }
+  .src-list .note { display: block; font-family: var(--mono); font-size: 0.64rem; color: var(--ink-faint); margin-top: 0.25rem; letter-spacing: 0.06em; }
+</style>
+</head>
+<body data-page="sources">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
+    <div class="nav-links">
+      <a href="index.html">Modules</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="compare.html">Compare</a>
+      <a href="map.html">Domino Map</a>
+      <a href="glossary.html">Glossary</a>
+    </div>
+    <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
+  </div>
+  <div class="search-pop" id="search-pop"></div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <p class="kicker"><span class="tick">◈</span> Receipts</p>
+    <h1 class="display">Sources, <em>per module.</em></h1>
+    <p class="lede">Everything time-sensitive was verified against these at build time. When a number matters, check it against the primary source before using it in anger.</p>
+  </div>
+</header>
+
+<main class="wrap" id="src-host"></main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>BB Atlas</span>
+    <a href="index.html">Home</a>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/tutor.js"></script>
+<script>
+(async function () {
+  const host = document.getElementById("src-host");
+  let data;
+  try { data = await BB.fetchJSON("content/sources.json"); }
+  catch { host.innerHTML = "<p>sources.json missing — run the build script.</p>"; return; }
+  host.innerHTML = data.modules
+    .map((m) => `<div class="src-mod">
+      <p class="kicker"><a href="module.html?id=${m.id}"><span class="tick">◈</span> Module ${String(m.id).padStart(2, "0")} · ${BB.esc(m.title)}</a></p>
+      <ul class="src-list">${m.sources
+        .map((s) => `<li><a href="${BB.esc(s.url)}" target="_blank" rel="noopener">↗ ${BB.esc(s.title)}</a>${s.note ? `<span class="note">${BB.esc(s.note)}</span>` : ""}</li>`)
+        .join("")}</ul>
+    </div>`)
+    .join("");
+})();
+</script>
+</body>
+</html>

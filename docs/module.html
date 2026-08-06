@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BB Atlas — Module</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
+</head>
+<body data-page="module">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
+    <div class="nav-links">
+      <a href="index.html">Modules</a>
+      <a href="timeline.html">Timeline</a>
+      <a href="compare.html">Compare</a>
+      <a href="map.html">Domino Map</a>
+      <a href="glossary.html">Glossary</a>
+    </div>
+    <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
+  </div>
+  <div class="search-pop" id="search-pop"></div>
+</nav>
+
+<header class="mod-hero">
+  <div class="wrap">
+    <p class="kicker" id="mod-kicker"><span class="tick">◈</span> Loading…</p>
+    <h1 class="display" id="mod-title"></h1>
+    <p class="summary" id="mod-summary"></p>
+    <div class="metaline" id="mod-meta"></div>
+  </div>
+</header>
+
+<article class="module-body">
+  <div class="prose-wrap" id="mod-sections"></div>
+
+  <div class="prose-wrap">
+    <div class="domino-block" id="domino-block" style="display:none">
+      <p class="kicker"><span class="tick">◈</span> Domino chain · <span id="domino-title"></span></p>
+      <div id="domino-host"></div>
+    </div>
+  </div>
+
+  <div class="prose-wrap quiz-block" id="quiz-block" style="display:none">
+    <p class="kicker"><span class="tick">◈</span> Check yourself · 10 questions</p>
+    <div id="quiz-host" style="margin-top:1.6rem"></div>
+    <div class="quiz-score" id="quiz-score" style="display:none"></div>
+  </div>
+
+  <div class="prose-wrap">
+    <nav class="mod-nav">
+      <a id="nav-prev" href="#" style="visibility:hidden">← Previous module</a>
+      <a id="nav-next" href="#" style="visibility:hidden">Next module →</a>
+    </nav>
+  </div>
+</article>
+
+<footer class="site">
+  <div class="wrap">
+    <span>BB Atlas · every concept ends in ECL</span>
+    <a href="sources.html">Sources</a>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/search.js"></script>
+<script src="js/tutor.js"></script>
+<script src="js/xref.js"></script>
+<script src="js/domino.js"></script>
+<script src="js/module.js"></script>
+</body>
+</html>
