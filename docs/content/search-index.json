@@ -1,0 +1,1234 @@
+{
+ "docs": [
+  {
+   "title": "The territory: from market stall to mid-corporate",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s1",
+   "text": "Start with the population, because the population is the problem. At the start of 2025 the UK had roughly 5.7 million private sector businesses, and 5.68 million of them — 99.85% — were SMEs . Around 56% of the total were sole traders , and about three quarters of those employ nobody but the owner. Collectively, SMEs employ roughly 16.9 million people and turn over about £2.8 trillion a year. That is the raw material of a Business Banking book: not a smooth continuum of similar borrowers, but a pyramid with an enormous base of one-person firms, a middle of employing small businesses, and a thin apex of small corporates with finance directors and audited accounts. Business Banking — BB, in the internal shorthand you will now live inside — is the stretch of the bank that serves this pyramid, from the newly registered window cleaner to the £6m-turnover engineering firm. Below it sits Retail, which you know: homogeneous products sold to individuals. Above it sits Corporate and, further up, Investment Banking: bespoke facilities for firms large enough to negotiate. BB is the awkward middle. Its customers are legally businesses but often economically households — the director's mortgage, the personal guarantee , and the company overdraft are frequently the same balance sheet wearing three hats. The consequence, and the theme of this entire atlas, is heterogeneity. A cards portfolio contains a million accounts that differ in degree. A BB portfolio contains a café, a haulage contract"
+  },
+  {
+   "title": "Where the banks draw the lines",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s2",
+   "text": "There is no statutory definition of Business Banking. Each bank cuts the pyramid where it likes, almost always on annual turnover — turnover segmentation — because turnover is observable, roughly tracks complexity, and determines how much manual underwriting a relationship can economically justify. At Barclays, the line sits at £6.5m: Business Banking, housed within Barclays UK , serves everything from start-ups to firms with up to £6.5m annual turnover, while the UK Corporate Bank — carved out as a distinct division in the 2024 reorganisation — takes businesses above £6.5m through to FTSE 350 names. Lloyds slices twice: small business accounts below £3m turnover, a business tier from £3m to £25m, and Commercial Banking above £25m. NatWest draws its retail-adjacent line lower still, keeping firms up to roughly £2m turnover in its business banking segment before they graduate to Commercial &amp; Institutional. Same country, same borrowers, boundaries ranging from £2m to £25m. This matters more than it looks. When an analyst compares SME coverage ratios across UK banks, they are rarely comparing like with like: one bank's \"business banking\" book is another's commercial mid-market. Barclays' £6.5m boundary means its BB book skews small — heavy in sole traders and micro-companies, lighter in the £10m–£25m firms that sit in Lloyds' equivalent segment. Smaller average borrower means thinner financial data, more automated decisioning, more reliance on behavioural signals, and a loss"
+  },
+  {
+   "title": "The anchor product: the current account and the money that moves",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s3",
+   "text": "The commercial heart of BB is not a loan. It is the business current account — the BCA — through which a firm's entire financial life flows: customer receipts, supplier payments, wages, VAT, the director's ill-advised drawings. Banks fight for BCAs because the account brings cheap deposits, fee income, and the first call on every subsequent product the business ever needs. In BB, deposits typically dwarf lending; the segment is structurally a deposit franchise with a loan book attached. Around the BCA cluster the transactional products. Merchant acquiring — card payment processing, at Barclays the domain of Barclaycard Payments — earns a slice of every card transaction and carries a subtle credit exposure: if a merchant fails after taking payment but before delivering (think tour operators), chargebacks land on the acquirer. FX services serve importers and exporters, mostly spot and simple forwards; the credit risk is settlement risk, small but real. Deposit products — instant access, notice, fixed term — carry no credit risk at all, but they fund the book and anchor the relationship. For you, the BCA's real treasure is informational. The turnover passing through the account — BCA turnover — is a live, unfalsifiable read on trading health, months ahead of any filed accounts. Falling receipts, rising reliance on the overdraft ceiling, bounced direct debits: this is the raw feed of behavioural scoring in BB, doing the job the credit bureau did for you in cards. Impairment Lens "
+  },
+  {
+   "title": "The lending shelf: five products, five risk shapes",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s4",
+   "text": "BB lending is a shelf of five basic products, and each has a distinct risk anatomy — a different dominant parameter among PD , LGD and EAD . The overdraft is working-capital oxygen: a revolving limit on the BCA, repayable on demand, usually unsecured or floating-charge secured at the small end. Its risk is EAD-shaped. A healthy firm touches its limit occasionally; a dying one lives at the ceiling and pushes through it. Utilisation rises precisely as PD rises — the credit-conversion problem you know from cards, sharpened. The term loan is the workhorse: a fixed advance amortising over one to ten-plus years, for expansion, acquisition or refinancing. EAD is predictable; the game is PD — will the cash flows survive the term? — and, where unsecured, LGD is brutal. The commercial mortgage lends against trading premises or investment property over 15–25 years. Superficially it rhymes with your old world; actually LGD rides the commercial property cycle, which is more violent and less liquid than residential, and tenant covenants can matter as much as the borrower. Asset finance — hire purchase and leasing — funds vehicles, plant and equipment, with the asset itself as security and often title retained by the bank. LGD is a used-asset resale question: a tipper truck holds value; bespoke software-laden machinery does not. \"Hard\" versus \"soft\" assets is the whole game. Invoice finance advances perhaps 80–90% against unpaid trade invoices. It is self-liquidating — customers' payments r"
+  },
+  {
+   "title": "Neither retail nor corporate",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s5",
+   "text": "Underwriting first. Retail credit is statistical: bureau score, affordability calculation, automated decision, millions of times. Corporate credit is forensic: audited accounts, sector analysis, a credit paper argued before a sanctioning committee. BB is the hybrid — auto-decisioned at the small end using bureau-plus-behavioural data, manually underwritten above a threshold, with relationship lending surviving in the middle: a business manager covering hundreds of firms, knowing perhaps a tenth of them well. Data second, and this is the cultural shock. In cards you enjoyed deep bureau histories refreshed monthly. A BB underwriter faces filleted small-company accounts filed at Companies House up to nine months late — micro-entities need file little more than an abridged balance sheet — plus commercial bureau data that is thinner and staler than its consumer cousin. Hence the reliance on BCA behaviour, and increasingly on Open Banking feeds for non-customers. Security third. Retail lending is either cleanly secured (the mortgage) or cleanly unsecured (the card). BB security is baroque: personal guarantees that pierce the limited-liability veil, debentures granting fixed and floating charges over everything the company owns, title retained on financed assets. Recovery is a legal process with a timetable measured in years. Capital last. Smaller SME exposures can qualify for retail treatment under the capital rules, larger ones are corporate SME, and the SME supporting factor disc"
+  },
+  {
+   "title": "Why SME books misbehave",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s6",
+   "text": "Take the retail modeller's three comforts — homogeneity, rich data, smooth losses — and remove each in turn. Heterogeneity first. The café and the haulier share a PD segment but not a failure mode: one dies of footfall, the other of fuel prices and a lost contract. Segment finely enough to be homogeneous and your buckets hold too few firms to calibrate; segment coarsely enough to calibrate and your buckets are zoos. There is no clean answer, only a managed trade-off. Data second. With thin bureau coverage and stale filed accounts, models lean on behavioural signals — above all BCA turnover . Powerful, but noisy and endogenous: a firm can slash costs, or quietly route receipts through a Starling account, and your signal degrades. Noisy inputs mean noisier PD , which means staging decisions — and therefore lifetime-loss recognition — sit on softer foundations than you are used to. Losses third. Retail losses arrive as drizzle; SME losses arrive as weather. Default frequency is low most years — the classic low-default portfolio problem — then insolvency cycles bite: 2025 saw 23,938 company insolvencies in England and Wales, around 77% of them creditors' voluntary liquidations , easing from 2023's thirty-year high. And single names matter: one £3m exposure gone bad moves a month's charge in a way no cards account ever could. Then there is what stands behind the loss. BB LGD is security-driven and bimodal: well-secured exposures recover most of their money slowly; unsecured ones r"
+  },
+  {
+   "title": "Where you sit, and why the number moves",
+   "where": "Module 00 · What Business Banking Actually Is",
+   "href": "module.html?id=0#s7",
+   "text": "The BB impairment team sits where you'd expect — in the risk and finance machinery, between the credit-risk modellers who build PD/LGD/EAD and the financial reporting line that signs the ECL number into the accounts. What changes is the shape of the work. A BB book runs a split you rarely saw in cards: the mass of small exposures flows through collective assessment on modelled parameters, while larger or watchlisted names are individually assessed — a human builds discounted recovery cash flows, weighs the security, argues the case. Deciding which names cross that line, and challenging the workouts once they do, is a core discipline of the job. Now assemble the domino chain this module has been building. SME heterogeneity forces coarse segmentation; thin bureau data forces reliance on behavioural and BCA-turnover signals; noisy signals produce noisy PDs; noisy PDs make staging twitchy, swinging exposures between 12-month and lifetime loss; the collective/individual split adds step-changes whenever a big name migrates; and the sum is coverage volatility — a P&amp;L charge that lurches in ways a mortgage book never would. Management papers over the gaps with PMAs , judgemental overlays that in SME portfolios can rival the modelled number itself. For scale: Barclays' group loan loss rate ran at 52bps for full-year 2025, comfortably within its through-the-cycle range — but the BB line beneath such group figures moves with insolvency weather the way cards never did. Impairment Len"
+  },
+  {
+   "title": "Quakers, goldsmiths, and the original business bank",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s1",
+   "text": "Barclays begins, in 1690, as a business bank. John Freame and Thomas Gould — two Quaker goldsmith bankers — set up in Lombard Street taking deposits and making advances against the trade of the City. There was no retail franchise to speak of; the customer was the merchant, and the product was working capital. The partnership became one of the most successful of the early private banks and is generally credited as a pioneer of re-discounting bills of exchange sent up by provincial bankers — in modern language, buying short-dated trade receivables at a discount. That is invoice finance with a powdered wig on. The Quaker network mattered as much as the balance sheet. The Society of Friends was a closed community with severe internal sanctions for default — a Quaker who failed his creditors could be disowned by his meeting. Freame and Gould financed Quaker traders in the American colonies and the Caribbean, held the Society's central funds, and lent into Quaker-dominated ventures like the London Lead Company. Membership functioned as a credit bureau, a covenant package and a collections department in one. James Barclay, who married into the firm in 1736, gave it the name; the underwriting logic — lend to people whose character and cash flows you can observe closely — survived as what the literature now calls relationship lending . Two things from this era echo through everything that follows. First, UK business banking's historical strength was trade finance: short, self-liquidat"
+  },
+  {
+   "title": "The cartel century: an oligopoly rations credit",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s2",
+   "text": "Through the nineteenth century, hundreds of private and country banks amalgamated into a handful of joint-stock giants that settled with each other through the London Clearing House — the clearing banks . Barclay &amp; Company Ltd was itself assembled in 1896 from a score of Quaker-linked private banks. By the early twentieth century a Big Five (later Big Four) dominated England and Wales, and they behaved less like competitors than like a public utility with shareholders: an interest-rate cartel fixed deposit rates by agreement, and lending rates moved in lockstep with Bank Rate. What changed for the SME borrower was the supply mechanism. From the 1930s, and formally through the post-war decades, the authorities managed credit by instruction: quantitative lending ceilings, directional guidance favouring exports and industry, and moral suasion from the Bank of England. When credit is rationed by decree, the marginal borrower is simply refused — and the marginal borrower was almost always the small firm without collateral or connections. The Macmillan Committee had already named the structural failure in 1931: a persistent shortfall in long-term finance for small companies, the Macmillan gap , which every subsequent decade rediscovers under a new brand. What losses followed? Almost none — and that is the trap. Rationed lending to the safest borrowers produced decades of negligible write-offs, which taught the clearers that business lending was intrinsically low-risk rather tha"
+  },
+  {
+   "title": "1971: Competition and Credit Control lights the fuse",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s3",
+   "text": "In September 1971 the Bank of England replaced the entire apparatus with Competition and Credit Control : the clearing-bank cartel was dismantled, quantitative lending ceilings were abolished, and credit was henceforth to be controlled through price — interest rates and calls for special deposits — rather than administrative rationing. What changed: for the first time in a generation, banks could lend as much as they liked to whomever they liked. What it did to credit supply was immediate and violent. Broad money grew roughly 72 per cent between 1971 and the policy's effective abandonment in December 1973 — the Barber boom. The frothiest expansion came not from the clearers but from the fringe: lightly supervised secondary banks funding themselves in the new wholesale markets and lending against commercial property. Bank lending to property rose more than eight-fold between 1970 and 1974, with the secondary banks overtaking the clearing banks as the principal property lenders. This is the recurring UK pattern in its purest form: liberalise supply, and the marginal credit flows to property, because property is the collateral everyone believes in. What losses followed: the 1973 oil shock, a Minimum Lending Rate of 13 per cent, and a commercial property crash took the funding away and the collateral with it. Wholesale depositors ran from the secondary banks; from December 1973 the Bank of England corralled the clearers into the Lifeboat , a support pool that ultimately extended "
+  },
+  {
+   "title": "Big Bang 1986: the side-effects reach the business bank",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s4",
+   "text": "The Big Bang of 27 October 1986 deregulated the London Stock Exchange — fixed commissions abolished, the broker/jobber distinction ended, ownership opened to outsiders, trading moved onto screens. On its face this had nothing to do with lending to a haulier in Dudley. The effects arrived anyway, through three side doors. First, the clearers bought their way into securities. Barclays merged broker de Zoete &amp; Bevan with jobber Wedd Durlacher to create BZW , and for the next decade board attention, capital and the most ambitious talent migrated toward investment banking. Business banking became the unglamorous utility that funded the adventure. Second, disintermediation: large corporates could increasingly fund themselves in the capital markets Big Bang supercharged, so the clearers' corporate lending margins thinned and the banks pushed down-market — into mid-corporates, SMEs and, fatally, commercial property — in search of yield. Third, the deregulatory temper of the age, amplified by the Lawson boom and financial liberalisation, produced a late-1980s surge in bank credit to exactly the sectors that would fail first. What it did to SME credit supply: more of it, cheaper, faster, and increasingly secured on the one asset class — property — whose price the lending itself was inflating. What losses followed belongs to the next section, because the bill arrived in 1990."
+  },
+  {
+   "title": "The early-1990s recession: scar tissue that never faded",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s5",
+   "text": "Policy drove Bank Rate to 15 per cent in 1989–90 and held it high to defend sterling's ERM parity. Commercial and residential property values fell hard, and the SME book built in the boom failed in bulk: company liquidations in England and Wales roughly doubled from the late-1980s trough to a peak of around 24,000 a year in 1992, with unincorporated business failures on top. The parallel small banks crisis — within three years of BCCI's July 1991 closure, a quarter of the UK's small and medium-sized banks had failed — showed the funding side of the same storm, and the Bank of England again provided quiet liquidity support to stop contagion reaching the clearers. The mechanism that turned recession into rupture was the overdraft culture . UK SME borrowing was dominated by the on-demand overdraft , secured by an all-monies charge over the proprietor's home and a personal guarantee . On-demand means exactly that: as conditions deteriorated, banks cut limits and called facilities at the point of maximum borrower distress — procyclical deleveraging executed one phone call at a time. Businesses that were trading through the downturn were tipped into failure by the withdrawal of the facility itself; homes pledged as collateral were repossessed into a falling market. What losses followed: heavy write-offs across the clearers' business books, and something more durable — a rupture of trust between banks and small firms that produced parliamentary inquiries, codes of practice, and a ge"
+  },
+  {
+   "title": "Demutualisation and the last consolidation of the clearers",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s6",
+   "text": "The 1990s reshaped the register without reshaping the market. Demutualisation turned the great building societies into banks — Abbey National in 1989, then Halifax, Woolwich, Alliance &amp; Leicester and Northern Rock in the class of 1997 — but these were mortgage machines with no SME franchise, no business current account capability and no branch-based relationship managers. They added ferocious competition to home loans and savings while leaving business banking untouched. Meanwhile the clearers themselves consolidated. Lloyds absorbed TSB in 1995; the Royal Bank of Scotland won the hostile contest for NatWest in 2000; Barclays bought the demutualised Woolwich the same year. Each deal was rational on cost grounds, and each ratcheted concentration in the one market with no new entrants. By 1999 the four largest clearing groups held roughly nine-tenths of SME liquidity-management business in England and Wales. What it did to SME credit supply: the customer faced an oligopoly tighter than the cartel era's, minus the cartel's formal price-fixing but with much of its behavioural effect — free-in-credit-looking accounts that paid no interest, opaque money-transmission charges, and switching rates so low that banks could treat the SME base as an annuity. What losses followed here were the customers' rather than the banks': the Cruickshank team would shortly put a number on the excess profits."
+  },
+  {
+   "title": "Cruickshank and the Competition Commission: the complex monopoly, named",
+   "where": "Module 01 · History & Evolution of UK Business Banking",
+   "href": "module.html?id=1#s7",
+   "text": "Don Cruickshank's review of UK banking, commissioned by the Treasury in 1998 and published on 20 March 2000, asked whether competition worked for personal customers, for money transmission, and for SMEs. The Cruickshank Report answered no on all three, and was harshest on SME banking: a highly concentrated market, formidable barriers to switching, bank control of the payments plumbing, and persistent excess profits earned from small-business customers. SME banking was referred to the Competition Commission. The Commission's March 2002 report — Competition Commission 2002 — made the finding that titles this module: a complex monopoly under the Fair Trading Act, operated by the largest clearing groups, whose practices restricted price competition in SME banking. The remedies were behavioural rather than structural. As a transitional measure, the big four in England and Wales had, from 2003, to offer SMEs either a current account paying interest at no less than Bank of England base rate minus 2.5 percentage points, or an account free of money-transmission charges, or the choice. Standing undertakings barred bundling — compelling a customer to hold a business current account as the price of a loan or deposit account — with compliance audited for two decades. The afterlife measures the problem's stubbornness. The interest-paying transitional remedy was released in 2007 once judged to have served its purpose; the bundling prohibitions survived until the Competition and Markets Auth"
+  },
+  {
+   "title": "When the Money Markets Closed",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s1",
+   "text": "The UK banking crisis did not begin with bad small-business loans. It began with funding. Through the 2000s British banks lent far more than they gathered in deposits, bridging the gap — hundreds of billions of pounds of it — in wholesale markets: securitisation, covered bonds, short-term interbank borrowing. When US sub-prime losses poisoned confidence in bank paper in August 2007, those markets shut. Northern Rock, a mortgage lender with barely any business book, failed within weeks because it could not roll its funding. By October 2008 the problem was solvency: RBS and Lloyds/HBOS took £45.5bn and £20.3bn of taxpayer equity respectively, and every UK bank began a forced march towards more capital, more liquidity and less leverage. For SMEs the transmission was brutal and asymmetric. Small firms do not live on term loans alone; they live on committed and uncommitted overdrafts , invoice finance and property-secured facilities that can be repriced or withdrawn at review. A bank shrinking its balance sheet found the SME book an easy place to deleverage: risk weights were high, collateral values — commercial property above all — were falling, and facilities could be quietly cut at renewal without a front-page headline. Net lending to SMEs turned negative in 2009 and stayed negative into 2013, even with Bank Rate pinned at 0.5% from March 2009. Application rejection rates for small firms roughly doubled against pre-crisis norms, and a cohort of &quot;discouraged borrowers&quot;"
+  },
+  {
+   "title": "Merlin and FLS: The Limits of Exhortation",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s2",
+   "text": "The political response came in two flavours: moral suasion and cheap money. Project Merlin , agreed in February 2011 between the Treasury and the five biggest banks — Barclays, HSBC, Lloyds, RBS and Santander UK — committed the banks to the &quot;capacity and willingness&quot; to make £190bn of gross new lending available to business in 2011, £76bn of it to SMEs. The overall figure was comfortably exceeded. The SME target was missed by roughly £1bn — and the deeper flaw was the metric itself. Merlin counted gross lending, so a bank could hit its number while repayments outran new advances and the net stock of SME credit kept shrinking, which is exactly what happened. There was no penalty mechanism, no clean split between genuinely new money and rolled-over facilities, and no answer to the underlying problem: banks did not want the risk. The Funding for Lending Scheme , launched by the Bank of England and Treasury in mid-2012, attacked the price of funding instead. Banks could swap collateral for Treasury bills at a fee tied to their net lending performance — cheap funding as a reward for growing the book. The first-order effect was real but landed in the wrong place: mortgage pricing fell sharply while SME net lending stayed negative. The April 2013 extension tried to fix the skew, letting banks draw up to £10 of funding for every £1 of net SME lending in 2013; in November 2013 household incentives were removed altogether. Subsequent Bank of England and academic evaluation co"
+  },
+  {
+   "title": "GRG: What Happened in the Workout Room",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s3",
+   "text": "If one story explains why modern business banking treats its collections and turnaround machinery as a conduct minefield, it is RBS's Global Restructuring Group . GRG was the bank's division for business customers in financial difficulty; roughly 12,000 SMEs passed through it between 2008 and 2013, transferred in as covenants were breached, property revalued or facilities fell due. GRG was also, internally, a profit centre — charging restructuring fees, taking equity stakes, and sitting alongside West Register , an RBS property arm that could end up owning assets sold by the very customers GRG managed. In November 2013 the Tomlinson report — written by Lawrence Tomlinson, then entrepreneur in residence at the business department — alleged that RBS was engineering defaults: manufacturing covenant breaches through revaluations, loading distressed firms with fees, and steering their assets towards West Register. The FCA responded in January 2014 by commissioning a skilled-person review under section 166 of FSMA, conducted by Promontory with Mazars and delivered in September 2016. Promontory did not uphold the most incendiary claim — that RBS deliberately engineered defaults to profit from them — but its findings were damning enough: widespread inappropriate treatment of customers, experienced by most of the sampled firms in some form, with around one in six suffering material financial distress the bank itself caused. Internal artefacts like the notorious &quot;Just Hit Budget&q"
+  },
+  {
+   "title": "The Hedges That Strangled",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s4",
+   "text": "Running in parallel was a quieter scandal about products rather than workouts. Through 2001–2011 banks sold interest-rate hedging products — swaps, caps, collars and the baroque &quot;structured collars&quot; — alongside SME loans, frequently as a condition of the lending itself. The pitch was protection against rising rates. When Bank Rate collapsed to 0.5%, the products inverted into a trap: businesses locked into paying fixed against a floating leg near zero, with breakage costs so large that exiting the hedge could cost more than the loan was worth. For a small hotelier or farmer who had wanted a mortgage, not a derivatives position, the cash-flow drain was existential — and, in a grim loop back to the previous section, it was often what pushed a customer into the workout unit. In 2012 the FSA reviewed sales practice, found serious failings, and struck agreements with nine banks to review sales to &quot;non-sophisticated&quot; customers. Just over 20,000 sales were examined; around 14,000 redress offers were accepted; over £2.2bn was paid out, including compensation for consequential losses. The controversial edge was the sophistication test: a cap that excluded customers above certain size thresholds — roughly 10,000 sales — on the theory they should have understood what they bought. The lessons-learned review by John Swift QC, published in December 2021, concluded that most eligible customers likely did better inside the scheme than they would have outside it, but criti"
+  },
+  {
+   "title": "Children of State Aid: Williams & Glyn and TSB",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s5",
+   "text": "The bailouts came with strings from Brussels. As a condition of approving state aid, the European Commission required RBS to divest a business of 300-plus branches — resurrected under the historic Williams &amp; Glyn brand — and Lloyds to shed the 600-plus branch package known as Project Verde. Both sagas became object lessons in why structural remedies die on IT. RBS agreed a sale to Santander in 2010; Santander walked away in 2012, defeated by the separation. RBS then tried to build Williams &amp; Glyn as a standalone bank for flotation and burned through more than £1.5bn attempting to carve a clone out of its own spaghetti of legacy systems. In 2017, seven years and no divestment later, the Commission accepted the obvious: the sale was abandoned, replaced by an alternative remedies package — £775m, funded by RBS, to promote SME banking competition by other means. That package is the subject of the section after next. Lloyds fared only somewhat better. The Verde sale to the Co-operative Bank collapsed in 2013 when the Co-op's own capital hole surfaced, so Lloyds executed the TSB carve-out instead: launch in September 2013, IPO in June 2014, sale to Spain's Banco Sabadell in 2015 for £1.7bn. Then, in April 2018, TSB ran the most notorious IT migration failure in UK banking history, locking up to 1.9 million customers out of their accounts as it moved off the Lloyds platform; the FCA and PRA eventually fined TSB £48.65m in December 2022 for operational-resilience failings. Th"
+  },
+  {
+   "title": "The CMA's 2016 Verdict",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s6",
+   "text": "By 2014 the competition question had outgrown state-aid plumbing, and the Competition and Markets Authority launched a full market investigation into personal current accounts and SME banking. The final report of the CMA 2016 investigation, published on 9 August 2016, was a diagnosis of stagnation rather than abuse: low customer engagement, opaque products, and banks that did not need to compete hard because customers — especially business customers, who overwhelmingly opened accounts with their personal bank and stayed — almost never switched. The CMA deliberately chose behavioural remedies over break-ups. The flagship was the open banking mandate: the nine largest current-account providers were ordered to build a common API standard letting customers share their transaction data with third parties, live from early 2018. Alongside it came mandatory service-quality league tables — banks forced to publish, in branch and in app, independent survey rankings of how likely customers are to recommend them, including business-account rankings — plus overdraft alerts and monthly maximum charges, and transparency tools for SME loan pricing and eligibility. Critics called it timid; no structural change, and switching rates barely moved for years. But the open banking remedy proved to be the sleeper hit of the whole post-crisis settlement: it created the data rails on which fintech SME lenders, cloud accounting integrations and transactional-data lending models were built, and it was co"
+  },
+  {
+   "title": "The £775m Consolation Prize",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s7",
+   "text": "The Williams &amp; Glyn failure left RBS owing competition a debt, and the 2017 settlement made it cash. An independent body, Banking Competition Remedies Ltd, was created in 2018 to administer the £775m alternative remedies package: a £425m Capability &amp; Innovation Fund of grants, and £350m for an Incentivised Switching Scheme — £275m of &quot;dowries&quot; paid to challengers for each former Williams &amp; Glyn SME customer they attracted, plus £75m towards customers' switching costs. The grant fund is where today's competitive map was part-drawn. Pool A, awarded February 2019: Metro Bank £120m, Starling £100m, ClearBank £60m in partnership with Tide . Pool B, August 2019: Nationwide £50m, Investec £15m, Co-operative Bank £15m. Pool C handed £10m each to Atom Bank, iwoca, Modulr and Currencycloud; Pool D gave £5m each to fintechs including Codat, Fluidly, Form3, Funding Options and Swoop. The fund then produced its own morality tale: by early 2020 Metro Bank had handed back £50m after admitting it could not deliver its business-banking expansion commitments, and Nationwide returned its entire £50m on abandoning business current accounts altogether. The £100m was recycled into a Pool E and re-granted in 2020–21. Incentivised switching underwhelmed against its ambitions: 69,135 business current accounts switched over the scheme's twenty-eight months to June 2021, against early ambitions of up to 120,000 — though that still represented over half of all SME switching in the "
+  },
+  {
+   "title": "The Long Shadow at the Impairment Desk",
+   "where": "Module 02 · The 2008 Crisis and Its Long Shadow",
+   "href": "module.html?id=2#s8",
+   "text": "Pull the threads together and the crisis bequeathed business banking three permanent conditions. First, a memory of credit famine: SME credit supply is now understood to be procyclical and fragile, which is why every subsequent shock — Brexit, Covid — triggered state guarantee schemes rather than another Merlin-style plea (Module 3 covers what that did to the risk architecture). Second, a conduct settlement written in scar tissue: GRG and IRHP established that how a bank treats a struggling business is a boardroom risk even where the FCA's formal perimeter runs out, and the machinery you work within — segregated support units, fee governance, forbearance oversight, complaint-ready audit trails — is the institutional memory of those scandals. Third, an engineered competitive landscape: state-aid divestments, the CMA's data rails and BCR's cheque-book collectively built the challengers that now discipline incumbent pricing and cherry-pick incumbent customers. For an impairment analyst arriving in BB from retail, the second condition is the one that changes daily work. In cards or mortgages, collections conduct risk is real but industrialised. In BB, every material distressed exposure is a bespoke negotiation with a business owner who has read about GRG — and whose lawyer certainly has. Decisions that look like pure credit-risk optimisation (revalue the security, call the personal guarantee , enforce the debenture , price the forbearance) are also conduct decisions, and the down"
+  },
+  {
+   "title": "Eleven days that built the book",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s1",
+   "text": "When lockdown was announced on 23 March 2020, the Treasury's first answer was the Coronavirus Business Interruption Loan Scheme — a respectable piece of machinery modelled on the old Enterprise Finance Guarantee, with an 80% government guarantee and conventional underwriting left intact. It was also, for the purpose at hand, uselessly slow. Lenders still had to assess viability and affordability; approval queues built while SME cashflow evaporated at the rate of a national economy switching off. Within five weeks the political pressure was unbearable, and on 27 April 2020 the Chancellor announced something genuinely without precedent: the Bounce Back Loan Scheme , designed in days, live on 4 May. The numbers still read like a typo. Across BBLS, CBILS and CLBILS , roughly £79.3bn was approved for about 1.67 million businesses, of which £76.8bn was drawn — £46.5bn of it through BBLS alone, in loans that averaged around £30,000. For context, the entire stock of UK SME bank lending before the pandemic was of the order of £160bn. The state effectively doubled down on the sector in a single year, using the banks as distribution pipes. For you, the consequence is blunt: the modern Business Banking term-lending book is the COVID book, plus whatever has been written around its edges since. Hundreds of thousands of BB customers have exactly one loan on file, and it is a BBL. Every arrears curve, every LGD assumption, every coverage conversation in BB impairment since 2020 has been shap"
+  },
+  {
+   "title": "BBLS anatomy: underwriting, deleted",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s2",
+   "text": "The design brief for BBLS was speed at any cost, and every feature follows from that. Loans of £2,000 to £50,000, capped at 25% of turnover. A 100% government guarantee to the lender — not 80%, not 90%, the lot. A flat 2.5% fixed rate set by the Treasury, identical across every lender and every borrower, which is to say: no pricing for risk whatsoever. A standard six-year term, no fees, no repayments in year one, with the government paying the first twelve months' interest directly to the lender via the Business Interruption Payment. Then the truly radical part. Borrowers applied by self-certification — a short online form attesting to turnover, COVID impact and eligibility. Lenders were explicitly relieved of any obligation to perform credit or affordability checks; their diligence was limited to fraud, anti-money-laundering and KYC screening, mostly automated. Some banks approved and funded loans within hours. Twenty-eight lenders were accredited, but the big incumbents — Barclays among them — wrote the overwhelming majority, because that is where the business current accounts were. It matters that the lender lends its own money. The guarantee is a promise of reimbursement after loss, not funding: the loan sits on the bank's balance sheet, accrues on the bank's books, and defaults into the bank's collections machinery. The state stands behind it, but only if the bank followed the scheme rules — a caveat that turns out to carry real money, as we will see. Impairment Lens A b"
+  },
+  {
+   "title": "The fraud problem, in three estimates",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s3",
+   "text": "Self-certified, uncredit-checked lending at 100% guarantee is an open invitation, and everyone involved knew it — the National Audit Office records that ministers consciously accepted a heightened fraud risk as the price of speed. The estimates of how much walked out of the door have moved dramatically. In its October 2020 investigation, the NAO reported working assumptions that 35% to 60% of BBLS lending — £15bn to £26bn — might never come back, combining fraud and credit loss. By March 2021 the department's central estimate was that 37% (£17bn) would not be repaid, of which 11% (£4.9bn) was attributed to fraud. Later departmental accounts revised the fraud figure sharply downward — the 2021–22 BEIS accounts put fraud and error at around £1.1bn, with internal estimates ranging up to £3.5–4.9bn — and the hard number that exists today is lenders' own flagging: as at 31 March 2026, £1.88bn of BBLS drawn value, 4.04% of the book, carries a suspected fraud flag . The fraud itself ranged from the industrial — companies incorporated purely to borrow £50,000 and dissolve — to the mundane inflation of turnover by real businesses to reach the 25% cap. Enforcement runs through the National Investigation Service, the Insolvency Service (director disqualifications, retrospectively pierced dissolutions) and lenders' own recovery teams. Impairment Lens Fraud loss is not credit loss, and the distinction is structural here. A fraudulent BBL still defaults into the same guarantee: provided th"
+  },
+  {
+   "title": "Pay As You Grow: forbearance by design",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s4",
+   "text": "By early 2021 it was obvious that a large minority of BBLS borrowers could not start repaying on schedule, so the government pre-installed the forbearance. Pay As You Grow gives every BBLS borrower three options, exercisable at will and without lender discretion: extend the term from six years to ten at the same 2.5% rate; switch to interest-only for six months, up to three times over the life of the loan; or take a single six-month full repayment holiday. None of the options affects the guarantee, and none requires evidence of distress. As at March 2026, 37% of BBLS facilities had used at least one PAYG option. Each option does something distinct to arrears emergence. The term extension nearly halves the monthly instalment permanently, converting borrowers who would have defaulted in 2023 into borrowers who may default in 2028 — or may not default at all. The interest-only and holiday options are pure deferral: they push the cash strain a few months to the right and add interest to the tail. Collectively, PAYG flattened and stretched the arrears curve that the scheme's design had guaranteed would arrive, which is why BBLS arrears emerged as a long slow bleed through 2022–2026 rather than a 2022 cliff. Impairment Lens Here is a staging judgement retail never quite posed: is exercising a contractual, government-designed repayment flexibility evidence of a significant increase in credit risk? Banks generally concluded that a single PAYG election is not automatic SICR — the opti"
+  },
+  {
+   "title": "CBILS, CLBILS and the long tail of successors",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s5",
+   "text": "CBILS deserves to be judged separately, because it is a different animal. An 80% guarantee, facilities up to £5m for businesses with turnover up to £45m, delivered as term loans, overdrafts , invoice finance and asset finance — and, crucially, with underwriting intact. Lenders assessed viability, the government paid the first year's interest and fees, and personal guarantees were barred below £250,000. The £25.8bn CBILS book has behaved accordingly: 64.5% fully repaid by March 2026 against BBLS's 19.4%. CLBILS , for larger corporates (turnover above £45m, facilities eventually up to £200m, dividend restrictions attached), lent £4.5bn and is 96% repaid — for impairment purposes it barely exists. The schemes did not so much end as evolve. The Recovery Loan Scheme launched in April 2021 with an 80% guarantee and a £10m cap; from January 2022 it dropped to 70% and £2m, SMEs only; a third iteration from August 2022 removed the requirement to show COVID impact at all, quietly converting emergency support into a standing SME guarantee programme. In July 2024 it was renamed the Growth Guarantee Scheme : 70% guarantee, up to £2m, full commercial underwriting and pricing, personal guarantees allowed (principal residences excluded). At the June 2025 Spending Review it was extended to March 2030, and by 31 March 2026 it had delivered around £3.6bn through more than seventy lenders. The direction of travel matters: each iteration transfers more of the risk, and all of the underwriting, ba"
+  },
+  {
+   "title": "The British Business Bank: plumbing, portal, claims",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s6",
+   "text": "All of this runs through the British Business Bank , the state economic-development bank owned by the Department for Business and Trade. The BBB does three things that matter to you. First, accreditation : it vets and admits lenders to each scheme, sets the scheme rules they must follow, and audits compliance. Second, administration : its Scheme Portal is the system of record — every facility, every status change, every claim flows through it, which is why the quarterly gov.uk performance data exists at all. Third, claims : when a guaranteed loan defaults, the lender pursues recovery in line with scheme rules (for BBLS, that means business assets only — personal guarantees were prohibited; for CBILS and successors, normal commercial recovery including any security taken), then submits a guarantee claim through the portal. The guarantor — ultimately the Secretary of State — pays out; recoveries made after settlement are remitted back to government pro rata. The system has teeth. As at March 2026, guarantees had been removed from 14,757 loans worth £1.16bn — roughly £738m following lender discussions (scheme-rule breaches surfaced by audit) and £422m from data errors. Guarantee removal converts a state-backed exposure into an ordinary unsecured SME loan, retrospectively. Impairment Lens Guarantee removal is an LGD cliff, and it is an operational event, not a credit one. A 100%-guaranteed BBL carries LGD near zero; void the guarantee and the same loan reverts to unsecured SME re"
+  },
+  {
+   "title": "What a guarantee does to LGD",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s7",
+   "text": "Mechanically, a scheme guarantee enters ECL through loss given default, and it does so with conditions attached. The guaranteed percentage is not a floor gifted at default: the claim must be eligible (the facility originated and serviced within scheme rules), the required pre-claim recovery steps must have been taken, and the cash arrives with a lag — claims are prepared, submitted, reviewed and settled, and discounting that delay is itself a modelled LGD component. On the 80% and 70% schemes, the lender's retained share is pari passu: post-claim recoveries are split with government in guarantee proportion, so the bank cannot recover its 20–30% strip first. Then there is the accounting question your desk will meet constantly: is the guarantee integral to the loan's contractual terms — in which case its expected cash flows sit inside the ECL calculation and directly suppress LGD — or is it a separate financial guarantee contract, recognised as a distinct reimbursement asset with the loan provisioned gross? For the COVID schemes, where the guarantee was part of the lending proposition from inception, the integral guarantee treatment is the standard answer, but the distinction, its edge cases and its disclosure consequences get full treatment in Module 7. For now, hold the flag. Impairment Lens This is why guaranteed-versus-unguaranteed is the first cut of every BB ECL pack. The guaranteed slice can carry ugly PDs and still contribute almost nothing to ECL, because LGD is a few "
+  },
+  {
+   "title": "Run-off: the book in 2025–2026",
+   "where": "Module 03 · COVID, Government Schemes, and the Book That Defines Today",
+   "href": "module.html?id=3#s8",
+   "text": "The COVID book was originated in 2020–21 on six-year terms, so the contractual maturity wall sits in 2026–27 — with the PAYG -extended tail stretching to 2030–31. The March 2026 scheme data shows what run-off looks like from the guarantor's side. Of BBLS facilities: 19.4% fully repaid, 46.9% on schedule, 3.9% in arrears, 0.7% defaulted awaiting claim — and 28.3% already settled under the guarantee. Across all three schemes, settled claims total £12.98bn, £11.8bn of it BBLS. Set against the NAO's early loss assumptions of £15–26bn, the outturn is bad but at the benign end of what was feared; against any normal lending standard, a book where more than a quarter of facilities have been claimed is extraordinary. Two dynamics define the residual. First, adverse selection by survivorship: the strong borrowers prepaid or amortised out years ago, so arrears and default rates measured on the remaining book rise mechanically each quarter even if no individual borrower deteriorates. Second, composition: what is left is disproportionately PAYG-extended, thin-file, and — where guarantees have been removed or claims rejected — unguaranteed. The write-off line, meanwhile, needs reading with care: fraud write-offs (claimed, state-funded, criminally pursued) and credit write-offs (ordinary failures of ordinary businesses) run through different processes at different speeds. Impairment Lens Run-off distorts every ratio you report. Denominators shrink faster than provisions release, arrears rat"
+  },
+  {
+   "title": "Where Business Banking Lives",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s1",
+   "text": "Start with the corporate architecture, because at Barclays the org chart is also the regulatory perimeter. Since January 2019 the group has run two principal banks: Barclays Bank UK PLC — the ring-fenced bank, branded Barclays UK — and Barclays Bank PLC, the non-ring-fenced entity that houses the investment bank and international business. Ring-fencing , the post-crisis regime born of the Vickers Commission, forces UK retail and small-business deposits into a legally separate, separately capitalised entity. Business Banking sits squarely inside the fence. The reporting map was redrawn in February 2024, when the group's investor update carved Barclays into five divisions: Barclays UK, the UK Corporate Bank , the Private Bank &amp; Wealth Management, the Investment Bank, and the US Consumer Bank. Within the Barclays UK division, segment reporting splits income three ways: Personal Banking, Barclaycard Consumer UK, and Business Banking. That third line is your world. The boundary that matters most to an impairment analyst is the handoff at the top: clients with annual turnover above roughly £6.5m belong to the UK Corporate Bank, a separate division with its own coverage teams, its own credit appetite and — critically — its own impairment disclosure. Everything below that line, from the sole trader with a card reader to the £6m-turnover wholesaler, is Business Banking. Your book therefore stops precisely where single-name concentration risk starts to get interesting; what you inh"
+  },
+  {
+   "title": "The Scale of the Home Team",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s2",
+   "text": "Barclays banks roughly one million SME clients — a figure the bank itself cites when marketing its Business Prosperity Index, which claims proprietary sight of about a million small businesses and a quarter of all UK corporates (as at 2025). That client count makes Barclays one of the big-four incumbents in business current accounts, alongside Lloyds, NatWest and HSBC. Now look at the balance sheet, because the asymmetry is the whole story. At end-2025, Business Banking loans stood at £17.9bn, down from £19.7bn a year earlier — the decline driven, in the bank's own words, by continued repayment of government scheme lending. Deposits: £51.9bn (2024: £52.8bn). Read that again. The segment holds nearly three pounds of deposits for every pound it lends. Business Banking income was £2,126m in FY25, up 6% on FY24's £2,004m, and up from £1,905m in FY23 — growth powered overwhelmingly by deposit margin in a higher-rate world, not by lending expansion. For context, the whole Barclays UK division carried £215.6bn of customer loans and £244.7bn of deposits at end-2025, and delivered a return on tangible equity of 20.7%. Barclays has pledged headline lending support — £22bn made available for Business Banking and UK Corporate Banking clients in 2025 — but pledges are capacity, not stock. The stock keeps shrinking as BBLS balances amortise away faster than new lending replaces them. Impairment Lens A £17.9bn book inside a £215.6bn division means Business Banking is under a tenth of Barcla"
+  },
+  {
+   "title": "The Current Account Is the Product",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s3",
+   "text": "Strip Business Banking to its economics and it is a deposit franchise with lending attached. The anchor product is the business current account : Barclays holds one of the largest BCA books in the UK, and everything else — overdrafts, term loans, card acquiring, FX — hangs off that primary relationship. In the post-2016 CMA world where switching is subsidised and challengers are given away accounts for free, the incumbents' moat is inertia plus breadth: the ability to serve a client from first invoice to £6.5m turnover without changing bank. The lending shelf is deliberately simple. Unsecured business loans and overdrafts for working capital; secured term lending and commercial mortgages for the larger end; participation in the British Business Bank's Growth Guarantee Scheme for marginal credits; and referral or partnership routes for specialist needs like asset and invoice finance rather than deep in-house manufacturing. Barclays' underwriting edge, such as it is, comes from transactional data: it can see a decade of a client's cash flows through the BCA and the acquiring rails before it advances a pound. What Barclays does not do is chase the aggressive end of SME credit. The FY25 numbers show a bank content to let the government-scheme legacy run off, keep new origination disciplined, and earn its return on the liability side. For an impairment analyst this is a blessing with a caveat: benign origination vintages today, but a back book whose composition is being determined"
+  },
+  {
+   "title": "Barclaycard Payments and the Brookfield Turn",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s4",
+   "text": "The genuinely differentiating asset in the Barclays SME proposition has long been Barclaycard Payments — the merchant acquiring business that puts Barclays on both sides of the till. Industry analyses rank it among the top two UK acquirers, processing on the order of 8.7 billion transactions a year (approximate, as at 2025). No neobank competitor owns an acquirer of that scale; for Barclays it meant a second data feed on client health — you see the revenue arriving, not just the balance sitting. Then came April 2025. Barclays announced a strategic partnership with Brookfield Asset Management for the UK merchant acquiring business: Barclays injects around £400m over three years to modernise the platform, Brookfield takes on operational transformation, and — the structural punchline — Brookfield holds the option to acquire roughly 70–80% of the business between years three and seven. Read plainly: Barclays is preparing to majority-exit merchant acquiring while retaining a minority stake and the client relationship. Strategically this mirrors what most European banks concluded a decade earlier — acquiring is a scale-and-technology game better played by specialists (Worldpay, Adyen, Teya) than by bank cost centres. But it dilutes a differentiator. If the acquiring relationship migrates to a Brookfield-controlled entity, the question for Business Banking is whether the transactional data advantage — and the cross-sell gravity that came with it — survives the change of ownership in"
+  },
+  {
+   "title": "Eagle Labs and the Digital Front Door",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s5",
+   "text": "Eagle Labs is the strategy asset that never touches the credit book. Launched in 2015 as repurposed branch space for start-up incubation, it grew into a national network of sites and programmes for tech entrepreneurs — mentoring, ecosystem partnerships, sector programmes from healthtech in Scotland to cyber in the South West. Its establishment credibility peaked when the government chose it, controversially over Tech Nation, to deliver the Digital Growth Grant : £12.09m of public funding from April 2023 to March 2025, targeting support for more than 22,000 businesses with at least 80% outside London. Why should an impairment analyst care about an incubator? Because Eagle Labs is the top of a funnel. Start-ups incubated today are BCA clients tomorrow and borrowers the year after; the franchise logic is origination at the point of company formation. It also buys Barclays something harder to price — presence in the high-growth segment where challengers like Starling and Tide otherwise dominate the narrative. The same logic drives the digital stack. The Barclays app strategy for business — onboarding, in-app lending journeys, integration with accounting packages via Open Banking — is a defensive race: the incumbents must compress the convenience gap with app-native banks before the convenience gap compresses their deposit share. The FY25 deposit slippage in Business Banking current accounts (£52.8bn to £51.9bn) is small, but it is the metric to watch; the deposit franchise funds "
+  },
+  {
+   "title": "Reading the Results: Where BB Shows Up",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s6",
+   "text": "Open a Barclays results announcement and Business Banking surfaces in three places: the Barclays UK income analysis (the three-line segment split), the balance-sheet commentary (loans and deposits, with the ritual phrase about government scheme repayment), and the credit risk section, where BB lending is folded into Barclays UK's wholesale-style exposure tables rather than given a standalone impairment line. The full ARA for Barclays Bank UK PLC carries the detailed staging and coverage tables. The recent charge history tells a clean normalisation story. Barclays UK's loan loss rate ran at 14bps in FY23 (a charge around £300m), 16bps in FY24 (£352m), and 18bps in FY25 (£393m) — drifting up, but sitting far below the group's through-the-cycle guidance of 50–60bps, because mortgages dominate the divisional book. Within that, Business Banking swung from a £29m credit release in FY24 to a £39m charge in FY25 — the post-pandemic era of releases ending, replaced by modest charges on stable underlying performance. At group level, H1 2026 brought a £1.4bn impairment charge and a 62bps loan loss rate, with group coverage broadly stable around 1.2%. Now the coverage ratio comparison, because this is where a retail-trained eye needs recalibrating. Barclays UK retail credit cards carried total coverage of 4.3% at end-2025 (2024: 4.8%). Mortgages sit at the other extreme — coverage of the order of a tenth of a percent (approximate), because collateral crushes LGD. Business Banking lands i"
+  },
+  {
+   "title": "The Book from the Impairment Seat",
+   "where": "Module 04 · Barclays Business Banking Today",
+   "href": "module.html?id=4#s7",
+   "text": "Sit in the Barclays BB impairment chair in 2026 and the book in front of you has three strata. First, the BBLS legacy: Barclays was one of the largest Bounce Back lenders, and although balances have amortised hard — the run-off is precisely why segment loans fell from £19.7bn to £17.9bn during 2025 — a material tail remains, much of it stretched to ten-year terms under Pay As You Grow . These loans carry a 100% government guarantee treated as an integral guarantee : expected recoveries from the state flow into LGD, so even a defaulted Bounce Back loan generates almost no ECL for the bank. The credit risk never left; it was assigned to the taxpayer at origination. Second, the secured book — commercial mortgages and charged-asset term lending at the larger end — where property collateral does the LGD work and losses concentrate in workout timing rather than severity. Third, the clean unsecured book: overdrafts and term loans priced off transactional data, which is where genuine loss content lives and where staging judgement earns its keep. The sector tilt is the UK SME economy itself — services-heavy, with the familiar stress concentrations in hospitality, retail and construction that every insolvency cycle revisits. And the structural trend an analyst must internalise: as the guaranteed stratum runs off, the surviving book's average risk profile rises mechanically. Loans repaying on schedule exit; the book that remains tilts toward slower repayers and newer unsecured originati"
+  },
+  {
+   "title": "A Concentrated Front, a Dispersed War",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s1",
+   "text": "Seen from the account ledger, UK business banking is a settled oligopoly. The four largest groups — Lloyds, NatWest, HSBC and Barclays — still hold roughly 85 per cent of business current accounts , a concentration that has survived two decades of regulatory engineering designed to break it. Seen from the credit ledger, the picture inverts. In 2025, challenger and specialist banks wrote 60 per cent of the £68 billion of gross bank lending to SMEs — the fourth consecutive year they out-lent the big five, and the highest share the British Business Bank has ever recorded. Accounts are concentrated; credit is dispersed. That inversion is the most important structural fact in this module, and it is not an accident of marketing. It is the residue of incumbent choices. After 2008, and again after the pandemic, the large banks pulled capital, branch staff and appetite out of the middle of the SME risk curve. What they kept was the franchise: the payments float, the safest secured lending, the seasoned back book. What they released — asset finance on eight-year-old trucks, bridging on secondary property, unsecured working capital for cafés — was picked up by lenders built for exactly those niches. Nearly every competitor on this map exists because an incumbent decided some risk was not worth holding. For an impairment analyst the map earns its keep three ways. First, benchmarking: competitors publish loss experience that brackets the space of possible outcomes, from OakNorth's near-ze"
+  },
+  {
+   "title": "The Incumbents: Retreat in Good Order",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s2",
+   "text": "Lloyds Banking Group runs the largest SME franchise in the country, trading as Lloyds in England and Wales and Bank of Scotland north of the border. Its advantage is brutal and simple: the biggest retail deposit base in the UK, which makes its marginal cost of funds lower than anyone else's. That cheap float funds a conservative book — secured, seasoned, relationship-managed at the top end, increasingly automated below it. Lloyds is not where SME credit innovation happens; it is where SME credit margin goes to be harvested, and where the run-off of Covid-era balances has been managed with the patience only cheap funding buys. NatWest carries the historic number-one position in SME market share — the inheritance of the old RBS, which was for decades the default business bank of Britain. The inheritance cuts both ways. The GRG affair taught the group, expensively, that the treatment of distressed SMEs is a conduct exposure as much as a credit one, and its workout posture has been visibly more careful since. Its answer to the challengers was to build its own: Mettle , a standalone app-based business account, and Tyl , a merchant-acquiring service that has grown fast enough to justify a 2026 technology partnership with Endava. Both are competent; neither has changed the race. HSBC UK courts the internationally minded SME — trade finance, multi-currency, supply chains — and serves the smaller end through Kinetic , its app-based small-business platform. Its appetite is famously cyc"
+  },
+  {
+   "title": "The Insurgents: Paid to Exist",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s3",
+   "text": "The account-side challengers are, to a striking degree, a state-funded insurgency. The BCR pot — £775 million of RBS state-aid remedy money — and the incentivised switching scheme paid fintechs to take customers the CMA's earlier remedies had failed to move. It worked, up to a point: the challengers won accounts. What they have mostly not won is the loan book. Starling is the flagship: around 9.7 per cent of the SME business-account market on its own reporting, revenue of £714 million in FY2025, deposit-rich and conspicuously lending-light. Its instructive scar is the BBLS book. Having lent at pandemic speed under a 100 per cent guarantee, Starling identified loans whose origination checks had not met scheme conditions, volunteered to strip the government guarantee from them, and booked a £28.2 million provision in FY2025 — on top of a £29 million FCA fine for financial-crime control failures. The lesson is precise: a guarantee is a conditional contract, not a property of the loan. Tide is the volume story — roughly 900,000 UK members and a claimed 15 per cent share of UK SMEs by mid-2026 — but read the small print: Tide is an e-money firm, not a UK bank, holding client funds through ClearBank and monetising payments and subscriptions. Its credit is largely originated through partners. And the denominator in that 15 per cent is the whole 5.5-million-strong SME population, most of it sole traders; it is a share of businesses by count, not of lending, deposits or primary relati"
+  },
+  {
+   "title": "The Specialists: Credit as the Product",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s4",
+   "text": "The second family of challengers barely bothers with current accounts. For them credit is the product, and the niche is the strategy. Allica banks the established SME — the ten-to-250-employee firm it calls the forgotten middle — and grew lending 23 per cent to £3.7 billion in 2025, two-thirds of it commercial mortgages , funded by £5.7 billion of savings deposits. OakNorth lends £250,000 to £100 million to property and trading businesses, reached £7.2 billion of facilities and £223 million of pre-tax profit in 2025, and owns the most quoted number in UK specialist credit: cumulative principal losses of 0.045 per cent — £6.9 million — across its first decade. It monetises that record twice, selling its underwriting-and-monitoring stack to other banks as ON Credit Intelligence. Shawbrook is the scaled version: a £19.2 billion loan book at end-2025, of which £4.4 billion is SME, grown 16 per cent in a year, returned to the London Stock Exchange, and reinforced by the acquisition of ThinCats , the bespoke mid-market SME lender. Aldermore , owned by South Africa's FirstRand, works the asset finance and invoice finance trade with Growth Guarantee Scheme accreditation; Paragon pairs its buy-to-let heritage with SME asset finance and its own GGS allocations. Their funding model explains their appetite. Best-buy retail savings and securitisation cost materially more than an incumbent's BCA float, so specialists must earn wider margins — which means lending where incumbents will not, "
+  },
+  {
+   "title": "Marketplaces, Embedded Credit and the Payments Flank",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s5",
+   "text": "Funding Circle pioneered marketplace lending in the UK: originate the loan, sell it to institutional investors, keep the servicing fee, hold none of the risk. Then reality edited the model. The US business was sold, and the growth engine became FlexiPay — a working-capital line held on Funding Circle's own balance sheet. By 2025 the platform managed £3.0 billion of loans, extended £2.5 billion of new credit and made £20.3 million of pre-tax profit. The pivot is the lesson: originate-to-distribute relocates credit risk, it does not abolish it, and when distribution economics thin, the originator either eats the risk or starves. iwoca took the other route to scale: stay wholesale-funded, stay unsecured, and distribute through everyone else. It lent £1.3 billion across 58,000 loans in 2025 — up 60 per cent — and its API sits inside accountancy platforms, payment firms and neobanks, reaching close to three million businesses. This is transactional-data lending as a wholesale business: the partner owns the customer, iwoca owns the credit decision and the risk, and funding comes from facilities like its £250 million Waterfall line rather than deposits. The adjacent players attack the franchise without touching term credit. Wise strips out the cross-border payment margin incumbents once considered an annuity. Revolut Business — roughly 800,000 businesses globally and growing a third annually — is payments-led, with UK banking ambitions still maturing. Square and SumUp occupy the mer"
+  },
+  {
+   "title": "What the Field Teaches the Impairment Desk",
+   "where": "Module 05 · The Competitor Map",
+   "href": "module.html?id=5#s6",
+   "text": "Pull the threads together and five working rules emerge. First, competition is a credit-quality force, not a commercial nuisance: every account or asset a rival skims changes the composition of what remains, and adverse selection arrives in the flow long before it shows in the arrears. Second, the loss-experience range across this map — 4.5 basis points at OakNorth against double-digit fraud losses on BBLS — is not a spread of asset classes; it is a spread of underwriting designs, which means it is controllable and comparable. Third, guarantee integrity is an origination property: Starling's provision is what it costs when the paperwork behind a guarantee claim fails. Fourth, growth flatters: any book compounding at 20 per cent has an observed default rate that understates its destination. Fifth, and least visible: funding models decide behaviour under stress. BCA-float incumbents can afford patience; savings-funded specialists can hold but reprice; wholesale-funded lenders retrench the moment facilities tighten. When the marginal lenders withdraw, the weak borrower's refinancing options vanish exactly when needed — cure rates fall, workout recoveries thin, and Stage 3 outcomes deteriorate across the market, including on the book of a bank that never changed its own appetite. Barclays sits in the middle of this field as a full-service incumbent with a payments franchise the insurgents envy and a risk curve the specialists keep shortening from below. The impairment desk's job "
+  },
+  {
+   "title": "Why SME PD refuses to behave like retail PD",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s1",
+   "text": "Your retail career was built on a luxury so pervasive you probably stopped noticing it: homogeneity. A credit card book is millions of near-identical exposures, scored on near-identical data, defaulting in statistically well-behaved numbers every single month. The law of large numbers does most of the work; your models refine the residual. An SME book grants you none of this. A dental practice, a scaffolding subcontractor, a SaaS startup burning venture money and a fourth-generation sheep farmer can all sit in the same portfolio segment, sharing almost nothing except a business current account at the same bank. Banks have historically dealt with this heterogeneity through three distinct lending technologies. Financial-statement lending underwrites the accounts: ratios, gearing, interest cover, debtor quality. It works for larger SMEs with audited numbers and falls apart below that, for reasons the next section makes painful. Relationship lending underwrites the person: a relationship manager accumulates soft information — the state of the yard, the succession plan, whether the founder's optimism is earned — that never appears in any dataset. It is expensive, unscalable, and was systematically stripped out of UK banking as branch networks and local credit discretion were centralised. Transactional-data lending underwrites the current account itself: the live feed of receipts and payments that tells you what the business is actually doing, not what its nineteen-month-old accoun"
+  },
+  {
+   "title": "Companies House: a public ledger with holes in it",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s2",
+   "text": "Retail underwriting spoiled you with the bureau: deep, standardised, refreshed monthly, covering essentially every adult you would ever lend to. The BB equivalent is Companies House — free, public, statutory, and riddled with exemptions. Since April 2025 a company qualifies as \"small\" with turnover up to £15m, a balance sheet up to £7.5m and up to 50 employees — thresholds raised roughly 50% in one move, reclassifying an estimated 133,000 entities downward. Small companies need no audit, and can file filleted accounts : a balance sheet, some notes, and — critically — no profit and loss account. Micro-entities file even less under FRS 105. The overwhelming majority of your borrowers, in other words, are legally entitled to show the public register a snapshot of what they own while concealing whether they make any money. Then there is the lag. A private company has nine months from its year end to file. Accounts made up to December 2025 can arrive in September 2026 — and remain the freshest public financials until late 2027. On the day you read them, the numbers can be nearly two years stale. Reform is perpetually imminent: the Economic Crime and Corporate Transparency Act 2023 promised to abolish the filleted option and force small companies to file a P&amp;L, but those reforms were paused in early 2026, and mandatory software-only filing has slipped to April 2028. What did land, in November 2025, was mandatory identity verification for directors and people with significant co"
+  },
+  {
+   "title": "Sectors, SIC codes and concentration you never had in retail",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s3",
+   "text": "Every UK company self-declares a SIC code at incorporation — a five-digit label chosen from a drop-down, frequently wrong, rarely updated as the business pivots. On this shaky foundation banks build sector segmentation, concentration limits, pricing differentials and the mapping of macroeconomic scenarios to portfolios. Treat SIC data the way you learned to treat self-declared income on a 2006 mortgage application: useful, directional, and not to be confused with truth. Sector matters in BB in a way it simply does not in retail, because SME failure is brutally cyclical and sector-concentrated. Construction is the perennial leader: roughly 17% of all company insolvencies, with around 3,800 construction firms entering insolvency in the twelve months to March 2026 — down about 7% on the prior year but still nearly a fifth above pre-pandemic levels. The mechanics are structural: fixed-price contracts signed before costs move, long subcontractor chains where one main-contractor failure cascades downward, retentions withheld, margins of 2–3% with no buffer. Hospitality runs on thin margins, seasonal cash flow, energy costs and discretionary consumer spending; retail adds structural decline to the same cocktail. When you read that overall insolvencies in England and Wales are running at around 2,000–2,100 a month through 2025–26, remember those failures are not spread evenly — they pool in these sectors. Concentration is the other unfamiliar animal. A mortgage book's largest exposur"
+  },
+  {
+   "title": "The working-capital cycle, read through a current account",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s4",
+   "text": "The working-capital cycle is the elapsed time between a business paying cash out and getting cash back: stock days plus debtor days minus creditor days. It is the single most useful lens for reading an SME, because most SME deaths are cash-flow deaths — profitable-on-paper businesses that ran out of money waiting to be paid. A subcontractor buys materials and pays wages weekly, invoices monthly, waits 60–90 days for payment and has 5% retained for a year: an enormous positive cycle, permanently hungry for funding. A pub takes cash tonight and pays its brewery on 30-day terms: a negative cycle, generating float. Same turnover, opposite credit needs — the builder needs an overdraft or invoice finance ; the pub needs almost nothing until the day trade stops. Now put yourself in the bank's seat, watching the BCA . Credit turnover — the sum of money flowing in — is a live proxy for sales receipts. Its trend, its seasonality, its volatility, its concentration (one big customer or many small ones) are all legible from the account alone. So is distress, and earlier than any other source: turnover drifting down quarter on quarter; an overdraft that stops swinging back into credit and hardens into permanent debt; direct debits bouncing, then being cancelled; the tell-tale rhythm of HMRC payments stretching from monthly to sporadic; round-sum transfers out to directors' personal accounts as confidence fails. In retail, current-account data enriched your card models at the margin. In BB,"
+  },
+  {
+   "title": "Behavioural scoring: the account never lies for long",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s5",
+   "text": "Behavioural scoring in BB is the industrialisation of the bank manager's glance at the ledger. Monthly (or faster), a model consumes the account's vital signs — credit turnover trend, balance volatility, days in excess of limit, unpaid items, credit-to-debit ratios, time since last cleared balance — and produces a score that outperforms any financial-statement model for the simple reason that it is current . The accounts are a photograph from last year; the behavioural score is a pulse. Conceptually this is the same technology you ran on cards. The differences are in the plumbing and the stakes. The features are business-shaped: VAT-quarter seasonality has to be modelled or it generates false alarms; a single large customer paying late can crater a month's turnover without meaning anything. Score deterioration drives real interventions — limit reductions, facility reviews, watchlist entry, transfer toward the business support unit — not just contact strategies. Impairment Lens Here is the load-bearing fact for your day job: in BB collective books, behavioural score deterioration is typically the primary SICR trigger. A score migration breaches the relative-PD threshold, the exposure moves to Stage 2 , and the provision flips from 12-month to lifetime ECL — on an SME that has missed no payment and breached no covenant. Because SME lifetime PDs are far higher than retail-mortgage ones, the coverage step-up is violent: tens of basis points to several percent in one staging move."
+  },
+  {
+   "title": "Open banking: reading someone else's current account",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s6",
+   "text": "Everything in the last two sections rested on a monopoly: only the account-holding bank could see the BCA. Open banking broke that. Since the CMA forced the nine largest current-account providers to open API access in 2018, any authorised lender can — with the customer's consent — pull months of transaction history at the point of application. Adoption stopped being niche some time ago: the UK passed 15 million open banking users in mid-2026, with connections approaching 19 million. The challengers built their underwriting on it. iwoca was among the first SME lenders to plumb open banking directly into credit decisions, reading live turnover instead of stale accounts, and has kept scaling — closing a £250m funding facility in July 2026 to expand UK SME lending, with mid-sized loans of £50,000–£100,000 jumping to 42% of its applications in early 2026. Tide sees its members' transaction flows natively, as do Starling and the other app-based business banks; Funding Circle and the broader fintech lending cohort consume the same feeds through APIs. The Data Use and Access Act now points beyond payments data toward open finance — SME lending data included — which will widen the pipe further. Read the strategic consequence carefully: the incumbent's century-old informational moat — being the only one who could see the account — is being commoditised, one consent screen at a time. What remains defensible is the interpretive layer: models, sector knowledge, workout capability. Data ad"
+  },
+  {
+   "title": "Security, the waterfall, and where LGD is actually decided",
+   "where": "Module 06 · SME Credit Risk & Underwriting",
+   "href": "module.html?id=6#s7",
+   "text": "Retail LGD was a property valuation, a haircut and a repossession timeline. BB security is a zoo, and the differences decide your recoveries. The classic bank instrument is the debenture : a single document taking fixed and floating charges over everything the company owns. A fixed charge attaches to specific, identifiable assets — the freehold, plant, sometimes the book debts if control is real — and the company cannot deal with them without consent. A floating charge hovers over the circulating assets — stock, debtors, work in progress — letting the business trade them freely until insolvency crystallises the charge over whatever happens to remain. That phrase should trouble you: whatever remains , at the exact moment a failing business has run down stock, stretched collections and burned cash, is reliably less than the covenant schedule imagined. Then the priority waterfall takes its cuts. Fixed-charge holders are paid from their asset first. From floating-charge realisations, the order runs: insolvency practitioners' fees and expenses; ordinary preferential creditors (chiefly employees); then — since December 2020 — HMRC as secondary preferential creditor for VAT, PAYE, employee NICs and CIS deductions, with no cap on age or amount. Since failing SMEs almost universally stretch HMRC before anyone else, this claim is routinely large. Next, the prescribed part is carved out for unsecured creditors: 50% of the first £10,000 of floating-charge realisations plus 20% of the res"
+  },
+  {
+   "title": "Same Standard, Different Animal",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s1",
+   "text": "Nothing in the standard changes when you cross the corridor from retail to Business Banking. IFRS 9 is the same text; ECL is still the probability-weighted present value of cash shortfalls; the engine still multiplies PD , LGD and EAD and discounts at the effective interest rate. What changes is the terrain the standard has to be applied to — and the terrain changes almost everything about how the number is actually produced. Five shifts matter. First, data density collapses as exposure size rises: a card book gives you millions of homogeneous accounts refreshed monthly by the bureau; an SME book gives you a fat tail of micro-businesses that behave almost like retail and a thin head of larger relationships where defaults are rare and every case is idiosyncratic. Second, qualitative human judgment — relationship-manager gradings, watchlist committees — stops being colour and becomes a model input with a direct P&amp;L consequence. Third, staging migrates in lumps rather than smooth score-driven flows, because the triggers are events, not deltas. Fourth, government guarantees from the Covid schemes sit inside the loss estimate itself, producing books that are visibly stressed and almost unprovisioned at the same time. Fifth, the share of the final number that comes from management judgment — individual assessments, PMAs , scenario choices — is far higher than anything you will have signed off in mortgages. The rest of this module takes those shifts one at a time. Keep one quest"
+  },
+  {
+   "title": "Staging When the Data Runs Thin",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s2",
+   "text": "In retail, SICR is an industrialised, quantitative affair: residual lifetime PD compared against origination, bureau score deltas, arrears buckets rolling forward month by month, and the 30-days-past-due backstop sweeping up whatever the models miss. The signals are dense, continuous and cheap. Business Banking keeps the same Stage 1 → Stage 2 architecture but has to feed it differently, because above the micro end the behavioural data that powers retail SICR simply is not there in usable volume. At the smallest end — sole traders, one-director companies — the business current account is actually a rich behavioural asset, and transactional-data triggers do real work: a sustained collapse in BCA credit turnover of, say, a third against the prior year is one of the most reliable early-warning signals a bank holds, often firing months before any missed payment. But as exposures grow, staging leans increasingly on discrete, qualitative events. The canonical BB SICR triggers are: entry onto the watchlist ; a covenant breach on an interest-cover, leverage or loan-to-value test — a trigger with no retail equivalent at all; BCA turnover collapse; sector flags applied at SIC-code level when a committee downgrades commercial real estate, construction or hospitality; hardcore overdraft utilisation and repeated excess requests; and late or qualified accounts at Companies House. The 30 DPD backstop still applies — but treat it as a smoke alarm in a house already burning. A struggling firm"
+  },
+  {
+   "title": "Collective by Default, Individual by Exception",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s3",
+   "text": "The mass of the SME book is provisioned exactly as you would expect: collective assessment , with exposures pooled by product, size band, sector and grade, and modelled PD, LGD and EAD applied across each pool. That works for the same reason it works in cards — the accounts are numerous, individually small, and statistically well-behaved in aggregate. It stops working at the top of the book. Every bank sets thresholds — commonly a gross exposure in the low single-digit millions, though the level is house policy, not regulation — above which a Stage 3 case, and often a watchlist Stage 2 case, flips out of the models entirely and becomes individually assessed . Size is not the only trigger: fraud, litigation, complex or cross-collateralised security, or an active insolvency process will push a smaller case into individual treatment because modelled parameters have nothing sensible to say about it. The individual assessment itself is a DCF workout . The case manager — usually in the business support unit — constructs the realistic recovery strategies: trade-out under a restructured facility, consensual sale of the business or assets, or enforcement through administration or liquidation. Each strategy gets its own cash-flow projection — asset realisations net of costs and prior charges, guarantee recoveries, contributions under personal guarantees, time to realise — discounted at the original effective interest rate. The strategies are then probability-weighted, and the provision"
+  },
+  {
+   "title": "The Guarantee Question: Integral or Not",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s4",
+   "text": "The Covid schemes left BB books carrying something retail never had to think about: a government guarantee wired into the loss estimate. BBLS came with a 100% guarantee of principal and interest; CBILS and its successors with 80% (70% under the current Growth Guarantee Scheme). The accounting question is where that guarantee lives — and it is one of the genuinely contested corners of IFRS 9. IFRS 9 says ECL cash flows include cash from credit enhancements that are integral to the contractual terms of the loan and not separately recognised. If the guarantee qualifies, expected claims sit inside the ECL calculation as a recovery — mechanically, a reduction in LGD. If it does not qualify, the bank must measure ECL gross and recognise the expected reimbursement as a separate asset, IAS 37-style — same net balance sheet, very different presentation, coverage ratios and audit trail. The standard never defines integral , and the IFRS Interpretations Committee's staff analysis left it as a judgment on facts and circumstances. UK banks converged on the answer that the scheme guarantees are integral : the guarantee exists only because the loan was written under scheme rules, was in place at origination, is held by the lender under the British Business Bank's agreement, and was not purchased separately. The consequence is one of the strangest sights in UK bank reporting. Staging reflects the borrower's credit risk, not the expected loss — so a deteriorated BBLS loan sits in Stage 2 or S"
+  },
+  {
+   "title": "PMAs: The Judgment Layer",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s5",
+   "text": "Every ECL estimate carries adjustments, but BB carries proportionally more of them. A post-model adjustment — or overlay , the terms blur, though some houses reserve overlay for economics-level adjustments and PMA for model-deficiency fixes — is a quantified amendment to modelled ECL for a risk the models cannot see. The reasons BB accumulates them follow directly from everything above: the models are coarser and rebuilt less often than retail's; default data is thin, so calibration uncertainty is real; sector event risk — a CRE repricing, an energy-cost shock to hospitality, reservoir-level rules hitting agriculture — arrives faster than any model redevelopment cycle; insolvency responds to stress with a lag no GDP-conditioned model captures cleanly; and the guarantee books carry claim-eligibility risk that has no modelled home at all. Typical BB PMAs in current disclosures: sector overlays on CRE, construction and hospitality; affordability and refinance-risk adjustments for borrowers rolling off cheap fixed-rate debt; adjustments for the lag between economic stress and insolvency outcomes; and guarantee-recovery haircuts. The PRA has made the completeness and governance of PMAs a running theme of its Dear CFO letters — the September 2025 letter again flagged elevated model risk amid macro and geopolitical uncertainty, pressed firms to challenge whether PMAs capture risks their models were never built for, and repeated the expectation that persistent overlays be folded back"
+  },
+  {
+   "title": "The Low Default Portfolio Problem",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s6",
+   "text": "Move up the size scale and you hit a statistical wall retail never faces: the low default portfolio . A grade in a mid-corporate or larger-SME rating scale might see a handful of defaults a year — sometimes none. You cannot estimate a stable PD from that; the confidence interval around the estimate is wider than the estimate itself. The responses are familiar from IRB practice and carry straight into IFRS 9. Rating comes from expert-judgment scorecards blending financials, sector and management assessment rather than pure statistical models. Calibration borrows from outside — external benchmarks, rating-agency corporate default studies, national insolvency rates — and an explicit margin of conservatism is added to acknowledge estimation uncertainty. For specialised lending such as CRE development, banks use slotting-like approaches: exposures mapped to a small number of supervisory-style categories, each carrying an assigned risk band, in place of a modelled PD altogether. For ECL specifically, the pain point is converting these through-the-cycle-flavoured grades into the point-in-time, forward-looking term structures IFRS 9 demands. The usual machinery — macro scalars applied to a master scale — preserves rank-ordering well but leaves the level of lifetime PD genuinely uncertain, and grade-level backtesting is close to impossible when annual defaults per grade are countable on one hand. Rank-ordering errors mis-sort borrowers; calibration errors mis-state the allowance. In a"
+  },
+  {
+   "title": "Forward-Looking Economics for Firms, Not Households",
+   "where": "Module 07 · IFRS 9 for Business Banking",
+   "href": "module.html?id=7#s7",
+   "text": "Retail forward-looking economics runs on a famous pairing: unemployment drives PD, HPI drives secured LGD. Neither does much work for an SME book. The variables that actually move SME ECL are GDP growth (demand for the borrower's product), the corporate insolvency rate (the closest thing to a direct default-rate anchor), Bank of England base rate (most BB lending floats over base, so rate rises transmit straight into debt service — the opposite of a fixed-rate mortgage book), and commercial real estate indices (collateral values behind commercial mortgages and much secured trading-business lending). Sector-level output indices matter too, because SME stress is rarely uniform: in the twelve months to December 2025, construction, wholesale/retail and hospitality alone accounted for roughly 47% of the c.23,900 UK company insolvencies, with the overall insolvency rate at about 53 per 10,000 active companies. Designing the multiple economic scenarios for an SME book differs accordingly. The insolvency-rate path does the heavy lifting, and it behaves badly: insolvencies lag GDP, then spike late-cycle and non-linearly — the post-Covid years proved the point, when government support suppressed insolvencies through 2020–21 before they surged past pre-pandemic levels from 2022 onwards even as GDP recovered. A model conditioned on GDP alone missed that entirely, which is precisely why insolvency-lag PMAs exist. Downside scenarios and their weights therefore matter more than in retail: t"
+  },
+  {
+   "title": "The road in: how a loan becomes a case",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s1",
+   "text": "In retail, default arrives as data: a missed direct debit, a bucket roll, a dialler strategy. In business banking it arrives as a story, and usually a slow one. A £750k exposure to a haulage firm does not roll from bucket one to bucket three; it sends signals for months — hardcore utilisation of the overdraft , returned payments, requests for temporary excesses, a covenant breach quietly waived, an HMRC time-to-pay arrangement the relationship manager hears about second-hand. Arrears on the term loan are often the last signal, not the first, because businesses starve every other creditor before they starve the bank that holds a debenture over everything and a personal guarantee over the director's house. The machinery that responds is layered. Early deterioration puts the name on the watchlist — heightened monitoring, still front-line owned. Sustained deterioration triggers the transfer decision: the case moves out of the relationship team and into the bank's Business Support function, where a specialist decides whether this is a viable business with a fixable problem or a dead business with a recoverable balance sheet. Everything downstream — regime choice, recovery path, provision, write-off — flows from that fork. This module walks the whole chain, because a Stage 3 provision on a BB exposure is not a formula; it is a forecast of which door the company will exit through, and each door has its own price."
+  },
+  {
+   "title": "Business Support, and the long shadow of GRG",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s2",
+   "text": "Every large UK bank runs a turnaround unit — Barclays' Business Support, and its peers' equivalents — that takes deteriorating SME and mid-market cases and works them: restructured facilities, extended terms, capital repayment holidays, sometimes an insisted-upon independent business review by an accountancy firm. The unit's stated objective is return-to-health; its structural reality is that it also protects the bank's position, and the tension between those two jobs is the most conduct-scarred territory in UK banking. The scar is GRG . RBS's Global Restructuring Group took in some 12,000 struggling SMEs after 2008; Lawrence Tomlinson's 2013 report alleged businesses were being engineered into default and stripped. The FCA commissioned a skilled-person review under section 166 of FSMA — Promontory reported in 2016 — which found widespread inappropriate treatment of customers and judged some of it systematic, rooted in RBS's failure to manage the conflict between GRG's turnaround and commercial objectives. The FCA ultimately took no enforcement action, for a reason every BB analyst should internalise: commercial lending is largely unregulated activity, so the conduct perimeter that protects a mortgage customer simply did not apply. The industry response was structural rather than statutory — rebuilt turnaround units with fair-treatment frameworks, separation of turnaround advice from recovery profit incentives, independent case oversight, and board-level appetite statements a"
+  },
+  {
+   "title": "Liquidation: the CVL machine and its compulsory cousin",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s3",
+   "text": "Most UK corporate insolvencies are not dramatic restructurings; they are burials. A creditors' voluntary liquidation is a director-initiated wind-up: the board concedes insolvency, shareholders resolve to liquidate, and an insolvency practitioner is appointed — the whole entry process can complete in two to three weeks. The company stops trading, assets are sold at break-up values, and the liquidator distributes according to the statutory waterfall. CVL is the exit route for the small, asset-light SME — the café, the subcontractor, the ten-person agency — and it dominates the statistics precisely because that is what most failing companies are. For a lender the arithmetic is bleak: fixed charge realisations (property, book debts under a properly structured charge) can recover well, but floating-charge and unsecured recoveries are typically low single-digit pence in the pound and very often nil. First distributions may arrive within a year; final ones commonly take one to two, sometimes longer where litigation or antecedent-transaction claims run. Compulsory liquidation is the same destination reached hostile: a creditor — very frequently HMRC — petitions the court to wind the company up. It is slower (months from petition to order), the Official Receiver or an appointed liquidator inherits a business that has usually been dying untreated for longer, and recoveries are correspondingly worse. The post-pandemic surge in compulsory liquidations — 2025's count was the highest sinc"
+  },
+  {
+   "title": "Administration and the pre-pack",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s4",
+   "text": "Administration is the regime with ambition. An administrator takes control under a statutory purpose hierarchy — rescue the company as a going concern; failing that, achieve a better result for creditors than immediate winding-up; failing that, realise property for secured and preferential creditors — and the company gets a moratorium on creditor enforcement while they work. Crucially for banks, a lender holding a qualifying floating charge under its debenture can appoint an administrator out of court, quickly, which is why the debenture is as much a control document as a security document. Administration lasts twelve months, extendable; trading administrations that sell the business as a going concern can return materially more than break-up — this is where secured recoveries of 50–80p on well-collateralised exposures live — while failed administrations converge on liquidation outcomes. Expect a one-to-two-year path from appointment to final distribution. The pre-pack is administration compressed to a single morning: the sale of the business is negotiated before appointment and executed immediately after, preserving goodwill, contracts and jobs before the insolvency stigma destroys them. It maximises value and minimises transparency in the same motion — especially when the buyer is the old management. Since 30 April 2021, a substantial disposal to a connected person within the first eight weeks requires either creditor approval or an independent evaluator 's written opinion "
+  },
+  {
+   "title": "The compromise tools: CVA, Part 26A, and the moratorium",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s5",
+   "text": "Three regimes try to fix the company without killing it. The company voluntary arrangement is a deal with unsecured creditors — approved by 75% by value of those voting — under which the company trades on and pays contributions, typically over three to five years, with landlords and trade creditors compromised and secured creditors untouched without consent. CVAs had their cultural moment in casual dining and retail circa 2018–20; they are now rare (186 in the whole of 2025) and their track record is poor — historically roughly half fail into a subsequent insolvency, which means a lender should treat a CVA less as a recovery outcome than as a slower route to one. The Part 26A restructuring plan , introduced by CIGA 2020, is the heavyweight tool: a court-sanctioned compromise that can bind secured creditors and — via cross-class cram-down — impose the deal on entire dissenting classes, provided no one is worse off than in the relevant alternative. It is powerful and expensive: two court hearings, valuation fights, seven-figure adviser costs. Only a dozen plans had been registered by late 2022, and while mid-market usage has grown since, it remains an exceptional event in a BB book — you will see one when a leveraged, multi-banked borrower restructures, and your exposure may be crammed down whether Barclays votes for it or not. The standalone moratorium , also from CIGA 2020, gives a distressed company an initial 20 business days of breathing space (extendable to 40, further wi"
+  },
+  {
+   "title": "The waterfall: HMRC's return and the prescribed part",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s6",
+   "text": "Every recovery number in this module resolves to a queue. Fixed-charge realisations go to the fixed-charge holder, net of costs. Then, from floating-charge assets: the insolvency's expenses; ordinary preferential creditors (chiefly employee wage and pension claims); then — restored on 1 December 2020 by the Finance Act 2020 — HMRC as secondary preferential creditor for taxes the company collected on the Crown's behalf: VAT, PAYE, employee NICs and CIS deductions. Corporation tax stays unsecured. The restoration is uncapped and has no age limit on the tax debt, and its effect is mechanical: in a VAT-heavy or labour-heavy business that has been surviving on unremitted tax — which is exactly what distressed SMEs do — HMRC's claim can consume the entire floating-charge pot before the bank sees a penny. Behind HMRC sits the prescribed part : a statutory carve-out from floating-charge realisations for unsecured creditors — 50% of the first £10,000 of net property plus 20% of the balance, capped at £800,000 for floating charges created on or after 6 April 2020 (£600,000 for older charges). Only then does the floating-charge holder get paid, and unsecured creditors take whatever remains. The lender responses to 2020's reordering were predictable and you will see them in Barclays' book: closer monitoring of tax arrears as a covenant and early-warning item, structuring towards fixed charges where the asset supports one, and a materially more conservative view of what a debenture is wor"
+  },
+  {
+   "title": "Personal guarantees: the last mile",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s7",
+   "text": "When the company's carcass is picked clean, the bank turns to the guarantor. Enforcement of a personal guarantee is procedurally simple — written demand, then county or High Court proceedings, then enforcement against the individual: charging orders over property, orders for sale in extremis, statutory demand and bankruptcy as the final lever. In practice it is slow, contested and partial. Guarantors dispute execution, allege misrepresentation, or simply have nothing left: the director's wealth was usually in the business, and the average guarantee now stands near £200,000 (Purbeck put the mean demand at roughly £194,000 in Q2 2025) against individuals whose main asset is a jointly owned family home. Realistic outcomes are negotiated settlements at a substantial discount, or instalment arrangements running years; full recovery is the exception. The conduct sensitivities are acute and post-GRG permanent. Enforcing against a family home, a retired guarantor, or a spouse who signed without independent advice is exactly the fact pattern that ends up in front of the Financial Ombudsman (guarantees by individuals can fall within its remit), in the press, or in Parliament — the FSB has campaigned loudly against personal-guarantee practice on small loans, and the FCA has reviewed lender behaviour at the perimeter. Banks therefore enforce PGs deliberately: vulnerability checks, settlement preference, and a visible reluctance to bankrupt. For the analyst, that restraint is a recovery h"
+  },
+  {
+   "title": "The numbers, and what they do to your provisions",
+   "where": "Module 08 · Distress, Collections, and Insolvency",
+   "href": "module.html?id=8#s8",
+   "text": "The Insolvency Service 's data tells you what the workout book actually faces. 2025 recorded 23,938 company insolvencies in England and Wales — near the historically elevated plateau of 2023–24. The mix is the message: 18,525 were CVLs (around three-quarters), 3,730 compulsory liquidations (the highest since 2012), just 1,495 administrations and 186 CVAs. One in every 190 registered companies entered insolvency in the year — a liquidation rate of 52.5 per 10,000. Sector concentration matters for a BB book: in the twelve months to November 2025, wholesale and retail (16%) plus accommodation and food services (14%) supplied roughly a third of all failures — consumer-facing, leasehold-heavy, labour-intensive sectors. By mid-2026 the tide had begun to ebb — June 2026's 1,845 insolvencies ran about 10% below June 2025 — but ebbing from a decade-high plateau still leaves a full workout pipeline. Now assemble the domino chain this module has been building. Trading deteriorates; arrears and breaches trigger a Business Support transfer; the workout strategy fork chooses between consensual turnaround and an insolvency route; the regime selected fixes the recovery path — going-concern premium via administration or pre-pack, break-up values via CVL; the waterfall applies HMRC's preference and the prescribed part before the floating charge; the shortfall chases the guarantor. Each step is an input to the Stage 3 DCF: scenario cash flows, probabilities, timelines, discounting. The chain en"
+  },
+  {
+   "title": "The rate that came down — and stopped",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s1",
+   "text": "The story you inherit in August 2026 is not a rate shock; it is a rate plateau. Bank Rate peaked at 5.25% in August 2023, sat there for a year, then descended in careful quarter-point steps — August and November 2024, then February, May, August and December 2025 — to 3.75%, where it has been parked ever since. The June 2026 hold went 7–2; the July 2026 hold went 6–3, and the dissenters wanted a rise . Markets still pencil in one or two cuts by year-end, but the honest reading is that the era of near-free money is not coming back. For a book of SME borrowers, 3.75% is not relief. It is the new floor. Why does a falling rate still hurt? Because of when the debt was written. The great mass of BB term lending — commercial mortgages, asset finance, the post-pandemic recovery borrowing — was priced between 2020 and 2021, when Bank Rate was 0.1%. Five-year fixes from that vintage matured into 2025 and 2026; what analysts called the refinancing wall did not collapse on the book in one quarter, it has been grinding through it maturity by maturity, repricing debt service at double or triple the old coupon. The symptoms are visible in the utilisation data: SME overdraft utilisation hit 49.3% in Q1 2026, the highest since early 2024, as firms borrowed to cover tax bills, energy, employment costs and — circularly — to refinance other debt. And the insolvency needle has not fallen with the rate. There were 23,938 company insolvencies in England and Wales in 2025 — essentially flat on 2024,"
+  },
+  {
+   "title": "The long tail of the bounce back book",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s2",
+   "text": "Six years after launch, the Bounce Back Loan Scheme is still the largest single legacy item on the BB radar. The government's repayment data as at 31 March 2026 shows £46.47 billion drawn across roughly 1.5 million facilities. By volume, 19.4% are fully repaid and 47.0% on schedule; 3.9% sit in arrears, 0.7% have defaulted but not yet been claimed, and the government guarantee has been settled on 28.3% of facilities. Read that last number again: more than a quarter of all bounce back loans, by count, have already ended in a settled guarantee claim . The December 2025 Covid Counter Fraud Commissioner's final report put fraud and error across the Covid support schemes at £10.9 billion, with BBLS singled out for its self-certified, no-checks design. What keeps this a forward radar item rather than a history lesson is Pay As You Grow . The original loans were six-year facilities drawn between May 2020 and March 2021, which would have run the book off by 2027. But PAYG let borrowers extend to ten years at the same 2.5% fixed rate, take payment holidays, or drop to interest-only for six months up to three times. A ten-year extension on a March 2021 drawdown matures in 2031. The British Business Bank confirms extension leaves the guarantee intact — but it also means the residual book is self-selected: the firms that extended are, on average, the firms that couldn't afford the six-year profile. The tail is long, thin, and adversely selected. Impairment Lens The 100% guarantee is an i"
+  },
+  {
+   "title": "Basel 3.1: the capital reshuffle behind SME pricing",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s3",
+   "text": "Capital rules are not impairment rules, but they set the price and supply of the credit whose losses you later count. Basel 3.1 is the UK's implementation of the final post-2008 capital package, and its timetable has been a moving target: near-final PRA rules landed in September 2024 with a January 2026 start; on 17 January 2025 the PRA, in consultation with HM Treasury, delayed implementation to 1 January 2027 , citing uncertainty over what the United States would do; final rules were published in January 2026, with the market-risk internal model piece pushed further to 2028. As of today the go-live is five months away, and it is real. The fight that matters for BB was over the SME supporting factor — the EU-inherited discount that scaled down risk weights on SME exposures and made small-business lending cheaper to hold. The PRA's original proposal simply deleted it, and lenders warned loudly that SME credit would reprice or retreat. The landing zone was a compromise: the supporting factor goes from Pillar 1, but the PRA introduced a firm-specific SME lending adjustment in Pillar 2A, designed to offset the aggregate capital impact (a parallel adjustment covers infrastructure). Alongside it, the Small Domestic Deposit Taker regime gives smaller banks a simplified framework — which shapes how the challengers who now write most SME flow will be capitalised. The catch is in the phrase firm-specific . A Pillar 1 factor was automatic, permanent and visible in pricing models; a Pil"
+  },
+  {
+   "title": "Plumbing: referrals, open finance, and the end of the PSR",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s4",
+   "text": "Three quieter structural stories set the data and payments environment BB will operate in. First, the Bank Referral Scheme — the 2016 statutory duty on major banks to refer declined SME credit applicants, with consent, to designated finance platforms (Funding Options, Funding Xchange, Alternative Business Funding and Business Finance Technology). Its conversion record has always been modest, and after a 2024 post-implementation review HM Treasury consulted again in October 2025. The May 2026 government response was a shrug with a twist: no legislative overhaul of the scheme itself, but an intention to expand the Commercial Credit Data Sharing regime so that entities beyond regulated banks can be designated. Translation — the state has stopped trying to fix referrals and started widening the data pipes instead. Second, open banking is graduating into open finance . The UK passed 16 million open banking users during 2025, and variable recurring payments already account for around 16% of open banking payment volumes. The commercial leap is commercial VRPs : a 31-firm vehicle, the UK Payments Initiative, was stood up at the end of 2025 to run the first commercial VRP scheme, with the first live payments expected from early 2026 across utilities, financial services and government use cases. HM Treasury legislation in 2026 will hand the FCA formal rule-making powers over the ecosystem. For BB, a business account that streams its transaction data and pays by VRP is a business the ba"
+  },
+  {
+   "title": "New money: private credit, B2B BNPL, embedded finance",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s5",
+   "text": "Follow the flow of new SME lending and you are no longer mostly watching the big banks. UK SME lending rose almost 10% to roughly £68 billion in 2025, and about 68% of it came from challenger and specialist banks or non-bank lenders — the third straight year the incumbents were the minority. Behind the challengers stands private credit : direct-lending funds pushing down from the mid-market into smaller tickets, banks responding with fund partnerships rather than balance-sheet competition, and structures like European direct-lending CLOs (Ares priced one in June 2025) giving the asset class term funding. The disintermediation that ate leveraged lending is now grazing on SME credit. The retail-facing face of the same trend is BNPL for business. UK B2B buy-now-pay-later volumes were estimated around US$13.7 billion in 2025, heading toward US$16.5 billion, with Kriya, Hokodo and iwoca 's iwocaPay embedding pay-later terms directly into B2B checkouts, procurement portals and accounting software — embedded finance replacing the paper invoice-discounting of old. The consolidation signal came in October 2025 when Allica Bank bought Kriya, promising £1 billion of deployment: regulated challenger balance sheets are becoming the funding layer under fintech distribution. Note the regulatory asymmetry: FCA regulation of consumer deferred payment credit went live on 15 July 2026 under PS26/1 — affordability checks, Ombudsman access, the lot — while B2B BNPL remains entirely outside the pe"
+  },
+  {
+   "title": "The fraud bill arrives: APP reimbursement",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s6",
+   "text": "On 7 October 2024 the Payment Systems Regulator switched on mandatory reimbursement for APP fraud — authorised push payment scams, where the victim is deceived into sending the money themselves. The rules are blunt: victims reimbursed up to £85,000 within five business days, cost split 50/50 between sending and receiving payment firms, covering Faster Payments and CHAPS. The cap was itself a late retreat — the original proposal was £415,000, cut after industry pressure — though the PSR maintains 99.8% of cases fall under £85,000. Between launch and June 2025, roughly £112 million went back to victims, about 88% of the money stolen in in-scope scams. An independent one-year review began in October 2025, testing the cap, the 50/50 split and the customer-caution exception, with findings due in 2026/27 — landing on the FCA's desk as it absorbs the PSR. The BB angle is the scope line. \"Consumers\" here includes micro-enterprises (broadly, under 10 staff and €2m turnover) and small charities — so the bottom of the BB book is inside the protection, while the standard business account above the threshold is not. That cliff-edge matters twice over. A protected microenterprise that loses £60,000 to an invoice-redirection scam gets it back and survives; an unprotected small business one size up absorbs the hit — and invoice fraud losses of that scale are precisely the kind of one-off cash event that turns a performing borrower into a watchlist case. Meanwhile the receiving-bank half of t"
+  },
+  {
+   "title": "What will move BB ECL in the next 24 months",
+   "where": "Module 09 · Current State & Forward Radar (2024–2026)",
+   "href": "module.html?id=9#s7",
+   "text": "The signature section. Everything above, compressed into a ranked watchlist — each item tied to the model input it will actually move between now and mid-2028. The rate plateau meets the last of the refinancing wall. Bank Rate stuck near 3.75% while 2020–21 vintage fixes keep maturing means debt-service repricing continues with no offsetting macro improvement — the purest PD driver on the board, and a forward-looking-economics calibration problem because no scenario variable is moving. The BBLS/PAYG tail, 2026–2031. An adversely selected residual book with guarantee-settled claims already at 28% of facilities: near-zero LGD on the loans themselves, but a live staging and cross-default signal for every unguaranteed facility beside them — and a guarantee-voiding operational risk that belongs in a PMA discussion. Basel 3.1 go-live, 1 January 2027. Supporting factor out of Pillar 1, discretionary adjustment in Pillar 2A: expect repricing and selective retreat at the margin, so refusal-at-refinance becomes a default pathway — PD for the weakest cohort, EAD as limits are managed down ahead of the date. Compulsory liquidations at a 13-year high. Creditor- and HMRC-initiated windings-up shorten the runway from stress to terminal event — faster Stage 3 inflow, and LGD timing effects as compulsory processes recover less than negotiated exits. The employment-cost and business-rates stack. The 2025–26 rises in employer costs compress consumer-facing and labour-heavy sector margins — a se"
+  },
+  {
+   "title": "Business current account (BCA)",
+   "where": "Glossary",
+   "href": "glossary.html#bca",
+   "text": "The transactional bank account through which a business routes receipts, payments and wages. The anchor BB product: source of cheap deposits, fee income, cross-sale, and — critically for credit risk — live behavioural data on trading health via account turnover and limit usage."
+  },
+  {
+   "title": "SME",
+   "where": "Glossary",
+   "href": "glossary.html#sme",
+   "text": "Small and medium-sized enterprise, conventionally a firm with fewer than 250 employees. UK SMEs numbered ~5.68 million at the start of 2025 — 99.85% of all businesses — employing ~16.9 million people. Banks sub-segment them by annual turnover, with 'business banking' boundaries ranging from ~£2m to £25m."
+  },
+  {
+   "title": "Sole trader",
+   "where": "Glossary",
+   "href": "glossary.html#sole-trader",
+   "text": "An unincorporated business owned by one individual with no legal separation between personal and business assets — the owner is personally liable for all debts. Around 56% of UK businesses; most employ nobody. For lenders, effectively consumer credit wearing a trading name."
+  },
+  {
+   "title": "Overdraft",
+   "where": "Glossary",
+   "href": "glossary.html#overdraft",
+   "text": "A revolving borrowing limit on the BCA, repayable on demand, funding day-to-day working capital. Usually unsecured or floating-charge secured at the small end. Risk is EAD-shaped: utilisation climbs towards and through the limit as a firm approaches default."
+  },
+  {
+   "title": "Term loan",
+   "where": "Glossary",
+   "href": "glossary.html#term-loan",
+   "text": "A fixed advance repaid on an amortising schedule, typically over one to ten-plus years, funding expansion, acquisition or refinancing. EAD is predictable; risk concentrates in PD — whether cash flows survive the term — and in LGD where the loan is unsecured."
+  },
+  {
+   "title": "Commercial mortgage",
+   "where": "Glossary",
+   "href": "glossary.html#commercial-mortgage",
+   "text": "A long-term loan (typically 15–25 years) secured on business premises or investment property. LGD is driven by the commercial property cycle, which is more volatile and less liquid than residential; for investment property, tenant quality can matter as much as borrower quality."
+  },
+  {
+   "title": "Asset finance",
+   "where": "Glossary",
+   "href": "glossary.html#asset-finance",
+   "text": "Hire purchase and leasing used to fund vehicles, plant and equipment, with the asset as security and title often retained by the funder. LGD turns on used-asset resale values: 'hard' assets with liquid secondary markets recover well; bespoke 'soft' assets do not."
+  },
+  {
+   "title": "Invoice finance",
+   "where": "Glossary",
+   "href": "glossary.html#invoice-finance",
+   "text": "Lending advanced against unpaid trade invoices — typically 80–90% of face value — via factoring or invoice discounting. Self-liquidating: debtor payments repay the advance, so EAD is short-dated and LGD modest. Tail risk is fraud: fresh-air invoices and double-financing."
+  },
+  {
+   "title": "Merchant acquiring",
+   "where": "Glossary",
+   "href": "glossary.html#merchant-acquiring",
+   "text": "Processing card payments on behalf of businesses, earning a margin per transaction — Barclays operates through Barclaycard Payments. Carries contingent credit risk: if a merchant fails after taking payment but before delivering goods or services, chargebacks fall on the acquirer."
+  },
+  {
+   "title": "Small corporate",
+   "where": "Glossary",
+   "href": "glossary.html#small-corporate",
+   "text": "A firm at the top of the BB pyramid — near the segment boundary (£6.5m turnover at Barclays) — with proper financial management, fuller accounts and multi-product needs. Large enough for manual underwriting and individual impairment assessment; small enough to lack capital-markets access."
+  },
+  {
+   "title": "Turnover segmentation",
+   "where": "Glossary",
+   "href": "glossary.html#turnover-segmentation",
+   "text": "Dividing business customers into bank segments by annual turnover. Boundaries vary by bank — Barclays moves firms to its UK Corporate Bank at £6.5m; Lloyds runs tiers at £3m and £25m; NatWest's business segment ends near £2m — so cross-bank 'SME book' comparisons rarely compare like with like."
+  },
+  {
+   "title": "BCA turnover",
+   "where": "Glossary",
+   "href": "glossary.html#bca-turnover",
+   "text": "The gross credit flow through a firm's business current account — a live, hard-to-falsify proxy for trading revenue, available months before filed accounts. A core input to BB behavioural PD models and SICR triggers, but noisy and endogenous: firms can route receipts elsewhere."
+  },
+  {
+   "title": "Goldsmith bankers",
+   "where": "Glossary",
+   "href": "glossary.html#goldsmith-bankers",
+   "text": "Seventeenth-century London goldsmiths who took deposits for safekeeping, issued receipts that circulated as money, and lent against them — the direct ancestors of English deposit banking. Barclays traces its 1690 origins to the goldsmith-banking partnership of John Freame and Thomas Gould on Lombard Street."
+  },
+  {
+   "title": "Clearing banks",
+   "where": "Glossary",
+   "href": "glossary.html#clearing-banks",
+   "text": "The large joint-stock banks that settled payments through the London Clearing House — historically the Big Five, later Big Four (Barclays, Lloyds, Midland/HSBC, NatWest). They dominated England and Wales business banking for a century, operating as a de facto oligopoly in deposits, money transmission and SME credit."
+  },
+  {
+   "title": "Interest-rate cartel",
+   "where": "Glossary",
+   "href": "glossary.html#interest-rate-cartel",
+   "text": "The clearing banks' formal agreement to fix deposit rates and move lending rates in step with Bank Rate, tolerated by the authorities in exchange for compliance with credit controls. Abolished by Competition and Credit Control in 1971."
+  },
+  {
+   "title": "Macmillan gap",
+   "where": "Glossary",
+   "href": "glossary.html#macmillan-gap",
+   "text": "The structural shortfall in long-term finance for small firms identified by the Macmillan Committee in 1931 — too small for capital markets, too risky for rationed bank credit. The founding diagnosis of UK SME finance policy, rediscovered by successive inquiries ever since."
+  },
+  {
+   "title": "Competition and Credit Control (1971)",
+   "where": "Glossary",
+   "href": "glossary.html#ccc-1971",
+   "text": "Bank of England reform of September 1971 abolishing lending ceilings and the clearing-bank cartel, switching credit control from rationing to price (interest rates and special deposits). Unleashed the Barber boom — broad money up ~72% by end-1973 — and set up the secondary banking crisis."
+  },
+  {
+   "title": "Secondary banking crisis (1973–75)",
+   "where": "Glossary",
+   "href": "glossary.html#secondary-banking-crisis",
+   "text": "Collapse of lightly supervised, wholesale-funded 'fringe' banks that had lent heavily against commercial property after 1971 liberalisation. Rate spikes and a property crash triggered funding runs; twenty-six institutions needed support. The template UK cycle: liberalisation, property concentration, collateral collapse, losses."
+  },
+  {
+   "title": "Lifeboat operation",
+   "where": "Glossary",
+   "href": "glossary.html#lifeboat-operation",
+   "text": "The Bank of England-orchestrated support pool, launched December 1973 and funded ~90% by the clearing banks, that lent up to £1.3bn to twenty-six failing secondary banks to contain the 1973–75 crisis. An early lesson that clearers pay for systemic property-lending excess even when others originate it."
+  },
+  {
+   "title": "Big Bang (1986)",
+   "where": "Glossary",
+   "href": "glossary.html#big-bang",
+   "text": "The 27 October 1986 deregulation of the London Stock Exchange: fixed commissions abolished, broker/jobber separation ended, outside ownership permitted, screen trading introduced. Pulled clearing banks into investment banking and, via disintermediation of large corporates, pushed their lending down-market toward SMEs and property."
+  },
+  {
+   "title": "BZW",
+   "where": "Glossary",
+   "href": "glossary.html#bzw",
+   "text": "Barclays de Zoete Wedd — the investment bank Barclays assembled at Big Bang from broker de Zoete & Bevan and jobber Wedd Durlacher. Emblem of the era's diversion of clearers' capital and attention from business banking; largely sold to Credit Suisse in 1997, with remnants becoming Barclays Capital."
+  },
+  {
+   "title": "Overdraft culture",
+   "where": "Glossary",
+   "href": "glossary.html#overdraft-culture",
+   "text": "The historical UK pattern of financing SMEs through on-demand overdrafts secured on property and personal guarantees rather than term debt. Cheap and flexible in benign times; procyclical in downturns, because banks can cut limits and call facilities exactly when borrowers are weakest — as in 1990–93."
+  },
+  {
+   "title": "Small banks crisis (1991–94)",
+   "where": "Glossary",
+   "href": "glossary.html#small-banks-crisis",
+   "text": "The failure of roughly a quarter of the UK's small and medium-sized banks within three years of BCCI's July 1991 closure, as wholesale funding fled weaker names amid recession and property losses. The Bank of England provided discreet liquidity support to prevent contagion to larger institutions."
+  },
+  {
+   "title": "Demutualisation",
+   "where": "Glossary",
+   "href": "glossary.html#demutualisation",
+   "text": "Conversion of mutual building societies into shareholder-owned banks under the Building Societies Act 1986 — Abbey National (1989), then Halifax, Woolwich, Alliance & Leicester and Northern Rock (1997). Transformed mortgage and savings competition while leaving SME banking concentration untouched; several converts were later absorbed by the clearers."
+  },
+  {
+   "title": "Cruickshank Report (2000)",
+   "where": "Glossary",
+   "href": "glossary.html#cruickshank-report",
+   "text": "Don Cruickshank's Treasury-commissioned review of UK banking competition, published 20 March 2000. Found concentrated markets, switching barriers, bank control of payments, and persistent excess profits from personal and SME customers — and triggered the Competition Commission's SME banking inquiry."
+  },
+  {
+   "title": "Competition Commission SME banking report (2002)",
+   "where": "Glossary",
+   "href": "glossary.html#competition-commission-2002",
+   "text": "The March 2002 inquiry finding a 'complex monopoly' in SME banking: the big four held ~90% of the market and their parallel practices restricted price competition. Remedies were behavioural — interest on SME current accounts (base minus 2.5%) or free banking from 2003, plus anti-bundling undertakings, the last released in December 2025."
+  },
+  {
+   "title": "Project Merlin",
+   "where": "Glossary",
+   "href": "glossary.html#project-merlin",
+   "text": "February 2011 agreement between the Treasury and five major banks committing 'capacity and willingness' for £190bn gross new business lending in 2011, £76bn to SMEs. Overall target exceeded; SME target missed by about £1bn. Criticised for counting gross lending while net SME credit kept shrinking, with no penalty mechanism."
+  },
+  {
+   "title": "Funding for Lending Scheme",
+   "where": "Glossary",
+   "href": "glossary.html#fls",
+   "text": "Bank of England/Treasury scheme (2012–18) giving banks cheap funding priced off their net lending. The April 2013 extension skewed incentives to SMEs — up to £10 of drawings per £1 of net SME lending. Revived mortgage pricing and crushed savings rates; evaluations found no identifiable direct boost to SME credit."
+  },
+  {
+   "title": "Global Restructuring Group",
+   "where": "Glossary",
+   "href": "glossary.html#grg",
+   "text": "RBS's division for distressed business customers; around 12,000 SMEs passed through it 2008–13. The FCA's s.166 review found widespread inappropriate treatment, with about one in six customers materially harmed by the bank. No enforcement followed — commercial lending sat outside the regulatory perimeter. RBS set aside £400m for fee refunds and complaints."
+  },
+  {
+   "title": "Interest-Rate Hedging Products",
+   "where": "Glossary",
+   "href": "glossary.html#irhp",
+   "text": "Swaps, caps, collars and structured collars sold alongside SME loans 2001–11, often as a lending condition. When rates collapsed, fixed payments and huge break costs crippled borrowers. An FSA-brokered review saw nine banks pay over £2.2bn redress on some 14,000 accepted offers; a 'sophistication test' excluded roughly 10,000 sales."
+  },
+  {
+   "title": "CMA 2016 Market Investigation",
+   "where": "Glossary",
+   "href": "glossary.html#cma-2016",
+   "text": "Competition and Markets Authority investigation into personal current account and SME banking, final report August 2016. Found weak competition driven by customer inertia. Remedies were behavioural, not structural: the open banking API mandate, published service-quality league tables, overdraft alerts and charge caps, and SME loan-price transparency tools."
+  },
+  {
+   "title": "Banking Competition Remedies",
+   "where": "Glossary",
+   "href": "glossary.html#bcr",
+   "text": "Independent body created in 2018 to administer RBS's £775m state-aid alternative remedies package: a £425m Capability & Innovation Fund of grants and £350m for incentivised switching of SME customers. Agreed with the European Commission in 2017 after the Williams & Glyn divestment was abandoned."
+  },
+  {
+   "title": "Incentivised Switching Scheme",
+   "where": "Glossary",
+   "href": "glossary.html#incentivised-switching",
+   "text": "BCR scheme (2019–21) paying dowries to challenger banks for each former Williams & Glyn SME customer switching their business current account: £275m for dowries plus £75m towards customer costs. Delivered 69,135 switches against ambitions of up to 120,000; £250.9m (over 91%) disbursed. Starling switched the most."
+  },
+  {
+   "title": "Williams & Glyn",
+   "where": "Glossary",
+   "href": "glossary.html#williams-and-glyn",
+   "text": "The 300-plus-branch SME-heavy business RBS was ordered to divest as an EU state-aid condition of its £45.5bn bailout. A Santander sale collapsed in 2012; standalone-bank plans consumed over £1.5bn, mostly on IT separation. Abandoned in 2017 and replaced by the £775m alternative remedies package."
+  },
+  {
+   "title": "Tomlinson Report",
+   "where": "Glossary",
+   "href": "glossary.html#tomlinson-report",
+   "text": "November 2013 report by Lawrence Tomlinson, entrepreneur in residence at the business department, alleging RBS GRG pushed viable SMEs into distress via revaluations and fees, with the bank's West Register arm acquiring their assets. Triggered the FCA's skilled-person review of GRG."
+  },
+  {
+   "title": "Section 166 Review",
+   "where": "Glossary",
+   "href": "glossary.html#s166-review",
+   "text": "A 'skilled person' review under s.166 of the Financial Services and Markets Act 2000: the regulator requires an independent expert report on a firm's conduct or systems. Promontory, assisted by Mazars, conducted the GRG s.166 review, delivering its report to the FCA in September 2016."
+  },
+  {
+   "title": "Capability & Innovation Fund",
+   "where": "Glossary",
+   "href": "glossary.html#capability-innovation-fund",
+   "text": "The £425m grant arm of the BCR package. Pool A (2019): Metro Bank £120m, Starling £100m, ClearBank with Tide £60m. Pool B: Nationwide £50m, Investec £15m, Co-op Bank £15m. Pool C: £10m grants; Pool D: £5m grants. Metro and Nationwide each returned £50m, recycled as Pool E in 2020."
+  },
+  {
+   "title": "Swift Review",
+   "where": "Glossary",
+   "href": "glossary.html#swift-review",
+   "text": "John Swift QC's lessons-learned review of the IRHP redress scheme, published December 2021. Found most in-scope customers likely did better inside the scheme than outside, but criticised the exclusion of 'sophisticated' customers and weak FCA governance. The FCA declined to reopen redress; courts upheld that in 2023."
+  },
+  {
+   "title": "TSB Carve-out",
+   "where": "Glossary",
+   "href": "glossary.html#tsb-carve-out",
+   "text": "Lloyds' EU-mandated divestment (Project Verde). After the Co-op purchase collapsed in 2013, TSB launched, IPO'd in 2014 and was sold to Sabadell in 2015 for £1.7bn. Its 2018 IT migration locked out up to 1.9m customers, drawing £48.65m in fines. Santander's £2.65bn acquisition completed 30 April 2026."
+  },
+  {
+   "title": "West Register",
+   "where": "Glossary",
+   "href": "glossary.html#west-register",
+   "text": "RBS's property-investment arm, which could acquire assets sold by distressed customers managed in GRG — the conflict of interest at the heart of the Tomlinson allegations. The s.166 review did not find a deliberate asset-stripping strategy, but the optics led banks to bar workout units from buying customer assets."
+  },
+  {
+   "title": "Bounce Back Loan Scheme (BBLS)",
+   "where": "Glossary",
+   "href": "glossary.html#bbls",
+   "text": "COVID emergency scheme (May 2020–March 2021): loans of £2k–£50k, capped at 25% of turnover, 2.5% fixed, six-year term, 100% government guarantee, self-certified eligibility, no credit checks. £46.5bn drawn across ~1.5m facilities. The defining book of modern BB impairment."
+  },
+  {
+   "title": "Coronavirus Business Interruption Loan Scheme (CBILS)",
+   "where": "Glossary",
+   "href": "glossary.html#cbils",
+   "text": "COVID scheme (March 2020–March 2021) for businesses with turnover up to £45m: facilities up to £5m across loans, overdrafts, invoice and asset finance, 80% government guarantee, lender underwriting retained, government-paid first-year interest and fees, no personal guarantees below £250k. £25.8bn drawn; far better performance than BBLS."
+  },
+  {
+   "title": "Coronavirus Large Business Interruption Loan Scheme (CLBILS)",
+   "where": "Glossary",
+   "href": "glossary.html#clbils",
+   "text": "COVID scheme for firms with turnover above £45m: facilities eventually up to £200m, 80% guarantee, dividend and executive-pay restrictions on larger facilities. £4.5bn drawn, ~96% fully repaid by March 2026 — negligible for impairment purposes."
+  },
+  {
+   "title": "Recovery Loan Scheme (RLS)",
+   "where": "Glossary",
+   "href": "glossary.html#rls",
+   "text": "Successor guarantee scheme launched April 2021. Iteration 1: 80% guarantee, up to £10m. From January 2022: 70%, £2m cap, SMEs only. From August 2022: no COVID-impact test required — a standing SME guarantee programme. Renamed the Growth Guarantee Scheme in July 2024."
+  },
+  {
+   "title": "Growth Guarantee Scheme (GGS)",
+   "where": "Glossary",
+   "href": "glossary.html#growth-guarantee-scheme",
+   "text": "The RLS's current form (from July 2024): 70% government guarantee on facilities up to £2m, full commercial underwriting and pricing, personal guarantees permitted excluding principal residences. Extended to March 2030 at the June 2025 Spending Review; ~£3.6bn delivered through 70+ lenders by March 2026."
+  },
+  {
+   "title": "Pay As You Grow (PAYG)",
+   "where": "Glossary",
+   "href": "glossary.html#pay-as-you-grow",
+   "text": "Built-in BBLS repayment flexibility, exercisable at borrower option without lender assessment: term extension from six to ten years at the same 2.5% rate; six months interest-only (up to three times); one six-month repayment holiday. Used by ~37% of BBLS facilities; guarantee unaffected. Stretched and flattened arrears emergence."
+  },
+  {
+   "title": "British Business Bank (BBB)",
+   "where": "Glossary",
+   "href": "glossary.html#british-business-bank",
+   "text": "State economic-development bank, owned by the Department for Business and Trade. Accredits lenders to the guarantee schemes, sets and audits scheme rules, administers the Scheme Portal (system of record), and processes guarantee claims on behalf of the Secretary of State as guarantor."
+  },
+  {
+   "title": "Guarantee claim",
+   "where": "Glossary",
+   "href": "glossary.html#guarantee-claim",
+   "text": "The process by which a lender recovers guaranteed losses: after default, the lender completes required recovery steps under scheme rules, submits the claim via the BBB Scheme Portal, and is reimbursed the guaranteed share. Post-settlement recoveries are remitted to government pro rata. £12.98bn settled across the COVID schemes by March 2026."
+  },
+  {
+   "title": "Self-certification",
+   "where": "Glossary",
+   "href": "glossary.html#self-certification",
+   "text": "The BBLS application basis: borrowers attested their own turnover, COVID impact and eligibility on a short form, with lenders explicitly relieved of credit and affordability assessment (fraud/AML/KYC checks only). The scheme's core speed mechanism — and its core fraud vulnerability."
+  },
+  {
+   "title": "Business Interruption Payment (BIP)",
+   "where": "Glossary",
+   "href": "glossary.html#business-interruption-payment",
+   "text": "Government payment covering the first twelve months of interest (and, for CBILS, fees) on COVID scheme facilities, paid directly to the lender so borrowers faced no cost in year one. Combined with the BBLS capital holiday, it delayed the first true affordability test to 2021–22."
+  },
+  {
+   "title": "Guarantee removal",
+   "where": "Glossary",
+   "href": "glossary.html#guarantee-removal",
+   "text": "Retrospective withdrawal of the government guarantee from a scheme facility, typically after BBB audit finds scheme-rule breaches or data errors. £1.16bn across 14,757 loans removed by March 2026. Converts a state-backed exposure into ordinary unsecured lending — an operational event with an LGD-cliff impairment consequence."
+  },
+  {
+   "title": "Fraud flag",
+   "where": "Glossary",
+   "href": "glossary.html#fraud-flag",
+   "text": "A lender's marker on a scheme facility suspected of fraudulent application or use, reported through the BBB Scheme Portal. As at March 2026, £1.88bn of BBLS drawn value (4.04%) was flagged — well below early official estimates of 11% (£4.9bn). Flagged loans follow counter-fraud recovery routes distinct from ordinary collections."
+  },
+  {
+   "title": "Barclays UK",
+   "where": "Glossary",
+   "href": "glossary.html#barclays-uk",
+   "text": "Barclays' ring-fenced division (legal entity Barclays Bank UK PLC), holding UK retail and small-business banking. Reports three segments: Personal Banking, Barclaycard Consumer UK, and Business Banking. End-2025: £215.6bn loans, £244.7bn deposits, 20.7% RoTE. Business Banking clients hand off to the UK Corporate Bank above ~£6.5m turnover."
+  },
+  {
+   "title": "Eagle Labs",
+   "where": "Glossary",
+   "href": "glossary.html#eagle-labs",
+   "text": "Barclays' national incubator network for tech start-ups, launched 2015, offering workspace, mentoring and growth programmes. Delivered the government's £12.09m Digital Growth Grant (2023–25) supporting 22,000+ businesses, 80% outside London. Strategically an origination funnel and franchise asset — it holds no credit exposure itself."
+  },
+  {
+   "title": "Barclaycard Payments",
+   "where": "Glossary",
+   "href": "glossary.html#barclaycard-payments",
+   "text": "Barclays' merchant acquiring business — among the top two UK acquirers, processing c.8.7bn transactions annually (as at 2025). Historically a key SME differentiator and early-warning data source. Since April 2025, subject to a Brookfield partnership with a staged path toward Brookfield majority ownership."
+  },
+  {
+   "title": "Coverage ratio",
+   "where": "Glossary",
+   "href": "glossary.html#coverage-ratio",
+   "text": "Impairment allowance divided by gross exposure, overall or by stage. Barclays UK end-2025 markers: retail credit cards 4.3% total coverage, mortgages of the order of 0.1%, group c.1.2%. For BB, guarantees and secured/unsecured mix distort the blend — always decompose before comparing across books."
+  },
+  {
+   "title": "ARA (Annual Report and Accounts)",
+   "where": "Glossary",
+   "href": "glossary.html#ara",
+   "text": "A bank's statutory annual disclosure. For BB analysis, the Barclays Bank UK PLC ARA matters most: it carries the ring-fenced bank's credit risk section, staging and coverage tables, and government-scheme commentary. Quarterly results announcements (RAs) give the interim segment view."
+  },
+  {
+   "title": "Ring-fencing",
+   "where": "Glossary",
+   "href": "glossary.html#ring-fencing",
+   "text": "UK regime (in force 2019, from the Financial Services (Banking Reform) Act 2013) requiring large banks to separate core retail and SME deposit-taking into an independently capitalised entity, insulated from investment banking. Business Banking sits inside Barclays' ring-fenced bank, Barclays Bank UK PLC."
+  },
+  {
+   "title": "UK Corporate Bank",
+   "where": "Glossary",
+   "href": "glossary.html#uk-corporate-bank",
+   "text": "Barclays division (one of five since the February 2024 reorganisation) serving companies above roughly £6.5m annual turnover with lending, cash management, trade and FX. The upper boundary of Business Banking: larger, chunkier credits — and their impairment — are disclosed here, not in BB."
+  },
+  {
+   "title": "Loan loss rate",
+   "where": "Glossary",
+   "href": "glossary.html#loan-loss-rate",
+   "text": "Annualised credit impairment charge as basis points of gross loans. Barclays UK: 14bps (FY23), 16bps (FY24), 18bps (FY25) — mortgage-dominated, hence far below group through-the-cycle guidance of 50–60bps. Group H1 2026: 62bps. The drift matters more than the level."
+  },
+  {
+   "title": "Brookfield partnership",
+   "where": "Glossary",
+   "href": "glossary.html#brookfield-partnership",
+   "text": "April 2025 agreement on Barclays' UK merchant acquiring business: Barclays invests c.£400m over three years to modernise the platform; Brookfield Asset Management leads transformation and holds an option to acquire roughly 70–80% between years three and seven — a staged majority exit from acquiring."
+  },
+  {
+   "title": "Digital Growth Grant",
+   "where": "Glossary",
+   "href": "glossary.html#digital-growth-grant",
+   "text": "£12.09m UK government grant awarded to Barclays Eagle Labs to deliver start-up and scale-up support from April 2023 to March 2025 — over 22,000 businesses targeted, at least 80% outside London. Controversial at award (displacing Tech Nation), it cemented Eagle Labs' ecosystem role."
+  },
+  {
+   "title": "Starling Bank",
+   "where": "Glossary",
+   "href": "glossary.html#starling",
+   "text": "Digital bank founded 2014; the largest BCR-era challenger, holding c.10% of UK SME business current accounts with £714m revenue in FY2025. Deposit-rich, lending-light. Booked a £28.2m provision in FY2025 after voluntarily removing the government guarantee from BBLS loans whose origination checks failed scheme conditions."
+  },
+  {
+   "title": "Tide",
+   "where": "Glossary",
+   "href": "glossary.html#tide",
+   "text": "E-money business-banking platform — not a UK bank — holding client funds via ClearBank. Roughly 900,000 UK members by mid-2026, a self-reported c.15% of UK SMEs by count. Monetises payments and subscriptions; credit mostly originated through partners. Its share metric counts businesses, not lending or deposit value."
+  },
+  {
+   "title": "Allica Bank",
+   "where": "Glossary",
+   "href": "glossary.html#allica",
+   "text": "Full-service digital bank for established SMEs (roughly 10–250 employees). Lending grew 23% to £3.7bn in 2025 — mostly commercial mortgages plus asset, growth and bridging finance — funded by £5.7bn of savings deposits. Third consecutive profitable year; the standing example of relationship underwriting rebuilt on modern rails."
+  },
+  {
+   "title": "OakNorth",
+   "where": "Glossary",
+   "href": "glossary.html#oaknorth",
+   "text": "UK bank lending £250k–£100m to property and trading businesses; £7.2bn of facilities and £223m pre-tax profit in 2025. Cumulative principal losses of 0.045% (£6.9m) across its first decade — the canonical low-default portfolio. Sells its underwriting and monitoring stack to other banks as ON Credit Intelligence."
+  },
+  {
+   "title": "Funding Circle",
+   "where": "Glossary",
+   "href": "glossary.html#funding-circle",
+   "text": "UK SME lending platform that pioneered marketplace lending, then pivoted: US exit, and growth via FlexiPay working-capital lines held on its own balance sheet. In 2025: £3.0bn under management, £2.5bn of credit extended, £20.3m pre-tax profit. Proof that originate-to-distribute relocates credit risk rather than removing it."
+  },
+  {
+   "title": "iwoca",
+   "where": "Glossary",
+   "href": "glossary.html#iwoca",
+   "text": "Data-driven lender of short-term unsecured working capital to small businesses; £1.3bn lent across 58,000 loans in 2025, up 60%. Distributes through embedded API partnerships — accountancy software, payment firms, neobanks — reaching c.3m businesses. Wholesale-funded via facilities such as a £250m Waterfall Asset Management line."
+  },
+  {
+   "title": "Mettle",
+   "where": "Glossary",
+   "href": "glossary.html#mettle",
+   "text": "NatWest's standalone app-based business current account for sole traders and small limited companies — the incumbent's defensive answer to Starling and Tide, run as a separate brand with fee-free accounts and integrated accounting software."
+  },
+  {
+   "title": "Tyl",
+   "where": "Glossary",
+   "href": "glossary.html#tyl",
+   "text": "NatWest's merchant-acquiring service, launched 2019, offering card terminals and payment processing to SMEs. Among the fastest-growing UK bank-owned acquirers; entered a technology partnership with Endava in 2026. Gives NatWest the card-takings data stream that fintech acquirers use for lending."
+  },
+  {
+   "title": "Kinetic",
+   "where": "Glossary",
+   "href": "glossary.html#kinetic",
+   "text": "HSBC UK's app-based business banking platform for small businesses — account opening, overdrafts and small loans delivered digitally. HSBC's vehicle for defending the small-SME end of its franchise while its core appetite concentrates on internationally trading firms."
+  },
+  {
+   "title": "Shawbrook",
+   "where": "Glossary",
+   "href": "glossary.html#shawbrook",
+   "text": "Specialist UK bank funded by retail savings and securitisation; £19.2bn loan book at end-2025 (up 16%), including £4.4bn of SME lending alongside real-estate and retail mortgages. Acquired ThinCats to deepen mid-market SME reach and returned to the London Stock Exchange."
+  },
+  {
+   "title": "Aldermore",
+   "where": "Glossary",
+   "href": "glossary.html#aldermore",
+   "text": "Specialist bank owned by South Africa's FirstRand, focused on asset finance, invoice finance and commercial mortgages for SMEs, funded largely by retail savings. Accredited under the Growth Guarantee Scheme, having previously lent under the Recovery Loan Scheme."
+  },
+  {
+   "title": "Zempler Bank",
+   "where": "Glossary",
+   "href": "glossary.html#zempler",
+   "text": "Small-business bank, formerly Cashplus, with c.170,000 business accounts and three consecutive years of profit to FY2025. Embeds iwoca's lending inside its own accounts rather than building a large credit book — a working example of the embedded-credit pattern among account-first challengers."
+  },
+  {
+   "title": "ThinCats",
+   "where": "Glossary",
+   "href": "glossary.html#thincats",
+   "text": "Specialist lender providing bespoke, typically larger-ticket funding to established, growth-focused mid-sized SMEs, originated through advisers and its own regional team. Acquired by Shawbrook in 2025, extending the bank's reach into relationship-underwritten mid-market credit."
+  },
+  {
+   "title": "Marketplace lending",
+   "where": "Glossary",
+   "href": "glossary.html#marketplace-lending",
+   "text": "Originate-to-distribute model: a platform originates loans, sells them to institutional investors and retains servicing fees, holding little or no credit risk itself. Risk is relocated, not removed — when investor demand or economics shift, originators pivot to balance-sheet lending and the ECL comes home."
+  },
+  {
+   "title": "Relationship lending",
+   "where": "Glossary",
+   "href": "glossary.html#relationship-lending",
+   "text": "Underwriting built on soft information a relationship manager accumulates about a business and its owners over time — character, competence, local context. Powerful for opaque SMEs but expensive and unscalable; largely stripped out of UK banking as credit decisions were centralised away from branches."
+  },
+  {
+   "title": "Transactional-data lending",
+   "where": "Glossary",
+   "href": "glossary.html#transactional-data-lending",
+   "text": "Underwriting from the live flow of a business's current-account transactions — receipts, payments, balances — rather than financial statements. The dominant modern BB technology: timely, unfakeable, and the foundation of behavioural scoring. Open banking extended it to lenders who don't hold the account."
+  },
+  {
+   "title": "Financial-statement lending",
+   "where": "Glossary",
+   "href": "glossary.html#financial-statement-lending",
+   "text": "Underwriting from a company's accounts: ratio analysis of profitability, gearing, interest cover and asset quality. Works for larger SMEs with audited, timely numbers; degrades badly for small companies whose public filings are abbreviated, unaudited and up to two years stale."
+  },
+  {
+   "title": "Companies House",
+   "where": "Glossary",
+   "href": "glossary.html#companies-house",
+   "text": "The UK registrar of companies — the free public record of incorporations, directors, filed accounts and registered charges. BB underwriting's baseline data source, weakened by small-company filing exemptions and nine-month filing lags. ECCTA reforms added director identity verification (November 2025); fuller accounts reform is deferred to 2028."
+  },
+  {
+   "title": "Filleted accounts",
+   "where": "Glossary",
+   "href": "glossary.html#filleted-accounts",
+   "text": "Accounts a small company files at Companies House with the profit and loss account (and directors' report) removed — legally showing the public a balance sheet but no trading performance. Available to companies under the small-company thresholds (from April 2025: £15m turnover, £7.5m balance sheet, 50 employees)."
+  },
+  {
+   "title": "SIC code",
+   "where": "Glossary",
+   "href": "glossary.html#sic-code",
+   "text": "Standard Industrial Classification code self-declared at incorporation to describe a company's activity. Drives banks' sector segmentation, concentration limits and scenario mapping despite being frequently inaccurate and rarely updated — a shaky foundation load-bearing far more risk infrastructure than it deserves."
+  },
+  {
+   "title": "Working-capital cycle",
+   "where": "Glossary",
+   "href": "glossary.html#working-capital-cycle",
+   "text": "The time between cash leaving a business and coming back: stock days plus debtor days minus creditor days. Positive cycles (builders, manufacturers) create permanent funding needs; negative cycles (pubs, retailers) generate float. Most SME failures are working-capital failures — profitable businesses that ran out of cash."
+  },
+  {
+   "title": "Behavioural scoring",
+   "where": "Glossary",
+   "href": "glossary.html#behavioural-scoring",
+   "text": "Monthly statistical scoring of a business from its current-account conduct — turnover trends, excesses, unpaid items, balance volatility. Outperforms financial-statement models because it is current. In BB it drives limit management, watchlist entry and, critically, IFRS 9 SICR triggers and Stage 2 migration."
+  },
+  {
+   "title": "Open banking",
+   "where": "Glossary",
+   "href": "glossary.html#open-banking",
+   "text": "The CMA-mandated API regime (live 2018) letting authorised third parties access bank-account data with customer consent. Passed 15 million UK users by mid-2026. In SME underwriting it lets challengers like iwoca and Tide read applicants' transaction histories — commoditising the incumbent's oldest data advantage."
+  },
+  {
+   "title": "Personal guarantee",
+   "where": "Glossary",
+   "href": "glossary.html#personal-guarantee",
+   "text": "A director's personal promise to repay company debt if the company cannot — converting limited liability back into personal exposure. Valued as both signal (willingness reveals the director's private confidence) and security, though recoveries are slow, contested and limited by the guarantor's actual wealth."
+  },
+  {
+   "title": "Debenture",
+   "where": "Glossary",
+   "href": "glossary.html#debenture",
+   "text": "The standard bank security document taking fixed and floating charges over all of a company's assets, registered at Companies House. Gives the lender priority claims and the power to appoint an administrator, but its floating-charge element is eroded by preferential creditors and the prescribed part."
+  },
+  {
+   "title": "Fixed charge",
+   "where": "Glossary",
+   "href": "glossary.html#fixed-charge",
+   "text": "Security attached to specific, identifiable assets — typically property or plant — which the company cannot sell or deal with without the lender's consent. Fixed-charge holders sit at the top of the insolvency waterfall, paid from their asset ahead of preferential creditors and the prescribed part."
+  },
+  {
+   "title": "Floating charge",
+   "where": "Glossary",
+   "href": "glossary.html#floating-charge",
+   "text": "Security hovering over a company's circulating assets — stock, debtors, work in progress — which the business trades freely until insolvency crystallises the charge over whatever remains. Recoveries are diluted by insolvency costs, preferential creditors (including uncapped HMRC claims since 2020) and the prescribed part."
+  },
+  {
+   "title": "Prescribed part",
+   "where": "Glossary",
+   "href": "glossary.html#prescribed-part",
+   "text": "The statutory carve-out from floating-charge realisations for unsecured creditors under s176A Insolvency Act 1986: 50% of the first £10,000 plus 20% of the remainder, capped at £800,000 for charges created on or after 6 April 2020. A direct, legislated reduction in the bank's floating-charge recovery."
+  },
+  {
+   "title": "IFRS 9",
+   "where": "Glossary",
+   "href": "glossary.html#ifrs9",
+   "text": "The accounting standard governing classification, measurement and impairment of financial instruments. Its expected-loss model forces provisions against SME lending before default. In Business Banking, its judgment-heavy corners — qualitative SICR, individual assessment, guarantee treatment, overlays — dominate the reported number far more than in retail."
+  },
+  {
+   "title": "Expected credit loss (ECL)",
+   "where": "Glossary",
+   "href": "glossary.html#ecl",
+   "text": "The probability-weighted present value of cash shortfalls over 12 months (Stage 1) or lifetime (Stages 2–3). In BB it is assembled from coarser models, a larger share of case-by-case judgment, and proportionally bigger post-model adjustments than its retail equivalent."
+  },
+  {
+   "title": "Probability of default (PD)",
+   "where": "Glossary",
+   "href": "glossary.html#pd",
+   "text": "The likelihood of default over a 12-month or lifetime horizon. Retail PDs come from dense behavioural and bureau data; BB PDs above the micro end come from sparse default histories, expert-judgment grades and explicit margins of conservatism — making calibration, not rank-ordering, the hard problem."
+  },
+  {
+   "title": "Loss given default (LGD)",
+   "where": "Glossary",
+   "href": "glossary.html#lgd",
+   "text": "The share of exposure lost after recoveries. In BB it is driven by security packages — fixed and floating charges, debentures, personal guarantees — realisation costs and timelines, and, on Covid-scheme lending, government guarantees that can push effective LGD towards zero."
+  },
+  {
+   "title": "Exposure at default (EAD)",
+   "where": "Glossary",
+   "href": "glossary.html#ead",
+   "text": "The predicted balance outstanding at default. Harder in BB than retail: overdrafts and revolving working-capital limits draw down as firms deteriorate, so credit conversion factors must capture a struggling business's tendency to use every pound of headroom before failing."
+  },
+  {
+   "title": "Significant increase in credit risk (SICR)",
+   "where": "Glossary",
+   "href": "glossary.html#sicr",
+   "text": "The Stage 1 to Stage 2 trigger. In BB it rests less on quantitative PD deltas and more on events — watchlist entry, covenant breach, BCA turnover collapse, sector flags — with the 30-days-past-due backstop as a late-arriving safety net rather than a primary signal."
+  },
+  {
+   "title": "Staging",
+   "where": "Glossary",
+   "href": "glossary.html#staging",
+   "text": "Allocation of exposures to Stage 1 (12-month ECL), Stage 2 (lifetime ECL) or Stage 3 (credit-impaired). BB staging migrates in lumps, driven by discrete events and committee decisions, rather than the smooth score-driven monthly flows of a retail book."
+  },
+  {
+   "title": "Stage 2",
+   "where": "Glossary",
+   "href": "glossary.html#stage-2",
+   "text": "Exposures whose credit risk has increased significantly since origination, carrying lifetime ECL. In BB, Stage 2 is populated heavily by qualitative triggers — watchlist entries, covenant breaches, sector flags — so its size and coverage can step-change when a committee re-grades a sector."
+  },
+  {
+   "title": "Stage 3",
+   "where": "Glossary",
+   "href": "glossary.html#stage-3",
+   "text": "Credit-impaired exposures — the IFRS 9 analogue of default. In BB, larger Stage 3 cases leave the collective models entirely and are individually assessed through discounted-cash-flow workouts, making the Stage 3 charge lumpy and single-name driven."
+  },
+  {
+   "title": "Individually assessed",
+   "where": "Glossary",
+   "href": "glossary.html#individually-assessed",
+   "text": "Provisioning a specific exposure on its own facts — bespoke recovery strategies, cash flows and probability weights — instead of modelled parameters. Triggered above a house exposure threshold or where fraud, litigation or complex security makes modelled outputs meaningless."
+  },
+  {
+   "title": "Collective assessment",
+   "where": "Glossary",
+   "href": "glossary.html#collective-assessment",
+   "text": "Modelled ECL for pools of exposures sharing risk characteristics — product, size band, sector, grade. The default treatment for the SME mass market, where accounts are numerous and individually small enough for statistical parameters to be meaningful."
+  },
+  {
+   "title": "Post-model adjustment (PMA)",
+   "where": "Glossary",
+   "href": "glossary.html#pma",
+   "text": "A quantified amendment to modelled ECL for risks the models miss — sector stress, insolvency lag, guarantee-claim risk, refinance affordability. BB books carry proportionally more PMA than retail because the underlying models are coarser and event risk larger; the PRA repeatedly probes their completeness and governance."
+  },
+  {
+   "title": "Overlay",
+   "where": "Glossary",
+   "href": "glossary.html#overlay",
+   "text": "Umbrella term for management adjustments layered onto modelled ECL, often used interchangeably with PMA; some banks reserve overlay for economics- or scenario-level adjustments and PMA for model-deficiency fixes. Either way it demands quantification, a release condition and an audit trail — or it is a cookie jar."
+  },
+  {
+   "title": "Low default portfolio",
+   "where": "Glossary",
+   "href": "glossary.html#low-default-portfolio",
+   "text": "A portfolio with too few observed defaults to calibrate PD statistically — mid-corporates, larger SMEs, specialised lending. Forces reliance on expert-judgment rating scales, external benchmarks, slotting-like category approaches and explicit margins of conservatism, leaving the level of ECL genuinely uncertain even when rank-ordering is sound."
+  },
+  {
+   "title": "Integral guarantee",
+   "where": "Glossary",
+   "href": "glossary.html#integral-guarantee",
+   "text": "A guarantee treated as part of a loan's contractual terms, so expected claims enter ECL cash flows and reduce LGD. UK banks judged the BBLS/CBILS guarantees integral — created at origination under scheme rules and held by the lender — producing stressed guaranteed books with near-zero coverage."
+  },
+  {
+   "title": "Watchlist",
+   "where": "Glossary",
+   "href": "glossary.html#watchlist",
+   "text": "The governed register of exposures showing early deterioration, fed by relationship managers, monitoring triggers and account conduct. Entry usually constitutes SICR, so watchlist governance is staging governance: a committee decision with a direct lifetime-ECL consequence."
+  },
+  {
+   "title": "Covenant breach",
+   "where": "Glossary",
+   "href": "glossary.html#covenant-breach",
+   "text": "Failure of a contractual financial test — leverage, interest cover, loan-to-value, minimum net worth. A canonical BB SICR trigger with no retail equivalent; whether waived or enforced, a breach signals the borrower's finances have left the envelope the bank underwrote."
+  },
+  {
+   "title": "DCF workout",
+   "where": "Glossary",
+   "href": "glossary.html#dcf-workout",
+   "text": "Individual Stage 3 provisioning by projecting cash flows under alternative recovery strategies — trade-out, consensual sale, insolvency — probability-weighting them and discounting at the original effective interest rate. The provision is exposure less the weighted present value of recoveries."
+  },
+  {
+   "title": "Forward-looking economics",
+   "where": "Glossary",
+   "href": "glossary.html#forward-looking-economics",
+   "text": "Incorporating macroeconomic forecasts into ECL through multiple weighted scenarios. For SME books the load-bearing variables are GDP, corporate insolvency rates, base rate and CRE indices — not the HPI-and-unemployment pairing that dominates retail models — with insolvency lag the defining design problem."
+  },
+  {
+   "title": "Creditors' Voluntary Liquidation (CVL)",
+   "where": "Glossary",
+   "href": "glossary.html#cvl",
+   "text": "Director-initiated wind-up of an insolvent company: shareholders resolve to liquidate, an insolvency practitioner sells assets at break-up values and distributes via the statutory waterfall. The dominant UK insolvency route (~75% of cases). Unsecured recoveries are typically pence in the pound or nil; final distributions take one to two years."
+  },
+  {
+   "title": "Compulsory liquidation",
+   "where": "Glossary",
+   "href": "glossary.html#compulsory-liquidation",
+   "text": "Court-ordered winding-up on a creditor's petition — frequently HMRC's. Slower than a CVL (months from petition to order) and typically lower-recovery, as the business has deteriorated untreated. 2025's total of 3,730 was the highest since 2012, driven by HMRC's post-Covid return to enforcement."
+  },
+  {
+   "title": "Administration",
+   "where": "Glossary",
+   "href": "glossary.html#administration",
+   "text": "Insolvency regime with a rescue-first purpose hierarchy and a moratorium on enforcement. A qualifying floating-charge holder can appoint out of court. Lasts twelve months (extendable); going-concern sales can materially beat break-up values, supporting the strongest secured recoveries. Around 1,495 UK administrations in 2025."
+  },
+  {
+   "title": "Pre-pack administration",
+   "where": "Glossary",
+   "href": "glossary.html#pre-pack",
+   "text": "An administration where the business sale is negotiated before appointment and completed immediately after, preserving goodwill and jobs at the cost of transparency. Since 30 April 2021, connected-party sales within the first eight weeks require creditor approval or an independent evaluator's opinion."
+  },
+  {
+   "title": "Evaluator",
+   "where": "Glossary",
+   "href": "glossary.html#evaluator",
+   "text": "Independent reviewer created by the 2021 pre-pack regulations. Provides a written opinion on whether a connected-party disposal in administration is reasonable. An adverse opinion does not block the sale — the administrator may proceed but must explain the decision to creditors."
+  },
+  {
+   "title": "Company Voluntary Arrangement (CVA)",
+   "where": "Glossary",
+   "href": "glossary.html#cva",
+   "text": "A deal with unsecured creditors, approved by 75% by value, under which the company trades on and pays contributions over typically three to five years. Cannot bind secured creditors without consent. Now rare (186 in 2025) and fragile — historically roughly half fail into a subsequent insolvency."
+  },
+  {
+   "title": "Part 26A restructuring plan",
+   "where": "Glossary",
+   "href": "glossary.html#part-26a",
+   "text": "Court-sanctioned compromise introduced by CIGA 2020 that can bind secured creditors and cram down entire dissenting classes if no member is worse off than in the relevant alternative. Powerful but costly — two hearings and seven-figure fees keep it a large-cap and upper-mid-market tool."
+  },
+  {
+   "title": "Cross-class cram-down",
+   "where": "Glossary",
+   "href": "glossary.html#cross-class-cram-down",
+   "text": "The Part 26A mechanism letting the court sanction a restructuring plan despite a whole class voting against it, provided dissenters are no worse off than in the relevant alternative and one in-the-money class approves. It removes the veto that dissenting creditor classes hold under schemes and CVAs."
+  },
+  {
+   "title": "Standalone moratorium",
+   "where": "Glossary",
+   "href": "glossary.html#moratorium",
+   "text": "CIGA 2020 breathing-space procedure: 20 business days (extendable to 40, further with consent or court order) under a monitor, staying most creditor action while directors stay in control. Take-up is minimal — debts under financial services contracts are excluded from the payment holiday, so bank debt must still be serviced."
+  },
+  {
+   "title": "HMRC preferential status",
+   "where": "Glossary",
+   "href": "glossary.html#hmrc-preferential",
+   "text": "Since 1 December 2020 (Finance Act 2020), HMRC ranks as secondary preferential creditor for taxes collected on its behalf — VAT, PAYE, employee NICs, CIS — ahead of floating-charge holders and unsecured creditors, uncapped and without age limit. Corporation tax remains unsecured. A direct hit to floating-charge LGD."
+  },
+  {
+   "title": "Business Support Unit",
+   "where": "Glossary",
+   "href": "glossary.html#business-support-unit",
+   "text": "A bank's specialist turnaround function for deteriorating business customers — restructuring facilities, commissioning independent business reviews, choosing workout strategy. Post-GRG, these units operate under fair-treatment frameworks separating turnaround support from recovery profit incentives. Transfer in is a strong SICR indicator."
+  },
+  {
+   "title": "Insolvency Service",
+   "where": "Glossary",
+   "href": "glossary.html#insolvency-service",
+   "text": "The government agency overseeing UK insolvency: it runs the Official Receiver service, regulates the IP profession, investigates director misconduct and publishes the official insolvency statistics — the canonical source for regime mix, sector patterns and failure rates used in BB credit and impairment analysis."
+  },
+  {
+   "title": "Basel 3.1",
+   "where": "Glossary",
+   "href": "glossary.html#basel-3-1",
+   "text": "The UK's implementation of the final Basel III capital standards: revised standardised risk weights, constrained internal models, and an output floor. PRA near-final rules came in 2024; implementation was delayed in January 2025 to 1 January 2027, with the market-risk internal model approach following in 2028."
+  },
+  {
+   "title": "SME supporting factor",
+   "where": "Glossary",
+   "href": "glossary.html#sme-supporting-factor",
+   "text": "An EU-inherited Pillar 1 discount that scaled down capital risk weights on qualifying SME exposures, making small-business lending cheaper for banks to hold. Under UK Basel 3.1 it is removed from Pillar 1 from January 2027, offset by a firm-specific Pillar 2A SME lending adjustment."
+  },
+  {
+   "title": "SME lending adjustment",
+   "where": "Glossary",
+   "href": "glossary.html#sme-lending-adjustment",
+   "text": "The PRA's firm-specific Pillar 2A offset introduced with Basel 3.1 to neutralise the aggregate capital impact of removing the SME supporting factor. Being supervisory and reviewable rather than automatic, it is less reliable for loan pricing than the Pillar 1 factor it replaces."
+  },
+  {
+   "title": "Small Domestic Deposit Taker (SDDT)",
+   "where": "Glossary",
+   "href": "glossary.html#sddt",
+   "text": "The PRA's simplified prudential regime for smaller, domestically focused UK banks and building societies, developed alongside Basel 3.1. It spares eligible challengers the full complexity of the new framework — shaping the capital economics of the specialist lenders now writing most SME flow."
+  },
+  {
+   "title": "Bank Referral Scheme",
+   "where": "Glossary",
+   "href": "glossary.html#bank-referral-scheme",
+   "text": "Statutory scheme (from November 2016) requiring major banks to refer declined SME finance applicants, with consent, to designated platforms — Funding Options, Funding Xchange, Alternative Business Funding, Business Finance Technology — that match them with alternative lenders. Reviewed in 2024–26; government opted against legislative overhaul in May 2026."
+  },
+  {
+   "title": "Open finance",
+   "where": "Glossary",
+   "href": "glossary.html#open-finance",
+   "text": "The extension of open banking's data-sharing principles beyond payment accounts to savings, credit, investments and commercial products. The FCA is building the framework under 2026 legislation granting it rule-making powers, with commercial data expected to reshape SME credit assessment and monitoring."
+  },
+  {
+   "title": "Commercial VRP",
+   "where": "Glossary",
+   "href": "glossary.html#commercial-vrp",
+   "text": "Variable recurring payments extended beyond sweeping between own accounts to third-party billing — utilities, subscriptions, government. A 31-firm UK Payments Initiative scheme formed in late 2025, with first live payments from early 2026. VRPs already account for roughly 16% of open banking payment volumes."
+  },
+  {
+   "title": "APP fraud",
+   "where": "Glossary",
+   "href": "glossary.html#app-fraud",
+   "text": "Authorised push payment fraud: the victim is deceived into instructing a genuine payment to a fraudster. Since 7 October 2024, UK rules mandate reimbursement up to £85,000 within five business days, split 50/50 between sending and receiving firms. Scope covers consumers, micro-enterprises and charities — not larger business accounts."
+  },
+  {
+   "title": "Private credit",
+   "where": "Glossary",
+   "href": "glossary.html#private-credit",
+   "text": "Non-bank lending by funds — direct lending, asset-based strategies — funded by institutional capital rather than deposits. Having absorbed much of leveraged lending, it is moving down into UK SME credit: non-banks and challengers wrote roughly 68% of the £68bn 2025 SME lending flow."
+  },
+  {
+   "title": "BNPL (business)",
+   "where": "Glossary",
+   "href": "glossary.html#bnpl",
+   "text": "Buy-now-pay-later: short-term instalment credit at the point of sale. Consumer BNPL became FCA-regulated on 15 July 2026; B2B BNPL — pay-later terms embedded in trade checkouts by Kriya, Hokodo, iwocaPay — remains unregulated, growing toward an estimated US$16.5bn UK market, and largely invisible to credit bureaus."
+  },
+  {
+   "title": "Embedded finance",
+   "where": "Glossary",
+   "href": "glossary.html#embedded-finance",
+   "text": "Credit, payments or insurance delivered inside a non-financial platform — accounting software, e-commerce checkouts, procurement portals — rather than through a bank channel. In UK SME finance it is displacing manual invoice finance, with regulated balance sheets (e.g. Allica–Kriya) increasingly funding fintech distribution."
+  },
+  {
+   "title": "Refinancing wall",
+   "where": "Glossary",
+   "href": "glossary.html#refinancing-wall",
+   "text": "The concentration of fixed-rate SME debt written in the ultra-low-rate 2020–21 window maturing across 2024–2027, forcing refinancing at materially higher rates. It transmits rate rises to borrower cash flow with a multi-year lag — so debt-service stress keeps building even while Bank Rate falls."
+  }
+ ]
+}

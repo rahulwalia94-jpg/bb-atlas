@@ -1,0 +1,300 @@
+{
+  "id": 4,
+  "slug": "barclays-today",
+  "title": "Barclays Business Banking Today",
+  "kicker": "Module 04 · The Home Team",
+  "summary": "Where Business Banking sits inside the Barclays machine, how big it actually is, and what the 2023–2025 results say about its credit performance. This is the book you will be provisioning: deposit-rich, lending-light, BBLS-shadowed — and quietly swinging from impairment releases back to charges.",
+  "readingTime": 16,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Where Business Banking Lives",
+      "html": "<p>Start with the corporate architecture, because at Barclays the org chart is also the regulatory perimeter. Since January 2019 the group has run two principal banks: Barclays Bank UK PLC — the ring-fenced bank, branded <span class=\"xref\" data-term=\"barclays-uk\">Barclays UK</span> — and Barclays Bank PLC, the non-ring-fenced entity that houses the investment bank and international business. <span class=\"xref\" data-term=\"ring-fencing\">Ring-fencing</span>, the post-crisis regime born of the Vickers Commission, forces UK retail and small-business deposits into a legally separate, separately capitalised entity. Business Banking sits squarely inside the fence.</p><p>The reporting map was redrawn in February 2024, when the group's investor update carved Barclays into five divisions: Barclays UK, the <span class=\"xref\" data-term=\"uk-corporate-bank\">UK Corporate Bank</span>, the Private Bank &amp; Wealth Management, the Investment Bank, and the US Consumer Bank. Within the Barclays UK division, segment reporting splits income three ways: Personal Banking, Barclaycard Consumer UK, and Business Banking. That third line is your world.</p><p>The boundary that matters most to an impairment analyst is the handoff at the top: clients with annual turnover above roughly £6.5m belong to the UK Corporate Bank, a separate division with its own coverage teams, its own credit appetite and — critically — its own impairment disclosure. Everything below that line, from the sole trader with a card reader to the £6m-turnover wholesaler, is Business Banking. Your book therefore stops precisely where single-name concentration risk starts to get interesting; what you inherit instead is granularity — hundreds of thousands of small exposures behaving like a portfolio, not a list of names.</p><p>One more structural note: the Tesco Bank acquisition, completed in late 2024, bolted roughly £8bn of loans onto Barclays UK — but into the retail lines, not Business Banking. When you see Barclays UK balance-sheet growth in the <span class=\"xref\" data-term=\"ara\">ARA</span>, check which segment is actually growing. It is usually not yours.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "The Scale of the Home Team",
+      "html": "<p>Barclays banks roughly one million <span class=\"xref\" data-term=\"sme\">SME</span> clients — a figure the bank itself cites when marketing its Business Prosperity Index, which claims proprietary sight of about a million small businesses and a quarter of all UK corporates (as at 2025). That client count makes Barclays one of the big-four incumbents in business current accounts, alongside Lloyds, NatWest and HSBC.</p><p>Now look at the balance sheet, because the asymmetry is the whole story. At end-2025, Business Banking loans stood at £17.9bn, down from £19.7bn a year earlier — the decline driven, in the bank's own words, by continued repayment of government scheme lending. Deposits: £51.9bn (2024: £52.8bn). Read that again. The segment holds nearly three pounds of deposits for every pound it lends. Business Banking income was £2,126m in FY25, up 6% on FY24's £2,004m, and up from £1,905m in FY23 — growth powered overwhelmingly by deposit margin in a higher-rate world, not by lending expansion. For context, the whole Barclays UK division carried £215.6bn of customer loans and £244.7bn of deposits at end-2025, and delivered a return on tangible equity of 20.7%.</p><p>Barclays has pledged headline lending support — £22bn made available for Business Banking and UK Corporate Banking clients in 2025 — but pledges are capacity, not stock. The stock keeps shrinking as <span class=\"xref\" data-term=\"bbls\">BBLS</span> balances amortise away faster than new lending replaces them.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>A £17.9bn book inside a £215.6bn division means Business Banking is under a tenth of Barclays UK's credit exposure — mortgages dominate the <span class=\"xref\" data-term=\"ead\">EAD</span>. But small books can still move the P&amp;L: unsecured SME lending carries multiples of mortgage <span class=\"xref\" data-term=\"pd\">PD</span> and <span class=\"xref\" data-term=\"lgd\">LGD</span>, so each pound of BB exposure generates far more <span class=\"xref\" data-term=\"ecl\">ECL</span> than a pound of home loans. Your charge volatility is outsized relative to your balance sheet.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "The Current Account Is the Product",
+      "html": "<p>Strip Business Banking to its economics and it is a deposit franchise with lending attached. The anchor product is the <span class=\"xref\" data-term=\"bca\">business current account</span>: Barclays holds one of the largest BCA books in the UK, and everything else — overdrafts, term loans, card acquiring, FX — hangs off that primary relationship. In the post-2016 CMA world where switching is subsidised and challengers are given away accounts for free, the incumbents' moat is inertia plus breadth: the ability to serve a client from first invoice to £6.5m turnover without changing bank.</p><p>The lending shelf is deliberately simple. Unsecured business loans and <span class=\"xref\" data-term=\"overdraft\">overdrafts</span> for working capital; secured term lending and commercial mortgages for the larger end; participation in the British Business Bank's <span class=\"xref\" data-term=\"growth-guarantee-scheme\">Growth Guarantee Scheme</span> for marginal credits; and referral or partnership routes for specialist needs like asset and invoice finance rather than deep in-house manufacturing. Barclays' underwriting edge, such as it is, comes from transactional data: it can see a decade of a client's cash flows through the BCA and the acquiring rails before it advances a pound.</p><p>What Barclays does not do is chase the aggressive end of SME credit. The FY25 numbers show a bank content to let the government-scheme legacy run off, keep new origination disciplined, and earn its return on the liability side. For an impairment analyst this is a blessing with a caveat: benign origination vintages today, but a back book whose composition is being determined by run-off mechanics rather than by fresh underwriting choices — the loans that repay fastest are not a random sample of the loans you hold.</p>"
+    },
+    {
+      "id": "s4",
+      "heading": "Barclaycard Payments and the Brookfield Turn",
+      "html": "<p>The genuinely differentiating asset in the Barclays SME proposition has long been <span class=\"xref\" data-term=\"barclaycard-payments\">Barclaycard Payments</span> — the <span class=\"xref\" data-term=\"merchant-acquiring\">merchant acquiring</span> business that puts Barclays on both sides of the till. Industry analyses rank it among the top two UK acquirers, processing on the order of 8.7 billion transactions a year (approximate, as at 2025). No neobank competitor owns an acquirer of that scale; for Barclays it meant a second data feed on client health — you see the revenue arriving, not just the balance sitting.</p><p>Then came April 2025. Barclays announced a strategic <span class=\"xref\" data-term=\"brookfield-partnership\">partnership with Brookfield</span> Asset Management for the UK merchant acquiring business: Barclays injects around £400m over three years to modernise the platform, Brookfield takes on operational transformation, and — the structural punchline — Brookfield holds the option to acquire roughly 70–80% of the business between years three and seven. Read plainly: Barclays is preparing to majority-exit merchant acquiring while retaining a minority stake and the client relationship.</p><p>Strategically this mirrors what most European banks concluded a decade earlier — acquiring is a scale-and-technology game better played by specialists (Worldpay, Adyen, Teya) than by bank cost centres. But it dilutes a differentiator. If the acquiring relationship migrates to a Brookfield-controlled entity, the question for Business Banking is whether the transactional data advantage — and the cross-sell gravity that came with it — survives the change of ownership intact.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Acquiring data has quiet ECL value: merchant turnover collapsing through the card rails is one of the earliest observable default signals, often months ahead of a missed payment. If that feed weakens post-transaction, <span class=\"xref\" data-term=\"sicr\">SICR</span> detection for merchant clients leans harder on slower indicators — arrears and bureau data — which shifts risk recognition later and lumps <span class=\"xref\" data-term=\"stage-2\">Stage 2</span> migrations closer to default.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "Eagle Labs and the Digital Front Door",
+      "html": "<p><span class=\"xref\" data-term=\"eagle-labs\">Eagle Labs</span> is the strategy asset that never touches the credit book. Launched in 2015 as repurposed branch space for start-up incubation, it grew into a national network of sites and programmes for tech entrepreneurs — mentoring, ecosystem partnerships, sector programmes from healthtech in Scotland to cyber in the South West. Its establishment credibility peaked when the government chose it, controversially over Tech Nation, to deliver the <span class=\"xref\" data-term=\"digital-growth-grant\">Digital Growth Grant</span>: £12.09m of public funding from April 2023 to March 2025, targeting support for more than 22,000 businesses with at least 80% outside London.</p><p>Why should an impairment analyst care about an incubator? Because Eagle Labs is the top of a funnel. Start-ups incubated today are <span class=\"xref\" data-term=\"bca\">BCA</span> clients tomorrow and borrowers the year after; the franchise logic is origination at the point of company formation. It also buys Barclays something harder to price — presence in the high-growth segment where challengers like Starling and Tide otherwise dominate the narrative.</p><p>The same logic drives the digital stack. The Barclays app strategy for business — onboarding, in-app lending journeys, integration with accounting packages via <span class=\"xref\" data-term=\"open-banking\">Open Banking</span> — is a defensive race: the incumbents must compress the convenience gap with app-native banks before the convenience gap compresses their deposit share. The FY25 deposit slippage in Business Banking current accounts (£52.8bn to £51.9bn) is small, but it is the metric to watch; the deposit franchise funds the whole segment's economics, and it is the thing the challengers are actually aiming at.</p>"
+    },
+    {
+      "id": "s6",
+      "heading": "Reading the Results: Where BB Shows Up",
+      "html": "<p>Open a Barclays results announcement and Business Banking surfaces in three places: the Barclays UK income analysis (the three-line segment split), the balance-sheet commentary (loans and deposits, with the ritual phrase about government scheme repayment), and the credit risk section, where BB lending is folded into Barclays UK's wholesale-style exposure tables rather than given a standalone impairment line. The full <span class=\"xref\" data-term=\"ara\">ARA</span> for Barclays Bank UK PLC carries the detailed staging and coverage tables.</p><p>The recent charge history tells a clean normalisation story. Barclays UK's <span class=\"xref\" data-term=\"loan-loss-rate\">loan loss rate</span> ran at 14bps in FY23 (a charge around £300m), 16bps in FY24 (£352m), and 18bps in FY25 (£393m) — drifting up, but sitting far below the group's through-the-cycle guidance of 50–60bps, because mortgages dominate the divisional book. Within that, Business Banking swung from a £29m credit release in FY24 to a £39m charge in FY25 — the post-pandemic era of releases ending, replaced by modest charges on stable underlying performance. At group level, H1 2026 brought a £1.4bn impairment charge and a 62bps loan loss rate, with group coverage broadly stable around 1.2%.</p><p>Now the <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratio</span> comparison, because this is where a retail-trained eye needs recalibrating. Barclays UK retail credit cards carried total coverage of 4.3% at end-2025 (2024: 4.8%). Mortgages sit at the other extreme — coverage of the order of a tenth of a percent (approximate), because collateral crushes LGD. Business Banking lands in between: unsecured SME lending would naturally warrant cards-adjacent coverage, but the blended number is pulled down by secured lending and, crucially, by the government guarantee wrapped around the BBLS legacy.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Never read a blended BB coverage ratio at face value. It averages three very different books — guaranteed BBLS (near-zero LGD), secured term lending (low LGD), and clean unsecured (high LGD) — so a stable headline can mask deteriorating unsecured coverage offset by guaranteed run-off. Decompose before you conclude; the mix shift is doing half the work.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "The Book from the Impairment Seat",
+      "html": "<p>Sit in the Barclays BB impairment chair in 2026 and the book in front of you has three strata. First, the <span class=\"xref\" data-term=\"bbls\">BBLS</span> legacy: Barclays was one of the largest Bounce Back lenders, and although balances have amortised hard — the run-off is precisely why segment loans fell from £19.7bn to £17.9bn during 2025 — a material tail remains, much of it stretched to ten-year terms under <span class=\"xref\" data-term=\"pay-as-you-grow\">Pay As You Grow</span>. These loans carry a 100% government guarantee treated as an <span class=\"xref\" data-term=\"integral-guarantee\">integral guarantee</span>: expected recoveries from the state flow into LGD, so even a defaulted Bounce Back loan generates almost no ECL for the bank. The credit risk never left; it was assigned to the taxpayer at origination.</p><p>Second, the secured book — commercial mortgages and charged-asset term lending at the larger end — where property collateral does the LGD work and losses concentrate in workout timing rather than severity. Third, the clean unsecured book: overdrafts and term loans priced off transactional data, which is where genuine loss content lives and where <span class=\"xref\" data-term=\"staging\">staging</span> judgement earns its keep.</p><p>The sector tilt is the UK SME economy itself — services-heavy, with the familiar stress concentrations in hospitality, retail and construction that every insolvency cycle revisits. And the structural trend an analyst must internalise: as the guaranteed stratum runs off, the surviving book's average risk profile rises mechanically. Loans repaying on schedule exit; the book that remains tilts toward slower repayers and newer unsecured origination. Expect average PD and LGD to drift up even if not a single borrower deteriorates — and expect to spend model-monitoring meetings explaining exactly that distinction, ideally before someone converts it into a <span class=\"xref\" data-term=\"pma\">PMA</span>.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>The FY24-to-FY25 swing — £29m release to £39m charge — is what portfolio normalisation looks like in P&amp;L form: post-COVID overlays unwinding, releases exhausted, and a book whose unguaranteed share grows each quarter. The question for FY26 is whether an 18bps divisional loan loss rate holds as the BBLS shield thins and higher-for-longer rates keep working through SME refinancing.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Where does Business Banking sit in Barclays' structure?",
+      "options": [
+        "Inside Barclays Bank PLC, alongside the Investment Bank",
+        "As a standalone sixth division reporting directly to the group",
+        "Inside Barclays UK, the ring-fenced bank, reported alongside Personal Banking and Barclaycard Consumer UK",
+        "Inside the UK Corporate Bank division"
+      ],
+      "answer": 2,
+      "explain": "BB is a sub-segment of the Barclays UK division, housed in ring-fenced Barclays Bank UK PLC. The UK Corporate Bank is a separate division serving larger clients, and Barclays Bank PLC is the non-ring-fenced entity."
+    },
+    {
+      "q": "A Barclays business client's turnover grows past roughly £6.5m. What happens?",
+      "options": [
+        "They migrate to the UK Corporate Bank, a separate division with its own credit and impairment disclosure",
+        "They stay in Business Banking but move to individually assessed provisioning",
+        "They must convert their BCA to a corporate treasury account within Barclays UK",
+        "Nothing — the boundary is based on lending size, not turnover"
+      ],
+      "answer": 0,
+      "explain": "The ~£6.5m annual turnover threshold is the handoff point to the UK Corporate Bank. This means the BB impairment book is deliberately granular — large single-name exposures live in another division's disclosures."
+    },
+    {
+      "q": "Business Banking loans fell from £19.7bn to £17.9bn during 2025. The primary driver was:",
+      "options": [
+        "A deliberate risk-appetite cut after rising SME insolvencies",
+        "Securitisation of SME balances in Q4 2025",
+        "Clients switching to challenger banks under incentivised switching",
+        "Continued repayment of government scheme (BBLS-era) lending outpacing new origination"
+      ],
+      "answer": 3,
+      "explain": "Barclays' own results attribute the decline to continued repayment of government scheme lending. Securitisation affected mortgages, not BB, and the fall reflects run-off mechanics rather than a credit-appetite decision."
+    },
+    {
+      "q": "BB holds £51.9bn of deposits against £17.9bn of loans. What does this asymmetry imply about segment economics?",
+      "options": [
+        "The segment is capital-constrained and must shrink deposits",
+        "Income is driven primarily by deposit margin, making the franchise liability-led rather than lending-led",
+        "The loan-to-deposit gap must be closed by regulatory requirement",
+        "Impairment charges are irrelevant to segment profitability"
+      ],
+      "answer": 1,
+      "explain": "Nearly 3x more deposits than loans means BB earns predominantly on the liability side — which is why income rose with rates while the loan book shrank. Impairment still matters, but the P&L engine is deposit margin."
+    },
+    {
+      "q": "What did the April 2025 Brookfield transaction do to Barclays' merchant acquiring business?",
+      "options": [
+        "Sold it outright to Brookfield for £400m",
+        "Merged it with Tesco Bank's payments arm",
+        "Created a partnership with ~£400m Barclays investment and a Brookfield option over roughly 70–80% ownership in years three to seven",
+        "Closed the business to new merchants"
+      ],
+      "answer": 2,
+      "explain": "It is a staged, optional majority exit, not an immediate sale: Barclays funds modernisation while Brookfield can take control later. The strategic effect is Barclays loosening its grip on a historic SME differentiator."
+    },
+    {
+      "q": "Why does the BBLS legacy suppress Business Banking's blended coverage ratio?",
+      "options": [
+        "The 100% government guarantee is treated as integral, driving expected loss on guaranteed balances toward zero even at high PDs",
+        "BBLS loans are held off balance sheet",
+        "BBLS loans cannot be staged under IFRS 9",
+        "The guarantee reduces PD rather than LGD"
+      ],
+      "answer": 0,
+      "explain": "Integral guarantee treatment routes expected state recoveries into LGD, so guaranteed defaults generate minimal ECL. PD is unaffected — borrowers still default — but severity collapses, dragging the blended coverage number down."
+    },
+    {
+      "q": "Business Banking moved from a £29m impairment release in FY24 to a £39m charge in FY25. The best reading is:",
+      "options": [
+        "The start of an SME credit crisis at Barclays",
+        "Normalisation — pandemic-era releases exhausted, modest charges resuming on a stable book",
+        "A model error corrected by PMA",
+        "The effect of the Tesco Bank acquisition on BB"
+      ],
+      "answer": 1,
+      "explain": "The bank describes underlying performance as stable; the swing reflects the end of post-COVID release tailwinds, not deterioration. Tesco Bank landed in retail segments, not BB."
+    },
+    {
+      "q": "Barclays UK ran an 18bps loan loss rate in FY25 while group through-the-cycle guidance is 50–60bps. Why is the division so much lower?",
+      "options": [
+        "Barclays UK uses more generous staging thresholds",
+        "UK regulation caps divisional impairment charges",
+        "The division releases provisions every year",
+        "The divisional book is dominated by low-loss-rate secured mortgages, diluting cards and SME losses"
+      ],
+      "answer": 3,
+      "explain": "Mix explains it: mortgages are the bulk of Barclays UK EAD and produce tiny loss rates, while the group number is lifted by US cards and wholesale books. Segment mix, not policy, drives the gap."
+    },
+    {
+      "q": "Retail credit cards carried 4.3% total coverage at end-2025 while mortgages sit near a tenth of a percent. The dominant driver of the difference is:",
+      "options": [
+        "Unsecured lending's combination of higher PD and near-total LGD versus collateralised mortgage recoveries",
+        "Cards portfolios being mostly Stage 3",
+        "Regulatory floors on card provisions",
+        "Mortgages being exempt from lifetime ECL"
+      ],
+      "answer": 0,
+      "explain": "Coverage compounds PD and LGD. Cards default more often and recover little; mortgages default rarely and recover most of the exposure through property collateral. Neither book is exempt from IFRS 9 mechanics."
+    },
+    {
+      "q": "Strategically, Eagle Labs is best understood as:",
+      "options": [
+        "A venture lending arm generating high-yield credit exposure",
+        "A cost-recovery programme for surplus branches",
+        "A franchise and origination funnel — incubating future BCA clients and borrowers with no direct credit-book footprint",
+        "A regulatory obligation under the Digital Growth Grant"
+      ],
+      "answer": 2,
+      "explain": "Eagle Labs lends nothing; its value is presence in the high-growth segment and client acquisition at company formation. The Digital Growth Grant funded delivery of support — it did not oblige Barclays to run the network."
+    }
+  ],
+  "domino": {
+    "title": "Run-off, rates and the return of the charge",
+    "nodes": [
+      { "id": "n1", "label": "Rates stay higher", "sectionId": "s6" },
+      { "id": "n2", "label": "SME debt service up", "sectionId": "s6" },
+      { "id": "n3", "label": "BBLS run-off continues", "sectionId": "s7" },
+      { "id": "n4", "label": "Guaranteed balances shrink", "sectionId": "s7" },
+      { "id": "n5", "label": "Book tilts unsecured", "sectionId": "s7" },
+      { "id": "n6", "label": "Average PD, LGD rise", "sectionId": "s7" },
+      { "id": "n7", "label": "Releases turn to charges", "sectionId": "s6" },
+      { "id": "n8", "label": "BUK loss rate drifts up", "sectionId": "s6" },
+      { "id": "n9", "label": "Coverage rebuilt, P&L cost", "sectionId": "s6" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n7"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n9"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Barclays UK",
+      "slug": "barclays-uk",
+      "definition": "Barclays' ring-fenced division (legal entity Barclays Bank UK PLC), holding UK retail and small-business banking. Reports three segments: Personal Banking, Barclaycard Consumer UK, and Business Banking. End-2025: £215.6bn loans, £244.7bn deposits, 20.7% RoTE. Business Banking clients hand off to the UK Corporate Bank above ~£6.5m turnover.",
+      "related": ["ring-fencing", "uk-corporate-bank", "ara"]
+    },
+    {
+      "term": "Eagle Labs",
+      "slug": "eagle-labs",
+      "definition": "Barclays' national incubator network for tech start-ups, launched 2015, offering workspace, mentoring and growth programmes. Delivered the government's £12.09m Digital Growth Grant (2023–25) supporting 22,000+ businesses, 80% outside London. Strategically an origination funnel and franchise asset — it holds no credit exposure itself.",
+      "related": ["digital-growth-grant", "sme"]
+    },
+    {
+      "term": "Barclaycard Payments",
+      "slug": "barclaycard-payments",
+      "definition": "Barclays' merchant acquiring business — among the top two UK acquirers, processing c.8.7bn transactions annually (as at 2025). Historically a key SME differentiator and early-warning data source. Since April 2025, subject to a Brookfield partnership with a staged path toward Brookfield majority ownership.",
+      "related": ["merchant-acquiring", "brookfield-partnership"]
+    },
+    {
+      "term": "Coverage ratio",
+      "slug": "coverage-ratio",
+      "definition": "Impairment allowance divided by gross exposure, overall or by stage. Barclays UK end-2025 markers: retail credit cards 4.3% total coverage, mortgages of the order of 0.1%, group c.1.2%. For BB, guarantees and secured/unsecured mix distort the blend — always decompose before comparing across books.",
+      "related": ["ecl", "staging", "integral-guarantee"]
+    },
+    {
+      "term": "ARA (Annual Report and Accounts)",
+      "slug": "ara",
+      "definition": "A bank's statutory annual disclosure. For BB analysis, the Barclays Bank UK PLC ARA matters most: it carries the ring-fenced bank's credit risk section, staging and coverage tables, and government-scheme commentary. Quarterly results announcements (RAs) give the interim segment view.",
+      "related": ["barclays-uk", "coverage-ratio"]
+    },
+    {
+      "term": "Ring-fencing",
+      "slug": "ring-fencing",
+      "definition": "UK regime (in force 2019, from the Financial Services (Banking Reform) Act 2013) requiring large banks to separate core retail and SME deposit-taking into an independently capitalised entity, insulated from investment banking. Business Banking sits inside Barclays' ring-fenced bank, Barclays Bank UK PLC.",
+      "related": ["barclays-uk"]
+    },
+    {
+      "term": "UK Corporate Bank",
+      "slug": "uk-corporate-bank",
+      "definition": "Barclays division (one of five since the February 2024 reorganisation) serving companies above roughly £6.5m annual turnover with lending, cash management, trade and FX. The upper boundary of Business Banking: larger, chunkier credits — and their impairment — are disclosed here, not in BB.",
+      "related": ["barclays-uk"]
+    },
+    {
+      "term": "Loan loss rate",
+      "slug": "loan-loss-rate",
+      "definition": "Annualised credit impairment charge as basis points of gross loans. Barclays UK: 14bps (FY23), 16bps (FY24), 18bps (FY25) — mortgage-dominated, hence far below group through-the-cycle guidance of 50–60bps. Group H1 2026: 62bps. The drift matters more than the level.",
+      "related": ["coverage-ratio", "ecl"]
+    },
+    {
+      "term": "Brookfield partnership",
+      "slug": "brookfield-partnership",
+      "definition": "April 2025 agreement on Barclays' UK merchant acquiring business: Barclays invests c.£400m over three years to modernise the platform; Brookfield Asset Management leads transformation and holds an option to acquire roughly 70–80% between years three and seven — a staged majority exit from acquiring.",
+      "related": ["barclaycard-payments", "merchant-acquiring"]
+    },
+    {
+      "term": "Digital Growth Grant",
+      "slug": "digital-growth-grant",
+      "definition": "£12.09m UK government grant awarded to Barclays Eagle Labs to deliver start-up and scale-up support from April 2023 to March 2025 — over 22,000 businesses targeted, at least 80% outside London. Controversial at award (displacing Tech Nation), it cemented Eagle Labs' ecosystem role.",
+      "related": ["eagle-labs"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Barclays PLC 2025 Results Announcement (FY25)",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf",
+      "note": "BB loans £17.9bn (2024: £19.7bn), deposits £51.9bn, income £2,126m, £39m charge vs £29m FY24 release; BUK loans £215.6bn, deposits £244.7bn, LLR 18bps, RoTE 20.7%; cards coverage 4.3%"
+    },
+    {
+      "title": "Barclays Bank UK PLC Annual Report 2025",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/reports-and-events/annual-reports/2025/Barclays-Bank-UK-PLC-Annual-Report-2025.pdf",
+      "note": "Ring-fenced entity credit risk disclosures; BBUK impairment charge £393m (2024: £352m); government scheme repayment commentary"
+    },
+    {
+      "title": "Barclays PLC 2023 Results Announcement (FY23)",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2023Results/20240220-BPLC-FY2023-RA.pdf",
+      "note": "BB income £1,905m FY23 (+17%); Barclays UK loan loss rate 14bps; government scheme repayment driving BB balance decline"
+    },
+    {
+      "title": "Barclays Group Reporting Changes — Resegmentation Document (Feb 2024)",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2023Results/20240220-Barclays-FY2023-Resegmentation-Document.pdf",
+      "note": "Five-division structure; Business Banking within Barclays UK; UK Corporate Bank defined as clients >£6.5m turnover"
+    },
+    {
+      "title": "Barclays UK Corporate Bank deep dive (June 2024)",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/IRNewsPresentations/2024News/20240618-Barclays-UK-Corporate-Bank-Deep-Dive.pdf",
+      "note": "£6.5m turnover boundary between Business Banking and UK Corporate Bank"
+    },
+    {
+      "title": "Barclays and Brookfield enter into strategic partnership (Apr 2025)",
+      "url": "https://home.barclays/news/press-releases/2025/04/Barclays-and-Brookfield-enter-into-strategic-partnership/",
+      "note": "c.£400m Barclays investment; Brookfield option over ~70–80% of the merchant acquiring business in years 3–7"
+    },
+    {
+      "title": "Barclays Eagle Labs — Digital Growth Grant announcement",
+      "url": "https://labs.uk.barclays/learning-and-insights/news-and-insights/news/barclays-eagle-labs-chosen-to-help-turbocharge-next-generation-of-uk-tech-stars/",
+      "note": "£12.09m Digital Growth Grant, April 2023–March 2025; 22,000+ businesses, 80%+ outside London"
+    },
+    {
+      "title": "Barclays UK Unlocked — SME investing opportunity (2025)",
+      "url": "https://home.barclays/insights/2025/10/SME-Golden-Investment-Opportunity/",
+      "note": "Barclays proprietary data across c.1 million SMEs and a quarter of UK corporates; £22bn lending capacity for BB and UK Corporate clients in 2025"
+    },
+    {
+      "title": "British Business Bank — Bounce Back Loan Scheme (BBLS)",
+      "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls",
+      "note": "BBLS terms: 100% government guarantee; Pay As You Grow term extensions to 10 years"
+    },
+    {
+      "title": "Barclays H1 2026 results summary (6-K filing coverage)",
+      "url": "https://www.stocktitan.net/sec-filings/BCS/6-k-barclays-plc-current-report-foreign-issuer-44c133bd58a0.html",
+      "note": "H1 2026 impairment £1.4bn, loan loss rate 62bps, group coverage c.1.2%; through-the-cycle guidance 50–60bps"
+    },
+    {
+      "title": "MerchantSavvy — Barclaycard Merchant Services review (2025)",
+      "url": "https://www.merchantsavvy.co.uk/payment-processors/barclaycard-merchant-services-review/",
+      "note": "Barclaycard Payments scale: c.8.7bn transactions annually; among the largest UK acquirers"
+    }
+  ]
+}

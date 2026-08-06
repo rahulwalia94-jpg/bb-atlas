@@ -1,0 +1,339 @@
+{
+  "id": 2,
+  "slug": "crisis-2008",
+  "title": "The 2008 Crisis and Its Long Shadow",
+  "kicker": "Module 02 · The Long Shadow",
+  "summary": "The financial crisis didn't just starve SMEs of credit — it produced the scandals, remedies and regulatory scar tissue that define UK business banking today. GRG, IRHP, Williams & Glyn, the CMA's open banking mandate and the £775m that seeded Starling and Tide: every one of them still shapes how a BB impairment desk is allowed to behave.",
+  "readingTime": 18,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "When the Money Markets Closed",
+      "html": "<p>The UK banking crisis did not begin with bad small-business loans. It began with funding. Through the 2000s British banks lent far more than they gathered in deposits, bridging the gap — hundreds of billions of pounds of it — in wholesale markets: securitisation, covered bonds, short-term interbank borrowing. When US sub-prime losses poisoned confidence in bank paper in August 2007, those markets shut. Northern Rock, a mortgage lender with barely any business book, failed within weeks because it could not roll its funding. By October 2008 the problem was solvency: RBS and Lloyds/HBOS took £45.5bn and £20.3bn of taxpayer equity respectively, and every UK bank began a forced march towards more capital, more liquidity and less leverage.</p><p>For <span class=\"xref\" data-term=\"sme\">SMEs</span> the transmission was brutal and asymmetric. Small firms do not live on term loans alone; they live on committed and uncommitted <span class=\"xref\" data-term=\"overdraft\">overdrafts</span>, <span class=\"xref\" data-term=\"invoice-finance\">invoice finance</span> and property-secured facilities that can be repriced or withdrawn at review. A bank shrinking its balance sheet found the SME book an easy place to deleverage: risk weights were high, collateral values — commercial property above all — were falling, and facilities could be quietly cut at renewal without a front-page headline. Net lending to SMEs turned negative in 2009 and stayed negative into 2013, even with Bank Rate pinned at 0.5% from March 2009. Application rejection rates for small firms roughly doubled against pre-crisis norms, and a cohort of &quot;discouraged borrowers&quot; simply stopped asking.</p><p>Hold that sequence in your head, because everything else in this module flows from it: funding shock → capital destruction → risk-appetite collapse → SME credit contraction. The state spent the next decade trying to reverse the last step, and the banks spent it discovering what their crisis-era conduct towards struggling businesses would ultimately cost.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Credit supply contraction is itself a default driver. A viable firm whose overdraft is withdrawn at review can go straight to <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> without its trading ever deteriorating — refinancing risk is a PD story, and forced asset sales into a falling market are an LGD story. The 2008–12 loss vintage is shaped as much by lender behaviour as borrower quality, which is precisely the feedback loop <span class=\"xref\" data-term=\"forward-looking-economics\">forward-looking economics</span> in <span class=\"xref\" data-term=\"ifrs9\">IFRS 9</span> models struggles to capture.</p></aside>"
+    },
+    {
+      "id": "s2",
+      "heading": "Merlin and FLS: The Limits of Exhortation",
+      "html": "<p>The political response came in two flavours: moral suasion and cheap money. <span class=\"xref\" data-term=\"project-merlin\">Project Merlin</span>, agreed in February 2011 between the Treasury and the five biggest banks — Barclays, HSBC, Lloyds, RBS and Santander UK — committed the banks to the &quot;capacity and willingness&quot; to make £190bn of gross new lending available to business in 2011, £76bn of it to SMEs. The overall figure was comfortably exceeded. The SME target was missed by roughly £1bn — and the deeper flaw was the metric itself. Merlin counted gross lending, so a bank could hit its number while repayments outran new advances and the net stock of SME credit kept shrinking, which is exactly what happened. There was no penalty mechanism, no clean split between genuinely new money and rolled-over facilities, and no answer to the underlying problem: banks did not want the risk.</p><p>The <span class=\"xref\" data-term=\"fls\">Funding for Lending Scheme</span>, launched by the Bank of England and Treasury in mid-2012, attacked the price of funding instead. Banks could swap collateral for Treasury bills at a fee tied to their net lending performance — cheap funding as a reward for growing the book. The first-order effect was real but landed in the wrong place: mortgage pricing fell sharply while SME net lending stayed negative. The April 2013 extension tried to fix the skew, letting banks draw up to £10 of funding for every £1 of net SME lending in 2013; in November 2013 household incentives were removed altogether. Subsequent Bank of England and academic evaluation could not identify a direct boost to SME credit from the SME tilt. Savers' rates were crushed as a side effect, and the scheme finally closed in January 2018.</p><p>The honest verdict on both: you cannot subsidise or exhort a bank into wanting a credit risk it fears. Supply constraints rooted in capital and risk appetite yielded only when capital was rebuilt and memories faded — and by then the demand side had learned its own lesson about relying on bank credit.</p>"
+    },
+    {
+      "id": "s3",
+      "heading": "GRG: What Happened in the Workout Room",
+      "html": "<p>If one story explains why modern business banking treats its collections and turnaround machinery as a conduct minefield, it is RBS's <span class=\"xref\" data-term=\"grg\">Global Restructuring Group</span>. GRG was the bank's division for business customers in financial difficulty; roughly 12,000 SMEs passed through it between 2008 and 2013, transferred in as covenants were breached, property revalued or facilities fell due. GRG was also, internally, a profit centre — charging restructuring fees, taking equity stakes, and sitting alongside <span class=\"xref\" data-term=\"west-register\">West Register</span>, an RBS property arm that could end up owning assets sold by the very customers GRG managed.</p><p>In November 2013 the <span class=\"xref\" data-term=\"tomlinson-report\">Tomlinson report</span> — written by Lawrence Tomlinson, then entrepreneur in residence at the business department — alleged that RBS was engineering defaults: manufacturing covenant breaches through revaluations, loading distressed firms with fees, and steering their assets towards West Register. The FCA responded in January 2014 by commissioning a skilled-person review under <span class=\"xref\" data-term=\"s166-review\">section 166</span> of FSMA, conducted by Promontory with Mazars and delivered in September 2016. Promontory did not uphold the most incendiary claim — that RBS deliberately engineered defaults to profit from them — but its findings were damning enough: widespread inappropriate treatment of customers, experienced by most of the sampled firms in some form, with around one in six suffering material financial distress the bank itself caused. Internal artefacts like the notorious &quot;Just Hit Budget&quot; memo, coaching staff on extracting fees from struggling clients, made the culture legible to anyone who read the coverage.</p><p>Then came the anticlimax that still shapes the industry's risk perception: in 2019 the FCA confirmed it would take no enforcement action, because commercial lending — and therefore almost everything GRG did — sat outside the regulatory perimeter. The remedy came from the bank itself: in November 2016 RBS set aside £400m for automatic refunds of complex fees and a complaints scheme for GRG customers, overseen by an independent third party, retired High Court judge Sir William Blackburne.</p><p>The regulatory hole has not been fully closed since. What changed is behaviour under the shadow of reputation: every major bank rebuilt its <span class=\"xref\" data-term=\"business-support-unit\">business support unit</span> to be structurally incapable of a GRG rerun — separated from profit targets, barred from acquiring customer assets, with fee governance and customer-outcome oversight layered on top.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>GRG is why the mechanics of your job are politically radioactive. A revaluation that triggers a <span class=\"xref\" data-term=\"covenant-breach\">covenant breach</span>, a transfer to business support, a fee charged in forbearance, a decision to enforce rather than extend — each is simultaneously an impairment event (<span class=\"xref\" data-term=\"sicr\">SICR</span> triggers, <span class=\"xref\" data-term=\"staging\">staging</span>, workout LGD) and a potential conduct fact-pattern. When treatment of distressed customers fails, the bill arrives as a conduct provision under IAS 37 — RBS's £400m — not as ECL, but it lands in the same P&amp;L your coverage ratio is judged against.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "The Hedges That Strangled",
+      "html": "<p>Running in parallel was a quieter scandal about products rather than workouts. Through 2001–2011 banks sold <span class=\"xref\" data-term=\"irhp\">interest-rate hedging products</span> — swaps, caps, collars and the baroque &quot;structured collars&quot; — alongside SME loans, frequently as a condition of the lending itself. The pitch was protection against rising rates. When Bank Rate collapsed to 0.5%, the products inverted into a trap: businesses locked into paying fixed against a floating leg near zero, with breakage costs so large that exiting the hedge could cost more than the loan was worth. For a small hotelier or farmer who had wanted a mortgage, not a derivatives position, the cash-flow drain was existential — and, in a grim loop back to the previous section, it was often what pushed a customer into the workout unit.</p><p>In 2012 the FSA reviewed sales practice, found serious failings, and struck agreements with nine banks to review sales to &quot;non-sophisticated&quot; customers. Just over 20,000 sales were examined; around 14,000 redress offers were accepted; over £2.2bn was paid out, including compensation for consequential losses. The controversial edge was the sophistication test: a cap that excluded customers above certain size thresholds — roughly 10,000 sales — on the theory they should have understood what they bought.</p><p>The lessons-learned review by John Swift QC, published in December 2021, concluded that most eligible customers likely did better inside the scheme than they would have outside it, but criticised the exclusion of &quot;sophisticated&quot; customers as wrong in principle, along with weak governance and record-keeping around the FCA's decisions. The FCA declined to reopen the scheme, and the courts upheld that refusal on judicial review in 2023. The residue for today's practitioner: product suitability for business customers is now scrutinised almost as hard as it is for consumers, and any product whose downside crystallises exactly when the borrower is weakest gets special attention — from conduct teams and from impairment modellers alike.</p>"
+    },
+    {
+      "id": "s5",
+      "heading": "Children of State Aid: Williams & Glyn and TSB",
+      "html": "<p>The bailouts came with strings from Brussels. As a condition of approving state aid, the European Commission required RBS to divest a business of 300-plus branches — resurrected under the historic <span class=\"xref\" data-term=\"williams-and-glyn\">Williams &amp; Glyn</span> brand — and Lloyds to shed the 600-plus branch package known as Project Verde. Both sagas became object lessons in why structural remedies die on IT.</p><p>RBS agreed a sale to Santander in 2010; Santander walked away in 2012, defeated by the separation. RBS then tried to build Williams &amp; Glyn as a standalone bank for flotation and burned through more than £1.5bn attempting to carve a clone out of its own spaghetti of legacy systems. In 2017, seven years and no divestment later, the Commission accepted the obvious: the sale was abandoned, replaced by an <em>alternative remedies package</em> — £775m, funded by RBS, to promote SME banking competition by other means. That package is the subject of the section after next.</p><p>Lloyds fared only somewhat better. The Verde sale to the Co-operative Bank collapsed in 2013 when the Co-op's own capital hole surfaced, so Lloyds executed the <span class=\"xref\" data-term=\"tsb-carve-out\">TSB carve-out</span> instead: launch in September 2013, IPO in June 2014, sale to Spain's Banco Sabadell in 2015 for £1.7bn. Then, in April 2018, TSB ran the most notorious IT migration failure in UK banking history, locking up to 1.9 million customers out of their accounts as it moved off the Lloyds platform; the FCA and PRA eventually fined TSB £48.65m in December 2022 for operational-resilience failings. The story has since folded back into consolidation: Santander agreed in July 2025 to buy TSB from Sabadell for £2.65bn, completing on 30 April 2026 — the challenger created to increase the number of banks ultimately absorbed by one of the incumbents it was meant to discipline.</p><p>The pattern to retain: divestment remedies transferred market share on paper but struggled to create durable competitors, because a bank is not branches — it is systems, funding and customer inertia. That realisation is what pushed policy towards the CMA's data-led remedies and the BCR cash.</p>"
+    },
+    {
+      "id": "s6",
+      "heading": "The CMA's 2016 Verdict",
+      "html": "<p>By 2014 the competition question had outgrown state-aid plumbing, and the Competition and Markets Authority launched a full market investigation into personal current accounts and SME banking. The final report of the <span class=\"xref\" data-term=\"cma-2016\">CMA 2016</span> investigation, published on 9 August 2016, was a diagnosis of stagnation rather than abuse: low customer engagement, opaque products, and banks that did not need to compete hard because customers — especially business customers, who overwhelmingly opened accounts with their personal bank and stayed — almost never switched.</p><p>The CMA deliberately chose behavioural remedies over break-ups. The flagship was the <span class=\"xref\" data-term=\"open-banking\">open banking</span> mandate: the nine largest current-account providers were ordered to build a common API standard letting customers share their transaction data with third parties, live from early 2018. Alongside it came mandatory service-quality league tables — banks forced to publish, in branch and in app, independent survey rankings of how likely customers are to recommend them, including business-account rankings — plus overdraft alerts and monthly maximum charges, and transparency tools for SME loan pricing and eligibility.</p><p>Critics called it timid; no structural change, and switching rates barely moved for years. But the open banking remedy proved to be the sleeper hit of the whole post-crisis settlement: it created the data rails on which fintech SME lenders, cloud accounting integrations and <span class=\"xref\" data-term=\"transactional-data-lending\">transactional-data lending</span> models were built, and it was copied worldwide. When Module 5 introduces the challengers eating at Barclays' BB market share, most of them are standing on infrastructure this report mandated.</p>"
+    },
+    {
+      "id": "s7",
+      "heading": "The £775m Consolation Prize",
+      "html": "<p>The Williams &amp; Glyn failure left RBS owing competition a debt, and the 2017 settlement made it cash. An independent body, <span class=\"xref\" data-term=\"bcr\">Banking Competition Remedies</span> Ltd, was created in 2018 to administer the £775m alternative remedies package: a £425m <span class=\"xref\" data-term=\"capability-innovation-fund\">Capability &amp; Innovation Fund</span> of grants, and £350m for an <span class=\"xref\" data-term=\"incentivised-switching\">Incentivised Switching Scheme</span> — £275m of &quot;dowries&quot; paid to challengers for each former Williams &amp; Glyn SME customer they attracted, plus £75m towards customers' switching costs.</p><p>The grant fund is where today's competitive map was part-drawn. Pool A, awarded February 2019: Metro Bank £120m, <span class=\"xref\" data-term=\"starling\">Starling</span> £100m, ClearBank £60m in partnership with <span class=\"xref\" data-term=\"tide\">Tide</span>. Pool B, August 2019: Nationwide £50m, Investec £15m, Co-operative Bank £15m. Pool C handed £10m each to Atom Bank, iwoca, Modulr and Currencycloud; Pool D gave £5m each to fintechs including Codat, Fluidly, Form3, Funding Options and Swoop. The fund then produced its own morality tale: by early 2020 Metro Bank had handed back £50m after admitting it could not deliver its business-banking expansion commitments, and Nationwide returned its entire £50m on abandoning business current accounts altogether. The £100m was recycled into a Pool E and re-granted in 2020–21.</p><p>Incentivised switching underwhelmed against its ambitions: 69,135 business current accounts switched over the scheme's twenty-eight months to June 2021, against early ambitions of up to 120,000 — though that still represented over half of all SME switching in the period, and over 91% of the dowry money (£250.9m) was disbursed. Starling switched the most customers, compounding its grant.</p><p>Judge the package by its stated goal — a fourth force in SME banking — and it failed. Judge it by capability transfer and the verdict flips: Starling and Tide used BCR money to build genuine BB franchises, and RBS/NatWest paid for the privilege of arming its own competitors. Barclays BB competes today against balance sheets and platforms that this money helped build.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Competition remedies moved the <em>mix</em> of risk. Challengers grown on BCR money and switching dowries skewed towards younger, smaller, digitally-acquired SMEs — thin-file lending that behaves differently through a downturn than an incumbent's seasoned book. When benchmarking Barclays BB coverage ratios against peers, remember the portfolios are not like-for-like: acquisition channel and vintage are ECL drivers, and the post-2019 challenger books have barely seen a full cycle.</p></aside>"
+    },
+    {
+      "id": "s8",
+      "heading": "The Long Shadow at the Impairment Desk",
+      "html": "<p>Pull the threads together and the crisis bequeathed business banking three permanent conditions. First, a memory of credit famine: SME credit supply is now understood to be procyclical and fragile, which is why every subsequent shock — Brexit, Covid — triggered state guarantee schemes rather than another Merlin-style plea (Module 3 covers what that did to the risk architecture). Second, a conduct settlement written in scar tissue: GRG and <span class=\"xref\" data-term=\"irhp\">IRHP</span> established that how a bank treats a struggling business is a boardroom risk even where the FCA's formal perimeter runs out, and the machinery you work within — segregated support units, fee governance, forbearance oversight, complaint-ready audit trails — is the institutional memory of those scandals. Third, an engineered competitive landscape: state-aid divestments, the CMA's data rails and BCR's cheque-book collectively built the challengers that now discipline incumbent pricing and cherry-pick incumbent customers.</p><p>For an impairment analyst arriving in BB from retail, the second condition is the one that changes daily work. In cards or mortgages, collections conduct risk is real but industrialised. In BB, every material distressed exposure is a bespoke negotiation with a business owner who has read about GRG — and whose lawyer certainly has. Decisions that look like pure credit-risk optimisation (revalue the security, call the <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span>, enforce the <span class=\"xref\" data-term=\"debenture\">debenture</span>, price the forbearance) are also conduct decisions, and the downside case is not just higher LGD — it is a section-166 review, a redress scheme and a provision line that sits beside your ECL charge in the same income statement. The 2008 crisis ended in 2009. Its accounting never really has.</p>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Why did SME credit contract more sharply than other lending in 2008–12?",
+      "options": [
+        "SME default rates were the highest of any asset class",
+        "Regulators ordered banks to prioritise mortgage lending",
+        "Deleveraging banks cut SME books first — high risk weights, falling collateral values, and facilities that could be quietly withdrawn at review",
+        "SME demand for credit collapsed while supply was unchanged"
+      ],
+      "answer": 2,
+      "explain": "The contraction was supply-led: SME exposures carried high risk weights, commercial property collateral was falling, and overdrafts and review-based facilities could be cut without public notice. Demand also weakened, but net lending stayed negative into 2013 largely because banks were shrinking risk."
+    },
+    {
+      "q": "What was the central design flaw of Project Merlin's lending targets?",
+      "options": [
+        "They measured gross lending, so banks could hit targets while net SME credit kept shrinking",
+        "They only applied to Barclays and HSBC",
+        "They were set in dollars rather than sterling",
+        "They excluded SME lending entirely"
+      ],
+      "answer": 0,
+      "explain": "Merlin counted gross new lending (£190bn overall, £76bn SME). Repayments outran advances, so the stock of SME credit fell even as gross targets were broadly met — and the SME target was still missed by about £1bn. The other options are factually wrong: five banks participated and SMEs had an explicit target."
+    },
+    {
+      "q": "How did the April 2013 FLS extension try to redirect the scheme towards SMEs?",
+      "options": [
+        "By capping mortgage lending volumes at each bank",
+        "By making SME loans zero risk-weighted",
+        "By guaranteeing 80% of SME loan losses",
+        "By letting banks draw up to £10 of cheap funding for every £1 of net SME lending"
+      ],
+      "answer": 3,
+      "explain": "The extension sharpened incentives with a 10:1 drawing multiple on net SME lending in 2013 (household incentives were removed later that year). Evaluations still could not identify a direct boost to SME credit. Guarantees came later with Covid schemes; risk weights were untouched."
+    },
+    {
+      "q": "What did the Promontory s.166 review actually conclude about RBS GRG?",
+      "options": [
+        "That GRG's treatment of customers was broadly appropriate",
+        "Widespread inappropriate treatment of customers — but not that RBS deliberately engineered defaults for profit",
+        "That RBS deliberately engineered defaults as a systematic strategy",
+        "That all 12,000 GRG customers suffered material financial distress"
+      ],
+      "answer": 1,
+      "explain": "Promontory found widespread inappropriate treatment, with around one in six customers suffering material financial distress caused by the bank — but it did not uphold the Tomlinson allegation of deliberately engineered defaults. Both extremes (exoneration, or proven asset-stripping strategy) misstate the finding."
+    },
+    {
+      "q": "Why did the FCA take no enforcement action over GRG?",
+      "options": [
+        "The evidence was destroyed before the review",
+        "RBS successfully appealed the findings in court",
+        "Commercial lending sat outside the FCA's regulatory perimeter, so GRG's activities were largely unregulated",
+        "The £400m complaints scheme legally extinguished FCA jurisdiction"
+      ],
+      "answer": 2,
+      "explain": "The FCA concluded in 2019 that its powers did not reach GRG's conduct because commercial lending is unregulated business. The £400m scheme was RBS's own remedy, not a legal bar — and that perimeter gap is precisely why conduct in business collections is managed as a reputational rather than purely regulatory risk."
+    },
+    {
+      "q": "What was the Swift Review's principal criticism of the IRHP redress scheme?",
+      "options": [
+        "The exclusion of 'sophisticated' customers — around 10,000 sales — was wrong in principle",
+        "The £2.2bn paid out was excessive relative to actual losses",
+        "The scheme wrongly included caps, which are low-risk products",
+        "Redress should have been paid by the government, not the banks"
+      ],
+      "answer": 0,
+      "explain": "Swift found the scheme mostly delivered fair outcomes for those inside it, but criticised the sophistication test that excluded roughly 10,000 sales, along with weak FCA governance and record-keeping. The FCA declined to reopen the scheme and won the subsequent 2023 judicial review."
+    },
+    {
+      "q": "What ultimately killed the Williams & Glyn divestment?",
+      "options": [
+        "The EU withdrew its state-aid requirement after Brexit",
+        "The cost and complexity of separating IT systems — over £1.5bn spent without producing a viable standalone bank",
+        "The FCA blocked the sale on prudential grounds",
+        "No buyer ever showed any interest"
+      ],
+      "answer": 1,
+      "explain": "Santander did bid (and walked away in 2012), so interest existed; the killer was carving a functioning bank out of RBS's legacy systems, which consumed over £1.5bn before the plan was abandoned in 2017 and replaced by the £775m alternative remedies package."
+    },
+    {
+      "q": "What does the TSB story demonstrate about structural competition remedies?",
+      "options": [
+        "Carve-outs reliably create strong challengers within a decade",
+        "IPOs are the only viable exit for divested banks",
+        "EU remedies only applied to RBS, not Lloyds",
+        "Even a 'successful' carve-out can fail operationally (2018 IT meltdown) and end up reabsorbed by an incumbent (Santander, 2026)"
+      ],
+      "answer": 3,
+      "explain": "TSB completed its separation, IPO'd and was sold to Sabadell — then locked up to 1.9m customers out in the 2018 migration (£48.65m in fines) and was bought by Santander for £2.65bn, completing April 2026. The remedy transferred share without creating a durable independent competitor."
+    },
+    {
+      "q": "Which CMA 2016 remedy proved most consequential for SME banking?",
+      "options": [
+        "Breaking up the largest banks",
+        "A cap on business-loan interest rates",
+        "The open banking API mandate, which built the data rails for fintech SME lending",
+        "Abolishing free-if-in-credit banking"
+      ],
+      "answer": 2,
+      "explain": "The CMA explicitly rejected structural break-ups and imposed behavioural remedies. Open banking — forcing the largest banks to share transaction data via APIs from 2018 — became the foundation for transactional-data lending and was copied globally. No rate cap or FIIC abolition was imposed."
+    },
+    {
+      "q": "Which of these correctly describes the BCR money flows?",
+      "options": [
+        "Starling received £120m and Metro Bank £100m from Pool A",
+        "Starling won £100m and ClearBank/Tide £60m from Pool A; Metro and Nationwide later returned £50m each, recycled into Pool E",
+        "The Incentivised Switching Scheme beat its 120,000-account ambition",
+        "The £775m package was funded by the taxpayer"
+      ],
+      "answer": 1,
+      "explain": "Pool A: Metro £120m, Starling £100m, ClearBank (with Tide) £60m. Metro returned £50m and Nationwide its full £50m, creating Pool E. Switching reached 69,135 accounts against ambitions of up to 120,000, and the whole package was funded by RBS as the price of keeping Williams & Glyn."
+    }
+  ],
+  "domino": {
+    "title": "From funding freeze to conduct charge",
+    "nodes": [
+      { "id": "n1", "label": "Wholesale funding freezes", "sectionId": "s1" },
+      { "id": "n2", "label": "Bank capital destroyed", "sectionId": "s1" },
+      { "id": "n3", "label": "Risk appetite slams shut", "sectionId": "s1" },
+      { "id": "n4", "label": "SME credit contracts", "sectionId": "s1" },
+      { "id": "n5", "label": "Merlin & FLS underwhelm", "sectionId": "s2" },
+      { "id": "n6", "label": "Distressed SMEs hit GRG", "sectionId": "s3" },
+      { "id": "n7", "label": "GRG & IRHP scandals", "sectionId": "s4" },
+      { "id": "n8", "label": "Remedies: CMA, state aid", "sectionId": "s6" },
+      { "id": "n9", "label": "BCR funds challengers", "sectionId": "s7" },
+      { "id": "n10", "label": "Redress & conduct provisions", "sectionId": "s8" },
+      { "id": "n11", "label": "P&L charge beside ECL", "sectionId": "s8" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n1", "n3"],
+      ["n2", "n4"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n4", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n9"],
+      ["n7", "n10"],
+      ["n10", "n11"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Project Merlin",
+      "slug": "project-merlin",
+      "definition": "February 2011 agreement between the Treasury and five major banks committing 'capacity and willingness' for £190bn gross new business lending in 2011, £76bn to SMEs. Overall target exceeded; SME target missed by about £1bn. Criticised for counting gross lending while net SME credit kept shrinking, with no penalty mechanism.",
+      "related": ["fls", "sme"]
+    },
+    {
+      "term": "Funding for Lending Scheme",
+      "slug": "fls",
+      "definition": "Bank of England/Treasury scheme (2012–18) giving banks cheap funding priced off their net lending. The April 2013 extension skewed incentives to SMEs — up to £10 of drawings per £1 of net SME lending. Revived mortgage pricing and crushed savings rates; evaluations found no identifiable direct boost to SME credit.",
+      "related": ["project-merlin"]
+    },
+    {
+      "term": "Global Restructuring Group",
+      "slug": "grg",
+      "definition": "RBS's division for distressed business customers; around 12,000 SMEs passed through it 2008–13. The FCA's s.166 review found widespread inappropriate treatment, with about one in six customers materially harmed by the bank. No enforcement followed — commercial lending sat outside the regulatory perimeter. RBS set aside £400m for fee refunds and complaints.",
+      "related": ["tomlinson-report", "s166-review", "west-register", "business-support-unit"]
+    },
+    {
+      "term": "Interest-Rate Hedging Products",
+      "slug": "irhp",
+      "definition": "Swaps, caps, collars and structured collars sold alongside SME loans 2001–11, often as a lending condition. When rates collapsed, fixed payments and huge break costs crippled borrowers. An FSA-brokered review saw nine banks pay over £2.2bn redress on some 14,000 accepted offers; a 'sophistication test' excluded roughly 10,000 sales.",
+      "related": ["swift-review", "grg"]
+    },
+    {
+      "term": "CMA 2016 Market Investigation",
+      "slug": "cma-2016",
+      "definition": "Competition and Markets Authority investigation into personal current account and SME banking, final report August 2016. Found weak competition driven by customer inertia. Remedies were behavioural, not structural: the open banking API mandate, published service-quality league tables, overdraft alerts and charge caps, and SME loan-price transparency tools.",
+      "related": ["open-banking", "bcr"]
+    },
+    {
+      "term": "Banking Competition Remedies",
+      "slug": "bcr",
+      "definition": "Independent body created in 2018 to administer RBS's £775m state-aid alternative remedies package: a £425m Capability & Innovation Fund of grants and £350m for incentivised switching of SME customers. Agreed with the European Commission in 2017 after the Williams & Glyn divestment was abandoned.",
+      "related": ["capability-innovation-fund", "incentivised-switching", "williams-and-glyn"]
+    },
+    {
+      "term": "Incentivised Switching Scheme",
+      "slug": "incentivised-switching",
+      "definition": "BCR scheme (2019–21) paying dowries to challenger banks for each former Williams & Glyn SME customer switching their business current account: £275m for dowries plus £75m towards customer costs. Delivered 69,135 switches against ambitions of up to 120,000; £250.9m (over 91%) disbursed. Starling switched the most.",
+      "related": ["bcr", "starling"]
+    },
+    {
+      "term": "Williams & Glyn",
+      "slug": "williams-and-glyn",
+      "definition": "The 300-plus-branch SME-heavy business RBS was ordered to divest as an EU state-aid condition of its £45.5bn bailout. A Santander sale collapsed in 2012; standalone-bank plans consumed over £1.5bn, mostly on IT separation. Abandoned in 2017 and replaced by the £775m alternative remedies package.",
+      "related": ["bcr", "tsb-carve-out"]
+    },
+    {
+      "term": "Tomlinson Report",
+      "slug": "tomlinson-report",
+      "definition": "November 2013 report by Lawrence Tomlinson, entrepreneur in residence at the business department, alleging RBS GRG pushed viable SMEs into distress via revaluations and fees, with the bank's West Register arm acquiring their assets. Triggered the FCA's skilled-person review of GRG.",
+      "related": ["grg", "s166-review", "west-register"]
+    },
+    {
+      "term": "Section 166 Review",
+      "slug": "s166-review",
+      "definition": "A 'skilled person' review under s.166 of the Financial Services and Markets Act 2000: the regulator requires an independent expert report on a firm's conduct or systems. Promontory, assisted by Mazars, conducted the GRG s.166 review, delivering its report to the FCA in September 2016.",
+      "related": ["grg", "tomlinson-report"]
+    },
+    {
+      "term": "Capability & Innovation Fund",
+      "slug": "capability-innovation-fund",
+      "definition": "The £425m grant arm of the BCR package. Pool A (2019): Metro Bank £120m, Starling £100m, ClearBank with Tide £60m. Pool B: Nationwide £50m, Investec £15m, Co-op Bank £15m. Pool C: £10m grants; Pool D: £5m grants. Metro and Nationwide each returned £50m, recycled as Pool E in 2020.",
+      "related": ["bcr", "incentivised-switching", "starling", "tide"]
+    },
+    {
+      "term": "Swift Review",
+      "slug": "swift-review",
+      "definition": "John Swift QC's lessons-learned review of the IRHP redress scheme, published December 2021. Found most in-scope customers likely did better inside the scheme than outside, but criticised the exclusion of 'sophisticated' customers and weak FCA governance. The FCA declined to reopen redress; courts upheld that in 2023.",
+      "related": ["irhp"]
+    },
+    {
+      "term": "TSB Carve-out",
+      "slug": "tsb-carve-out",
+      "definition": "Lloyds' EU-mandated divestment (Project Verde). After the Co-op purchase collapsed in 2013, TSB launched, IPO'd in 2014 and was sold to Sabadell in 2015 for £1.7bn. Its 2018 IT migration locked out up to 1.9m customers, drawing £48.65m in fines. Santander's £2.65bn acquisition completed 30 April 2026.",
+      "related": ["williams-and-glyn"]
+    },
+    {
+      "term": "West Register",
+      "slug": "west-register",
+      "definition": "RBS's property-investment arm, which could acquire assets sold by distressed customers managed in GRG — the conflict of interest at the heart of the Tomlinson allegations. The s.166 review did not find a deliberate asset-stripping strategy, but the optics led banks to bar workout units from buying customer assets.",
+      "related": ["grg", "tomlinson-report"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FCA — Update on review of RBS's treatment of SME customers referred to GRG",
+      "url": "https://www.fca.org.uk/news/press-releases/update-fca-review-rbs-treatment-sme-customers-global-restructuring-group",
+      "note": "s.166 review by Promontory, findings of widespread inappropriate treatment, GRG timeline"
+    },
+    {
+      "title": "FCA — Statement on the final GRG report",
+      "url": "https://www.fca.org.uk/news/press-releases/review-royal-bank-scotland-treatment-customers-referred-global-restructuring-group",
+      "note": "FCA conclusion of no enforcement action; commercial lending outside the regulatory perimeter"
+    },
+    {
+      "title": "FCA — Publication of the Swift Review into the IRHP supervisory intervention",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-swift-review-supervisory-intervention-interest-rate-hedging-products",
+      "note": "£2.2bn redress, ~14,000 accepted offers, sophistication-test criticism, FCA response"
+    },
+    {
+      "title": "Bank of England / HM Treasury — Extension to the Funding for Lending Scheme (April 2013)",
+      "url": "https://www.bankofengland.co.uk/news/2013/april/boe-hmt-announce-extension-to-the-fls",
+      "note": "FLS mechanics and the SME-skewed drawing multiples in the 2013 extension"
+    },
+    {
+      "title": "Insider.co.uk — Project Merlin banks fail to hit lending targets to small businesses",
+      "url": "https://www.insider.co.uk/news/project-merlin-banks-fail-9882678",
+      "note": "£190bn/£76bn Merlin targets and the SME shortfall"
+    },
+    {
+      "title": "gov.uk — Agreement reached on RBS state aid will boost competition in business banking",
+      "url": "https://www.gov.uk/government/news/agreement-reached-on-rbs-state-aid-will-boost-competition-in-business-banking",
+      "note": "£775m alternative remedies package replacing the Williams & Glyn divestment"
+    },
+    {
+      "title": "CMA — Retail banking market investigation, full final report (August 2016)",
+      "url": "https://assets.publishing.service.gov.uk/media/57ac9667e5274a0f6c00007a/retail-banking-market-investigation-full-final-report.pdf",
+      "note": "Findings on weak competition; open banking mandate and service-quality remedies"
+    },
+    {
+      "title": "City A.M. — Metro, Starling and ClearBank win £280m from RBS competition fund",
+      "url": "https://www.cityam.com/metro-starling-and-clearbank-win-280m-rbs-competition-fund/",
+      "note": "CIF Pool A awards: Metro £120m, Starling £100m, ClearBank/Tide £60m"
+    },
+    {
+      "title": "Business Money — BCR announces the awards of Capability and Innovation Fund Pool B",
+      "url": "https://www.business-money.com/announcements/banking-competition-remedies-ltd-announces-the-awards-of-capability-and-innovation-fund-pool-b/",
+      "note": "Pool B awards: Nationwide £50m, Investec £15m, Co-operative Bank £15m"
+    },
+    {
+      "title": "Business Money — BCR publishes final results of the Incentivised Switching Scheme",
+      "url": "https://www.business-money.com/announcements/bcr-publishes-final-results-of-the-incentivised-switching-scheme/",
+      "note": "69,135 BCAs switched; £250.9m (91%+) of dowries disbursed by 30 June 2021"
+    },
+    {
+      "title": "Tide — Tide and ClearBank on grants returned by Nationwide and Metro Bank",
+      "url": "https://www.tide.co/blog/tide-update/tide-clearbank-apply-for-nationwide-returned-bcr-grant/",
+      "note": "Metro and Nationwide £50m returns and the creation of Pool E"
+    },
+    {
+      "title": "Santander UK — Completion of the £2.65bn acquisition of TSB Banking Group",
+      "url": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-uk-completes-cash-acquisition-of-tsb-banking",
+      "note": "TSB acquisition announced July 2025, completed 30 April 2026"
+    }
+  ]
+}

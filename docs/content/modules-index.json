@@ -1,0 +1,85 @@
+{
+ "builtAt": "2026-08-06",
+ "modules": [
+  {
+   "id": 0,
+   "slug": "orientation",
+   "title": "What Business Banking Actually Is",
+   "summary": "Business Banking is the territory between the cash machine and the syndicated loan: 5.7 million firms, most of them one person and a van, banked through products that behave nothing like mortgages or cards. This module maps the segment, the product shelf, and the organisational geography — and explains why an SME book will fight every instinct you built in retail impairment.",
+   "readingTime": 13,
+   "kicker": "Module 00 · Orientation"
+  },
+  {
+   "id": 1,
+   "slug": "history",
+   "title": "History & Evolution of UK Business Banking",
+   "summary": "Three centuries of UK business banking in one arc: Quaker goldsmiths financing trade, a cartelised oligopoly rationing SME credit, deregulation detonating two property-lending busts, and a competition inquiry that found a complex monopoly. Every era follows the same grammar — what changed, what it did to SME credit supply, and what losses followed — because that grammar is what an impairment analyst reads for a living.",
+   "readingTime": 15,
+   "kicker": "Module 01 · History"
+  },
+  {
+   "id": 2,
+   "slug": "crisis-2008",
+   "title": "The 2008 Crisis and Its Long Shadow",
+   "summary": "The financial crisis didn't just starve SMEs of credit — it produced the scandals, remedies and regulatory scar tissue that define UK business banking today. GRG, IRHP, Williams & Glyn, the CMA's open banking mandate and the £775m that seeded Starling and Tide: every one of them still shapes how a BB impairment desk is allowed to behave.",
+   "readingTime": 18,
+   "kicker": "Module 02 · The Long Shadow"
+  },
+  {
+   "id": 3,
+   "slug": "covid-schemes",
+   "title": "COVID, Government Schemes, and the Book That Defines Today",
+   "summary": "In eleven weeks of 2020, the government underwrote more SME lending than the market had originated in a decade — £76.8bn drawn across three schemes, most of it with no credit checks at all. That book, now deep in run-off, is the single biggest determinant of what a BB impairment analyst does all day: guaranteed versus unguaranteed splits, fraud flags versus credit defaults, and a claims machine that turns LGD into an operational question.",
+   "readingTime": 18,
+   "kicker": "Module 03 · The COVID Book"
+  },
+  {
+   "id": 4,
+   "slug": "barclays-today",
+   "title": "Barclays Business Banking Today",
+   "summary": "Where Business Banking sits inside the Barclays machine, how big it actually is, and what the 2023–2025 results say about its credit performance. This is the book you will be provisioning: deposit-rich, lending-light, BBLS-shadowed — and quietly swinging from impairment releases back to charges.",
+   "readingTime": 16,
+   "kicker": "Module 04 · The Home Team"
+  },
+  {
+   "id": 5,
+   "slug": "competitors",
+   "title": "The Competitor Map",
+   "summary": "Who actually competes with Barclays for SME accounts and SME credit — and why they are rarely the same firms. The incumbents kept the accounts and shed the risk; a state-funded insurgency took the accounts it could; specialists and marketplaces took the credit. Each player's loss experience is a free lesson for the impairment desk.",
+   "readingTime": 15,
+   "kicker": "Module 05 · The Field"
+  },
+  {
+   "id": 6,
+   "slug": "sme-credit-risk",
+   "title": "SME Credit Risk & Underwriting",
+   "summary": "How a bank decides whether a scaffolding firm, a dental practice or a three-site café group gets credit — and why every retail instinct you have about PD, data quality and security needs rewiring. From Companies House's holes to the floating charge's disappointments, this is where BB impairment numbers are actually made.",
+   "readingTime": 16,
+   "kicker": "Module 06 · Underwriting"
+  },
+  {
+   "id": 7,
+   "slug": "ifrs9-bb",
+   "title": "IFRS 9 for Business Banking",
+   "summary": "You already run the IFRS 9 machine on mortgages and cards. This module rebuilds every stage of it for a book where behavioural data runs thin, single names move the charge, and a government guarantee can sit inside your LGD. It is the bridge between the retail impairment world you know and the SME one you are joining.",
+   "readingTime": 14,
+   "kicker": "Module 07 · The Bridge"
+  },
+  {
+   "id": 8,
+   "slug": "insolvency",
+   "title": "Distress, Collections, and Insolvency",
+   "summary": "What actually happens when a business banking exposure fails: the transfer into Business Support, the workout menu, and the five UK insolvency regimes with their real-world recovery rates and timelines. This is the module where LGD stops being a model parameter and becomes a queue at a waterfall — one that HMRC rejoined in December 2020.",
+   "readingTime": 16,
+   "kicker": "Module 08 · When It Goes Wrong"
+  },
+  {
+   "id": 9,
+   "slug": "forward-radar",
+   "title": "Current State & Forward Radar (2024–2026)",
+   "summary": "The forward view: where rates, regulation and new money are taking UK business banking through 2026 and beyond. Bank Rate is parked at 3.75%, Basel 3.1 lands in January 2027, the BBLS tail stretches to 2030, and private credit now writes most of the flow. This module ends where your job begins — a ranked watchlist of what will actually move BB ECL in the next 24 months.",
+   "readingTime": 15,
+   "kicker": "Module 09 · The Radar"
+  }
+ ]
+}

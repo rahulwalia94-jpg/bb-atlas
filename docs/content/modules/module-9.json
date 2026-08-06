@@ -1,0 +1,320 @@
+{
+  "id": 9,
+  "slug": "forward-radar",
+  "title": "Current State & Forward Radar (2024–2026)",
+  "kicker": "Module 09 · The Radar",
+  "summary": "The forward view: where rates, regulation and new money are taking UK business banking through 2026 and beyond. Bank Rate is parked at 3.75%, Basel 3.1 lands in January 2027, the BBLS tail stretches to 2030, and private credit now writes most of the flow. This module ends where your job begins — a ranked watchlist of what will actually move BB ECL in the next 24 months.",
+  "readingTime": 15,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "The rate that came down — and stopped",
+      "html": "<p>The story you inherit in August 2026 is not a rate shock; it is a rate plateau. Bank Rate peaked at 5.25% in August 2023, sat there for a year, then descended in careful quarter-point steps — August and November 2024, then February, May, August and December 2025 — to 3.75%, where it has been parked ever since. The June 2026 hold went 7–2; the July 2026 hold went 6–3, and the dissenters wanted a <em>rise</em>. Markets still pencil in one or two cuts by year-end, but the honest reading is that the era of near-free money is not coming back. For a book of <span class=\"xref\" data-term=\"sme\">SME</span> borrowers, 3.75% is not relief. It is the new floor.</p><p>Why does a falling rate still hurt? Because of when the debt was written. The great mass of BB term lending — commercial mortgages, asset finance, the post-pandemic recovery borrowing — was priced between 2020 and 2021, when Bank Rate was 0.1%. Five-year fixes from that vintage matured into 2025 and 2026; what analysts called the <span class=\"xref\" data-term=\"refinancing-wall\">refinancing wall</span> did not collapse on the book in one quarter, it has been grinding through it maturity by maturity, repricing debt service at double or triple the old coupon. The symptoms are visible in the utilisation data: SME <span class=\"xref\" data-term=\"overdraft\">overdraft</span> utilisation hit 49.3% in Q1 2026, the highest since early 2024, as firms borrowed to cover tax bills, energy, employment costs and — circularly — to refinance other debt.</p><p>And the insolvency needle has not fallen with the rate. There were 23,938 company insolvencies in England and Wales in 2025 — essentially flat on 2024, only 5% below the 2023 peak that was itself the highest since 1993. The composition shifted in a way that matters more than the total: creditors' voluntary liquidations eased slightly, while compulsory liquidations rose to 3,730, the highest annual figure since 2012 — creditor-initiated, HMRC-flavoured, involuntary. Firms are no longer folding quietly; they are being wound up by the people they owe.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>A plateau is harder to model than a shock. Your <span class=\"xref\" data-term=\"forward-looking-economics\">forward-looking economics</span> scenarios were built for rate <em>paths</em>; a stuck rate with a maturing back-book generates <span class=\"xref\" data-term=\"pd\">PD</span> deterioration through the affordability channel with no macro variable moving. If your models key off Bank Rate deltas rather than effective portfolio yield at refinancing, they will under-predict stress — which is exactly the gap a <span class=\"xref\" data-term=\"pma\">PMA</span> exists to fill.</p></aside>"
+    },
+    {
+      "id": "s2",
+      "heading": "The long tail of the bounce back book",
+      "html": "<p>Six years after launch, the <span class=\"xref\" data-term=\"bbls\">Bounce Back Loan Scheme</span> is still the largest single legacy item on the BB radar. The government's repayment data as at 31 March 2026 shows £46.47 billion drawn across roughly 1.5 million facilities. By volume, 19.4% are fully repaid and 47.0% on schedule; 3.9% sit in arrears, 0.7% have defaulted but not yet been claimed, and the government guarantee has been settled on 28.3% of facilities. Read that last number again: more than a quarter of all bounce back loans, by count, have already ended in a settled <span class=\"xref\" data-term=\"guarantee-claim\">guarantee claim</span>. The December 2025 Covid Counter Fraud Commissioner's final report put fraud and error across the Covid support schemes at £10.9 billion, with BBLS singled out for its self-certified, no-checks design.</p><p>What keeps this a <em>forward</em> radar item rather than a history lesson is <span class=\"xref\" data-term=\"pay-as-you-grow\">Pay As You Grow</span>. The original loans were six-year facilities drawn between May 2020 and March 2021, which would have run the book off by 2027. But PAYG let borrowers extend to ten years at the same 2.5% fixed rate, take payment holidays, or drop to interest-only for six months up to three times. A ten-year extension on a March 2021 drawdown matures in 2031. The <span class=\"xref\" data-term=\"british-business-bank\">British Business Bank</span> confirms extension leaves the guarantee intact — but it also means the residual book is self-selected: the firms that extended are, on average, the firms that couldn't afford the six-year profile. The tail is long, thin, and adversely selected.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>The 100% guarantee is an <span class=\"xref\" data-term=\"integral-guarantee\">integral guarantee</span>, so BBLS <span class=\"xref\" data-term=\"lgd\">LGD</span> is near zero and the <span class=\"xref\" data-term=\"ecl\">ECL</span> sensitivity runs through volume, not severity: <span class=\"xref\" data-term=\"ead\">EAD</span> run-off, claim timing, and the operational risk that a lender's recovery-process failures void the guarantee on a cohort. The genuinely dangerous read-across is behavioural: a PAYG-extended borrower is telling you something about every <em>other</em> facility they hold with the bank — an unguaranteed overdraft next to a guaranteed BBLS deserves a harder <span class=\"xref\" data-term=\"staging\">staging</span> look than either does alone.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "Basel 3.1: the capital reshuffle behind SME pricing",
+      "html": "<p>Capital rules are not impairment rules, but they set the price and supply of the credit whose losses you later count. <span class=\"xref\" data-term=\"basel-3-1\">Basel 3.1</span> is the UK's implementation of the final post-2008 capital package, and its timetable has been a moving target: near-final PRA rules landed in September 2024 with a January 2026 start; on 17 January 2025 the PRA, in consultation with HM Treasury, delayed implementation to <strong>1 January 2027</strong>, citing uncertainty over what the United States would do; final rules were published in January 2026, with the market-risk internal model piece pushed further to 2028. As of today the go-live is five months away, and it is real.</p><p>The fight that matters for BB was over the <span class=\"xref\" data-term=\"sme-supporting-factor\">SME supporting factor</span> — the EU-inherited discount that scaled down risk weights on SME exposures and made small-business lending cheaper to hold. The PRA's original proposal simply deleted it, and lenders warned loudly that SME credit would reprice or retreat. The landing zone was a compromise: the supporting factor goes from Pillar 1, but the PRA introduced a firm-specific <span class=\"xref\" data-term=\"sme-lending-adjustment\">SME lending adjustment</span> in Pillar 2A, designed to offset the aggregate capital impact (a parallel adjustment covers infrastructure). Alongside it, the <span class=\"xref\" data-term=\"sddt\">Small Domestic Deposit Taker</span> regime gives smaller banks a simplified framework — which shapes how the challengers who now write most SME flow will be capitalised.</p><p>The catch is in the phrase <em>firm-specific</em>. A Pillar 1 factor was automatic, permanent and visible in pricing models; a Pillar 2A adjustment is supervisory, reviewable and opaque. Treasurers price what they can rely on. Expect standardised-approach SME risk weights to bite hardest at exactly the lenders competing for the marginal BB borrower, and expect some of that cost to arrive as wider margins on 2027 refinancings — stacking onto the rate-plateau repricing from the previous section.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Basel 3.1 never touches your ECL formula, but it moves your inputs. If capital-driven repricing tightens refinance availability for weaker SMEs in 2027, refusal-at-maturity becomes a default trigger: PD rises for the borrowers least able to switch lender, and origination-vintage quality shifts as banks cede the marginal customer to <span class=\"xref\" data-term=\"private-credit\">private credit</span>. Watch the 2027 vintage mix, not the capital ratio.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "Plumbing: referrals, open finance, and the end of the PSR",
+      "html": "<p>Three quieter structural stories set the data and payments environment BB will operate in. First, the <span class=\"xref\" data-term=\"bank-referral-scheme\">Bank Referral Scheme</span> — the 2016 statutory duty on major banks to refer declined SME credit applicants, with consent, to designated finance platforms (Funding Options, Funding Xchange, Alternative Business Funding and Business Finance Technology). Its conversion record has always been modest, and after a 2024 post-implementation review HM Treasury consulted again in October 2025. The May 2026 government response was a shrug with a twist: no legislative overhaul of the scheme itself, but an intention to expand the Commercial Credit Data Sharing regime so that entities beyond regulated banks can be designated. Translation — the state has stopped trying to fix referrals and started widening the data pipes instead.</p><p>Second, <span class=\"xref\" data-term=\"open-banking\">open banking</span> is graduating into <span class=\"xref\" data-term=\"open-finance\">open finance</span>. The UK passed 16 million open banking users during 2025, and variable recurring payments already account for around 16% of open banking payment volumes. The commercial leap is <span class=\"xref\" data-term=\"commercial-vrp\">commercial VRPs</span>: a 31-firm vehicle, the UK Payments Initiative, was stood up at the end of 2025 to run the first commercial VRP scheme, with the first live payments expected from early 2026 across utilities, financial services and government use cases. HM Treasury legislation in 2026 will hand the FCA formal rule-making powers over the ecosystem. For BB, a business account that streams its transaction data and pays by VRP is a business the bank can monitor in near-real time — and one whose deposits can leave in near-real time too.</p><p>Third, the regulator itself is being rewired. The government announced in March 2025 that the Payment Systems Regulator would be abolished and folded into the FCA; HM Treasury confirmed the decision in April 2026 and legislation was introduced in May 2026. The PSR still operates through the transition, but the payments rulebook that governs everything above — and the fraud regime below — will soon have a single owner.</p>"
+    },
+    {
+      "id": "s5",
+      "heading": "New money: private credit, B2B BNPL, embedded finance",
+      "html": "<p>Follow the flow of new SME lending and you are no longer mostly watching the big banks. UK SME lending rose almost 10% to roughly £68 billion in 2025, and about 68% of it came from challenger and specialist banks or non-bank lenders — the third straight year the incumbents were the minority. Behind the challengers stands <span class=\"xref\" data-term=\"private-credit\">private credit</span>: direct-lending funds pushing down from the mid-market into smaller tickets, banks responding with fund partnerships rather than balance-sheet competition, and structures like European direct-lending CLOs (Ares priced one in June 2025) giving the asset class term funding. The disintermediation that ate leveraged lending is now grazing on SME credit.</p><p>The retail-facing face of the same trend is <span class=\"xref\" data-term=\"bnpl\">BNPL</span> for business. UK B2B buy-now-pay-later volumes were estimated around US$13.7 billion in 2025, heading toward US$16.5 billion, with Kriya, Hokodo and <span class=\"xref\" data-term=\"iwoca\">iwoca</span>'s iwocaPay embedding pay-later terms directly into B2B checkouts, procurement portals and accounting software — <span class=\"xref\" data-term=\"embedded-finance\">embedded finance</span> replacing the paper invoice-discounting of old. The consolidation signal came in October 2025 when <span class=\"xref\" data-term=\"allica\">Allica</span> Bank bought Kriya, promising £1 billion of deployment: regulated challenger balance sheets are becoming the funding layer under fintech distribution. Note the regulatory asymmetry: FCA regulation of <em>consumer</em> deferred payment credit went live on 15 July 2026 under PS26/1 — affordability checks, Ombudsman access, the lot — while B2B BNPL remains entirely outside the perimeter.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Two ECL consequences. First, adverse selection: if non-banks take the growth and the bank retains relationship legacy, your book quietly ages and concentrates — a portfolio-mix effect no single model input captures, classic <span class=\"xref\" data-term=\"overlay\">overlay</span> territory. Second, invisible leverage: a borrower's B2B BNPL and embedded-finance obligations sit outside bureau data and often outside their filed accounts, so your <span class=\"xref\" data-term=\"pd\">PD</span> models score an obligor who is more levered than the data shows, and true <span class=\"xref\" data-term=\"ead\">EAD</span> across the system exceeds what any one lender sees.</p></aside>"
+    },
+    {
+      "id": "s6",
+      "heading": "The fraud bill arrives: APP reimbursement",
+      "html": "<p>On 7 October 2024 the Payment Systems Regulator switched on mandatory reimbursement for <span class=\"xref\" data-term=\"app-fraud\">APP fraud</span> — authorised push payment scams, where the victim is deceived into sending the money themselves. The rules are blunt: victims reimbursed up to £85,000 within five business days, cost split 50/50 between sending and receiving payment firms, covering Faster Payments and CHAPS. The cap was itself a late retreat — the original proposal was £415,000, cut after industry pressure — though the PSR maintains 99.8% of cases fall under £85,000. Between launch and June 2025, roughly £112 million went back to victims, about 88% of the money stolen in in-scope scams. An independent one-year review began in October 2025, testing the cap, the 50/50 split and the customer-caution exception, with findings due in 2026/27 — landing on the FCA's desk as it absorbs the PSR.</p><p>The BB angle is the scope line. \"Consumers\" here includes <em>micro-enterprises</em> (broadly, under 10 staff and €2m turnover) and small charities — so the bottom of the BB book is inside the protection, while the standard business account above the threshold is not. That cliff-edge matters twice over. A protected microenterprise that loses £60,000 to an invoice-redirection scam gets it back and survives; an unprotected small business one size up absorbs the hit — and invoice fraud losses of that scale are precisely the kind of one-off cash event that turns a performing borrower into a <span class=\"xref\" data-term=\"watchlist\">watchlist</span> case. Meanwhile the receiving-bank half of the liability gives every BB franchise a new incentive problem: business accounts are where mule activity concentrates, so onboarding and inbound-payment monitoring are now loss-bearing control surfaces, not compliance hygiene.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Reimbursement costs are operational losses, not ECL — but the uncompensated fraud loss of an above-threshold SME is a credit event you will meet as a sudden <span class=\"xref\" data-term=\"sicr\">SICR</span> trigger or straight <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> entry with no prior arrears signature. Fraud shocks are the canonical argument for event-driven staging triggers alongside behavioural ones.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "What will move BB ECL in the next 24 months",
+      "html": "<p>The signature section. Everything above, compressed into a ranked watchlist — each item tied to the model input it will actually move between now and mid-2028.</p><ol><li><strong>The rate plateau meets the last of the refinancing wall.</strong> Bank Rate stuck near 3.75% while 2020–21 vintage fixes keep maturing means debt-service repricing continues with no offsetting macro improvement — the purest <span class=\"xref\" data-term=\"pd\">PD</span> driver on the board, and a <span class=\"xref\" data-term=\"forward-looking-economics\">forward-looking-economics</span> calibration problem because no scenario variable is moving.</li><li><strong>The BBLS/PAYG tail, 2026–2031.</strong> An adversely selected residual book with guarantee-settled claims already at 28% of facilities: near-zero <span class=\"xref\" data-term=\"lgd\">LGD</span> on the loans themselves, but a live <span class=\"xref\" data-term=\"staging\">staging</span> and cross-default signal for every unguaranteed facility beside them — and a guarantee-voiding operational risk that belongs in a <span class=\"xref\" data-term=\"pma\">PMA</span> discussion.</li><li><strong>Basel 3.1 go-live, 1 January 2027.</strong> Supporting factor out of Pillar 1, discretionary adjustment in Pillar 2A: expect repricing and selective retreat at the margin, so refusal-at-refinance becomes a default pathway — PD for the weakest cohort, EAD as limits are managed down ahead of the date.</li><li><strong>Compulsory liquidations at a 13-year high.</strong> Creditor- and HMRC-initiated windings-up shorten the runway from stress to terminal event — faster <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> inflow, and <span class=\"xref\" data-term=\"lgd\">LGD</span> timing effects as compulsory processes recover less than negotiated exits.</li><li><strong>The employment-cost and business-rates stack.</strong> The 2025–26 rises in employer costs compress consumer-facing and labour-heavy sector margins — a sectoral PD story that should show up first in <span class=\"xref\" data-term=\"watchlist\">watchlist</span> flow and sector-level overlays, not headline macro.</li><li><strong>Private credit and challenger share of flow.</strong> With two-thirds of new SME lending written outside the big banks, the incumbents' retained books drift older and more concentrated — a portfolio-mix deterioration invisible to obligor-level models; overlay/PMA territory.</li><li><strong>Invisible leverage from B2B BNPL and embedded finance.</strong> Unregulated, off-bureau trade credit growing at double digits means understated obligor leverage — <span class=\"xref\" data-term=\"ead\">EAD</span> understatement system-wide and PD model risk where affordability is inferred from incomplete data.</li><li><strong>Open finance cuts both ways.</strong> Commercial VRPs and streamed transaction data sharpen <span class=\"xref\" data-term=\"sicr\">SICR</span> triggers and behavioural staging — but the same rails accelerate deposit flight and payment re-routing when a business wobbles, steepening the path from Stage 2 to default once trouble starts.</li></ol><p>If you brief one sentence upward, brief this: the 2026–27 risk is not a new shock but the <em>compounding of repricings</em> — rate, capital, cost — on a book whose weakest borrowers were pre-selected by the pandemic schemes, arriving faster than the models built on 2010s data expect.</p>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Bank Rate has fallen from 5.25% to 3.75% since mid-2024, yet SME debt-service stress has kept rising. What is the primary mechanism?",
+      "options": [
+        "Lenders refused to pass rate cuts on to SME products",
+        "Maturing 2020–21 vintage fixed-rate debt reprices upward at refinance despite the cuts",
+        "The MPC cuts only affected household, not business, lending rates",
+        "SMEs shifted en masse to floating-rate debt at the peak"
+      ],
+      "answer": 1,
+      "explain": "The back-book was priced when Bank Rate was 0.1%; even at 3.75%, refinancing a 2021 fix means a large step-up in debt service. Pass-through and household/business distinctions are red herrings — the vintage effect dominates."
+    },
+    {
+      "q": "Why does Pay As You Grow keep BBLS on the forward radar into the 2030s rather than closing the book by 2027?",
+      "options": [
+        "PAYG allowed new borrowing under the scheme until 2024",
+        "PAYG converted the loans to interest-only in perpetuity",
+        "PAYG term extensions to ten years push final maturities on 2020–21 drawdowns out to 2030–31",
+        "PAYG transferred the loans to the British Business Bank's own balance sheet"
+      ],
+      "answer": 2,
+      "explain": "Extension from six to ten years at the same 2.5% fixed rate moves a March 2021 drawdown's maturity to 2031. No new lending occurred after March 2021, and the loans stay on lenders' books with the guarantee intact."
+    },
+    {
+      "q": "As at 31 March 2026, roughly what share of BBLS facilities (by volume) had already had the government guarantee settled?",
+      "options": [
+        "Around 28%",
+        "Around 4%",
+        "Around 47%",
+        "Around 66%"
+      ],
+      "answer": 0,
+      "explain": "28.3% of facilities had settled guarantee claims — more than a quarter of the entire scheme by count. 3.9% is the arrears rate, 47% the on-schedule share, and 66% the combined repaid-or-on-schedule figure."
+    },
+    {
+      "q": "What did the PRA ultimately decide about the SME supporting factor under Basel 3.1?",
+      "options": [
+        "Retain it unchanged in Pillar 1 until 2030",
+        "Remove it from Pillar 1 but offset via a firm-specific SME lending adjustment in Pillar 2A",
+        "Replace it with a flat 100% risk weight for all SME exposures",
+        "Delegate the decision to the FCA after the PSR merger"
+      ],
+      "answer": 1,
+      "explain": "The Pillar 1 factor is deleted, with a supervisory, firm-specific Pillar 2A adjustment intended to offset the aggregate impact. The catch is that a discretionary Pillar 2A offset is less bankable in pricing than an automatic Pillar 1 discount."
+    },
+    {
+      "q": "The UK Basel 3.1 implementation date, after the January 2025 announcement, is:",
+      "options": [
+        "1 January 2026, as originally planned",
+        "1 July 2026, aligned with BNPL regulation",
+        "1 January 2028, aligned with FRTB-IMA",
+        "1 January 2027, with the market-risk internal model approach following in 2028"
+      ],
+      "answer": 3,
+      "explain": "The PRA delayed the package one year to 1 January 2027 — citing uncertainty over US implementation — with FRTB-IMA pushed to 2028. Only the market-risk internal-model piece gets the 2028 date."
+    },
+    {
+      "q": "Under the APP fraud reimbursement regime live since October 2024, which BB customer is protected?",
+      "options": [
+        "All business current account holders regardless of size",
+        "Micro-enterprises and small charities, but not standard business accounts above the thresholds",
+        "Only consumers — no business entities of any kind",
+        "Any business banking with a PSR-designated payment firm"
+      ],
+      "answer": 1,
+      "explain": "Scope covers consumers, micro-enterprises and charities below size thresholds; larger business accounts sit outside the protection. That cliff-edge means an uncompensated fraud loss can become a credit event for an above-threshold SME."
+    },
+    {
+      "q": "A performing SME above the micro-enterprise threshold loses £70,000 to an invoice-redirection scam. What is the correct impairment framing?",
+      "options": [
+        "Operational loss for the bank; no credit consequence since the loan terms are unchanged",
+        "Automatic Stage 3 classification because fraud is a default event",
+        "A cash-flow shock that may warrant an event-driven SICR trigger despite no arrears history",
+        "Reimbursable under the PSR rules, so ECL-neutral"
+      ],
+      "answer": 2,
+      "explain": "The business is outside reimbursement scope, so it absorbs the loss — a sudden liquidity event with no behavioural warning signature. That argues for event-driven staging triggers; it is not automatically Stage 3, and it is not the bank's operational loss."
+    },
+    {
+      "q": "About two-thirds of 2025 UK SME lending flow came from challengers and non-banks. Why is this an ECL problem for an incumbent even if its own underwriting is unchanged?",
+      "options": [
+        "Non-bank losses are consolidated into incumbent banks' P&L",
+        "The retained book drifts older and more concentrated as new, better-diversified flow goes elsewhere — a mix effect models don't capture",
+        "Challenger banks are exempt from IFRS 9, distorting industry coverage ratios",
+        "It forces incumbents to adopt the SDDT regime"
+      ],
+      "answer": 1,
+      "explain": "Portfolio mix deteriorates silently: obligor-level PD models see each surviving borrower correctly but miss the composition shift. That is classic overlay/PMA territory. The other options are simply false mechanisms."
+    },
+    {
+      "q": "Why does B2B BNPL growth threaten the accuracy of BB EAD and PD estimates specifically?",
+      "options": [
+        "It sits outside FCA regulation and bureau data, so obligor leverage is understated in the data models score on",
+        "BNPL balances legally rank ahead of bank debt in insolvency",
+        "The FCA's July 2026 rules force banks to consolidate BNPL exposures",
+        "BNPL is interest-free, so it cannot generate credit losses"
+      ],
+      "answer": 0,
+      "explain": "The FCA's 2026 regime covers consumer deferred payment credit only; B2B BNPL is unregulated and largely invisible to bureaus and filed accounts, so the borrower is more levered than the bank's models can see. Ranking and consolidation claims are false."
+    },
+    {
+      "q": "Commercial VRPs and open finance are listed as a watchlist item that 'cuts both ways'. What is the downside for a BB lender?",
+      "options": [
+        "VRP payments are irrevocable, raising APP fraud reimbursement costs for senders only",
+        "Open finance data cannot be used in credit models under GDPR",
+        "The same real-time rails that sharpen monitoring also let deposits and payment flows leave faster once a business is stressed",
+        "UKPI membership is mandatory for banks and carries a levy"
+      ],
+      "answer": 2,
+      "explain": "Streaming data improves SICR triggers and behavioural staging, but frictionless payment rails accelerate deposit flight and revenue re-routing at exactly the moment a stressed borrower's liquidity matters — steepening the Stage 2 to default path."
+    }
+  ],
+  "domino": {
+    "title": "The refinancing wall domino",
+    "nodes": [
+      { "id": "n1", "label": "Bank Rate parked 3.75%", "sectionId": "s1" },
+      { "id": "n2", "label": "Cheap-era fixes mature", "sectionId": "s1" },
+      { "id": "n3", "label": "Refinance at doubled cost", "sectionId": "s1" },
+      { "id": "n4", "label": "Basel 3.1 reprices SME credit", "sectionId": "s3" },
+      { "id": "n5", "label": "Debt service ratios sag", "sectionId": "s1" },
+      { "id": "n6", "label": "Overdrafts run near limits", "sectionId": "s1" },
+      { "id": "n7", "label": "SICR triggers fire", "sectionId": "s7" },
+      { "id": "n8", "label": "Stage 2 swells", "sectionId": "s7" },
+      { "id": "n9", "label": "Compulsory liquidations climb", "sectionId": "s7" },
+      { "id": "n10", "label": "Coverage and charge rise", "sectionId": "s7" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n4", "n3"],
+      ["n3", "n5"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n10"],
+      ["n5", "n9"],
+      ["n9", "n10"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Basel 3.1",
+      "slug": "basel-3-1",
+      "definition": "The UK's implementation of the final Basel III capital standards: revised standardised risk weights, constrained internal models, and an output floor. PRA near-final rules came in 2024; implementation was delayed in January 2025 to 1 January 2027, with the market-risk internal model approach following in 2028.",
+      "related": ["sme-supporting-factor", "sme-lending-adjustment", "sddt"]
+    },
+    {
+      "term": "SME supporting factor",
+      "slug": "sme-supporting-factor",
+      "definition": "An EU-inherited Pillar 1 discount that scaled down capital risk weights on qualifying SME exposures, making small-business lending cheaper for banks to hold. Under UK Basel 3.1 it is removed from Pillar 1 from January 2027, offset by a firm-specific Pillar 2A SME lending adjustment.",
+      "related": ["basel-3-1", "sme-lending-adjustment"]
+    },
+    {
+      "term": "SME lending adjustment",
+      "slug": "sme-lending-adjustment",
+      "definition": "The PRA's firm-specific Pillar 2A offset introduced with Basel 3.1 to neutralise the aggregate capital impact of removing the SME supporting factor. Being supervisory and reviewable rather than automatic, it is less reliable for loan pricing than the Pillar 1 factor it replaces.",
+      "related": ["basel-3-1", "sme-supporting-factor"]
+    },
+    {
+      "term": "Small Domestic Deposit Taker (SDDT)",
+      "slug": "sddt",
+      "definition": "The PRA's simplified prudential regime for smaller, domestically focused UK banks and building societies, developed alongside Basel 3.1. It spares eligible challengers the full complexity of the new framework — shaping the capital economics of the specialist lenders now writing most SME flow.",
+      "related": ["basel-3-1"]
+    },
+    {
+      "term": "Bank Referral Scheme",
+      "slug": "bank-referral-scheme",
+      "definition": "Statutory scheme (from November 2016) requiring major banks to refer declined SME finance applicants, with consent, to designated platforms — Funding Options, Funding Xchange, Alternative Business Funding, Business Finance Technology — that match them with alternative lenders. Reviewed in 2024–26; government opted against legislative overhaul in May 2026.",
+      "related": ["open-finance"]
+    },
+    {
+      "term": "Open finance",
+      "slug": "open-finance",
+      "definition": "The extension of open banking's data-sharing principles beyond payment accounts to savings, credit, investments and commercial products. The FCA is building the framework under 2026 legislation granting it rule-making powers, with commercial data expected to reshape SME credit assessment and monitoring.",
+      "related": ["commercial-vrp", "open-banking"]
+    },
+    {
+      "term": "Commercial VRP",
+      "slug": "commercial-vrp",
+      "definition": "Variable recurring payments extended beyond sweeping between own accounts to third-party billing — utilities, subscriptions, government. A 31-firm UK Payments Initiative scheme formed in late 2025, with first live payments from early 2026. VRPs already account for roughly 16% of open banking payment volumes.",
+      "related": ["open-finance", "open-banking"]
+    },
+    {
+      "term": "APP fraud",
+      "slug": "app-fraud",
+      "definition": "Authorised push payment fraud: the victim is deceived into instructing a genuine payment to a fraudster. Since 7 October 2024, UK rules mandate reimbursement up to £85,000 within five business days, split 50/50 between sending and receiving firms. Scope covers consumers, micro-enterprises and charities — not larger business accounts.",
+      "related": ["commercial-vrp"]
+    },
+    {
+      "term": "Private credit",
+      "slug": "private-credit",
+      "definition": "Non-bank lending by funds — direct lending, asset-based strategies — funded by institutional capital rather than deposits. Having absorbed much of leveraged lending, it is moving down into UK SME credit: non-banks and challengers wrote roughly 68% of the £68bn 2025 SME lending flow.",
+      "related": ["embedded-finance", "bnpl"]
+    },
+    {
+      "term": "BNPL (business)",
+      "slug": "bnpl",
+      "definition": "Buy-now-pay-later: short-term instalment credit at the point of sale. Consumer BNPL became FCA-regulated on 15 July 2026; B2B BNPL — pay-later terms embedded in trade checkouts by Kriya, Hokodo, iwocaPay — remains unregulated, growing toward an estimated US$16.5bn UK market, and largely invisible to credit bureaus.",
+      "related": ["embedded-finance", "private-credit"]
+    },
+    {
+      "term": "Embedded finance",
+      "slug": "embedded-finance",
+      "definition": "Credit, payments or insurance delivered inside a non-financial platform — accounting software, e-commerce checkouts, procurement portals — rather than through a bank channel. In UK SME finance it is displacing manual invoice finance, with regulated balance sheets (e.g. Allica–Kriya) increasingly funding fintech distribution.",
+      "related": ["bnpl", "private-credit"]
+    },
+    {
+      "term": "Refinancing wall",
+      "slug": "refinancing-wall",
+      "definition": "The concentration of fixed-rate SME debt written in the ultra-low-rate 2020–21 window maturing across 2024–2027, forcing refinancing at materially higher rates. It transmits rate rises to borrower cash flow with a multi-year lag — so debt-service stress keeps building even while Bank Rate falls.",
+      "related": ["basel-3-1"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bank of England — Monetary Policy Summary, June 2026 (Bank Rate held at 3.75%)",
+      "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
+      "note": "Current Bank Rate level, vote splits, and the 2025 cutting path (May, August, December 2025)."
+    },
+    {
+      "title": "PRA news release — Delay to implementation of Basel 3.1 (17 January 2025)",
+      "url": "https://www.bankofengland.co.uk/news/2025/january/the-pra-announces-a-delay-to-the-implementation-of-basel-3-1",
+      "note": "One-year delay to 1 January 2027, citing US implementation uncertainty; final rules followed in January 2026 with FRTB-IMA deferred to 2028 and the SME supporting factor's removal offset by a firm-specific Pillar 2A SME lending adjustment."
+    },
+    {
+      "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+      "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026",
+      "note": "BBLS £46.47bn drawn; 19.4% fully repaid, 47.0% on schedule, 3.9% arrears, 28.3% guarantee settled, as at 31 March 2026."
+    },
+    {
+      "title": "British Business Bank — Bounce Back Loan Scheme: Pay As You Grow",
+      "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls/bounce-back-loan-scheme-pay-you-grow",
+      "note": "PAYG mechanics: ten-year extensions at 2.5%, payment holidays, interest-only periods; guarantee unaffected."
+    },
+    {
+      "title": "Edgar, Dunn & Company — One year on: the UK's APP fraud reimbursement rules",
+      "url": "https://www.edgardunn.com/articles/one-year-on-uks-app-fraud-reimbursement-rules",
+      "note": "Regime mechanics (£85,000 cap, five-day deadline, 50/50 split, micro-enterprise/charity scope); ~£112m reimbursed and 88% of stolen funds returned October 2024–June 2025; independent review from October 2025, findings due 2026/27."
+    },
+    {
+      "title": "Skadden — UK Government abolishes Payment Systems Regulator (March 2025)",
+      "url": "https://www.skadden.com/insights/publications/2025/03/uk-government-abolishes-payment-systems-regulator",
+      "note": "PSR abolition announcement; functions consolidating into the FCA, confirmed by HM Treasury April 2026 with legislation May 2026."
+    },
+    {
+      "title": "PSR/FCA — Commercial variable recurring payments: update on delivery (December 2025)",
+      "url": "https://www.psr.org.uk/media/xgjcblmb/cvrp-update-on-delivery-_-dec-2025.pdf",
+      "note": "UK Payments Initiative (31 firms) formed late 2025; first live commercial VRP payments expected Q1 2026; VRPs ~16% of open banking payments."
+    },
+    {
+      "title": "Norton Rose Fulbright, Regulation Tomorrow — Government response: commercial credit data sharing and bank referrals (May 2026)",
+      "url": "https://www.regulationtomorrow.com/2026/05/government-response-access-to-finance-policy-commercial-credit-data-sharing-and-bank-referrals/",
+      "note": "May 2026 decision: no legislative overhaul of the Bank Referral Scheme; CCDS designation to be widened beyond banks."
+    },
+    {
+      "title": "Alternative Credit Investor — Non-bank lenders drive UK SME lending growth to £68bn (March 2026)",
+      "url": "https://alternativecreditinvestor.com/2026/03/17/non-bank-lenders-drive-uk-sme-lending-growth-to-68bn/",
+      "note": "2025 SME lending up ~10% to £68bn; 68% written by challenger/specialist banks and non-bank lenders."
+    },
+    {
+      "title": "Research and Markets via GlobeNewswire — UK B2B Buy Now Pay Later Business Report 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/04/22/3279156/28124/en/united-kingdom-b2b-buy-now-pay-later-business-report-2026-16-5-billion-market-expands-as-kriya-hokodo-and-iwoca-scale-embedded-payment-solutions-and-trade-ledger-powers-bank-led-cr.html",
+      "note": "UK B2B BNPL market sizing (~US$13.7bn 2025, toward US$16.5bn); Kriya owned by Allica Bank with £1bn deployment plan."
+    },
+    {
+      "title": "FCA — PS26/1: Regulation of Deferred Payment Credit (BNPL)",
+      "url": "https://www.fca.org.uk/publications/policy-statements/ps26-1-regulation-deferred-payment-credit",
+      "note": "Consumer BNPL regulation live 15 July 2026 — affordability checks, FOS access; B2B BNPL remains outside the perimeter."
+    },
+    {
+      "title": "Insolvency Service — Company insolvency statistics, December 2025 commentary",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+      "note": "23,938 company insolvencies in England and Wales in 2025; compulsory liquidations at 3,730, highest since 2012."
+    }
+  ]
+}

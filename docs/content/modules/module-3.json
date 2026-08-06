@@ -1,0 +1,316 @@
+{
+  "id": 3,
+  "slug": "covid-schemes",
+  "title": "COVID, Government Schemes, and the Book That Defines Today",
+  "kicker": "Module 03 · The COVID Book",
+  "summary": "In eleven weeks of 2020, the government underwrote more SME lending than the market had originated in a decade — £76.8bn drawn across three schemes, most of it with no credit checks at all. That book, now deep in run-off, is the single biggest determinant of what a BB impairment analyst does all day: guaranteed versus unguaranteed splits, fraud flags versus credit defaults, and a claims machine that turns LGD into an operational question.",
+  "readingTime": 18,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Eleven days that built the book",
+      "html": "<p>When lockdown was announced on 23 March 2020, the Treasury's first answer was the <span class=\"xref\" data-term=\"cbils\">Coronavirus Business Interruption Loan Scheme</span> — a respectable piece of machinery modelled on the old Enterprise Finance Guarantee, with an 80% government guarantee and conventional underwriting left intact. It was also, for the purpose at hand, uselessly slow. Lenders still had to assess viability and affordability; approval queues built while <span class=\"xref\" data-term=\"sme\">SME</span> cashflow evaporated at the rate of a national economy switching off. Within five weeks the political pressure was unbearable, and on 27 April 2020 the Chancellor announced something genuinely without precedent: the <span class=\"xref\" data-term=\"bbls\">Bounce Back Loan Scheme</span>, designed in days, live on 4 May.</p><p>The numbers still read like a typo. Across BBLS, CBILS and <span class=\"xref\" data-term=\"clbils\">CLBILS</span>, roughly £79.3bn was approved for about 1.67 million businesses, of which £76.8bn was drawn — £46.5bn of it through BBLS alone, in loans that averaged around £30,000. For context, the entire stock of UK SME bank lending before the pandemic was of the order of £160bn. The state effectively doubled down on the sector in a single year, using the banks as distribution pipes.</p><p>For you, the consequence is blunt: the modern Business Banking term-lending book <em>is</em> the COVID book, plus whatever has been written around its edges since. Hundreds of thousands of BB customers have exactly one loan on file, and it is a BBL. Every arrears curve, every <span class=\"xref\" data-term=\"lgd\">LGD</span> assumption, every coverage conversation in BB impairment since 2020 has been shaped by paper originated in those eleven weeks.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "BBLS anatomy: underwriting, deleted",
+      "html": "<p>The design brief for <span class=\"xref\" data-term=\"bbls\">BBLS</span> was speed at any cost, and every feature follows from that. Loans of £2,000 to £50,000, capped at 25% of turnover. A 100% government guarantee to the lender — not 80%, not 90%, the lot. A flat 2.5% fixed rate set by the Treasury, identical across every lender and every borrower, which is to say: no pricing for risk whatsoever. A standard six-year term, no fees, no repayments in year one, with the government paying the first twelve months' interest directly to the lender via the Business Interruption Payment.</p><p>Then the truly radical part. Borrowers applied by <span class=\"xref\" data-term=\"self-certification\">self-certification</span> — a short online form attesting to turnover, COVID impact and eligibility. Lenders were explicitly relieved of any obligation to perform credit or affordability checks; their diligence was limited to fraud, anti-money-laundering and KYC screening, mostly automated. Some banks approved and funded loans within hours. Twenty-eight lenders were accredited, but the big incumbents — Barclays among them — wrote the overwhelming majority, because that is where the <span class=\"xref\" data-term=\"bca\">business current accounts</span> were.</p><p>It matters that the lender lends its own money. The guarantee is a promise of reimbursement after loss, not funding: the loan sits on the bank's balance sheet, accrues on the bank's books, and defaults into the bank's collections machinery. The state stands behind it, but only if the bank followed the scheme rules — a caveat that turns out to carry real money, as we will see.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>A book originated with no credit assessment has no origination score, no affordability data, and no risk-based pricing signal. BB <span class=\"xref\" data-term=\"pd\">PD</span> models for the COVID book had to be built almost entirely on behavioural data — current-account turnover, arrears events, <span class=\"xref\" data-term=\"behavioural-scoring\">behavioural scoring</span> — because the front book contained nothing else. If your retail instinct is to segment by origination vintage and score band, here the vintage is one year wide and the score band does not exist.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "The fraud problem, in three estimates",
+      "html": "<p>Self-certified, uncredit-checked lending at 100% guarantee is an open invitation, and everyone involved knew it — the National Audit Office records that ministers consciously accepted a heightened fraud risk as the price of speed. The estimates of how much walked out of the door have moved dramatically. In its October 2020 investigation, the NAO reported working assumptions that 35% to 60% of BBLS lending — £15bn to £26bn — might never come back, combining fraud and credit loss. By March 2021 the department's central estimate was that 37% (£17bn) would not be repaid, of which 11% (£4.9bn) was attributed to fraud. Later departmental accounts revised the fraud figure sharply downward — the 2021–22 BEIS accounts put fraud and error at around £1.1bn, with internal estimates ranging up to £3.5–4.9bn — and the hard number that exists today is lenders' own flagging: as at 31 March 2026, £1.88bn of BBLS drawn value, 4.04% of the book, carries a suspected <span class=\"xref\" data-term=\"fraud-flag\">fraud flag</span>.</p><p>The fraud itself ranged from the industrial — companies incorporated purely to borrow £50,000 and dissolve — to the mundane inflation of turnover by real businesses to reach the 25% cap. Enforcement runs through the National Investigation Service, the <span class=\"xref\" data-term=\"insolvency-service\">Insolvency Service</span> (director disqualifications, retrospectively pierced dissolutions) and lenders' own recovery teams.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Fraud loss is not credit loss, and the distinction is structural here. A fraudulent BBL still defaults into the same guarantee: provided the lender complied with scheme rules, the claim pays out and the loss lands on the taxpayer, not the P&amp;L. So the bank's <span class=\"xref\" data-term=\"ecl\">ECL</span> exposure to BBLS fraud is close to nil — what remains is operational risk (claim rejection for process failures) and conduct risk (recovering too aggressively, or not diligently enough, from suspected-fraud accounts). Impairment reporting must keep fraud write-offs and credit write-offs in separate lines, because they tell entirely different stories.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "Pay As You Grow: forbearance by design",
+      "html": "<p>By early 2021 it was obvious that a large minority of BBLS borrowers could not start repaying on schedule, so the government pre-installed the forbearance. <span class=\"xref\" data-term=\"pay-as-you-grow\">Pay As You Grow</span> gives every BBLS borrower three options, exercisable at will and without lender discretion: extend the term from six years to ten at the same 2.5% rate; switch to interest-only for six months, up to three times over the life of the loan; or take a single six-month full repayment holiday. None of the options affects the guarantee, and none requires evidence of distress. As at March 2026, 37% of BBLS facilities had used at least one PAYG option.</p><p>Each option does something distinct to arrears emergence. The term extension nearly halves the monthly instalment permanently, converting borrowers who would have defaulted in 2023 into borrowers who may default in 2028 — or may not default at all. The interest-only and holiday options are pure deferral: they push the cash strain a few months to the right and add interest to the tail. Collectively, PAYG flattened and stretched the arrears curve that the scheme's design had guaranteed would arrive, which is why BBLS arrears emerged as a long slow bleed through 2022–2026 rather than a 2022 cliff.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Here is a staging judgement retail never quite posed: is exercising a contractual, government-designed repayment flexibility evidence of a significant increase in credit risk? Banks generally concluded that a single PAYG election is not automatic <span class=\"xref\" data-term=\"sicr\">SICR</span> — the option is in the contract and carries no lender assessment — but that it is a risk signal, fed into behavioural models, with repeated or stacked use weighted as genuine distress. Get that calibration wrong in either direction and you mis-stage a third of the BBLS book: over-trigger and <span class=\"xref\" data-term=\"stage-2\">Stage 2</span> swallows performing loans and coverage; under-trigger and the arrears cliff arrives unprovisioned.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "CBILS, CLBILS and the long tail of successors",
+      "html": "<p><span class=\"xref\" data-term=\"cbils\">CBILS</span> deserves to be judged separately, because it is a different animal. An 80% guarantee, facilities up to £5m for businesses with turnover up to £45m, delivered as term loans, <span class=\"xref\" data-term=\"overdraft\">overdrafts</span>, <span class=\"xref\" data-term=\"invoice-finance\">invoice finance</span> and <span class=\"xref\" data-term=\"asset-finance\">asset finance</span> — and, crucially, with underwriting intact. Lenders assessed viability, the government paid the first year's interest and fees, and <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantees</span> were barred below £250,000. The £25.8bn CBILS book has behaved accordingly: 64.5% fully repaid by March 2026 against BBLS's 19.4%. <span class=\"xref\" data-term=\"clbils\">CLBILS</span>, for larger corporates (turnover above £45m, facilities eventually up to £200m, dividend restrictions attached), lent £4.5bn and is 96% repaid — for impairment purposes it barely exists.</p><p>The schemes did not so much end as evolve. The <span class=\"xref\" data-term=\"rls\">Recovery Loan Scheme</span> launched in April 2021 with an 80% guarantee and a £10m cap; from January 2022 it dropped to 70% and £2m, SMEs only; a third iteration from August 2022 removed the requirement to show COVID impact at all, quietly converting emergency support into a standing SME guarantee programme. In July 2024 it was renamed the <span class=\"xref\" data-term=\"growth-guarantee-scheme\">Growth Guarantee Scheme</span>: 70% guarantee, up to £2m, full commercial underwriting and pricing, personal guarantees allowed (principal residences excluded). At the June 2025 Spending Review it was extended to March 2030, and by 31 March 2026 it had delivered around £3.6bn through more than seventy lenders. The direction of travel matters: each iteration transfers more of the risk, and all of the underwriting, back to the bank.</p>"
+    },
+    {
+      "id": "s6",
+      "heading": "The British Business Bank: plumbing, portal, claims",
+      "html": "<p>All of this runs through the <span class=\"xref\" data-term=\"british-business-bank\">British Business Bank</span>, the state economic-development bank owned by the Department for Business and Trade. The BBB does three things that matter to you. First, <em>accreditation</em>: it vets and admits lenders to each scheme, sets the scheme rules they must follow, and audits compliance. Second, <em>administration</em>: its Scheme Portal is the system of record — every facility, every status change, every claim flows through it, which is why the quarterly gov.uk performance data exists at all. Third, <em>claims</em>: when a guaranteed loan defaults, the lender pursues recovery in line with scheme rules (for BBLS, that means business assets only — personal guarantees were prohibited; for CBILS and successors, normal commercial recovery including any security taken), then submits a <span class=\"xref\" data-term=\"guarantee-claim\">guarantee claim</span> through the portal. The guarantor — ultimately the Secretary of State — pays out; recoveries made after settlement are remitted back to government pro rata.</p><p>The system has teeth. As at March 2026, guarantees had been removed from 14,757 loans worth £1.16bn — roughly £738m following lender discussions (scheme-rule breaches surfaced by audit) and £422m from data errors. <span class=\"xref\" data-term=\"guarantee-removal\">Guarantee removal</span> converts a state-backed exposure into an ordinary unsecured SME loan, retrospectively.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Guarantee removal is an LGD cliff, and it is an <em>operational</em> event, not a credit one. A 100%-guaranteed BBL carries LGD near zero; void the guarantee and the same loan reverts to unsecured SME recovery rates overnight — LGD of 70–80% is not an unreasonable prior. This is why documentation quality, claims-process discipline and audit findings belong in the impairment conversation: a residual expectation of claim ineligibility across the book is exactly the sort of thing that ends up as a <span class=\"xref\" data-term=\"pma\">PMA</span>.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "What a guarantee does to LGD",
+      "html": "<p>Mechanically, a scheme guarantee enters <span class=\"xref\" data-term=\"ecl\">ECL</span> through loss given default, and it does so with conditions attached. The guaranteed percentage is not a floor gifted at default: the claim must be <em>eligible</em> (the facility originated and serviced within scheme rules), the required pre-claim recovery steps must have been taken, and the cash arrives with a lag — claims are prepared, submitted, reviewed and settled, and discounting that delay is itself a modelled LGD component. On the 80% and 70% schemes, the lender's retained share is pari passu: post-claim recoveries are split with government in guarantee proportion, so the bank cannot recover its 20–30% strip first.</p><p>Then there is the accounting question your desk will meet constantly: is the guarantee <em>integral</em> to the loan's contractual terms — in which case its expected cash flows sit inside the ECL calculation and directly suppress LGD — or is it a separate financial guarantee contract, recognised as a distinct reimbursement asset with the loan provisioned gross? For the COVID schemes, where the guarantee was part of the lending proposition from inception, the <span class=\"xref\" data-term=\"integral-guarantee\">integral guarantee</span> treatment is the standard answer, but the distinction, its edge cases and its disclosure consequences get full treatment in Module 7. For now, hold the flag.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>This is why guaranteed-versus-unguaranteed is the first cut of every BB ECL pack. The guaranteed slice can carry ugly PDs and still contribute almost nothing to ECL, because LGD is a few points; the unguaranteed residual — overdrafts, unsecured term lending written since, the 20–30% retained strips on CBILS/RLS/GGS — is where the coverage lives. A blended BB <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratio</span> therefore looks eerily low to a retail eye until you decompose it; and as the guaranteed book runs off faster than the rest, the blend drifts upward with no change in risk appetite at all.</p></aside>"
+    },
+    {
+      "id": "s8",
+      "heading": "Run-off: the book in 2025–2026",
+      "html": "<p>The COVID book was originated in 2020–21 on six-year terms, so the contractual maturity wall sits in 2026–27 — with the <span class=\"xref\" data-term=\"pay-as-you-grow\">PAYG</span>-extended tail stretching to 2030–31. The March 2026 scheme data shows what run-off looks like from the guarantor's side. Of BBLS facilities: 19.4% fully repaid, 46.9% on schedule, 3.9% in arrears, 0.7% defaulted awaiting claim — and 28.3% already settled under the guarantee. Across all three schemes, settled claims total £12.98bn, £11.8bn of it BBLS. Set against the NAO's early loss assumptions of £15–26bn, the outturn is bad but at the benign end of what was feared; against any normal lending standard, a book where more than a quarter of facilities have been claimed is extraordinary.</p><p>Two dynamics define the residual. First, adverse selection by survivorship: the strong borrowers prepaid or amortised out years ago, so arrears and default rates measured on the <em>remaining</em> book rise mechanically each quarter even if no individual borrower deteriorates. Second, composition: what is left is disproportionately PAYG-extended, thin-file, and — where guarantees have been removed or claims rejected — unguaranteed. The write-off line, meanwhile, needs reading with care: fraud write-offs (claimed, state-funded, criminally pursued) and credit write-offs (ordinary failures of ordinary businesses) run through different processes at different speeds.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Run-off distorts every ratio you report. Denominators shrink faster than provisions release, arrears rates on the residual book climb for purely mechanical reasons, and COVID-era <span class=\"xref\" data-term=\"overlay\">overlays</span> built for a cliff that never came must be unwound without flattering the charge. The analyst's job in 2026 is largely to separate signal from run-off arithmetic — and to make sure the unguaranteed book growing up around the COVID tail, which has none of its protections, is not priced and provisioned on COVID-book intuitions.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Why was BBLS created when CBILS already existed?",
+      "options": [
+        "CBILS was restricted to large corporates, leaving small firms unserved",
+        "The EU objected to CBILS state-aid terms",
+        "CBILS retained conventional underwriting, so approvals were too slow for the cashflow emergency",
+        "CBILS lenders ran out of funding capacity"
+      ],
+      "answer": 2,
+      "explain": "CBILS kept viability and affordability assessment, so approval queues built while businesses ran out of cash. BBLS deleted underwriting entirely to get money out in days. CBILS served SMEs up to £45m turnover, so option A is wrong; the scheme was government-guaranteed but lender-funded, so capacity wasn't the constraint."
+    },
+    {
+      "q": "Which BBLS design feature most directly opened the door to fraud?",
+      "options": [
+        "Self-certified eligibility with no credit or affordability checks",
+        "The 2.5% fixed interest rate",
+        "The six-year standard term",
+        "The 12-month repayment holiday"
+      ],
+      "answer": 0,
+      "explain": "Borrowers attested their own turnover and eligibility, and lenders were relieved of credit assessment — only fraud/AML/KYC screening remained. Rate, term and holiday shaped affordability and arrears timing, not the ability of bad actors to get in."
+    },
+    {
+      "q": "A BBLS loan defaults and the lender complied fully with scheme rules. Where does the credit loss land?",
+      "options": [
+        "On the bank, which then sues the directors personally",
+        "Split 50/50 between bank and government",
+        "On the borrower's personal assets via the personal guarantee",
+        "On the government, via a settled guarantee claim; the bank's ECL exposure is minimal"
+      ],
+      "answer": 3,
+      "explain": "The 100% guarantee reimburses a compliant lender in full, so LGD — and hence ECL — on the guaranteed slice is near zero. Personal guarantees were prohibited under BBLS, which rules out option C."
+    },
+    {
+      "q": "What does the Pay As You Grow term extension (6 to 10 years) primarily do to the arrears profile?",
+      "options": [
+        "Accelerates arrears by increasing total interest owed",
+        "Permanently cuts the instalment, deferring and partially preventing arrears emergence",
+        "Removes the loan from the guarantee",
+        "Triggers automatic transfer to Stage 3"
+      ],
+      "answer": 1,
+      "explain": "Extending the term at the same 2.5% rate nearly halves the monthly payment, pushing arrears emergence years to the right and rescuing some borrowers entirely. The guarantee is unaffected, and PAYG use is not an automatic staging event — that is a judgement banks had to calibrate."
+    },
+    {
+      "q": "How does CBILS differ from BBLS in ways that explain its better performance?",
+      "options": [
+        "CBILS loans were smaller, so easier to repay",
+        "CBILS had a 100% guarantee, so lenders monitored harder",
+        "CBILS retained lender underwriting and viability assessment, at an 80% guarantee",
+        "CBILS borrowers were all large corporates with investment-grade ratings"
+      ],
+      "answer": 2,
+      "explain": "CBILS kept credit assessment and left the lender with 20% skin in the game — and by March 2026, 64.5% of CBILS was fully repaid versus 19.4% of BBLS. CBILS facilities were larger, not smaller, and large corporates were served by CLBILS."
+    },
+    {
+      "q": "The BBB removes the guarantee from a BBL after an audit finds scheme-rule breaches. The impairment consequence is:",
+      "options": [
+        "LGD jumps from near zero to unsecured SME levels on that exposure",
+        "None — removal only affects the lender's future accreditation",
+        "PD increases because the borrower is now riskier",
+        "The loan must be immediately written off"
+      ],
+      "answer": 0,
+      "explain": "Removal retrospectively converts a state-backed loan into an ordinary unsecured exposure — an LGD cliff caused by an operational failure, not a credit event. The borrower's PD is unchanged; nothing forces immediate write-off."
+    },
+    {
+      "q": "The 'integral vs separate' guarantee question determines:",
+      "options": [
+        "Whether the borrower or the bank pays the guarantee fee",
+        "Whether the guarantee's cash flows sit inside the ECL calculation or are recognised as a separate reimbursement asset",
+        "Whether the loan qualifies for Pay As You Grow",
+        "Whether the BBB or the Treasury settles the claim"
+      ],
+      "answer": 1,
+      "explain": "If integral to the loan's contractual terms, expected guarantee recoveries reduce LGD within ECL; if separate, the loan is provisioned gross and a reimbursement asset is booked. For COVID schemes the integral treatment is standard — Module 7 covers the edge cases."
+    },
+    {
+      "q": "Why does the unguaranteed slice dominate BB ECL despite being smaller than the COVID book at its peak?",
+      "options": [
+        "Unguaranteed lending has higher PDs than BBLS",
+        "Guaranteed loans are excluded from IFRS 9 scope",
+        "Regulators require 100% coverage on unguaranteed SME lending",
+        "Guaranteed exposures carry near-zero LGD, so even high PDs produce little ECL; coverage concentrates where there is no guarantee"
+      ],
+      "answer": 3,
+      "explain": "ECL is PD × LGD × EAD: crush LGD and the product collapses regardless of PD. The unguaranteed residual — overdrafts, unsecured lending, the 20–30% retained strips — carries almost all the coverage. BBLS PDs are actually worse than most unguaranteed lending, and guaranteed loans remain fully in IFRS 9 scope."
+    },
+    {
+      "q": "As at March 2026, roughly what share of BBLS facilities had already been settled under the guarantee?",
+      "options": [
+        "Around 5%",
+        "Around 12%",
+        "Around 28%",
+        "Around 55%"
+      ],
+      "answer": 2,
+      "explain": "28.3% of BBLS facilities were guarantee-settled by 31 March 2026, with £11.8bn of claims paid — a claims rate unthinkable on any conventionally underwritten book, yet at the benign end of the NAO's early £15–26bn loss assumptions."
+    },
+    {
+      "q": "Arrears rates on the remaining COVID book rise each quarter even with no borrower deterioration. Why?",
+      "options": [
+        "PAYG options expired in 2025, forcing payments up",
+        "Survivorship: strong borrowers repay and exit, so the shrinking residual is increasingly adversely selected",
+        "The BBB reclassifies performing loans as arrears during audits",
+        "Interest rates on BBLS reset upward at maturity"
+      ],
+      "answer": 1,
+      "explain": "Run-off arithmetic: good borrowers leave the denominator, so measured arrears rates on the residual climb mechanically. BBLS rates are fixed at 2.5% for life, and BBB audits target guarantee eligibility, not arrears classification."
+    }
+  ],
+  "domino": {
+    "title": "From self-certification to the ECL residual",
+    "nodes": [
+      { "id": "n1", "label": "Lockdown freezes SME cashflow", "sectionId": "s1" },
+      { "id": "n2", "label": "BBLS: self-certified lending", "sectionId": "s2" },
+      { "id": "n3", "label": "Fraud and weak borrowers", "sectionId": "s3" },
+      { "id": "n4", "label": "PAYG defers cash strain", "sectionId": "s4" },
+      { "id": "n5", "label": "Arrears emerge in run-off", "sectionId": "s8" },
+      { "id": "n6", "label": "Guarantee claims filed", "sectionId": "s6" },
+      { "id": "n7", "label": "Claims paid; LGD collapses", "sectionId": "s7" },
+      { "id": "n8", "label": "Removals void some guarantees", "sectionId": "s6" },
+      { "id": "n9", "label": "Ops and conduct risk", "sectionId": "s3" },
+      { "id": "n10", "label": "ECL on unguaranteed residual", "sectionId": "s7" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n2", "n4"],
+      ["n3", "n5"],
+      ["n4", "n5"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n6", "n8"],
+      ["n6", "n9"],
+      ["n7", "n10"],
+      ["n8", "n10"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Bounce Back Loan Scheme (BBLS)",
+      "slug": "bbls",
+      "definition": "COVID emergency scheme (May 2020–March 2021): loans of £2k–£50k, capped at 25% of turnover, 2.5% fixed, six-year term, 100% government guarantee, self-certified eligibility, no credit checks. £46.5bn drawn across ~1.5m facilities. The defining book of modern BB impairment.",
+      "related": ["cbils", "pay-as-you-grow", "self-certification", "guarantee-claim"]
+    },
+    {
+      "term": "Coronavirus Business Interruption Loan Scheme (CBILS)",
+      "slug": "cbils",
+      "definition": "COVID scheme (March 2020–March 2021) for businesses with turnover up to £45m: facilities up to £5m across loans, overdrafts, invoice and asset finance, 80% government guarantee, lender underwriting retained, government-paid first-year interest and fees, no personal guarantees below £250k. £25.8bn drawn; far better performance than BBLS.",
+      "related": ["bbls", "clbils", "rls"]
+    },
+    {
+      "term": "Coronavirus Large Business Interruption Loan Scheme (CLBILS)",
+      "slug": "clbils",
+      "definition": "COVID scheme for firms with turnover above £45m: facilities eventually up to £200m, 80% guarantee, dividend and executive-pay restrictions on larger facilities. £4.5bn drawn, ~96% fully repaid by March 2026 — negligible for impairment purposes.",
+      "related": ["cbils", "bbls"]
+    },
+    {
+      "term": "Recovery Loan Scheme (RLS)",
+      "slug": "rls",
+      "definition": "Successor guarantee scheme launched April 2021. Iteration 1: 80% guarantee, up to £10m. From January 2022: 70%, £2m cap, SMEs only. From August 2022: no COVID-impact test required — a standing SME guarantee programme. Renamed the Growth Guarantee Scheme in July 2024.",
+      "related": ["growth-guarantee-scheme", "cbils"]
+    },
+    {
+      "term": "Growth Guarantee Scheme (GGS)",
+      "slug": "growth-guarantee-scheme",
+      "definition": "The RLS's current form (from July 2024): 70% government guarantee on facilities up to £2m, full commercial underwriting and pricing, personal guarantees permitted excluding principal residences. Extended to March 2030 at the June 2025 Spending Review; ~£3.6bn delivered through 70+ lenders by March 2026.",
+      "related": ["rls", "british-business-bank"]
+    },
+    {
+      "term": "Pay As You Grow (PAYG)",
+      "slug": "pay-as-you-grow",
+      "definition": "Built-in BBLS repayment flexibility, exercisable at borrower option without lender assessment: term extension from six to ten years at the same 2.5% rate; six months interest-only (up to three times); one six-month repayment holiday. Used by ~37% of BBLS facilities; guarantee unaffected. Stretched and flattened arrears emergence.",
+      "related": ["bbls", "sicr"]
+    },
+    {
+      "term": "British Business Bank (BBB)",
+      "slug": "british-business-bank",
+      "definition": "State economic-development bank, owned by the Department for Business and Trade. Accredits lenders to the guarantee schemes, sets and audits scheme rules, administers the Scheme Portal (system of record), and processes guarantee claims on behalf of the Secretary of State as guarantor.",
+      "related": ["guarantee-claim", "guarantee-removal", "growth-guarantee-scheme"]
+    },
+    {
+      "term": "Guarantee claim",
+      "slug": "guarantee-claim",
+      "definition": "The process by which a lender recovers guaranteed losses: after default, the lender completes required recovery steps under scheme rules, submits the claim via the BBB Scheme Portal, and is reimbursed the guaranteed share. Post-settlement recoveries are remitted to government pro rata. £12.98bn settled across the COVID schemes by March 2026.",
+      "related": ["british-business-bank", "guarantee-removal", "lgd"]
+    },
+    {
+      "term": "Self-certification",
+      "slug": "self-certification",
+      "definition": "The BBLS application basis: borrowers attested their own turnover, COVID impact and eligibility on a short form, with lenders explicitly relieved of credit and affordability assessment (fraud/AML/KYC checks only). The scheme's core speed mechanism — and its core fraud vulnerability.",
+      "related": ["bbls", "fraud-flag"]
+    },
+    {
+      "term": "Business Interruption Payment (BIP)",
+      "slug": "business-interruption-payment",
+      "definition": "Government payment covering the first twelve months of interest (and, for CBILS, fees) on COVID scheme facilities, paid directly to the lender so borrowers faced no cost in year one. Combined with the BBLS capital holiday, it delayed the first true affordability test to 2021–22.",
+      "related": ["bbls", "cbils"]
+    },
+    {
+      "term": "Guarantee removal",
+      "slug": "guarantee-removal",
+      "definition": "Retrospective withdrawal of the government guarantee from a scheme facility, typically after BBB audit finds scheme-rule breaches or data errors. £1.16bn across 14,757 loans removed by March 2026. Converts a state-backed exposure into ordinary unsecured lending — an operational event with an LGD-cliff impairment consequence.",
+      "related": ["guarantee-claim", "british-business-bank", "lgd"]
+    },
+    {
+      "term": "Fraud flag",
+      "slug": "fraud-flag",
+      "definition": "A lender's marker on a scheme facility suspected of fraudulent application or use, reported through the BBB Scheme Portal. As at March 2026, £1.88bn of BBLS drawn value (4.04%) was flagged — well below early official estimates of 11% (£4.9bn). Flagged loans follow counter-fraud recovery routes distinct from ordinary collections.",
+      "related": ["self-certification", "bbls"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "NAO — Investigation into the Bounce Back Loan Scheme (October 2020)",
+      "url": "https://www.nao.org.uk/press-releases/bounce-back-loan-scheme/",
+      "note": "Scheme design, conscious acceptance of fraud risk, early loss assumptions of 35–60% (£15–26bn)."
+    },
+    {
+      "title": "NAO — The Bounce Back Loan Scheme: an update (December 2021)",
+      "url": "https://www.nao.org.uk/reports/the-bounce-back-loan-scheme-an-update/",
+      "note": "March 2021 departmental estimates: 37% (£17bn) non-repayment, 11% (£4.9bn) fraud; counter-fraud response."
+    },
+    {
+      "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+      "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026",
+      "note": "As-at 31 March 2026: drawn values (£46.47bn/£25.83bn/£4.54bn), BBLS status splits (19.4% repaid, 28.3% settled), £12.98bn settled claims, £1.88bn fraud flags, £1.16bn guarantee removals, 37.17% PAYG uptake."
+    },
+    {
+      "title": "British Business Bank — Final Coronavirus loan scheme data analysis",
+      "url": "https://www.british-business-bank.co.uk/news-and-events/news/analysis-of-final-coronavirus-loan-scheme-data-shows-79-3bn-of-loans-to-1-67m-businesses-evenly-distributed-across-whole-of-the-uk",
+      "note": "£79.3bn approved to 1.67m businesses across the three schemes; distribution analysis."
+    },
+    {
+      "title": "British Business Bank — Bounce Back Loan Scheme: Pay As You Grow",
+      "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls/bounce-back-loan-scheme-pay-you-grow",
+      "note": "PAYG option mechanics: 10-year extension at 2.5%, interest-only periods, repayment holiday."
+    },
+    {
+      "title": "British Business Bank — GGS (including RLS iteration 3) performance data as at 31 March 2026",
+      "url": "https://www.british-business-bank.co.uk/about/research-and-publications/ggs-including-rls-iteration-3-performance-data-31-march-2026",
+      "note": "GGS current status: ~£3.6bn delivered, 70+ lenders, 70% guarantee; extension to March 2030."
+    },
+    {
+      "title": "Committee of Public Accounts — BEIS Annual Report and Accounts 2021–22",
+      "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/1254/report.html",
+      "note": "Revised departmental fraud and error estimate of ~£1.1bn (8%), with internal estimates of £3.5–4.9bn."
+    },
+    {
+      "title": "OBR — Pandemic-related loan guarantee schemes",
+      "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/pandemic-related-loan-guarantee-schemes/",
+      "note": "Fiscal treatment and evolving cost forecasts of the guarantee schemes."
+    },
+    {
+      "title": "NAO — Department for Business and Trade Accounts 2024-25",
+      "url": "https://www.nao.org.uk/reports/department-for-business-and-trade-accounts-2024-25/",
+      "note": "Guarantee liability measurement sensitivity to PD, LGD and fraud assumptions; recognised losses to date."
+    },
+    {
+      "title": "British Business Bank — Recovery Loan Scheme",
+      "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/recovery-loan-scheme",
+      "note": "RLS iteration terms: guarantee percentages, caps, eligibility changes across 2021–2024."
+    }
+  ]
+}

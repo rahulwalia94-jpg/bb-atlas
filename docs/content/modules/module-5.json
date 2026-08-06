@@ -1,0 +1,329 @@
+{
+  "id": 5,
+  "slug": "competitors",
+  "title": "The Competitor Map",
+  "kicker": "Module 05 · The Field",
+  "summary": "Who actually competes with Barclays for SME accounts and SME credit — and why they are rarely the same firms. The incumbents kept the accounts and shed the risk; a state-funded insurgency took the accounts it could; specialists and marketplaces took the credit. Each player's loss experience is a free lesson for the impairment desk.",
+  "readingTime": 15,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "A Concentrated Front, a Dispersed War",
+      "html": "<p>Seen from the account ledger, UK business banking is a settled oligopoly. The four largest groups — Lloyds, NatWest, HSBC and Barclays — still hold roughly 85 per cent of <span class=\"xref\" data-term=\"bca\">business current accounts</span>, a concentration that has survived two decades of regulatory engineering designed to break it. Seen from the credit ledger, the picture inverts. In 2025, challenger and specialist banks wrote 60 per cent of the £68 billion of gross bank lending to <span class=\"xref\" data-term=\"sme\">SMEs</span> — the fourth consecutive year they out-lent the big five, and the highest share the British Business Bank has ever recorded. Accounts are concentrated; credit is dispersed.</p><p>That inversion is the most important structural fact in this module, and it is not an accident of marketing. It is the residue of incumbent choices. After 2008, and again after the pandemic, the large banks pulled capital, branch staff and appetite out of the middle of the SME risk curve. What they kept was the franchise: the payments float, the safest secured lending, the seasoned back book. What they released — <span class=\"xref\" data-term=\"asset-finance\">asset finance</span> on eight-year-old trucks, bridging on secondary property, unsecured working capital for cafés — was picked up by lenders built for exactly those niches. Nearly every competitor on this map exists because an incumbent decided some risk was not worth holding.</p><p>For an impairment analyst the map earns its keep three ways. First, benchmarking: competitors publish loss experience that brackets the space of possible outcomes, from OakNorth's near-zero write-offs to the double-digit fraud rates of the pandemic schemes. Second, adverse selection: when a rival takes the safest slice of the flow, what still walks through Barclays' door carries a different <span class=\"xref\" data-term=\"pd\">PD</span> distribution from last year's vintage — a shift no through-the-cycle model will flag until it seasons. Third, systemic behaviour: who retrenches first in a downturn determines whether your distressed borrowers can refinance elsewhere, which flows straight into cure rates and the <span class=\"xref\" data-term=\"ecl\">ECL</span> charge.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "The Incumbents: Retreat in Good Order",
+      "html": "<p>Lloyds Banking Group runs the largest SME franchise in the country, trading as Lloyds in England and Wales and Bank of Scotland north of the border. Its advantage is brutal and simple: the biggest retail deposit base in the UK, which makes its marginal cost of funds lower than anyone else's. That cheap float funds a conservative book — secured, seasoned, relationship-managed at the top end, increasingly automated below it. Lloyds is not where SME credit innovation happens; it is where SME credit margin goes to be harvested, and where the run-off of Covid-era balances has been managed with the patience only cheap funding buys.</p><p>NatWest carries the historic number-one position in SME market share — the inheritance of the old RBS, which was for decades the default business bank of Britain. The inheritance cuts both ways. The <span class=\"xref\" data-term=\"grg\">GRG</span> affair taught the group, expensively, that the treatment of distressed SMEs is a conduct exposure as much as a credit one, and its workout posture has been visibly more careful since. Its answer to the challengers was to build its own: <span class=\"xref\" data-term=\"mettle\">Mettle</span>, a standalone app-based business account, and <span class=\"xref\" data-term=\"tyl\">Tyl</span>, a merchant-acquiring service that has grown fast enough to justify a 2026 technology partnership with Endava. Both are competent; neither has changed the race.</p><p>HSBC UK courts the internationally minded SME — trade finance, multi-currency, supply chains — and serves the smaller end through <span class=\"xref\" data-term=\"kinetic\">Kinetic</span>, its app-based small-business platform. Its appetite is famously cyclical: generous in benign years, quick to de-risk when the group's global risk committees turn cautious. Santander UK has been subscale in business banking for years; its £2.65 billion acquisition of TSB, completed in April 2026, buys retail and small-business scale but leaves the question of its commitment to mid-market SME credit unanswered while integration consumes management attention.</p><p>The shared economics are the point. BCA float and fee income subsidise finely priced credit for the safest borrowers; decisioning centralises; the branch relationship manager becomes a memory below the mid-market. The incumbents' loss lessons are mostly conduct lessons — GRG, <span class=\"xref\" data-term=\"irhp\">IRHP</span> — plus the long, quiet paydown of government-guaranteed Covid books.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Comparing <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratios</span> across banks is a mix statement, not a prudence statement. An incumbent's seasoned, secured, Stage 1-heavy book mechanically carries thin coverage; a challenger's young unsecured book carries fat coverage. Neither number tells you who is under-provided until you adjust for security, seasoning and <span class=\"xref\" data-term=\"staging\">staging</span> mix — which is exactly the adjustment external commentators skip.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "The Insurgents: Paid to Exist",
+      "html": "<p>The account-side challengers are, to a striking degree, a state-funded insurgency. The <span class=\"xref\" data-term=\"bcr\">BCR</span> pot — £775 million of RBS state-aid remedy money — and the <span class=\"xref\" data-term=\"incentivised-switching\">incentivised switching</span> scheme paid fintechs to take customers the CMA's earlier remedies had failed to move. It worked, up to a point: the challengers won accounts. What they have mostly not won is the loan book.</p><p><span class=\"xref\" data-term=\"starling\">Starling</span> is the flagship: around 9.7 per cent of the SME business-account market on its own reporting, revenue of £714 million in FY2025, deposit-rich and conspicuously lending-light. Its instructive scar is the <span class=\"xref\" data-term=\"bbls\">BBLS</span> book. Having lent at pandemic speed under a 100 per cent guarantee, Starling identified loans whose origination checks had not met scheme conditions, volunteered to strip the government guarantee from them, and booked a £28.2 million provision in FY2025 — on top of a £29 million FCA fine for financial-crime control failures. The lesson is precise: a guarantee is a conditional contract, not a property of the loan.</p><p><span class=\"xref\" data-term=\"tide\">Tide</span> is the volume story — roughly 900,000 UK members and a claimed 15 per cent share of UK SMEs by mid-2026 — but read the small print: Tide is an e-money firm, not a UK bank, holding client funds through ClearBank and monetising payments and subscriptions. Its credit is largely originated through partners. And the denominator in that 15 per cent is the whole 5.5-million-strong SME population, most of it sole traders; it is a share of businesses by count, not of lending, deposits or primary relationships. Monzo Business passed 900,000 business customers in FY2026 — one in seven UK SMEs on its own arithmetic, powered by retail-brand crossover. <span class=\"xref\" data-term=\"zempler\">Zempler</span>, the former Cashplus, holds about 170,000 micro-business accounts, has been profitable three years running, and embeds <span class=\"xref\" data-term=\"iwoca\">iwoca</span> credit rather than building its own book — a pattern we will meet again.</p><p>The common shape: these firms won the account, not the loan, because credit requires capital, loss history and patience, and venture-backed growth curves reward none of those. Their books are young, their unsecured exposures modest, and their loss data thin — which is not the same as good.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Where a scheme guarantee is <span class=\"xref\" data-term=\"integral-guarantee\">integral</span> to the loan, it is modelled inside <span class=\"xref\" data-term=\"lgd\">LGD</span> and drives it towards zero. Starling's experience shows the tail risk: an eligibility failure converts guaranteed LGD to unsecured LGD in one step. That is not a parameter drift you trend; it is an event you provision for — <span class=\"xref\" data-term=\"pma\">PMA</span> territory, sized on origination-control evidence, not on default data.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "The Specialists: Credit as the Product",
+      "html": "<p>The second family of challengers barely bothers with current accounts. For them credit is the product, and the niche is the strategy. <span class=\"xref\" data-term=\"allica\">Allica</span> banks the established SME — the ten-to-250-employee firm it calls the forgotten middle — and grew lending 23 per cent to £3.7 billion in 2025, two-thirds of it <span class=\"xref\" data-term=\"commercial-mortgage\">commercial mortgages</span>, funded by £5.7 billion of savings deposits. <span class=\"xref\" data-term=\"oaknorth\">OakNorth</span> lends £250,000 to £100 million to property and trading businesses, reached £7.2 billion of facilities and £223 million of pre-tax profit in 2025, and owns the most quoted number in UK specialist credit: cumulative principal losses of 0.045 per cent — £6.9 million — across its first decade. It monetises that record twice, selling its underwriting-and-monitoring stack to other banks as ON Credit Intelligence.</p><p><span class=\"xref\" data-term=\"shawbrook\">Shawbrook</span> is the scaled version: a £19.2 billion loan book at end-2025, of which £4.4 billion is SME, grown 16 per cent in a year, returned to the London Stock Exchange, and reinforced by the acquisition of <span class=\"xref\" data-term=\"thincats\">ThinCats</span>, the bespoke mid-market SME lender. <span class=\"xref\" data-term=\"aldermore\">Aldermore</span>, owned by South Africa's FirstRand, works the asset finance and <span class=\"xref\" data-term=\"invoice-finance\">invoice finance</span> trade with <span class=\"xref\" data-term=\"growth-guarantee-scheme\">Growth Guarantee Scheme</span> accreditation; Paragon pairs its buy-to-let heritage with SME asset finance and its own GGS allocations.</p><p>Their funding model explains their appetite. Best-buy retail savings and securitisation cost materially more than an incumbent's BCA float, so specialists must earn wider margins — which means lending where incumbents will not, secured, covenant-heavy, and priced for the work. At OakNorth and Allica the underwriting is genuinely <span class=\"xref\" data-term=\"relationship-lending\">relationship-shaped</span>: named credit partners, sector theses, monitoring that reacts to management information rather than annual accounts. Their collective teaching is that underwriting design, not asset class, drives loss experience — and that losses near zero are their own kind of problem.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>OakNorth is the textbook <span class=\"xref\" data-term=\"low-default-portfolio\">low-default portfolio</span>: a decade of 4.5 basis-point losses validates the process and starves the models. With no internal default history, PD calibration leans on external benchmarks and judgement. Add 20-per-cent-plus annual book growth across the specialist sector and average vintage age keeps falling — observed default rates flatter every fast-growing book, because defaults need seasoning to emerge.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "Marketplaces, Embedded Credit and the Payments Flank",
+      "html": "<p><span class=\"xref\" data-term=\"funding-circle\">Funding Circle</span> pioneered <span class=\"xref\" data-term=\"marketplace-lending\">marketplace lending</span> in the UK: originate the loan, sell it to institutional investors, keep the servicing fee, hold none of the risk. Then reality edited the model. The US business was sold, and the growth engine became FlexiPay — a working-capital line held on Funding Circle's own balance sheet. By 2025 the platform managed £3.0 billion of loans, extended £2.5 billion of new credit and made £20.3 million of pre-tax profit. The pivot is the lesson: originate-to-distribute relocates credit risk, it does not abolish it, and when distribution economics thin, the originator either eats the risk or starves.</p><p>iwoca took the other route to scale: stay wholesale-funded, stay unsecured, and distribute through everyone else. It lent £1.3 billion across 58,000 loans in 2025 — up 60 per cent — and its API sits inside accountancy platforms, payment firms and neobanks, reaching close to three million businesses. This is <span class=\"xref\" data-term=\"transactional-data-lending\">transactional-data lending</span> as a wholesale business: the partner owns the customer, iwoca owns the credit decision and the risk, and funding comes from facilities like its £250 million Waterfall line rather than deposits.</p><p>The adjacent players attack the franchise without touching term credit. Wise strips out the cross-border payment margin incumbents once considered an annuity. Revolut Business — roughly 800,000 businesses globally and growing a third annually — is payments-led, with UK banking ambitions still maturing. Square and SumUp occupy the <span class=\"xref\" data-term=\"merchant-acquiring\">merchant-acquiring</span> flank and lend against it: the merchant cash advance, repaid as a fixed share of card takings, is credit underwritten and collected entirely from data the acquirer already owns. Exposure amortises with the merchant's revenue, and the lender watches that revenue collapse in real time — a collections early-warning system incumbents would pay dearly for.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>In embedded and marketplace structures the first question is locational: who holds the ECL? A bank funding a forward-flow purchase holds it; a platform selling whole loans does not — until a pivot, a repurchase obligation or a warehouse facility quietly moves it back. Map the risk transfer before benchmarking the coverage: the P&L only bleeds where the loans actually sit.</p></aside>"
+    },
+    {
+      "id": "s6",
+      "heading": "What the Field Teaches the Impairment Desk",
+      "html": "<p>Pull the threads together and five working rules emerge. First, competition is a credit-quality force, not a commercial nuisance: every account or asset a rival skims changes the composition of what remains, and adverse selection arrives in the flow long before it shows in the arrears. Second, the loss-experience range across this map — 4.5 basis points at OakNorth against double-digit fraud losses on <span class=\"xref\" data-term=\"bbls\">BBLS</span> — is not a spread of asset classes; it is a spread of underwriting designs, which means it is controllable and comparable. Third, guarantee integrity is an origination property: Starling's provision is what it costs when the paperwork behind a <span class=\"xref\" data-term=\"guarantee-claim\">guarantee claim</span> fails. Fourth, growth flatters: any book compounding at 20 per cent has an observed default rate that understates its destination.</p><p>Fifth, and least visible: funding models decide behaviour under stress. BCA-float incumbents can afford patience; savings-funded specialists can hold but reprice; wholesale-funded lenders retrench the moment facilities tighten. When the marginal lenders withdraw, the weak borrower's refinancing options vanish exactly when needed — cure rates fall, workout recoveries thin, and Stage 3 outcomes deteriorate across the market, including on the book of a bank that never changed its own appetite. Barclays sits in the middle of this field as a full-service incumbent with a payments franchise the insurgents envy and a risk curve the specialists keep shortening from below. The impairment desk's job is to read the whole map — because the next downturn will be transmitted through it.</p>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "In 2025 the big four held roughly 85% of business current accounts while challenger and specialist banks wrote 60% of gross SME lending. What is the correct reading of this divergence?",
+      "options": [
+        "Challengers are winning primary banking relationships and incumbents are losing their deposit base",
+        "Incumbents kept the payments franchise and the safest lending but ceded much of the risk curve, so credit flow migrated even though accounts did not",
+        "The two figures conflict, so one of the data sources must be wrong",
+        "SME lending is shrinking overall, which exaggerates the challengers' share"
+      ],
+      "answer": 1,
+      "explain": "Accounts and credit measure different franchises. The big four retained accounts and the safest secured book while withdrawing appetite from the middle of the risk curve; challengers and specialists filled the lending gap. Deposits remain concentrated — that is why the account share barely moved."
+    },
+    {
+      "q": "Starling booked a £28.2m provision in FY2025 on its Bounce Back Loan book. What is the underlying impairment lesson?",
+      "options": [
+        "BBLS PDs turned out higher than Starling had modelled",
+        "The British Business Bank refused all claims because of borrower fraud",
+        "Starling's collections function was understaffed for the volumes",
+        "A state guarantee only suppresses LGD while scheme conditions are met — origination-control failures can void it, repricing LGD from near zero to unsecured in one step"
+      ],
+      "answer": 3,
+      "explain": "Starling voluntarily removed the guarantee from loans whose origination checks had not met scheme requirements. The guarantee is a conditional contract: eligibility failure is a step-change LGD event, provisioned on control evidence rather than default data — not a gradual parameter drift."
+    },
+    {
+      "q": "OakNorth reports cumulative principal losses of 0.045% over its first decade. What can an impairment analyst NOT safely conclude from this?",
+      "options": [
+        "That its internal default history is sufficient to calibrate through-the-cycle PDs",
+        "That granular, forward-looking monitoring can materially suppress realised losses",
+        "That its book behaves as a low-default portfolio",
+        "That its collateral and covenant discipline has protected principal so far"
+      ],
+      "answer": 0,
+      "explain": "Near-zero losses validate the underwriting process but starve the models: with almost no internal defaults, PD calibration must lean on external benchmarks and judgement. The other three statements are exactly what the record does support."
+    },
+    {
+      "q": "Why do specialist lenders like Allica and Shawbrook operate higher up the risk-and-margin curve than the big four?",
+      "options": [
+        "Regulators restrict new banks to riskier asset classes",
+        "They lack the credit skills to compete for prime borrowers",
+        "They fund from best-buy savings and wholesale markets, which cost more than BCA float, so they must earn wider margins in secured niches the incumbents vacated",
+        "Their capital requirements are lower, letting them hold riskier books cheaply"
+      ],
+      "answer": 2,
+      "explain": "Funding cost dictates appetite. An incumbent's near-free current-account float funds finely priced prime lending; a specialist paying up for term deposits must find margin, which means complexity and niches — secured, covenant-heavy, priced for the underwriting work."
+    },
+    {
+      "q": "Funding Circle pivoted from pure marketplace lending to holding products like FlexiPay on its own balance sheet. What does this illustrate?",
+      "options": [
+        "Marketplace models eliminate credit risk permanently once loans are sold",
+        "Originate-to-distribute relocates credit risk rather than removing it — when investor demand or distribution economics shift, risk comes back onto the originator's book",
+        "UK regulation banned marketplace lending after the pandemic",
+        "Balance-sheet lending requires no capital if the loans are short-dated"
+      ],
+      "answer": 1,
+      "explain": "The marketplace model holds no risk only while institutional buyers absorb the flow at viable economics. When that thins, the originator must hold assets to keep growing — and the ECL, previously someone else's problem, lands on its own balance sheet."
+    },
+    {
+      "q": "Tide reports roughly 15% 'market share' of UK SMEs. What caveat matters most before using this figure in competitor analysis?",
+      "options": [
+        "Tide operates only in India, so the UK figure is irrelevant",
+        "Tide's figure counts lending balances, which overstates its deposits",
+        "The CMA has formally disputed the number",
+        "The denominator is the ~5.5m UK SME population, mostly sole traders — it is a share of businesses by count, not of lending, deposits or primary relationships"
+      ],
+      "answer": 3,
+      "explain": "Tide's share is self-reported members divided by the total SME population, which is dominated by sole traders with minimal banking needs. It says nothing about share of credit or deposit value — and Tide is an e-money firm, not a UK bank, so comparisons with bank balance sheets mislead."
+    },
+    {
+      "q": "An incumbent's business-banking coverage ratio is lower than a challenger's. What is the most likely explanation?",
+      "options": [
+        "Book mix — a seasoned, secured, Stage 1-heavy incumbent book mechanically carries lower coverage than a young unsecured one; the comparison says little about prudence",
+        "The incumbent is under-providing and concealing losses",
+        "Challengers are required by regulation to run more conservative models",
+        "Coverage ratios are not comparable because challengers do not apply IFRS 9"
+      ],
+      "answer": 0,
+      "explain": "Coverage is a function of security, seasoning and staging mix before it is a function of prudence. Unsecured young books need more coverage per pound of exposure. UK challenger banks apply IFRS 9 like everyone else, and neither of the other explanations follows from the ratio alone."
+    },
+    {
+      "q": "How does a merchant cash advance from an acquirer like Square or SumUp differ from a term loan, from a credit-risk standpoint?",
+      "options": [
+        "It is automatically government guaranteed",
+        "It carries no credit risk because repayments are collected automatically",
+        "Repayment is taken as a share of card takings, so exposure amortises with the merchant's revenue — and the lender watches that revenue collapse in real time",
+        "It is always secured on the card terminal hardware"
+      ],
+      "answer": 2,
+      "explain": "The acquirer sits inside the merchant's revenue stream: repayment flexes with takings, and deteriorating turnover is visible daily rather than at the next set of accounts. Credit risk remains — a merchant whose revenue stops repays nothing — but the early-warning data is unmatched."
+    },
+    {
+      "q": "Why can rapidly growing challenger loan books show flattering default rates?",
+      "options": [
+        "Fast growth keeps average vintage age low, and defaults need seasoning to emerge — observed rates understate the book's eventual through-the-cycle PD",
+        "Challengers are exempt from default reporting in their first five years",
+        "New borrowers are always better credits than seasoned ones",
+        "IFRS 9 excludes loans under twelve months old from ECL"
+      ],
+      "answer": 0,
+      "explain": "Defaults peak some years after origination. A book compounding at 20%+ is dominated by young vintages that have not yet had time to default, so the headline default rate flatters the underwriting. Nothing exempts young loans from ECL — they simply have not seasoned."
+    },
+    {
+      "q": "In a downturn, why does the funding model of wholesale-reliant SME lenders matter to Barclays' own impairment outcome?",
+      "options": [
+        "Barclays guarantees their funding lines under the Growth Guarantee Scheme",
+        "Their failure triggers automatic Stage 3 transfers at Barclays",
+        "They retrench first when funding tightens, shrinking refinancing options for weak borrowers — cure rates fall and workout outcomes worsen across the market, including on Barclays' book",
+        "Their deposits flow to Barclays, which mechanically raises its ECL"
+      ],
+      "answer": 2,
+      "explain": "A distressed borrower's ability to refinance elsewhere props up cure rates and workout recoveries. When wholesale-funded marginal lenders withdraw, that escape route closes market-wide, so Barclays' Stage 2 and Stage 3 outcomes deteriorate even with unchanged appetite of its own."
+    }
+  ],
+  "domino": {
+    "title": "How the field transmits a downturn",
+    "nodes": [
+      { "id": "n1", "label": "BCR money funds challengers", "sectionId": "s3" },
+      { "id": "n2", "label": "Challengers take account share", "sectionId": "s3" },
+      { "id": "n3", "label": "Incumbents lose flow data", "sectionId": "s2" },
+      { "id": "n4", "label": "Incumbent appetite narrows", "sectionId": "s2" },
+      { "id": "n5", "label": "Specialists take secured niches", "sectionId": "s4" },
+      { "id": "n6", "label": "Risky flow goes embedded", "sectionId": "s5" },
+      { "id": "n7", "label": "Downturn hits marginal borrowers", "sectionId": "s6" },
+      { "id": "n8", "label": "Wholesale funding retrenches", "sectionId": "s6" },
+      { "id": "n9", "label": "Cure rates fall", "sectionId": "s6" },
+      { "id": "n10", "label": "Guarantees and PGs tested", "sectionId": "s6" },
+      { "id": "n11", "label": "ECL charge rises", "sectionId": "s6" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n4", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n9"],
+      ["n7", "n10"],
+      ["n9", "n11"],
+      ["n10", "n11"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Starling Bank",
+      "slug": "starling",
+      "definition": "Digital bank founded 2014; the largest BCR-era challenger, holding c.10% of UK SME business current accounts with £714m revenue in FY2025. Deposit-rich, lending-light. Booked a £28.2m provision in FY2025 after voluntarily removing the government guarantee from BBLS loans whose origination checks failed scheme conditions.",
+      "related": ["bbls", "bcr", "integral-guarantee"]
+    },
+    {
+      "term": "Tide",
+      "slug": "tide",
+      "definition": "E-money business-banking platform — not a UK bank — holding client funds via ClearBank. Roughly 900,000 UK members by mid-2026, a self-reported c.15% of UK SMEs by count. Monetises payments and subscriptions; credit mostly originated through partners. Its share metric counts businesses, not lending or deposit value.",
+      "related": ["bca", "starling", "zempler"]
+    },
+    {
+      "term": "Allica Bank",
+      "slug": "allica",
+      "definition": "Full-service digital bank for established SMEs (roughly 10–250 employees). Lending grew 23% to £3.7bn in 2025 — mostly commercial mortgages plus asset, growth and bridging finance — funded by £5.7bn of savings deposits. Third consecutive profitable year; the standing example of relationship underwriting rebuilt on modern rails.",
+      "related": ["commercial-mortgage", "asset-finance", "relationship-lending"]
+    },
+    {
+      "term": "OakNorth",
+      "slug": "oaknorth",
+      "definition": "UK bank lending £250k–£100m to property and trading businesses; £7.2bn of facilities and £223m pre-tax profit in 2025. Cumulative principal losses of 0.045% (£6.9m) across its first decade — the canonical low-default portfolio. Sells its underwriting and monitoring stack to other banks as ON Credit Intelligence.",
+      "related": ["low-default-portfolio", "allica", "shawbrook"]
+    },
+    {
+      "term": "Funding Circle",
+      "slug": "funding-circle",
+      "definition": "UK SME lending platform that pioneered marketplace lending, then pivoted: US exit, and growth via FlexiPay working-capital lines held on its own balance sheet. In 2025: £3.0bn under management, £2.5bn of credit extended, £20.3m pre-tax profit. Proof that originate-to-distribute relocates credit risk rather than removing it.",
+      "related": ["marketplace-lending", "iwoca"]
+    },
+    {
+      "term": "iwoca",
+      "slug": "iwoca",
+      "definition": "Data-driven lender of short-term unsecured working capital to small businesses; £1.3bn lent across 58,000 loans in 2025, up 60%. Distributes through embedded API partnerships — accountancy software, payment firms, neobanks — reaching c.3m businesses. Wholesale-funded via facilities such as a £250m Waterfall Asset Management line.",
+      "related": ["transactional-data-lending", "zempler", "funding-circle"]
+    },
+    {
+      "term": "Mettle",
+      "slug": "mettle",
+      "definition": "NatWest's standalone app-based business current account for sole traders and small limited companies — the incumbent's defensive answer to Starling and Tide, run as a separate brand with fee-free accounts and integrated accounting software.",
+      "related": ["tyl", "starling", "bca"]
+    },
+    {
+      "term": "Tyl",
+      "slug": "tyl",
+      "definition": "NatWest's merchant-acquiring service, launched 2019, offering card terminals and payment processing to SMEs. Among the fastest-growing UK bank-owned acquirers; entered a technology partnership with Endava in 2026. Gives NatWest the card-takings data stream that fintech acquirers use for lending.",
+      "related": ["merchant-acquiring", "mettle", "transactional-data-lending"]
+    },
+    {
+      "term": "Kinetic",
+      "slug": "kinetic",
+      "definition": "HSBC UK's app-based business banking platform for small businesses — account opening, overdrafts and small loans delivered digitally. HSBC's vehicle for defending the small-SME end of its franchise while its core appetite concentrates on internationally trading firms.",
+      "related": ["bca", "mettle", "overdraft"]
+    },
+    {
+      "term": "Shawbrook",
+      "slug": "shawbrook",
+      "definition": "Specialist UK bank funded by retail savings and securitisation; £19.2bn loan book at end-2025 (up 16%), including £4.4bn of SME lending alongside real-estate and retail mortgages. Acquired ThinCats to deepen mid-market SME reach and returned to the London Stock Exchange.",
+      "related": ["thincats", "aldermore", "asset-finance"]
+    },
+    {
+      "term": "Aldermore",
+      "slug": "aldermore",
+      "definition": "Specialist bank owned by South Africa's FirstRand, focused on asset finance, invoice finance and commercial mortgages for SMEs, funded largely by retail savings. Accredited under the Growth Guarantee Scheme, having previously lent under the Recovery Loan Scheme.",
+      "related": ["asset-finance", "invoice-finance", "growth-guarantee-scheme"]
+    },
+    {
+      "term": "Zempler Bank",
+      "slug": "zempler",
+      "definition": "Small-business bank, formerly Cashplus, with c.170,000 business accounts and three consecutive years of profit to FY2025. Embeds iwoca's lending inside its own accounts rather than building a large credit book — a working example of the embedded-credit pattern among account-first challengers.",
+      "related": ["iwoca", "tide", "bca"]
+    },
+    {
+      "term": "ThinCats",
+      "slug": "thincats",
+      "definition": "Specialist lender providing bespoke, typically larger-ticket funding to established, growth-focused mid-sized SMEs, originated through advisers and its own regional team. Acquired by Shawbrook in 2025, extending the bank's reach into relationship-underwritten mid-market credit.",
+      "related": ["shawbrook", "relationship-lending"]
+    },
+    {
+      "term": "Marketplace lending",
+      "slug": "marketplace-lending",
+      "definition": "Originate-to-distribute model: a platform originates loans, sells them to institutional investors and retains servicing fees, holding little or no credit risk itself. Risk is relocated, not removed — when investor demand or economics shift, originators pivot to balance-sheet lending and the ECL comes home.",
+      "related": ["funding-circle", "iwoca"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "British Business Bank — Small Business Finance Markets 2025/26",
+      "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2026-03/report-small-business-finance-markets-2026.pdf",
+      "note": "Gross SME bank lending of £68bn in 2025 (+9%); challenger and specialist banks at 60% share, ahead of the big five for a fourth year."
+    },
+    {
+      "title": "Starling Bank — Annual Report 2025",
+      "url": "https://www.starlingbank.com/investors/2025/annual-report-2025/",
+      "note": "FY2025 revenue £714m; c.9.7% SME business-account share; SME deposit franchise."
+    },
+    {
+      "title": "CNBC — Starling Bank reports 26% profit drop as it flags Covid loan issue (May 2025)",
+      "url": "https://www.cnbc.com/2025/05/28/goldman-backed-starling-bank-profit-drops-amid-covid-loan-issue.html",
+      "note": "£28.2m BBLS provision after voluntary removal of the government guarantee on non-compliant loans; £29m FCA financial-crime fine."
+    },
+    {
+      "title": "Tide — Tide crosses 2 million members worldwide (May 2026)",
+      "url": "https://www.businesswire.com/news/home/20260526076712/en/Tide-Crosses-2-Million-Members-Worldwide---Big-Step-Forward-in-Mission-to-Support-and-Grow-Small-Businesses",
+      "note": "c.900,000 UK members and self-reported c.15% share of UK SMEs by count as at mid-2026."
+    },
+    {
+      "title": "Monzo — Annual Report FY2026",
+      "url": "https://monzo.com/annual-report",
+      "note": "Business customers up 45% to over 905,000 — roughly one in seven UK SMEs; business banking c.12% of revenue."
+    },
+    {
+      "title": "Allica Bank — Record results press release (2025 full year)",
+      "url": "https://www.allica.bank/press-releases/allica-bank-reports-record-2025-results",
+      "note": "Lending +23% to £3.7bn; deposits £5.7bn; commercial mortgages £2.4bn; asset finance £507m; underlying PBT £43.7m."
+    },
+    {
+      "title": "OakNorth — 2025 Annual Results",
+      "url": "https://oaknorth.co.uk/press/oaknorth-2025-annual-results/",
+      "note": "£223m pre-tax profit; facilities +18% to £7.2bn; cumulative principal losses 0.045% (£6.9m) over ten years; ON Credit Intelligence."
+    },
+    {
+      "title": "Funding Circle — Full Year 2025 Results",
+      "url": "https://corporate.fundingcircle.com/media/newsroom/full-year-2025-results",
+      "note": "AuM £2.96bn; credit extended +29% to £2.45bn; revenue £204.3m; PBT £20.3m; FlexiPay balance-sheet pivot."
+    },
+    {
+      "title": "iwoca — £200m funding line after £2.5bn lent; 2025 lending figures",
+      "url": "https://www.iwoca.co.uk/news/sme-lender-iwoca-raises-new-ps200-million-funding-line-after-reaching-ps2-5bn-in-finance-lent",
+      "note": "£1.3bn lent in 2025 across 58,000 loans (+60% YoY); embedded distribution reaching c.3m businesses; wholesale funding facilities."
+    },
+    {
+      "title": "Mortgage Solutions — Shawbrook loan book grows 16% to £19.2bn in 2025",
+      "url": "https://www.mortgagesolutions.co.uk/specialist-lending/commercial-finance/2026/03/12/shawbrooks-loan-book-grows-16-to-19-2bn-in-2025/",
+      "note": "2025 loan book £19.2bn; SME £4.4bn; real estate £7.6bn; underlying PBT £340.5m; ThinCats acquisition."
+    },
+    {
+      "title": "Santander UK — Completion of TSB acquisition (April 2026)",
+      "url": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-uk-completes-cash-acquisition-of-tsb-banking",
+      "note": "£2.65bn cash acquisition completed 30 April 2026; TSB's c.5m personal and small-business customers."
+    },
+    {
+      "title": "FF News — Zempler Bank full-year results, 58% profit growth (FY to March 2025)",
+      "url": "https://ffnews.com/newsarticle/fintech/zempler-bank-full-year-results-2025/",
+      "note": "Pre-tax profit £5.2m; c.170,000 business accounts; iwoca lending partnership."
+    }
+  ]
+}

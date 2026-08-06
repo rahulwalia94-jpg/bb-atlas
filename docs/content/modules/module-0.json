@@ -1,0 +1,257 @@
+{
+  "id": 0,
+  "slug": "orientation",
+  "title": "What Business Banking Actually Is",
+  "kicker": "Module 00 · Orientation",
+  "summary": "Business Banking is the territory between the cash machine and the syndicated loan: 5.7 million firms, most of them one person and a van, banked through products that behave nothing like mortgages or cards. This module maps the segment, the product shelf, and the organisational geography — and explains why an SME book will fight every instinct you built in retail impairment.",
+  "readingTime": 13,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "The territory: from market stall to mid-corporate",
+      "html": "<p>Start with the population, because the population is the problem. At the start of 2025 the UK had roughly 5.7 million private sector businesses, and 5.68 million of them — 99.85% — were <span class=\"xref\" data-term=\"sme\">SMEs</span>. Around 56% of the total were <span class=\"xref\" data-term=\"sole-trader\">sole traders</span>, and about three quarters of those employ nobody but the owner. Collectively, SMEs employ roughly 16.9 million people and turn over about £2.8 trillion a year. That is the raw material of a Business Banking book: not a smooth continuum of similar borrowers, but a pyramid with an enormous base of one-person firms, a middle of employing small businesses, and a thin apex of <span class=\"xref\" data-term=\"small-corporate\">small corporates</span> with finance directors and audited accounts.</p><p>Business Banking — BB, in the internal shorthand you will now live inside — is the stretch of the bank that serves this pyramid, from the newly registered window cleaner to the £6m-turnover engineering firm. Below it sits Retail, which you know: homogeneous products sold to individuals. Above it sits Corporate and, further up, Investment Banking: bespoke facilities for firms large enough to negotiate. BB is the awkward middle. Its customers are legally businesses but often economically households — the director's mortgage, the <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span>, and the company overdraft are frequently the same balance sheet wearing three hats.</p><p>The consequence, and the theme of this entire atlas, is heterogeneity. A cards portfolio contains a million accounts that differ in degree. A BB portfolio contains a café, a haulage contractor, a dental practice, a property developer and a SaaS startup — businesses that differ in kind: different cash-flow shapes, different asset bases, different failure modes. Every modelling and impairment headache downstream traces back to this one fact.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "Where the banks draw the lines",
+      "html": "<p>There is no statutory definition of Business Banking. Each bank cuts the pyramid where it likes, almost always on annual turnover — <span class=\"xref\" data-term=\"turnover-segmentation\">turnover segmentation</span> — because turnover is observable, roughly tracks complexity, and determines how much manual underwriting a relationship can economically justify.</p><p>At Barclays, the line sits at £6.5m: Business Banking, housed within <span class=\"xref\" data-term=\"barclays-uk\">Barclays UK</span>, serves everything from start-ups to firms with up to £6.5m annual turnover, while the UK Corporate Bank — carved out as a distinct division in the 2024 reorganisation — takes businesses above £6.5m through to FTSE 350 names. Lloyds slices twice: small business accounts below £3m turnover, a business tier from £3m to £25m, and Commercial Banking above £25m. NatWest draws its retail-adjacent line lower still, keeping firms up to roughly £2m turnover in its business banking segment before they graduate to Commercial &amp; Institutional. Same country, same borrowers, boundaries ranging from £2m to £25m.</p><p>This matters more than it looks. When an analyst compares SME <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratios</span> across UK banks, they are rarely comparing like with like: one bank's \"business banking\" book is another's commercial mid-market. Barclays' £6.5m boundary means its BB book skews small — heavy in sole traders and micro-companies, lighter in the £10m–£25m firms that sit in Lloyds' equivalent segment. Smaller average borrower means thinner financial data, more automated decisioning, more reliance on behavioural signals, and a loss distribution built from many small defaults punctuated by the occasional nasty one. Know where the fence is before you interpret anything that happens inside it.</p>"
+    },
+    {
+      "id": "s3",
+      "heading": "The anchor product: the current account and the money that moves",
+      "html": "<p>The commercial heart of BB is not a loan. It is the <span class=\"xref\" data-term=\"bca\">business current account</span> — the BCA — through which a firm's entire financial life flows: customer receipts, supplier payments, wages, VAT, the director's ill-advised drawings. Banks fight for BCAs because the account brings cheap deposits, fee income, and the first call on every subsequent product the business ever needs. In BB, deposits typically dwarf lending; the segment is structurally a deposit franchise with a loan book attached.</p><p>Around the BCA cluster the transactional products. <span class=\"xref\" data-term=\"merchant-acquiring\">Merchant acquiring</span> — card payment processing, at Barclays the domain of <span class=\"xref\" data-term=\"barclaycard-payments\">Barclaycard Payments</span> — earns a slice of every card transaction and carries a subtle credit exposure: if a merchant fails after taking payment but before delivering (think tour operators), chargebacks land on the acquirer. FX services serve importers and exporters, mostly spot and simple forwards; the credit risk is settlement risk, small but real. Deposit products — instant access, notice, fixed term — carry no credit risk at all, but they fund the book and anchor the relationship.</p><p>For you, the BCA's real treasure is informational. The turnover passing through the account — <span class=\"xref\" data-term=\"bca-turnover\">BCA turnover</span> — is a live, unfalsifiable read on trading health, months ahead of any filed accounts. Falling receipts, rising reliance on the overdraft ceiling, bounced direct debits: this is the raw feed of <span class=\"xref\" data-term=\"behavioural-scoring\">behavioural scoring</span> in BB, doing the job the credit bureau did for you in cards.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Transactional products barely feature in the ECL number, but they feed it. BCA behavioural data drives BB <span class=\"xref\" data-term=\"pd\">PD</span> models and <span class=\"xref\" data-term=\"sicr\">SICR</span> triggers because filed accounts arrive late and say little. A firm that stops routing turnover through its BCA doesn't just cost fee income — it blinds the model that stages its loans.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "The lending shelf: five products, five risk shapes",
+      "html": "<p>BB lending is a shelf of five basic products, and each has a distinct risk anatomy — a different dominant parameter among <span class=\"xref\" data-term=\"pd\">PD</span>, <span class=\"xref\" data-term=\"lgd\">LGD</span> and <span class=\"xref\" data-term=\"ead\">EAD</span>.</p><ul><li><strong>The <span class=\"xref\" data-term=\"overdraft\">overdraft</span></strong> is working-capital oxygen: a revolving limit on the BCA, repayable on demand, usually unsecured or floating-charge secured at the small end. Its risk is EAD-shaped. A healthy firm touches its limit occasionally; a dying one lives at the ceiling and pushes through it. Utilisation rises precisely as PD rises — the credit-conversion problem you know from cards, sharpened.</li><li><strong>The <span class=\"xref\" data-term=\"term-loan\">term loan</span></strong> is the workhorse: a fixed advance amortising over one to ten-plus years, for expansion, acquisition or refinancing. EAD is predictable; the game is PD — will the cash flows survive the term? — and, where unsecured, LGD is brutal.</li><li><strong>The <span class=\"xref\" data-term=\"commercial-mortgage\">commercial mortgage</span></strong> lends against trading premises or investment property over 15–25 years. Superficially it rhymes with your old world; actually LGD rides the commercial property cycle, which is more violent and less liquid than residential, and tenant covenants can matter as much as the borrower.</li><li><strong><span class=\"xref\" data-term=\"asset-finance\">Asset finance</span></strong> — hire purchase and leasing — funds vehicles, plant and equipment, with the asset itself as security and often title retained by the bank. LGD is a used-asset resale question: a tipper truck holds value; bespoke software-laden machinery does not. \"Hard\" versus \"soft\" assets is the whole game.</li><li><strong><span class=\"xref\" data-term=\"invoice-finance\">Invoice finance</span></strong> advances perhaps 80–90% against unpaid trade invoices. It is self-liquidating — customers' payments repay the advance — so EAD is short-dated and LGD is usually modest. Its tail risk is operational: fresh-air invoices and double-financing frauds, where losses appear suddenly and whole.</li></ul><aside class=\"lens\"><h4>Impairment Lens</h4><p>Product mix is coverage destiny. A book tilted to unsecured overdrafts and term loans carries high-LGD, PD-driven <span class=\"xref\" data-term=\"ecl\">ECL</span>; a book tilted to asset finance and commercial mortgages carries collateral-driven ECL hostage to asset values. Two BB books with identical PDs can justifiably hold very different coverage. Always ask what is on the shelf before judging the ratio.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "Neither retail nor corporate",
+      "html": "<p>Underwriting first. Retail credit is statistical: bureau score, affordability calculation, automated decision, millions of times. Corporate credit is forensic: audited accounts, sector analysis, a credit paper argued before a sanctioning committee. BB is the hybrid — auto-decisioned at the small end using bureau-plus-behavioural data, manually underwritten above a threshold, with <span class=\"xref\" data-term=\"relationship-lending\">relationship lending</span> surviving in the middle: a business manager covering hundreds of firms, knowing perhaps a tenth of them well.</p><p>Data second, and this is the cultural shock. In cards you enjoyed deep bureau histories refreshed monthly. A BB underwriter faces filleted small-company accounts filed at <span class=\"xref\" data-term=\"companies-house\">Companies House</span> up to nine months late — micro-entities need file little more than an abridged balance sheet — plus commercial bureau data that is thinner and staler than its consumer cousin. Hence the reliance on BCA behaviour, and increasingly on <span class=\"xref\" data-term=\"open-banking\">Open Banking</span> feeds for non-customers.</p><p>Security third. Retail lending is either cleanly secured (the mortgage) or cleanly unsecured (the card). BB security is baroque: <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantees</span> that pierce the limited-liability veil, <span class=\"xref\" data-term=\"debenture\">debentures</span> granting <span class=\"xref\" data-term=\"fixed-charge\">fixed</span> and <span class=\"xref\" data-term=\"floating-charge\">floating charges</span> over everything the company owns, title retained on financed assets. Recovery is a legal process with a timetable measured in years.</p><p>Capital last. Smaller SME exposures can qualify for retail treatment under the capital rules, larger ones are corporate SME, and the <span class=\"xref\" data-term=\"sme-supporting-factor\">SME supporting factor</span> discounts risk weights to encourage lending — a regulatory thumb on the scale with no equivalent in your old book. Under <span class=\"xref\" data-term=\"ifrs9\">IFRS 9</span> the standard is the same as retail; the difficulty of applying it is not, as the next section explains.</p>"
+    },
+    {
+      "id": "s6",
+      "heading": "Why SME books misbehave",
+      "html": "<p>Take the retail modeller's three comforts — homogeneity, rich data, smooth losses — and remove each in turn.</p><p>Heterogeneity first. The café and the haulier share a PD segment but not a failure mode: one dies of footfall, the other of fuel prices and a lost contract. Segment finely enough to be homogeneous and your buckets hold too few firms to calibrate; segment coarsely enough to calibrate and your buckets are zoos. There is no clean answer, only a managed trade-off.</p><p>Data second. With thin bureau coverage and stale filed accounts, models lean on behavioural signals — above all <span class=\"xref\" data-term=\"bca-turnover\">BCA turnover</span>. Powerful, but noisy and endogenous: a firm can slash costs, or quietly route receipts through a <span class=\"xref\" data-term=\"starling\">Starling</span> account, and your signal degrades. Noisy inputs mean noisier <span class=\"xref\" data-term=\"pd\">PD</span>, which means staging decisions — and therefore lifetime-loss recognition — sit on softer foundations than you are used to.</p><p>Losses third. Retail losses arrive as drizzle; SME losses arrive as weather. Default frequency is low most years — the classic <span class=\"xref\" data-term=\"low-default-portfolio\">low-default portfolio</span> problem — then insolvency cycles bite: 2025 saw 23,938 company insolvencies in England and Wales, around 77% of them <span class=\"xref\" data-term=\"cvl\">creditors' voluntary liquidations</span>, easing from 2023's thirty-year high. And single names matter: one £3m exposure gone bad moves a month's charge in a way no cards account ever could.</p><p>Then there is what stands behind the loss. BB <span class=\"xref\" data-term=\"lgd\">LGD</span> is security-driven and bimodal: well-secured exposures recover most of their money slowly; unsecured ones recover pennies. And since 2020, government guarantees complicate everything — legacy <span class=\"xref\" data-term=\"bbls\">Bounce Back Loans</span> with their 100% guarantee, and the <span class=\"xref\" data-term=\"growth-guarantee-scheme\">Growth Guarantee Scheme</span>, extended to March 2030 and expanded in July 2026, putting a 70% state guarantee behind qualifying new lending.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Guarantee schemes rewire LGD. Where a guarantee is integral to the facility, expected claims on the government count as recoveries, collapsing modelled loss even when the borrower is hopeless. Get the integral/non-integral call wrong, or misjudge claim eligibility, and reported coverage is fiction in both directions.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "Where you sit, and why the number moves",
+      "html": "<p>The BB impairment team sits where you'd expect — in the risk and finance machinery, between the credit-risk modellers who build PD/LGD/EAD and the financial reporting line that signs the <span class=\"xref\" data-term=\"ecl\">ECL</span> number into the accounts. What changes is the shape of the work. A BB book runs a split you rarely saw in cards: the mass of small exposures flows through <span class=\"xref\" data-term=\"collective-assessment\">collective assessment</span> on modelled parameters, while larger or watchlisted names are <span class=\"xref\" data-term=\"individually-assessed\">individually assessed</span> — a human builds discounted recovery cash flows, weighs the security, argues the case. Deciding which names cross that line, and challenging the workouts once they do, is a core discipline of the job.</p><p>Now assemble the domino chain this module has been building. SME heterogeneity forces coarse segmentation; thin bureau data forces reliance on behavioural and BCA-turnover signals; noisy signals produce noisy PDs; noisy PDs make <span class=\"xref\" data-term=\"staging\">staging</span> twitchy, swinging exposures between 12-month and lifetime loss; the collective/individual split adds step-changes whenever a big name migrates; and the sum is coverage volatility — a P&amp;L charge that lurches in ways a mortgage book never would. Management papers over the gaps with <span class=\"xref\" data-term=\"pma\">PMAs</span>, judgemental overlays that in SME portfolios can rival the modelled number itself. For scale: Barclays' group loan loss rate ran at 52bps for full-year 2025, comfortably within its through-the-cycle range — but the BB line beneath such group figures moves with insolvency weather the way cards never did.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Your retail instincts — trust the model, distrust the anecdote — invert here. In BB the anecdote is often the data: one relationship manager's note on a lost contract can be worth more than a quarter of behavioural score movement. The craft is knowing when the collective number needs an individual story, and when a story is just noise.</p></aside><p>That is the terrain. The modules that follow walk it: the history that shaped the market, the competitors circling it, the schemes that distorted it, and the mechanics of measuring what it loses.</p>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A firm with £5m annual turnover banks with Barclays. Which part of the bank owns the relationship?",
+      "options": ["UK Corporate Bank, because it is a limited company", "Business Banking within Barclays UK, because turnover is below £6.5m", "Barclaycard Payments, because it takes card payments", "Private Bank, because the director is high-net-worth"],
+      "answer": 1,
+      "explain": "Barclays draws the line at £6.5m annual turnover: below sits Business Banking inside Barclays UK, above sits the UK Corporate Bank. Legal form, payment products and the director's wealth don't move the boundary."
+    },
+    {
+      "q": "Why do banks fight so hard for the BCA when it lends nothing?",
+      "options": ["It carries the highest margin on the shelf", "Regulation requires every borrower to hold one", "It brings cheap deposits, fees, and the behavioural data that powers BB credit models", "It transfers credit risk to the payment schemes"],
+      "answer": 2,
+      "explain": "The BCA anchors the relationship, funds the book with cheap deposits, and its turnover data is the live trading signal BB PD models depend on. It is not the highest-margin product and holding one is not compulsory."
+    },
+    {
+      "q": "Invoice finance typically shows low LGD. Why?",
+      "options": ["It is self-liquidating: customers' payments on the financed invoices repay the advance", "The government guarantees all receivables finance", "Invoices are always insured by the borrower", "Advances never exceed 50% of invoice value"],
+      "answer": 0,
+      "explain": "The advance is repaid directly from debtor payments on the invoices, so exposure is short-dated and secured on receivables. Advance rates are typically 80–90%, there is no blanket state guarantee, and credit insurance is optional."
+    },
+    {
+      "q": "What makes overdraft EAD particularly treacherous in an SME book?",
+      "options": ["Overdrafts amortise on a fixed schedule", "Limits are contractually uncancellable", "Overdrafts are always fully secured", "Utilisation rises towards and through the limit precisely as the firm approaches default"],
+      "answer": 3,
+      "explain": "Distressed firms live at the ceiling, so drawn balance at default exceeds normal utilisation — the credit-conversion problem. Overdrafts are repayable on demand, revolving rather than amortising, and often unsecured."
+    },
+    {
+      "q": "Why does SME heterogeneity make collective PD models harder to build than card models?",
+      "options": ["SMEs default more often than card holders", "IFRS 9 prohibits collective assessment of companies", "Segmenting finely enough for homogeneity leaves buckets too small to calibrate reliably", "SME defaults are not recorded anywhere"],
+      "answer": 2,
+      "explain": "The bind is statistical: homogeneous segments are too thin to calibrate, calibratable segments are too mixed to be homogeneous. IFRS 9 fully permits collective assessment, and SME default frequency is actually low in most years."
+    },
+    {
+      "q": "In asset finance, the dominant driver of LGD is:",
+      "options": ["The borrower's filed accounts", "The resale value of the financed asset — hard versus soft", "The direction of Bank Rate", "The personal credit score of the director"],
+      "answer": 1,
+      "explain": "The bank's recovery comes from repossessing and reselling the asset, so hard assets (vehicles, plant) with liquid used markets mean low LGD while soft or bespoke assets mean high LGD. The other options affect PD or pricing, not recovery."
+    },
+    {
+      "q": "A facility carries an integral 70% Growth Guarantee Scheme guarantee. The correct ECL treatment of the guarantee is:",
+      "options": ["Include expected claims on the government as recovery cash flows, reducing LGD", "Ignore it, since guarantees never affect ECL", "Move the exposure to Stage 1 automatically", "Reduce PD by 70%"],
+      "answer": 0,
+      "explain": "An integral guarantee's expected claim proceeds count as recoveries in the loss calculation, cutting LGD. It does not touch PD or staging — the borrower is just as likely to default; the bank simply loses less when they do."
+    },
+    {
+      "q": "Compared with corporate banking, BB underwriting is best described as:",
+      "options": ["Fully manual, committee-sanctioned credit papers for every facility", "Identical to consumer credit card decisioning", "Entirely outsourced to credit bureaus", "A hybrid: automated at the small end, manual above a threshold, thin relationship coverage between"],
+      "answer": 3,
+      "explain": "BB blends retail-style automation for small exposures with corporate-style manual underwriting for larger ones, with business managers spread across hundreds of relationships. Full committee treatment for every facility would be uneconomic at BB ticket sizes."
+    },
+    {
+      "q": "Why are SME book losses 'lumpy' relative to a cards portfolio?",
+      "options": ["SMEs default at random times of year", "Card losses are legally capped", "Exposure sizes vary enormously, so a single large default can move the period's charge", "SME write-offs are booked only annually"],
+      "answer": 2,
+      "explain": "Cards spread loss across millions of small, similar balances; a BB book holds exposures from £10k to several million, so one bad name is material. Timing conventions and legal caps are not the mechanism."
+    },
+    {
+      "q": "In the module's domino chain, reliance on BCA-turnover data feeds coverage volatility because:",
+      "options": ["Turnover data is only available annually", "Noisy behavioural signals produce noisy PDs, making staging migrations — and lifetime-loss recognition — twitchy", "BCA turnover directly determines LGD", "Regulators require coverage to track turnover"],
+      "answer": 1,
+      "explain": "BCA turnover is live but noisy and endogenous; noise flows through PD into SICR triggers, so exposures oscillate between 12-month and lifetime ECL, swinging coverage. It is a high-frequency signal, and it drives PD and staging, not LGD."
+    }
+  ],
+  "domino": {
+    "title": "From heterogeneity to a twitchy P&L",
+    "nodes": [
+      { "id": "n1", "label": "SME heterogeneity", "sectionId": "s6" },
+      { "id": "n2", "label": "Thin bureau data", "sectionId": "s6" },
+      { "id": "n3", "label": "BCA-turnover reliance", "sectionId": "s3" },
+      { "id": "n4", "label": "Noisier PD estimates", "sectionId": "s6" },
+      { "id": "n5", "label": "Twitchy staging migrations", "sectionId": "s7" },
+      { "id": "n6", "label": "Lumpy single-name losses", "sectionId": "s6" },
+      { "id": "n7", "label": "Security-driven LGD", "sectionId": "s6" },
+      { "id": "n8", "label": "Guarantee scheme offsets", "sectionId": "s6" },
+      { "id": "n9", "label": "Collective vs individual split", "sectionId": "s7" },
+      { "id": "n10", "label": "Coverage volatility", "sectionId": "s7" },
+      { "id": "n11", "label": "Volatile P&L charge", "sectionId": "s7" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n5", "n10"],
+      ["n1", "n6"],
+      ["n6", "n9"],
+      ["n9", "n10"],
+      ["n8", "n7"],
+      ["n7", "n10"],
+      ["n10", "n11"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Business current account (BCA)",
+      "slug": "bca",
+      "definition": "The transactional bank account through which a business routes receipts, payments and wages. The anchor BB product: source of cheap deposits, fee income, cross-sale, and — critically for credit risk — live behavioural data on trading health via account turnover and limit usage.",
+      "related": ["bca-turnover", "overdraft", "behavioural-scoring"]
+    },
+    {
+      "term": "SME",
+      "slug": "sme",
+      "definition": "Small and medium-sized enterprise, conventionally a firm with fewer than 250 employees. UK SMEs numbered ~5.68 million at the start of 2025 — 99.85% of all businesses — employing ~16.9 million people. Banks sub-segment them by annual turnover, with 'business banking' boundaries ranging from ~£2m to £25m.",
+      "related": ["sole-trader", "small-corporate", "turnover-segmentation"]
+    },
+    {
+      "term": "Sole trader",
+      "slug": "sole-trader",
+      "definition": "An unincorporated business owned by one individual with no legal separation between personal and business assets — the owner is personally liable for all debts. Around 56% of UK businesses; most employ nobody. For lenders, effectively consumer credit wearing a trading name.",
+      "related": ["sme", "personal-guarantee"]
+    },
+    {
+      "term": "Overdraft",
+      "slug": "overdraft",
+      "definition": "A revolving borrowing limit on the BCA, repayable on demand, funding day-to-day working capital. Usually unsecured or floating-charge secured at the small end. Risk is EAD-shaped: utilisation climbs towards and through the limit as a firm approaches default.",
+      "related": ["bca", "ead", "floating-charge"]
+    },
+    {
+      "term": "Term loan",
+      "slug": "term-loan",
+      "definition": "A fixed advance repaid on an amortising schedule, typically over one to ten-plus years, funding expansion, acquisition or refinancing. EAD is predictable; risk concentrates in PD — whether cash flows survive the term — and in LGD where the loan is unsecured.",
+      "related": ["overdraft", "commercial-mortgage", "pd"]
+    },
+    {
+      "term": "Commercial mortgage",
+      "slug": "commercial-mortgage",
+      "definition": "A long-term loan (typically 15–25 years) secured on business premises or investment property. LGD is driven by the commercial property cycle, which is more volatile and less liquid than residential; for investment property, tenant quality can matter as much as borrower quality.",
+      "related": ["term-loan", "fixed-charge", "lgd"]
+    },
+    {
+      "term": "Asset finance",
+      "slug": "asset-finance",
+      "definition": "Hire purchase and leasing used to fund vehicles, plant and equipment, with the asset as security and title often retained by the funder. LGD turns on used-asset resale values: 'hard' assets with liquid secondary markets recover well; bespoke 'soft' assets do not.",
+      "related": ["invoice-finance", "lgd"]
+    },
+    {
+      "term": "Invoice finance",
+      "slug": "invoice-finance",
+      "definition": "Lending advanced against unpaid trade invoices — typically 80–90% of face value — via factoring or invoice discounting. Self-liquidating: debtor payments repay the advance, so EAD is short-dated and LGD modest. Tail risk is fraud: fresh-air invoices and double-financing.",
+      "related": ["asset-finance", "working-capital-cycle"]
+    },
+    {
+      "term": "Merchant acquiring",
+      "slug": "merchant-acquiring",
+      "definition": "Processing card payments on behalf of businesses, earning a margin per transaction — Barclays operates through Barclaycard Payments. Carries contingent credit risk: if a merchant fails after taking payment but before delivering goods or services, chargebacks fall on the acquirer.",
+      "related": ["bca", "barclaycard-payments"]
+    },
+    {
+      "term": "Small corporate",
+      "slug": "small-corporate",
+      "definition": "A firm at the top of the BB pyramid — near the segment boundary (£6.5m turnover at Barclays) — with proper financial management, fuller accounts and multi-product needs. Large enough for manual underwriting and individual impairment assessment; small enough to lack capital-markets access.",
+      "related": ["sme", "turnover-segmentation", "individually-assessed"]
+    },
+    {
+      "term": "Turnover segmentation",
+      "slug": "turnover-segmentation",
+      "definition": "Dividing business customers into bank segments by annual turnover. Boundaries vary by bank — Barclays moves firms to its UK Corporate Bank at £6.5m; Lloyds runs tiers at £3m and £25m; NatWest's business segment ends near £2m — so cross-bank 'SME book' comparisons rarely compare like with like.",
+      "related": ["sme", "coverage-ratio"]
+    },
+    {
+      "term": "BCA turnover",
+      "slug": "bca-turnover",
+      "definition": "The gross credit flow through a firm's business current account — a live, hard-to-falsify proxy for trading revenue, available months before filed accounts. A core input to BB behavioural PD models and SICR triggers, but noisy and endogenous: firms can route receipts elsewhere.",
+      "related": ["bca", "behavioural-scoring", "pd"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Barclays — Business Banking",
+      "url": "https://www.barclays.co.uk/business-banking/",
+      "note": "Barclays Business Banking serves firms up to £6.5m annual turnover"
+    },
+    {
+      "title": "Barclays Corporate Banking — Contact us",
+      "url": "https://www.barclayscorporate.com/contact-us/",
+      "note": "Corporate Banking serves UK businesses above £6.5m annual turnover"
+    },
+    {
+      "title": "Barclays PLC 2025 Results Announcement (FY25)",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf",
+      "note": "Group loan loss rate of 52bps in FY25; UK Corporate Bank / Business Banking performance"
+    },
+    {
+      "title": "Lloyds Bank — Larger Business Accounts",
+      "url": "https://www.lloydsbank.com/business/business-accounts/larger-businesses.html/1000",
+      "note": "Lloyds segmentation: sub-£3m small business, £3m–£25m business tier, £25m+ Commercial Banking"
+    },
+    {
+      "title": "NatWest — Small-to-medium business banking",
+      "url": "https://www.natwest.com/business/enterprise/small-to-medium-business.html",
+      "note": "NatWest business banking segment for firms with turnover up to ~£2m"
+    },
+    {
+      "title": "House of Commons Library — Business statistics (2025 business population)",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn06152/",
+      "note": "5.7m UK private sector businesses at start of 2025; 99.85% SMEs; ~56% sole traders; 16.9m employed; £2.8tn turnover"
+    },
+    {
+      "title": "UK Finance — SME lending increases for second consecutive year",
+      "url": "https://www.ukfinance.org.uk/news-and-insight/press-release/sme-lending-increases-second-consecutive-year",
+      "note": "Gross SME bank lending grew 9% to £68bn in 2025, strongest among sub-£2m turnover firms"
+    },
+    {
+      "title": "Insolvency Service — Company Insolvency Statistics, December 2025 commentary",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+      "note": "23,938 registered company insolvencies in England & Wales in 2025; 18,525 CVLs (~77%)"
+    },
+    {
+      "title": "British Business Bank — Growth Guarantee Scheme",
+      "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme",
+      "note": "70% government guarantee; scheme extended to 31 March 2030, capacity expanded July 2026"
+    }
+  ]
+}

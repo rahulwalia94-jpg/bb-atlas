@@ -1,0 +1,326 @@
+{
+  "id": 8,
+  "slug": "insolvency",
+  "title": "Distress, Collections, and Insolvency",
+  "kicker": "Module 08 · When It Goes Wrong",
+  "summary": "What actually happens when a business banking exposure fails: the transfer into Business Support, the workout menu, and the five UK insolvency regimes with their real-world recovery rates and timelines. This is the module where LGD stops being a model parameter and becomes a queue at a waterfall — one that HMRC rejoined in December 2020.",
+  "readingTime": 16,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "The road in: how a loan becomes a case",
+      "html": "<p>In retail, default arrives as data: a missed direct debit, a bucket roll, a dialler strategy. In business banking it arrives as a story, and usually a slow one. A £750k exposure to a haulage firm does not roll from bucket one to bucket three; it sends signals for months — hardcore utilisation of the <span class=\"xref\" data-term=\"overdraft\">overdraft</span>, returned payments, requests for temporary excesses, a <span class=\"xref\" data-term=\"covenant-breach\">covenant breach</span> quietly waived, an HMRC time-to-pay arrangement the relationship manager hears about second-hand. Arrears on the term loan are often the <em>last</em> signal, not the first, because businesses starve every other creditor before they starve the bank that holds a <span class=\"xref\" data-term=\"debenture\">debenture</span> over everything and a <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span> over the director's house.</p><p>The machinery that responds is layered. Early deterioration puts the name on the <span class=\"xref\" data-term=\"watchlist\">watchlist</span> — heightened monitoring, still front-line owned. Sustained deterioration triggers the transfer decision: the case moves out of the relationship team and into the bank's <span class=\"xref\" data-term=\"business-support-unit\">Business Support</span> function, where a specialist decides whether this is a viable business with a fixable problem or a dead business with a recoverable balance sheet. Everything downstream — regime choice, recovery path, provision, write-off — flows from that fork. This module walks the whole chain, because a Stage 3 provision on a BB exposure is not a formula; it is a forecast of which door the company will exit through, and each door has its own price.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "Business Support, and the long shadow of GRG",
+      "html": "<p>Every large UK bank runs a turnaround unit — Barclays' Business Support, and its peers' equivalents — that takes deteriorating SME and mid-market cases and works them: restructured facilities, extended terms, capital repayment holidays, sometimes an insisted-upon independent business review by an accountancy firm. The unit's stated objective is return-to-health; its structural reality is that it also protects the bank's position, and the tension between those two jobs is the most conduct-scarred territory in UK banking.</p><p>The scar is <span class=\"xref\" data-term=\"grg\">GRG</span>. RBS's Global Restructuring Group took in some 12,000 struggling SMEs after 2008; Lawrence Tomlinson's 2013 report alleged businesses were being engineered into default and stripped. The FCA commissioned a skilled-person review under section 166 of FSMA — Promontory reported in 2016 — which found <em>widespread</em> inappropriate treatment of customers and judged some of it systematic, rooted in RBS's failure to manage the conflict between GRG's turnaround and commercial objectives. The FCA ultimately took no enforcement action, for a reason every BB analyst should internalise: commercial lending is largely unregulated activity, so the conduct perimeter that protects a mortgage customer simply did not apply. The industry response was structural rather than statutory — rebuilt turnaround units with fair-treatment frameworks, separation of turnaround advice from recovery profit incentives, independent case oversight, and board-level appetite statements about how distressed SMEs are handled. When you see Business Support move slowly, offer forbearance a workout economist would not, or decline an aggressive enforcement route, you are watching the post-GRG guardrails operate.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Transfer to Business Support is one of the strongest <span class=\"xref\" data-term=\"sicr\">SICR</span> triggers in a BB staging framework — expect <span class=\"xref\" data-term=\"stage-2\">Stage 2</span> at transfer, and expect larger cases to flip to <span class=\"xref\" data-term=\"individually-assessed\">individually assessed</span> treatment. Conduct guardrails also have an ECL cost: forbearance-first strategies lengthen workout timelines, and a longer discounting horizon quietly deepens the provision even when the expected recovery amount is unchanged.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "Liquidation: the CVL machine and its compulsory cousin",
+      "html": "<p>Most UK corporate insolvencies are not dramatic restructurings; they are burials. A <span class=\"xref\" data-term=\"cvl\">creditors' voluntary liquidation</span> is a director-initiated wind-up: the board concedes insolvency, shareholders resolve to liquidate, and an insolvency practitioner is appointed — the whole entry process can complete in two to three weeks. The company stops trading, assets are sold at break-up values, and the liquidator distributes according to the statutory waterfall. CVL is the exit route for the small, asset-light SME — the café, the subcontractor, the ten-person agency — and it dominates the statistics precisely because that is what most failing companies are. For a lender the arithmetic is bleak: <span class=\"xref\" data-term=\"fixed-charge\">fixed charge</span> realisations (property, book debts under a properly structured charge) can recover well, but floating-charge and unsecured recoveries are typically low single-digit pence in the pound and very often nil. First distributions may arrive within a year; final ones commonly take one to two, sometimes longer where litigation or antecedent-transaction claims run.</p><p><span class=\"xref\" data-term=\"compulsory-liquidation\">Compulsory liquidation</span> is the same destination reached hostile: a creditor — very frequently HMRC — petitions the court to wind the company up. It is slower (months from petition to order), the Official Receiver or an appointed liquidator inherits a business that has usually been dying untreated for longer, and recoveries are correspondingly worse. The post-pandemic surge in compulsory liquidations — 2025's count was the highest since 2012 — is largely the sound of HMRC resuming enforcement after its Covid forbearance, sweeping up companies kept nominally alive by <span class=\"xref\" data-term=\"bbls\">BBLS</span> cash and tax deferrals. A bank rarely petitions; by the time a petition lands, the bank has usually either exited or is already positioned behind its security.</p>"
+    },
+    {
+      "id": "s4",
+      "heading": "Administration and the pre-pack",
+      "html": "<p><span class=\"xref\" data-term=\"administration\">Administration</span> is the regime with ambition. An administrator takes control under a statutory purpose hierarchy — rescue the company as a going concern; failing that, achieve a better result for creditors than immediate winding-up; failing that, realise property for secured and preferential creditors — and the company gets a moratorium on creditor enforcement while they work. Crucially for banks, a lender holding a qualifying <span class=\"xref\" data-term=\"floating-charge\">floating charge</span> under its debenture can appoint an administrator out of court, quickly, which is why the debenture is as much a control document as a security document. Administration lasts twelve months, extendable; trading administrations that sell the business as a going concern can return materially more than break-up — this is where secured recoveries of 50–80p on well-collateralised exposures live — while failed administrations converge on liquidation outcomes. Expect a one-to-two-year path from appointment to final distribution.</p><p>The <span class=\"xref\" data-term=\"pre-pack\">pre-pack</span> is administration compressed to a single morning: the sale of the business is negotiated before appointment and executed immediately after, preserving goodwill, contracts and jobs before the insolvency stigma destroys them. It maximises value and minimises transparency in the same motion — especially when the buyer is the old management. Since 30 April 2021, a substantial disposal to a connected person within the first eight weeks requires either creditor approval or an independent <span class=\"xref\" data-term=\"evaluator\">evaluator</span>'s written opinion that the deal is reasonable. A lender sees pre-packs on mid-market names with a viable core wrapped in a broken balance sheet; the bank is often consulted before appointment, because its floating charge gives it the power to bless or block the choreography.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Regime choice <em>is</em> the <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> provision. A <span class=\"xref\" data-term=\"dcf-workout\">DCF workout</span> model for an administration scenario carries higher cash flows on a longer timeline; a CVL scenario carries lower cash flows sooner. Probability-weighting those paths — and discounting at the original EIR — is where BB Stage 3 coverage is actually made, not in a modelled <span class=\"xref\" data-term=\"lgd\">LGD</span>.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "The compromise tools: CVA, Part 26A, and the moratorium",
+      "html": "<p>Three regimes try to fix the company without killing it. The <span class=\"xref\" data-term=\"cva\">company voluntary arrangement</span> is a deal with unsecured creditors — approved by 75% by value of those voting — under which the company trades on and pays contributions, typically over three to five years, with landlords and trade creditors compromised and secured creditors untouched without consent. CVAs had their cultural moment in casual dining and retail circa 2018–20; they are now rare (186 in the whole of 2025) and their track record is poor — historically roughly half fail into a subsequent insolvency, which means a lender should treat a CVA less as a recovery outcome than as a slower route to one.</p><p>The <span class=\"xref\" data-term=\"part-26a\">Part 26A restructuring plan</span>, introduced by CIGA 2020, is the heavyweight tool: a court-sanctioned compromise that can bind secured creditors and — via <span class=\"xref\" data-term=\"cross-class-cram-down\">cross-class cram-down</span> — impose the deal on entire dissenting classes, provided no one is worse off than in the relevant alternative. It is powerful and expensive: two court hearings, valuation fights, seven-figure adviser costs. Only a dozen plans had been registered by late 2022, and while mid-market usage has grown since, it remains an exceptional event in a BB book — you will see one when a leveraged, multi-banked borrower restructures, and your exposure may be crammed down whether Barclays votes for it or not.</p><p>The standalone <span class=\"xref\" data-term=\"moratorium\">moratorium</span>, also from CIGA 2020, gives a distressed company an initial 20 business days of breathing space (extendable to 40, further with consent or court order) under a monitor's eye. Take-up has been persistently minimal, and the design explains why: debts to banks under financial services contracts are excluded from the payment holiday, so the tool stops the landlord but not the lender — which, from where you sit, is the least useful direction of protection to sell to a client and the most reassuring one to hold.</p>"
+    },
+    {
+      "id": "s6",
+      "heading": "The waterfall: HMRC's return and the prescribed part",
+      "html": "<p>Every recovery number in this module resolves to a queue. Fixed-charge realisations go to the fixed-charge holder, net of costs. Then, from floating-charge assets: the insolvency's expenses; ordinary preferential creditors (chiefly employee wage and pension claims); then — restored on 1 December 2020 by the Finance Act 2020 — <span class=\"xref\" data-term=\"hmrc-preferential\">HMRC as secondary preferential creditor</span> for taxes the company collected on the Crown's behalf: VAT, PAYE, employee NICs and CIS deductions. Corporation tax stays unsecured. The restoration is uncapped and has no age limit on the tax debt, and its effect is mechanical: in a VAT-heavy or labour-heavy business that has been surviving on unremitted tax — which is exactly what distressed SMEs do — HMRC's claim can consume the entire floating-charge pot before the bank sees a penny.</p><p>Behind HMRC sits the <span class=\"xref\" data-term=\"prescribed-part\">prescribed part</span>: a statutory carve-out from floating-charge realisations for unsecured creditors — 50% of the first £10,000 of net property plus 20% of the balance, capped at £800,000 for floating charges created on or after 6 April 2020 (£600,000 for older charges). Only then does the floating-charge holder get paid, and unsecured creditors take whatever remains. The lender responses to 2020's reordering were predictable and you will see them in Barclays' book: closer monitoring of tax arrears as a covenant and early-warning item, structuring towards fixed charges where the asset supports one, and a materially more conservative view of what a debenture is worth against a trading company's current assets.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>December 2020 was a step-change in floating-charge <span class=\"xref\" data-term=\"lgd\">LGD</span> that no historically calibrated model saw: identical security, worse queue position. Workout DCFs must deduct estimated crown preference and the prescribed part before crediting floating-charge recoveries — and where models lag the waterfall, expect a <span class=\"xref\" data-term=\"pma\">PMA</span> to bridge the gap.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "Personal guarantees: the last mile",
+      "html": "<p>When the company's carcass is picked clean, the bank turns to the guarantor. Enforcement of a <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span> is procedurally simple — written demand, then county or High Court proceedings, then enforcement against the individual: charging orders over property, orders for sale in extremis, statutory demand and bankruptcy as the final lever. In practice it is slow, contested and partial. Guarantors dispute execution, allege misrepresentation, or simply have nothing left: the director's wealth was usually in the business, and the average guarantee now stands near £200,000 (Purbeck put the mean demand at roughly £194,000 in Q2 2025) against individuals whose main asset is a jointly owned family home. Realistic outcomes are negotiated settlements at a substantial discount, or instalment arrangements running years; full recovery is the exception.</p><p>The conduct sensitivities are acute and post-GRG permanent. Enforcing against a family home, a retired guarantor, or a spouse who signed without independent advice is exactly the fact pattern that ends up in front of the Financial Ombudsman (guarantees by individuals can fall within its remit), in the press, or in Parliament — the FSB has campaigned loudly against personal-guarantee practice on small loans, and the FCA has reviewed lender behaviour at the perimeter. Banks therefore enforce PGs deliberately: vulnerability checks, settlement preference, and a visible reluctance to bankrupt. For the analyst, that restraint is a recovery haircut with a moral justification — and it belongs in the cash-flow forecast either way.</p>"
+    },
+    {
+      "id": "s8",
+      "heading": "The numbers, and what they do to your provisions",
+      "html": "<p>The <span class=\"xref\" data-term=\"insolvency-service\">Insolvency Service</span>'s data tells you what the workout book actually faces. 2025 recorded 23,938 company insolvencies in England and Wales — near the historically elevated plateau of 2023–24. The mix is the message: 18,525 were CVLs (around three-quarters), 3,730 compulsory liquidations (the highest since 2012), just 1,495 administrations and 186 CVAs. One in every 190 registered companies entered insolvency in the year — a liquidation rate of 52.5 per 10,000. Sector concentration matters for a BB book: in the twelve months to November 2025, wholesale and retail (16%) plus accommodation and food services (14%) supplied roughly a third of all failures — consumer-facing, leasehold-heavy, labour-intensive sectors. By mid-2026 the tide had begun to ebb — June 2026's 1,845 insolvencies ran about 10% below June 2025 — but ebbing from a decade-high plateau still leaves a full workout pipeline.</p><p>Now assemble the domino chain this module has been building. Trading deteriorates; arrears and breaches trigger a Business Support transfer; the workout strategy fork chooses between consensual turnaround and an insolvency route; the regime selected fixes the recovery path — going-concern premium via administration or pre-pack, break-up values via CVL; the waterfall applies HMRC's preference and the prescribed part before the floating charge; the shortfall chases the guarantor. Each step is an input to the <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> DCF: scenario cash flows, probabilities, timelines, discounting. The chain ends at write-off — recognised when there is no reasonable expectation of further recovery, which a CVL delivers quickly, an administration after final distributions, and a live PG pursuit can defer for years. Write-off timing is the last domino, and it is a disclosure and coverage-ratio event, not just housekeeping.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>A CVL-dominated insolvency mix is an <span class=\"xref\" data-term=\"lgd\">LGD</span> statement: most defaults resolve at break-up values, fast, with negligible unsecured recovery. That argues for high loss severity but relatively short Stage 3 workout horizons on small exposures — and it means late write-offs, not new losses, are what inflate reported <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> coverage when the cycle turns.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Creditors' voluntary liquidation accounted for roughly three-quarters of the 23,938 company insolvencies in 2025. What does this mix fundamentally tell an impairment analyst about the BB default population?",
+      "options": [
+        "Most failures are creditor-forced, so recovery timelines are court-driven",
+        "Most failures involve viable businesses rescued as going concerns",
+        "Most failures are small, director-initiated burials resolving at break-up values with minimal unsecured recovery",
+        "Most failures are compromised through CVAs with multi-year contribution streams"
+      ],
+      "answer": 2,
+      "explain": "CVL is the director-initiated wind-up of small, asset-light companies — the modal SME death. It implies high loss severity at break-up values and short workouts, not rescue (administration is ~6% of cases) or compromise (CVAs are vanishingly rare)."
+    },
+    {
+      "q": "From 1 December 2020, HMRC ranks as secondary preferential creditor — but only for certain taxes. Which claim remains unsecured?",
+      "options": [
+        "Corporation tax owed by the company",
+        "VAT collected from customers",
+        "PAYE deducted from employees",
+        "Employee National Insurance contributions"
+      ],
+      "answer": 0,
+      "explain": "The preference covers taxes the company collected on others' behalf — VAT, PAYE, employee NICs, CIS. Corporation tax is the company's own liability and stays unsecured. The distinction drives how much of the floating-charge pot HMRC consumes."
+    },
+    {
+      "q": "A distressed company's floating charge was created in 2023 and net property is £5m. What is the prescribed part carved out for unsecured creditors?",
+      "options": [
+        "£600,000 — the cap applies",
+        "£800,000 — the cap applies",
+        "£1,003,000 — 50% of £10k plus 20% of £4.99m",
+        "Nil — the prescribed part only applies in liquidation, not administration"
+      ],
+      "answer": 1,
+      "explain": "The formula (50% of the first £10,000 plus 20% of the rest) yields £1,003,000, but the cap — £800,000 for charges created on or after 6 April 2020 — bites. The £600,000 cap applies only to pre-April-2020 charges; the carve-out applies in administration too."
+    },
+    {
+      "q": "An administrator wants to sell the business back to its directors on day one of the administration. What did the 2021 regulations add to this pre-pack?",
+      "options": [
+        "Connected-party pre-packs are now prohibited within the first eight weeks",
+        "The sale requires prior approval by the court in every case",
+        "The FCA must review any connected sale above £1m",
+        "The sale needs creditor approval or an independent evaluator's opinion that it is reasonable"
+      ],
+      "answer": 3,
+      "explain": "Since 30 April 2021, a substantial disposal to a connected person within eight weeks requires creditor approval or an evaluator's written opinion. Notably, an adverse opinion does not prohibit the sale — the administrator can proceed with an explanation — so it is scrutiny, not a veto."
+    },
+    {
+      "q": "What makes a Part 26A restructuring plan more dangerous to a dissenting lender than a scheme of arrangement or CVA?",
+      "options": [
+        "It can be approved without any court involvement",
+        "Cross-class cram-down can bind an entire dissenting class, including secured creditors",
+        "It automatically subordinates bank debt to HMRC",
+        "It requires the lender to advance new money"
+      ],
+      "answer": 1,
+      "explain": "Part 26A allows the court to sanction a plan over a whole dissenting class — secured creditors included — if no member is worse off than in the relevant alternative. A CVA cannot touch secured creditors without consent; a scheme needs every class to approve."
+    },
+    {
+      "q": "The CIGA 2020 standalone moratorium has seen persistently low take-up. Which design feature best explains why it rarely helps against bank pressure?",
+      "options": [
+        "It requires 75% creditor approval before it starts",
+        "It costs more than an administration to enter",
+        "Debts under financial services contracts are excluded from the payment holiday, so bank debt must still be serviced",
+        "It automatically converts to liquidation after 20 days"
+      ],
+      "answer": 2,
+      "explain": "The moratorium stays landlords and trade creditors but excludes financial-services debts from the payment holiday — the lender keeps getting paid. It needs no creditor vote and is cheap; it simply protects against the wrong creditors for most distressed borrowers."
+    },
+    {
+      "q": "The skilled-person review of RBS's GRG found inappropriate treatment that was 'widespread' and in part 'systematic' — yet the FCA took no enforcement action. Why?",
+      "options": [
+        "Commercial lending is largely outside the regulatory perimeter, so conduct rules did not apply",
+        "The review found the allegations were fabricated",
+        "RBS paid a fine in lieu of enforcement",
+        "The six-year limitation period had expired"
+      ],
+      "answer": 0,
+      "explain": "Promontory's s166 report confirmed widespread poor treatment rooted in GRG's conflicting turnaround and commercial objectives, but lending to companies is mostly unregulated activity — the FCA lacked the hook. The industry's fair-treatment frameworks are voluntary guardrails built in that vacuum."
+    },
+    {
+      "q": "Two Stage 3 scenarios for the same £2m debenture-secured exposure: (A) trading administration with going-concern sale; (B) immediate CVL. Which statement about the DCF is right?",
+      "options": [
+        "A and B produce the same provision because the collateral is identical",
+        "B always produces the lower provision because cash arrives sooner",
+        "A is irrelevant because administration is rescue, not recovery",
+        "A typically has higher cash flows on a longer timeline; the provision is the probability-weighted, discounted blend of both paths"
+      ],
+      "answer": 3,
+      "explain": "Regime choice sets both the amount (going-concern premium vs break-up) and timing of recoveries. Stage 3 on individually assessed BB cases is built by probability-weighting these scenario DCFs at the original EIR — earlier cash does not mean smaller loss if the amount collapses."
+    },
+    {
+      "q": "A struggling retail borrower proposes a CVA compromising its landlords over five years. How should the workout DCF treat it?",
+      "options": [
+        "As a cure — the CVA restores the exposure to Stage 1",
+        "As an extended path that historically fails into a further insolvency roughly half the time, so scenarios must keep a downstream liquidation leg",
+        "As equivalent to administration, since both are collective procedures",
+        "As a full recovery, since secured creditors are unaffected by a CVA"
+      ],
+      "answer": 1,
+      "explain": "A CVA leaves the bank's security untouched but the company's survival uncertain — historically around half of CVAs fail into subsequent insolvency. The DCF should weight a completed-CVA leg against a delayed-liquidation leg; it is certainly not a cure event."
+    },
+    {
+      "q": "Why did HMRC's December 2020 preference restoration force LGD recalibration even for loans whose security package never changed?",
+      "options": [
+        "It converted all floating charges into fixed charges",
+        "It shortened the limitation period for security enforcement",
+        "It moved an uncapped crown claim ahead of the floating charge, cutting expected recoveries from the same collateral",
+        "It abolished the prescribed part carve-out"
+      ],
+      "answer": 2,
+      "explain": "Identical security, worse queue: VAT, PAYE, NIC and CIS arrears — precisely what distressed firms accumulate — now rank ahead of floating-charge realisations, uncapped and without age limit. Historically calibrated floating-charge LGDs overstated recoveries overnight; PMAs bridged until models caught up."
+    }
+  ],
+  "domino": {
+    "title": "From arrears to write-off",
+    "nodes": [
+      { "id": "n1", "label": "Trading deteriorates", "sectionId": "s1" },
+      { "id": "n2", "label": "Arrears and covenant breach", "sectionId": "s1" },
+      { "id": "n3", "label": "Business Support transfer", "sectionId": "s2" },
+      { "id": "n4", "label": "Workout strategy fork", "sectionId": "s2" },
+      { "id": "n5", "label": "Consensual turnaround succeeds", "sectionId": "s2" },
+      { "id": "n6", "label": "Insolvency regime selected", "sectionId": "s3" },
+      { "id": "n7", "label": "Pre-pack going-concern sale", "sectionId": "s4" },
+      { "id": "n8", "label": "CVL break-up sale", "sectionId": "s3" },
+      { "id": "n9", "label": "Waterfall: HMRC, prescribed part", "sectionId": "s6" },
+      { "id": "n10", "label": "Guarantee enforced on shortfall", "sectionId": "s7" },
+      { "id": "n11", "label": "Stage 3 DCF provision", "sectionId": "s8" },
+      { "id": "n12", "label": "Write-off timing", "sectionId": "s8" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n4", "n6"],
+      ["n6", "n7"],
+      ["n6", "n8"],
+      ["n7", "n9"],
+      ["n8", "n9"],
+      ["n9", "n10"],
+      ["n9", "n11"],
+      ["n10", "n11"],
+      ["n11", "n12"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Creditors' Voluntary Liquidation (CVL)",
+      "slug": "cvl",
+      "definition": "Director-initiated wind-up of an insolvent company: shareholders resolve to liquidate, an insolvency practitioner sells assets at break-up values and distributes via the statutory waterfall. The dominant UK insolvency route (~75% of cases). Unsecured recoveries are typically pence in the pound or nil; final distributions take one to two years.",
+      "related": ["compulsory-liquidation", "administration", "prescribed-part"]
+    },
+    {
+      "term": "Compulsory liquidation",
+      "slug": "compulsory-liquidation",
+      "definition": "Court-ordered winding-up on a creditor's petition — frequently HMRC's. Slower than a CVL (months from petition to order) and typically lower-recovery, as the business has deteriorated untreated. 2025's total of 3,730 was the highest since 2012, driven by HMRC's post-Covid return to enforcement.",
+      "related": ["cvl", "hmrc-preferential"]
+    },
+    {
+      "term": "Administration",
+      "slug": "administration",
+      "definition": "Insolvency regime with a rescue-first purpose hierarchy and a moratorium on enforcement. A qualifying floating-charge holder can appoint out of court. Lasts twelve months (extendable); going-concern sales can materially beat break-up values, supporting the strongest secured recoveries. Around 1,495 UK administrations in 2025.",
+      "related": ["pre-pack", "cvl", "moratorium"]
+    },
+    {
+      "term": "Pre-pack administration",
+      "slug": "pre-pack",
+      "definition": "An administration where the business sale is negotiated before appointment and completed immediately after, preserving goodwill and jobs at the cost of transparency. Since 30 April 2021, connected-party sales within the first eight weeks require creditor approval or an independent evaluator's opinion.",
+      "related": ["administration", "evaluator"]
+    },
+    {
+      "term": "Evaluator",
+      "slug": "evaluator",
+      "definition": "Independent reviewer created by the 2021 pre-pack regulations. Provides a written opinion on whether a connected-party disposal in administration is reasonable. An adverse opinion does not block the sale — the administrator may proceed but must explain the decision to creditors.",
+      "related": ["pre-pack", "administration"]
+    },
+    {
+      "term": "Company Voluntary Arrangement (CVA)",
+      "slug": "cva",
+      "definition": "A deal with unsecured creditors, approved by 75% by value, under which the company trades on and pays contributions over typically three to five years. Cannot bind secured creditors without consent. Now rare (186 in 2025) and fragile — historically roughly half fail into a subsequent insolvency.",
+      "related": ["part-26a", "cvl"]
+    },
+    {
+      "term": "Part 26A restructuring plan",
+      "slug": "part-26a",
+      "definition": "Court-sanctioned compromise introduced by CIGA 2020 that can bind secured creditors and cram down entire dissenting classes if no member is worse off than in the relevant alternative. Powerful but costly — two hearings and seven-figure fees keep it a large-cap and upper-mid-market tool.",
+      "related": ["cross-class-cram-down", "cva", "moratorium"]
+    },
+    {
+      "term": "Cross-class cram-down",
+      "slug": "cross-class-cram-down",
+      "definition": "The Part 26A mechanism letting the court sanction a restructuring plan despite a whole class voting against it, provided dissenters are no worse off than in the relevant alternative and one in-the-money class approves. It removes the veto that dissenting creditor classes hold under schemes and CVAs.",
+      "related": ["part-26a"]
+    },
+    {
+      "term": "Standalone moratorium",
+      "slug": "moratorium",
+      "definition": "CIGA 2020 breathing-space procedure: 20 business days (extendable to 40, further with consent or court order) under a monitor, staying most creditor action while directors stay in control. Take-up is minimal — debts under financial services contracts are excluded from the payment holiday, so bank debt must still be serviced.",
+      "related": ["part-26a", "administration"]
+    },
+    {
+      "term": "HMRC preferential status",
+      "slug": "hmrc-preferential",
+      "definition": "Since 1 December 2020 (Finance Act 2020), HMRC ranks as secondary preferential creditor for taxes collected on its behalf — VAT, PAYE, employee NICs, CIS — ahead of floating-charge holders and unsecured creditors, uncapped and without age limit. Corporation tax remains unsecured. A direct hit to floating-charge LGD.",
+      "related": ["prescribed-part", "floating-charge"]
+    },
+    {
+      "term": "Prescribed part",
+      "slug": "prescribed-part",
+      "definition": "Statutory carve-out from floating-charge realisations for unsecured creditors under s176A Insolvency Act 1986: 50% of the first £10,000 of net property plus 20% of the balance, capped at £800,000 for floating charges created on or after 6 April 2020 (£600,000 for earlier charges).",
+      "related": ["hmrc-preferential", "floating-charge"]
+    },
+    {
+      "term": "Business Support Unit",
+      "slug": "business-support-unit",
+      "definition": "A bank's specialist turnaround function for deteriorating business customers — restructuring facilities, commissioning independent business reviews, choosing workout strategy. Post-GRG, these units operate under fair-treatment frameworks separating turnaround support from recovery profit incentives. Transfer in is a strong SICR indicator.",
+      "related": ["grg", "watchlist"]
+    },
+    {
+      "term": "Insolvency Service",
+      "slug": "insolvency-service",
+      "definition": "The government agency overseeing UK insolvency: it runs the Official Receiver service, regulates the IP profession, investigates director misconduct and publishes the official insolvency statistics — the canonical source for regime mix, sector patterns and failure rates used in BB credit and impairment analysis.",
+      "related": ["cvl", "compulsory-liquidation"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Insolvency Service — Company Insolvency Statistics, December 2025 (annual commentary)",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+      "note": "2025 annual figures: 23,938 insolvencies; 18,525 CVLs; 3,730 compulsory liquidations (highest since 2012); 1,495 administrations; 186 CVAs; 52.5 per 10,000 rate (1 in 190)."
+    },
+    {
+      "title": "Insolvency Service — Company Insolvency Statistics, June 2026",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026/commentary-company-insolvency-statistics-june-2026",
+      "note": "June 2026: 1,845 company insolvencies, ~10% below June 2025; CVLs ~74% of cases — the 2026 easing from the plateau."
+    },
+    {
+      "title": "Insolvency Service — Company Insolvency Statistics, November 2025 (sector commentary)",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-november-2025/commentary-company-insolvency-statistics-november-2025",
+      "note": "Sector mix in the 12 months to November 2025: wholesale/retail 16% and accommodation & food services 14% of insolvencies with captured SIC codes."
+    },
+    {
+      "title": "The Insolvency Act 1986 (Prescribed Part) (Amendment) Order 2020 (SI 2020/211)",
+      "url": "https://www.legislation.gov.uk/uksi/2020/211/made",
+      "note": "Raised the prescribed part cap from £600,000 to £800,000 for floating charges created on or after 6 April 2020; formula remains 50% of first £10k plus 20% of balance."
+    },
+    {
+      "title": "R3 — HMRC as Secondary Preferential Creditor in Insolvencies",
+      "url": "https://www.r3.org.uk/technical-library/england-wales/legislation/guidance/more/29666/page/1/hmrc-secondary-preferential-creditor-in-insolvencies-corporate-and-personal/",
+      "note": "Scope and ranking of HMRC's secondary preferential status from 1 December 2020 under the Finance Act 2020."
+    },
+    {
+      "title": "Grant Thornton — What HMRC's preferential creditor status means for lenders",
+      "url": "https://www.grantthornton.co.uk/insights/what-hmrcs-preferential-creditor-status-means-for-lenders/",
+      "note": "Lender-side impact: dilution of floating-charge recoveries, tax-arrears monitoring and the shift toward fixed-charge structuring."
+    },
+    {
+      "title": "The Administration (Restrictions on Disposal etc. to Connected Persons) Regulations 2021 (SI 2021/427)",
+      "url": "https://www.legislation.gov.uk/uksi/2021/427/made",
+      "note": "From 30 April 2021, connected-party disposals within eight weeks of administration require creditor approval or an evaluator's written opinion."
+    },
+    {
+      "title": "Insolvency Service — Corporate Insolvency and Governance Act 2020: Final Evaluation Report (November 2022)",
+      "url": "https://www.gov.uk/government/publications/corporate-insolvency-and-governance-act-2020-evaluation-reports/corporate-insolvency-and-governance-act-2020-final-evaluation-report-november-2022",
+      "note": "Take-up and effectiveness of the CIGA 2020 measures: low moratorium usage; only 12 Part 26A plans registered to September 2022."
+    },
+    {
+      "title": "FCA — Final Summary of the Independent Review of RBS GRG",
+      "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-final-summary-rbs-treatment-sme-customers",
+      "note": "Promontory s166 findings: widespread inappropriate treatment of SME customers, partly systematic, rooted in GRG's conflicting turnaround and commercial objectives; no enforcement given the unregulated perimeter."
+    },
+    {
+      "title": "Purbeck — Personal guarantee trends, Q2 2025",
+      "url": "https://www.purbeckinsurance.co.uk/blog/business-loans-to-keep-the-lights-on-fall-in-q2-2025-but-the-average-personal-guarantee-risk-for-smes-edges-nearer-to-200k",
+      "note": "Average personal guarantee demanded of SME directors reached ~£194,500 in Q2 2025, up 6.4% on Q1 — sizing the PG recovery pool."
+    }
+  ]
+}

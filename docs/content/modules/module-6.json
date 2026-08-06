@@ -1,0 +1,319 @@
+{
+  "id": 6,
+  "slug": "sme-credit-risk",
+  "title": "SME Credit Risk & Underwriting",
+  "kicker": "Module 06 · Underwriting",
+  "summary": "How a bank decides whether a scaffolding firm, a dental practice or a three-site café group gets credit — and why every retail instinct you have about PD, data quality and security needs rewiring. From Companies House's holes to the floating charge's disappointments, this is where BB impairment numbers are actually made.",
+  "readingTime": 16,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Why SME PD refuses to behave like retail PD",
+      "html": "<p>Your retail career was built on a luxury so pervasive you probably stopped noticing it: homogeneity. A credit card book is millions of near-identical exposures, scored on near-identical data, defaulting in statistically well-behaved numbers every single month. The law of large numbers does most of the work; your models refine the residual. An <span class=\"xref\" data-term=\"sme\">SME</span> book grants you none of this. A dental practice, a scaffolding subcontractor, a SaaS startup burning venture money and a fourth-generation sheep farmer can all sit in the same portfolio segment, sharing almost nothing except a <span class=\"xref\" data-term=\"bca\">business current account</span> at the same bank.</p><p>Banks have historically dealt with this heterogeneity through three distinct lending technologies. <span class=\"xref\" data-term=\"financial-statement-lending\">Financial-statement lending</span> underwrites the accounts: ratios, gearing, interest cover, debtor quality. It works for larger SMEs with audited numbers and falls apart below that, for reasons the next section makes painful. <span class=\"xref\" data-term=\"relationship-lending\">Relationship lending</span> underwrites the person: a relationship manager accumulates soft information — the state of the yard, the succession plan, whether the founder's optimism is earned — that never appears in any dataset. It is expensive, unscalable, and was systematically stripped out of UK banking as branch networks and local credit discretion were centralised. <span class=\"xref\" data-term=\"transactional-data-lending\">Transactional-data lending</span> underwrites the current account itself: the live feed of receipts and payments that tells you what the business is actually doing, not what its nineteen-month-old accounts said it did. This third technology is where modern BB underwriting — and most of this module — lives.</p><p>Then there is the statistical texture of the losses themselves: low defaults, fat tails. In a benign year an SME book might default at 1–2%, starving your models of bad outcomes to learn from. But SME defaults are correlated — through sectors, supply chains and the economic cycle — in ways that retail defaults mostly are not. When construction turns, it takes subcontractors, plant-hire firms and builders' merchants down together. The distribution is not a well-behaved bell curve with a thin tail; it is long stretches of nothing punctuated by clusters of correlated failure.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>This is the <span class=\"xref\" data-term=\"low-default-portfolio\">low-default portfolio</span> problem you will meet on day one: <span class=\"xref\" data-term=\"pd\">PD</span> calibration on thin bad counts, wide confidence intervals, and model monitoring that can flag nothing for years and then everything at once. Expect heavier reliance on <span class=\"xref\" data-term=\"collective-assessment\">collective assessment</span>, expert judgement and <span class=\"xref\" data-term=\"overlay\">overlays</span> than you ever saw in cards — and expect governance to argue about them, because thin data cuts both ways.</p></aside>"
+    },
+    {
+      "id": "s2",
+      "heading": "Companies House: a public ledger with holes in it",
+      "html": "<p>Retail underwriting spoiled you with the bureau: deep, standardised, refreshed monthly, covering essentially every adult you would ever lend to. The BB equivalent is <span class=\"xref\" data-term=\"companies-house\">Companies House</span> — free, public, statutory, and riddled with exemptions. Since April 2025 a company qualifies as \"small\" with turnover up to £15m, a balance sheet up to £7.5m and up to 50 employees — thresholds raised roughly 50% in one move, reclassifying an estimated 133,000 entities downward. Small companies need no audit, and can file <span class=\"xref\" data-term=\"filleted-accounts\">filleted accounts</span>: a balance sheet, some notes, and — critically — no profit and loss account. Micro-entities file even less under FRS 105. The overwhelming majority of your borrowers, in other words, are legally entitled to show the public register a snapshot of what they own while concealing whether they make any money.</p><p>Then there is the lag. A private company has nine months from its year end to file. Accounts made up to December 2025 can arrive in September 2026 — and remain the freshest public financials until late 2027. On the day you read them, the numbers can be nearly two years stale. Reform is perpetually imminent: the Economic Crime and Corporate Transparency Act 2023 promised to abolish the filleted option and force small companies to file a P&amp;L, but those reforms were paused in early 2026, and mandatory software-only filing has slipped to April 2028. What did land, in November 2025, was mandatory identity verification for directors and people with significant control — a genuine improvement in knowing <em>who</em> you are lending to, if not yet <em>how they are trading</em>.</p><p>Which brings us to the director as data source. The <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span> is usually filed under security, but underwriters prize it first as a signal: a director asked to stand behind the company's debt with their house is being invited to reveal their private assessment of the business. Refusal is information. So is the director's track record on the register itself — previous dissolved companies, resignations timed just before insolvencies, a web of connected entities sharing an address.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Stale, abbreviated financials mean any <span class=\"xref\" data-term=\"pd\">PD</span> model anchored to Companies House data is driving by the rear-view mirror — which is precisely why BB <span class=\"xref\" data-term=\"ifrs9\">IFRS 9</span> frameworks lean so heavily on current-account behaviour for staging. The accounts tell you what the business was; the <span class=\"xref\" data-term=\"bca\">BCA</span> tells you what it is.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "Sectors, SIC codes and concentration you never had in retail",
+      "html": "<p>Every UK company self-declares a <span class=\"xref\" data-term=\"sic-code\">SIC code</span> at incorporation — a five-digit label chosen from a drop-down, frequently wrong, rarely updated as the business pivots. On this shaky foundation banks build sector segmentation, concentration limits, pricing differentials and the mapping of macroeconomic scenarios to portfolios. Treat SIC data the way you learned to treat self-declared income on a 2006 mortgage application: useful, directional, and not to be confused with truth.</p><p>Sector matters in BB in a way it simply does not in retail, because SME failure is brutally cyclical and sector-concentrated. Construction is the perennial leader: roughly 17% of all company insolvencies, with around 3,800 construction firms entering insolvency in the twelve months to March 2026 — down about 7% on the prior year but still nearly a fifth above pre-pandemic levels. The mechanics are structural: fixed-price contracts signed before costs move, long subcontractor chains where one main-contractor failure cascades downward, retentions withheld, margins of 2–3% with no buffer. Hospitality runs on thin margins, seasonal cash flow, energy costs and discretionary consumer spending; retail adds structural decline to the same cocktail. When you read that overall insolvencies in England and Wales are running at around 2,000–2,100 a month through 2025–26, remember those failures are not spread evenly — they pool in these sectors.</p><p>Concentration is the other unfamiliar animal. A mortgage book's largest exposure is a rounding error. A BB book has lumps: single names large enough to move the quarterly charge, and sector clusters — regional, supply-chain, landlord-tenant — that fail together. Retail diversification is free; BB diversification has to be engineered and monitored.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Sector is where <span class=\"xref\" data-term=\"forward-looking-economics\">forward-looking economics</span> gets traction in BB: scenario paths for construction output or consumer spending map to sector-level PDs in a way no single-name model captures. And when the models lag a live sector deterioration — as they did for hospitality in 2020 and energy-intensive sectors in 2022–23 — the answer is a sector <span class=\"xref\" data-term=\"pma\">PMA</span>. Expect to spend a meaningful fraction of your BB career justifying, sizing and releasing them.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "The working-capital cycle, read through a current account",
+      "html": "<p>The <span class=\"xref\" data-term=\"working-capital-cycle\">working-capital cycle</span> is the elapsed time between a business paying cash out and getting cash back: stock days plus debtor days minus creditor days. It is the single most useful lens for reading an SME, because most SME deaths are cash-flow deaths — profitable-on-paper businesses that ran out of money waiting to be paid. A subcontractor buys materials and pays wages weekly, invoices monthly, waits 60–90 days for payment and has 5% retained for a year: an enormous positive cycle, permanently hungry for funding. A pub takes cash tonight and pays its brewery on 30-day terms: a negative cycle, generating float. Same turnover, opposite credit needs — the builder needs an <span class=\"xref\" data-term=\"overdraft\">overdraft</span> or <span class=\"xref\" data-term=\"invoice-finance\">invoice finance</span>; the pub needs almost nothing until the day trade stops.</p><p>Now put yourself in the bank's seat, watching the <span class=\"xref\" data-term=\"bca\">BCA</span>. Credit turnover — the sum of money flowing in — is a live proxy for sales receipts. Its trend, its seasonality, its volatility, its concentration (one big customer or many small ones) are all legible from the account alone. So is distress, and earlier than any other source: turnover drifting down quarter on quarter; an overdraft that stops swinging back into credit and hardens into permanent debt; direct debits bouncing, then being cancelled; the tell-tale rhythm of HMRC payments stretching from monthly to sporadic; round-sum transfers out to directors' personal accounts as confidence fails. In retail, current-account data enriched your card models at the margin. In BB, the current account <em>is</em> the business's cash-flow statement, published daily, unaudited and unfakeable.</p><p>This is the incumbent clearing bank's original informational advantage — the one that made <span class=\"xref\" data-term=\"clearing-banks\">clearing banks</span> the default SME lenders for a century. Whoever holds the primary BCA sees trouble first.</p>"
+    },
+    {
+      "id": "s5",
+      "heading": "Behavioural scoring: the account never lies for long",
+      "html": "<p><span class=\"xref\" data-term=\"behavioural-scoring\">Behavioural scoring</span> in BB is the industrialisation of the bank manager's glance at the ledger. Monthly (or faster), a model consumes the account's vital signs — credit turnover trend, balance volatility, days in excess of limit, unpaid items, credit-to-debit ratios, time since last cleared balance — and produces a score that outperforms any financial-statement model for the simple reason that it is <em>current</em>. The accounts are a photograph from last year; the behavioural score is a pulse.</p><p>Conceptually this is the same technology you ran on cards. The differences are in the plumbing and the stakes. The features are business-shaped: VAT-quarter seasonality has to be modelled or it generates false alarms; a single large customer paying late can crater a month's turnover without meaning anything. Score deterioration drives real interventions — limit reductions, facility reviews, <span class=\"xref\" data-term=\"watchlist\">watchlist</span> entry, transfer toward the <span class=\"xref\" data-term=\"business-support-unit\">business support unit</span> — not just contact strategies.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Here is the load-bearing fact for your day job: in BB collective books, behavioural score deterioration is typically the primary <span class=\"xref\" data-term=\"sicr\">SICR</span> trigger. A score migration breaches the relative-PD threshold, the exposure moves to <span class=\"xref\" data-term=\"stage-2\">Stage 2</span>, and the provision flips from 12-month to lifetime <span class=\"xref\" data-term=\"ecl\">ECL</span> — on an SME that has missed no payment and breached no covenant. Because SME lifetime PDs are far higher than retail-mortgage ones, the coverage step-up is violent: tens of basis points to several percent in one staging move. When a sector wobbles, thousands of accounts migrate together, and the P&amp;L charge arrives a full accounting cycle before the defaults do. That is the machine working as designed — and it is also why BB impairment is lumpier and more argument-prone than anything you saw in mortgages.</p></aside>"
+    },
+    {
+      "id": "s6",
+      "heading": "Open banking: reading someone else's current account",
+      "html": "<p>Everything in the last two sections rested on a monopoly: only the account-holding bank could see the BCA. <span class=\"xref\" data-term=\"open-banking\">Open banking</span> broke that. Since the CMA forced the nine largest current-account providers to open API access in 2018, any authorised lender can — with the customer's consent — pull months of transaction history at the point of application. Adoption stopped being niche some time ago: the UK passed 15 million open banking users in mid-2026, with connections approaching 19 million.</p><p>The challengers built their underwriting on it. <span class=\"xref\" data-term=\"iwoca\">iwoca</span> was among the first SME lenders to plumb open banking directly into credit decisions, reading live turnover instead of stale accounts, and has kept scaling — closing a £250m funding facility in July 2026 to expand UK SME lending, with mid-sized loans of £50,000–£100,000 jumping to 42% of its applications in early 2026. <span class=\"xref\" data-term=\"tide\">Tide</span> sees its members' transaction flows natively, as do <span class=\"xref\" data-term=\"starling\">Starling</span> and the other app-based business banks; <span class=\"xref\" data-term=\"funding-circle\">Funding Circle</span> and the broader fintech lending cohort consume the same feeds through APIs. The Data Use and Access Act now points beyond payments data toward open finance — SME lending data included — which will widen the pipe further.</p><p>Read the strategic consequence carefully: the incumbent's century-old informational moat — being the only one who could see the account — is being commoditised, one consent screen at a time. What remains defensible is the <em>interpretive</em> layer: models, sector knowledge, workout capability. Data advantage is leaking; judgement advantage is not, yet.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Adverse selection is the impairment angle. If data-hungry challengers can now underwrite Barclays' best BB customers as confidently as Barclays can, the cleanest credits are the easiest to poach — and the back book slowly enriches in the customers nobody else wanted. Watch cohort-level PD drift when you analyse vintages: a stable-looking book whose good risks are quietly leaving is deteriorating in disguise.</p></aside>"
+    },
+    {
+      "id": "s7",
+      "heading": "Security, the waterfall, and where LGD is actually decided",
+      "html": "<p>Retail <span class=\"xref\" data-term=\"lgd\">LGD</span> was a property valuation, a haircut and a repossession timeline. BB security is a zoo, and the differences decide your recoveries. The classic bank instrument is the <span class=\"xref\" data-term=\"debenture\">debenture</span>: a single document taking fixed and floating charges over everything the company owns. A <span class=\"xref\" data-term=\"fixed-charge\">fixed charge</span> attaches to specific, identifiable assets — the freehold, plant, sometimes the book debts if control is real — and the company cannot deal with them without consent. A <span class=\"xref\" data-term=\"floating-charge\">floating charge</span> hovers over the circulating assets — stock, debtors, work in progress — letting the business trade them freely until insolvency crystallises the charge over whatever happens to remain. That phrase should trouble you: <em>whatever remains</em>, at the exact moment a failing business has run down stock, stretched collections and burned cash, is reliably less than the covenant schedule imagined.</p><p>Then the priority waterfall takes its cuts. Fixed-charge holders are paid from their asset first. From floating-charge realisations, the order runs: insolvency practitioners' fees and expenses; ordinary preferential creditors (chiefly employees); then — since December 2020 — <span class=\"xref\" data-term=\"hmrc-preferential\">HMRC as secondary preferential creditor</span> for VAT, PAYE, employee NICs and CIS deductions, with no cap on age or amount. Since failing SMEs almost universally stretch HMRC before anyone else, this claim is routinely large. Next, the <span class=\"xref\" data-term=\"prescribed-part\">prescribed part</span> is carved out for unsecured creditors: 50% of the first £10,000 of floating-charge realisations plus 20% of the rest, capped at £800,000 for charges created since April 2020. Only then does the floating-charge holder — the bank — get paid. What began as \"secured on all assets of the business\" can emerge from a liquidation as pennies in the pound.</p><p>Personal guarantees convert corporate risk into personal recourse, but recovery depends on the director's own balance sheet — usually their house — and directors of failed companies have often exhausted personal resources propping up the business, or hold assets jointly with unsympathetic spouses. Recovery is slow, contested and partial. Property collateral behind a <span class=\"xref\" data-term=\"commercial-mortgage\">commercial mortgage</span> is the strongest card, but commercial values are more volatile and less liquid than residential; a vacant trading unit in a failing high street is not a semi in Surrey.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>All of this is your LGD model in narrative form. Floating-charge-heavy lending carries LGDs that look nothing like mortgage LGDs, and the HMRC preferential change in 2020 structurally worsened them — a legislative event, not a credit one, that still had to flow through every BB LGD assumption. In a downturn the damage compounds: collateral values fall exactly when defaults rise, PG recoveries lengthen, and <span class=\"xref\" data-term=\"ead\">EAD</span> on committed overdrafts drifts up as stressed firms draw down. Secured is a description of paperwork, not of outcome — the difference between them is the number you book.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Why does SME PD modelling face structural problems that a credit-card PD model largely avoids?",
+      "options": [
+        "SME default rates are much higher, so models overfit to bad outcomes",
+        "SME lending is unregulated, so no default data is collected",
+        "The portfolio is heterogeneous and defaults are scarce but correlated, giving thin bad counts and fat tails",
+        "SMEs cannot be scored because they have no credit files at all"
+      ],
+      "answer": 2,
+      "explain": "Cards give you millions of homogeneous exposures and steady defaults; SME books mix radically different businesses, default rarely in benign years, and then fail in correlated clusters. Defaults are low, not high, and data exists — it is just thin and lumpy."
+    },
+    {
+      "q": "Under current filing rules (as at 2026), what can a small UK company legally withhold from the public Companies House register?",
+      "options": [
+        "Its profit and loss account, by filing filleted accounts",
+        "Its registered office address",
+        "Its directors' identities",
+        "Its balance sheet"
+      ],
+      "answer": 0,
+      "explain": "Filleted accounts let small companies file a balance sheet without a P&L — so the register shows what they own but not whether they make money. ECCTA reforms to abolish this were paused, with software-only filing now slated for April 2028. Directors' identities are now verified, not hidden."
+    },
+    {
+      "q": "A private company's year end is 31 December 2025. Roughly how stale can its most recent public accounts be just before the next filing arrives?",
+      "options": [
+        "Three months — filing is quarterly",
+        "Six months — the statutory filing deadline",
+        "About a year",
+        "Approaching two years, given the nine-month filing window plus the year covered"
+      ],
+      "answer": 3,
+      "explain": "Nine months to file means December 2025 accounts can arrive in September 2026 and remain the freshest public data until late 2027 — by which point the earliest months they cover are nearly two years old. This lag is why BB underwriting leans on live account data."
+    },
+    {
+      "q": "What is the fundamental weakness of SIC codes as a risk-segmentation input?",
+      "options": [
+        "They are assigned by HMRC and change with each tax return",
+        "They are self-declared at incorporation, often wrong, and rarely updated as the business changes",
+        "They only exist for companies above the audit threshold",
+        "They are confidential and unavailable to lenders"
+      ],
+      "answer": 1,
+      "explain": "SIC codes are chosen by the incorporator from a drop-down and there is no meaningful enforcement of accuracy or maintenance. Banks still build sector limits and scenario mappings on them — which is why sector data should be treated as directional, not definitive."
+    },
+    {
+      "q": "Which sector has consistently accounted for the largest share of UK company insolvencies through 2025–26?",
+      "options": [
+        "Hospitality",
+        "Retail",
+        "Construction",
+        "Professional services"
+      ],
+      "answer": 2,
+      "explain": "Construction runs at roughly 17% of all insolvencies, with around 3,800 firms failing in the twelve months to March 2026. Fixed-price contracts, thin margins and cascading subcontractor chains make it structurally the most failure-prone sector; hospitality and retail follow."
+    },
+    {
+      "q": "Which business most plausibly runs a negative working-capital cycle?",
+      "options": [
+        "A scaffolding subcontractor paid 90 days after invoicing",
+        "A pub taking cash daily and paying its brewery on 30-day terms",
+        "A furniture maker holding six months of timber stock",
+        "A recruitment agency paying contractors weekly and billing clients monthly"
+      ],
+      "answer": 1,
+      "explain": "The pub collects cash before its supplier bills fall due, so customers and suppliers fund the business. The other three all pay out long before they collect — classic positive-cycle businesses that structurally need overdrafts or invoice finance."
+    },
+    {
+      "q": "In a BB collective book, what most commonly trips the SICR trigger that moves an SME to Stage 2?",
+      "options": [
+        "A missed loan repayment",
+        "A qualified audit opinion",
+        "A covenant breach reported by the relationship manager",
+        "Behavioural score deterioration driven by current-account data"
+      ],
+      "answer": 3,
+      "explain": "Behavioural scores refresh monthly from BCA data and deteriorate well before arrears appear, so they are typically the primary SICR mechanism. Missed payments and covenant breaches matter but usually arrive later — often after staging has already moved."
+    },
+    {
+      "q": "What did open banking fundamentally change in SME underwriting?",
+      "options": [
+        "Non-incumbent lenders can now see an applicant's transaction history, eroding the account-holding bank's data monopoly",
+        "It abolished the need for Companies House filings",
+        "It gave banks access to directors' personal tax records",
+        "It removed the requirement for customer consent to share data"
+      ],
+      "answer": 0,
+      "explain": "With customer consent, any authorised lender can pull BCA transaction history — the informational moat that made clearing banks the default SME lenders. iwoca and the fintech cohort built underwriting on exactly this. Consent remains central, and Companies House is unaffected."
+    },
+    {
+      "q": "What is the prescribed part?",
+      "options": [
+        "The portion of fixed-charge realisations reserved for HMRC",
+        "The insolvency practitioner's statutory fee",
+        "A slice of floating-charge realisations set aside for unsecured creditors, capped at £800,000",
+        "The minimum dividend guaranteed to shareholders in a liquidation"
+      ],
+      "answer": 2,
+      "explain": "Section 176A of the Insolvency Act carves out 50% of the first £10,000 of floating-charge realisations plus 20% of the balance, up to £800,000 (for charges created since April 2020), and hands it to unsecured creditors. It comes out of the bank's floating-charge recovery — a direct LGD cost."
+    },
+    {
+      "q": "HMRC's restored preferential status (December 2020) for VAT, PAYE and employee NICs primarily damages recoveries for which creditor?",
+      "options": [
+        "Fixed-charge holders, who now rank behind HMRC",
+        "Floating-charge holders, because HMRC is paid from floating realisations before them, uncapped",
+        "Employees, who lost their preferential status to HMRC",
+        "Trade creditors, who moved below shareholders"
+      ],
+      "answer": 1,
+      "explain": "HMRC sits as secondary preferential creditor — behind fixed-charge holders and employees, but ahead of the floating charge, with no cap on amount or age of debt. Since failing SMEs stretch HMRC first, the claim is often large, and it comes straight out of the bank's floating-charge recovery."
+    }
+  ],
+  "domino": {
+    "title": "Sector shock to P&L charge",
+    "nodes": [
+      { "id": "n1", "label": "Construction demand slumps", "sectionId": "s3" },
+      { "id": "n2", "label": "Fixed-price margins vanish", "sectionId": "s3" },
+      { "id": "n3", "label": "Working-capital squeeze", "sectionId": "s4" },
+      { "id": "n4", "label": "BCA turnover falls", "sectionId": "s4" },
+      { "id": "n5", "label": "Behavioural score deteriorates", "sectionId": "s5" },
+      { "id": "n6", "label": "SICR trigger fires", "sectionId": "s5" },
+      { "id": "n7", "label": "Stage 2 migration", "sectionId": "s5" },
+      { "id": "n8", "label": "Lifetime ECL, coverage jumps", "sectionId": "s5" },
+      { "id": "n9", "label": "Impairment charge lands", "sectionId": "s5" },
+      { "id": "n10", "label": "Stock and debtors shrink", "sectionId": "s7" },
+      { "id": "n11", "label": "Floating-charge LGD worsens", "sectionId": "s7" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n9"],
+      ["n3", "n10"],
+      ["n10", "n11"],
+      ["n11", "n9"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Relationship lending",
+      "slug": "relationship-lending",
+      "definition": "Underwriting built on soft information a relationship manager accumulates about a business and its owners over time — character, competence, local context. Powerful for opaque SMEs but expensive and unscalable; largely stripped out of UK banking as credit decisions were centralised away from branches.",
+      "related": ["transactional-data-lending", "financial-statement-lending"]
+    },
+    {
+      "term": "Transactional-data lending",
+      "slug": "transactional-data-lending",
+      "definition": "Underwriting from the live flow of a business's current-account transactions — receipts, payments, balances — rather than financial statements. The dominant modern BB technology: timely, unfakeable, and the foundation of behavioural scoring. Open banking extended it to lenders who don't hold the account.",
+      "related": ["behavioural-scoring", "open-banking", "relationship-lending"]
+    },
+    {
+      "term": "Financial-statement lending",
+      "slug": "financial-statement-lending",
+      "definition": "Underwriting from a company's accounts: ratio analysis of profitability, gearing, interest cover and asset quality. Works for larger SMEs with audited, timely numbers; degrades badly for small companies whose public filings are abbreviated, unaudited and up to two years stale.",
+      "related": ["companies-house", "filleted-accounts"]
+    },
+    {
+      "term": "Companies House",
+      "slug": "companies-house",
+      "definition": "The UK registrar of companies — the free public record of incorporations, directors, filed accounts and registered charges. BB underwriting's baseline data source, weakened by small-company filing exemptions and nine-month filing lags. ECCTA reforms added director identity verification (November 2025); fuller accounts reform is deferred to 2028.",
+      "related": ["filleted-accounts", "sic-code"]
+    },
+    {
+      "term": "Filleted accounts",
+      "slug": "filleted-accounts",
+      "definition": "Accounts a small company files at Companies House with the profit and loss account (and directors' report) removed — legally showing the public a balance sheet but no trading performance. Available to companies under the small-company thresholds (from April 2025: £15m turnover, £7.5m balance sheet, 50 employees).",
+      "related": ["companies-house", "financial-statement-lending"]
+    },
+    {
+      "term": "SIC code",
+      "slug": "sic-code",
+      "definition": "Standard Industrial Classification code self-declared at incorporation to describe a company's activity. Drives banks' sector segmentation, concentration limits and scenario mapping despite being frequently inaccurate and rarely updated — a shaky foundation load-bearing far more risk infrastructure than it deserves.",
+      "related": ["companies-house"]
+    },
+    {
+      "term": "Working-capital cycle",
+      "slug": "working-capital-cycle",
+      "definition": "The time between cash leaving a business and coming back: stock days plus debtor days minus creditor days. Positive cycles (builders, manufacturers) create permanent funding needs; negative cycles (pubs, retailers) generate float. Most SME failures are working-capital failures — profitable businesses that ran out of cash.",
+      "related": ["bca", "overdraft", "invoice-finance"]
+    },
+    {
+      "term": "Behavioural scoring",
+      "slug": "behavioural-scoring",
+      "definition": "Monthly statistical scoring of a business from its current-account conduct — turnover trends, excesses, unpaid items, balance volatility. Outperforms financial-statement models because it is current. In BB it drives limit management, watchlist entry and, critically, IFRS 9 SICR triggers and Stage 2 migration.",
+      "related": ["transactional-data-lending", "sicr", "stage-2"]
+    },
+    {
+      "term": "Open banking",
+      "slug": "open-banking",
+      "definition": "The CMA-mandated API regime (live 2018) letting authorised third parties access bank-account data with customer consent. Passed 15 million UK users by mid-2026. In SME underwriting it lets challengers like iwoca and Tide read applicants' transaction histories — commoditising the incumbent's oldest data advantage.",
+      "related": ["transactional-data-lending", "iwoca", "tide"]
+    },
+    {
+      "term": "Personal guarantee",
+      "slug": "personal-guarantee",
+      "definition": "A director's personal promise to repay company debt if the company cannot — converting limited liability back into personal exposure. Valued as both signal (willingness reveals the director's private confidence) and security, though recoveries are slow, contested and limited by the guarantor's actual wealth.",
+      "related": ["debenture", "lgd"]
+    },
+    {
+      "term": "Debenture",
+      "slug": "debenture",
+      "definition": "The standard bank security document taking fixed and floating charges over all of a company's assets, registered at Companies House. Gives the lender priority claims and the power to appoint an administrator, but its floating-charge element is eroded by preferential creditors and the prescribed part.",
+      "related": ["fixed-charge", "floating-charge", "prescribed-part"]
+    },
+    {
+      "term": "Fixed charge",
+      "slug": "fixed-charge",
+      "definition": "Security attached to specific, identifiable assets — typically property or plant — which the company cannot sell or deal with without the lender's consent. Fixed-charge holders sit at the top of the insolvency waterfall, paid from their asset ahead of preferential creditors and the prescribed part.",
+      "related": ["floating-charge", "debenture"]
+    },
+    {
+      "term": "Floating charge",
+      "slug": "floating-charge",
+      "definition": "Security hovering over a company's circulating assets — stock, debtors, work in progress — which the business trades freely until insolvency crystallises the charge over whatever remains. Recoveries are diluted by insolvency costs, preferential creditors (including uncapped HMRC claims since 2020) and the prescribed part.",
+      "related": ["fixed-charge", "prescribed-part", "hmrc-preferential"]
+    },
+    {
+      "term": "Prescribed part",
+      "slug": "prescribed-part",
+      "definition": "The statutory carve-out from floating-charge realisations for unsecured creditors under s176A Insolvency Act 1986: 50% of the first £10,000 plus 20% of the remainder, capped at £800,000 for charges created on or after 6 April 2020. A direct, legislated reduction in the bank's floating-charge recovery.",
+      "related": ["floating-charge", "lgd"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "ICAEW — Companies House accounts changes confirmed for April 2028",
+      "url": "https://www.icaew.com/insights/viewpoints-on-the-news/2026/jun-2026/companies-house-accounts-changes-confirmed-for-april-2028",
+      "note": "ECCTA small-company accounts reforms paused; software-only filing and abolition of abridged/filleted filing deferred to 1 April 2028"
+    },
+    {
+      "title": "AIA — New company size thresholds come into effect on 6 April 2025",
+      "url": "https://www.aiaworldwide.com/news/news/new-company-size-thresholds-come-into-effect-on-6-april-2025/",
+      "note": "Small-company thresholds raised to £15m turnover / £7.5m balance sheet / 50 employees; ~133,000 entities reclassified"
+    },
+    {
+      "title": "CMS — ECCTA identity verification mandatory from 18 November 2025",
+      "url": "https://cms.law/en/gbr/legal-updates/economic-crime-and-corporate-transparency-act-2023-identity-verification-becomes-mandatory-from-18-november-2025",
+      "note": "Director and PSC identity verification requirements in force from 18 November 2025"
+    },
+    {
+      "title": "GOV.UK — Commentary: Company Insolvency Statistics, March 2026",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-march-2026/commentary-company-insolvency-statistics-march-2026",
+      "note": "Monthly insolvency volumes running ~2,000–2,100 in England and Wales through 2025–26; sector breakdown with construction largest"
+    },
+    {
+      "title": "BCIS — Construction insolvencies latest news",
+      "url": "https://www.bcis.co.uk/news/construction-insolvencies-latest-news/",
+      "note": "~3,827 construction insolvencies in 12 months to March 2026, down 7% year on year but ~19% above 2019; construction ~17% of all insolvencies"
+    },
+    {
+      "title": "Open Banking Ltd — 2026: a landmark year for open banking",
+      "url": "https://www.openbanking.org.uk/insights/2026-a-landmark-year-for-open-banking/",
+      "note": "UK open banking passed 15 million users in 2026, connections approaching 19 million; Data Use and Access Act extending scope toward open finance and SME lending data"
+    },
+    {
+      "title": "FinTech Global — iwoca secures £250m facility to boost UK SME lending (July 2026)",
+      "url": "https://fintech.global/2026/07/28/iwoca-secures-250m-facility-to-boost-uk-sme-lending/",
+      "note": "iwoca's July 2026 £250m facility; £50k–£100k loans rising to 42% of applications in Q1 2026; open-banking-led underwriting at scale"
+    },
+    {
+      "title": "R3 — Creditor order of priority",
+      "url": "https://www.r3.org.uk/creditor-order-of-priority/",
+      "note": "Insolvency waterfall: fixed charge, expenses, ordinary and secondary preferential creditors, prescribed part (50% of first £10k + 20%, £800k cap), floating charge, unsecured"
+    },
+    {
+      "title": "Law Society of Scotland — Insolvency: HMRC moves up the rankings",
+      "url": "https://www.lawscot.org.uk/members/journal/issues/vol-65-issue-12/insolvency-hmrc-moves-up-the-rankings/",
+      "note": "HMRC secondary preferential status from 1 December 2020 for VAT, PAYE, employee NICs, CIS — uncapped, ranking ahead of floating-charge holders"
+    }
+  ]
+}

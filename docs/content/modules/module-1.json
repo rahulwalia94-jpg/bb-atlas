@@ -1,0 +1,322 @@
+{
+  "id": 1,
+  "slug": "history",
+  "title": "History & Evolution of UK Business Banking",
+  "kicker": "Module 01 · History",
+  "summary": "Three centuries of UK business banking in one arc: Quaker goldsmiths financing trade, a cartelised oligopoly rationing SME credit, deregulation detonating two property-lending busts, and a competition inquiry that found a complex monopoly. Every era follows the same grammar — what changed, what it did to SME credit supply, and what losses followed — because that grammar is what an impairment analyst reads for a living.",
+  "readingTime": 15,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Quakers, goldsmiths, and the original business bank",
+      "html": "<p>Barclays begins, in 1690, as a business bank. John Freame and Thomas Gould — two Quaker <span class=\"xref\" data-term=\"goldsmith-bankers\">goldsmith bankers</span> — set up in Lombard Street taking deposits and making advances against the trade of the City. There was no retail franchise to speak of; the customer was the merchant, and the product was working capital. The partnership became one of the most successful of the early private banks and is generally credited as a pioneer of re-discounting bills of exchange sent up by provincial bankers — in modern language, buying short-dated trade receivables at a discount. That is <span class=\"xref\" data-term=\"invoice-finance\">invoice finance</span> with a powdered wig on.</p><p>The Quaker network mattered as much as the balance sheet. The Society of Friends was a closed community with severe internal sanctions for default — a Quaker who failed his creditors could be disowned by his meeting. Freame and Gould financed Quaker traders in the American colonies and the Caribbean, held the Society's central funds, and lent into Quaker-dominated ventures like the London Lead Company. Membership functioned as a credit bureau, a covenant package and a collections department in one. James Barclay, who married into the firm in 1736, gave it the name; the underwriting logic — lend to people whose character and cash flows you can observe closely — survived as what the literature now calls <span class=\"xref\" data-term=\"relationship-lending\">relationship lending</span>.</p><p>Two things from this era echo through everything that follows. First, UK business banking's historical strength was trade finance: short, self-liquidating, secured on goods in motion. Second, credit information travelled through networks, not data. When those networks industrialised into national branch systems, the information advantage industrialised with them — and so, eventually, did the complacency.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "The cartel century: an oligopoly rations credit",
+      "html": "<p>Through the nineteenth century, hundreds of private and country banks amalgamated into a handful of joint-stock giants that settled with each other through the London Clearing House — the <span class=\"xref\" data-term=\"clearing-banks\">clearing banks</span>. Barclay &amp; Company Ltd was itself assembled in 1896 from a score of Quaker-linked private banks. By the early twentieth century a Big Five (later Big Four) dominated England and Wales, and they behaved less like competitors than like a public utility with shareholders: an <span class=\"xref\" data-term=\"interest-rate-cartel\">interest-rate cartel</span> fixed deposit rates by agreement, and lending rates moved in lockstep with Bank Rate.</p><p>What changed for the <span class=\"xref\" data-term=\"sme\">SME</span> borrower was the supply mechanism. From the 1930s, and formally through the post-war decades, the authorities managed credit by instruction: quantitative lending ceilings, directional guidance favouring exports and industry, and moral suasion from the Bank of England. When credit is rationed by decree, the marginal borrower is simply refused — and the marginal borrower was almost always the small firm without collateral or connections. The Macmillan Committee had already named the structural failure in 1931: a persistent shortfall in long-term finance for small companies, the <span class=\"xref\" data-term=\"macmillan-gap\">Macmillan gap</span>, which every subsequent decade rediscovers under a new brand.</p><p>What losses followed? Almost none — and that is the trap. Rationed lending to the safest borrowers produced decades of negligible write-offs, which taught the clearers that business lending was intrinsically low-risk rather than administratively de-risked.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>The cartel era is the original <span class=\"xref\" data-term=\"low-default-portfolio\">low-default portfolio</span> problem. Decades of suppressed defaults left the banks with no loss data through a genuine credit cycle, so when deregulation arrived there was no empirical <span class=\"xref\" data-term=\"pd\">PD</span> or <span class=\"xref\" data-term=\"lgd\">LGD</span> history to price the new risk. Every UK banking bust since 1971 has been, in part, a calibration failure inherited from this era.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "1971: Competition and Credit Control lights the fuse",
+      "html": "<p>In September 1971 the Bank of England replaced the entire apparatus with <span class=\"xref\" data-term=\"ccc-1971\">Competition and Credit Control</span>: the clearing-bank cartel was dismantled, quantitative lending ceilings were abolished, and credit was henceforth to be controlled through price — interest rates and calls for special deposits — rather than administrative rationing. What changed: for the first time in a generation, banks could lend as much as they liked to whomever they liked.</p><p>What it did to credit supply was immediate and violent. Broad money grew roughly 72 per cent between 1971 and the policy's effective abandonment in December 1973 — the Barber boom. The frothiest expansion came not from the clearers but from the fringe: lightly supervised secondary banks funding themselves in the new wholesale markets and lending against commercial property. Bank lending to property rose more than eight-fold between 1970 and 1974, with the secondary banks overtaking the clearing banks as the principal property lenders. This is the recurring UK pattern in its purest form: liberalise supply, and the marginal credit flows to property, because property is the collateral everyone believes in.</p><p>What losses followed: the 1973 oil shock, a Minimum Lending Rate of 13 per cent, and a commercial property crash took the funding away and the collateral with it. Wholesale depositors ran from the secondary banks; from December 1973 the Bank of England corralled the clearers into the <span class=\"xref\" data-term=\"lifeboat-operation\">Lifeboat</span>, a support pool that ultimately extended up to £1.3 billion to twenty-six institutions. The <span class=\"xref\" data-term=\"secondary-banking-crisis\">secondary banking crisis</span> of 1973–75 cost the clearers real money for other banks' lending decisions — and taught the system, briefly, that collateral values are an output of the credit cycle, not an input to it.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Run 1973–75 through an <span class=\"xref\" data-term=\"ifrs9\">IFRS 9</span> engine and it is a textbook regime shift: a lending boom builds a book whose <span class=\"xref\" data-term=\"pd\">PDs</span> are calibrated on cartel-era defaults, then rates spike and collateral collapses, so <span class=\"xref\" data-term=\"sicr\">SICR</span> triggers fire across the property book at once and <span class=\"xref\" data-term=\"lgd\">LGD</span> assumptions fail simultaneously — the correlated PD-and-collateral shock that single-name analysis never catches.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "Big Bang 1986: the side-effects reach the business bank",
+      "html": "<p>The <span class=\"xref\" data-term=\"big-bang\">Big Bang</span> of 27 October 1986 deregulated the London Stock Exchange — fixed commissions abolished, the broker/jobber distinction ended, ownership opened to outsiders, trading moved onto screens. On its face this had nothing to do with lending to a haulier in Dudley. The effects arrived anyway, through three side doors.</p><p>First, the clearers bought their way into securities. Barclays merged broker de Zoete &amp; Bevan with jobber Wedd Durlacher to create <span class=\"xref\" data-term=\"bzw\">BZW</span>, and for the next decade board attention, capital and the most ambitious talent migrated toward investment banking. Business banking became the unglamorous utility that funded the adventure. Second, disintermediation: large corporates could increasingly fund themselves in the capital markets Big Bang supercharged, so the clearers' corporate lending margins thinned and the banks pushed down-market — into mid-corporates, <span class=\"xref\" data-term=\"sme\">SMEs</span> and, fatally, commercial property — in search of yield. Third, the deregulatory temper of the age, amplified by the Lawson boom and financial liberalisation, produced a late-1980s surge in bank credit to exactly the sectors that would fail first.</p><p>What it did to SME credit supply: more of it, cheaper, faster, and increasingly secured on the one asset class — property — whose price the lending itself was inflating. What losses followed belongs to the next section, because the bill arrived in 1990.</p>"
+    },
+    {
+      "id": "s5",
+      "heading": "The early-1990s recession: scar tissue that never faded",
+      "html": "<p>Policy drove Bank Rate to 15 per cent in 1989–90 and held it high to defend sterling's ERM parity. Commercial and residential property values fell hard, and the SME book built in the boom failed in bulk: company liquidations in England and Wales roughly doubled from the late-1980s trough to a peak of around 24,000 a year in 1992, with unincorporated business failures on top. The parallel <span class=\"xref\" data-term=\"small-banks-crisis\">small banks crisis</span> — within three years of BCCI's July 1991 closure, a quarter of the UK's small and medium-sized banks had failed — showed the funding side of the same storm, and the Bank of England again provided quiet liquidity support to stop contagion reaching the clearers.</p><p>The mechanism that turned recession into rupture was the <span class=\"xref\" data-term=\"overdraft-culture\">overdraft culture</span>. UK SME borrowing was dominated by the on-demand <span class=\"xref\" data-term=\"overdraft\">overdraft</span>, secured by an all-monies charge over the proprietor's home and a <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span>. On-demand means exactly that: as conditions deteriorated, banks cut limits and called facilities at the point of maximum borrower distress — procyclical deleveraging executed one phone call at a time. Businesses that were trading through the downturn were tipped into failure by the withdrawal of the facility itself; homes pledged as collateral were repossessed into a falling market.</p><p>What losses followed: heavy write-offs across the clearers' business books, and something more durable — a rupture of trust between banks and small firms that produced parliamentary inquiries, codes of practice, and a generation of business owners who resolved never again to depend on a bank. Survey evidence of SME 'discouraged demand' for credit, still visible in the 2020s, is the long tail of 1992.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Two standing lessons for the BB analyst. On-demand overdrafts make <span class=\"xref\" data-term=\"ead\">EAD</span> behavioural, not contractual — limit utilisation spikes precisely as <span class=\"xref\" data-term=\"pd\">PD</span> rises, and the bank's own limit-cutting changes the default and loss profile it is trying to model. And property-backed <span class=\"xref\" data-term=\"lgd\">LGD</span> is regime-dependent: 1990–93 forced-sale haircuts, not benign-cycle averages, are the right anchor for a downside <span class=\"xref\" data-term=\"ecl\">ECL</span> scenario on collateralised SME lending.</p></aside>"
+    },
+    {
+      "id": "s6",
+      "heading": "Demutualisation and the last consolidation of the clearers",
+      "html": "<p>The 1990s reshaped the register without reshaping the market. <span class=\"xref\" data-term=\"demutualisation\">Demutualisation</span> turned the great building societies into banks — Abbey National in 1989, then Halifax, Woolwich, Alliance &amp; Leicester and Northern Rock in the class of 1997 — but these were mortgage machines with no SME franchise, no <span class=\"xref\" data-term=\"bca\">business current account</span> capability and no branch-based relationship managers. They added ferocious competition to home loans and savings while leaving business banking untouched.</p><p>Meanwhile the clearers themselves consolidated. Lloyds absorbed TSB in 1995; the Royal Bank of Scotland won the hostile contest for NatWest in 2000; Barclays bought the demutualised Woolwich the same year. Each deal was rational on cost grounds, and each ratcheted concentration in the one market with no new entrants. By 1999 the four largest clearing groups held roughly nine-tenths of SME liquidity-management business in England and Wales.</p><p>What it did to SME credit supply: the customer faced an oligopoly tighter than the cartel era's, minus the cartel's formal price-fixing but with much of its behavioural effect — free-in-credit-looking accounts that paid no interest, opaque money-transmission charges, and switching rates so low that banks could treat the SME base as an annuity. What losses followed here were the customers' rather than the banks': the Cruickshank team would shortly put a number on the excess profits.</p>"
+    },
+    {
+      "id": "s7",
+      "heading": "Cruickshank and the Competition Commission: the complex monopoly, named",
+      "html": "<p>Don Cruickshank's review of UK banking, commissioned by the Treasury in 1998 and published on 20 March 2000, asked whether competition worked for personal customers, for money transmission, and for SMEs. The <span class=\"xref\" data-term=\"cruickshank-report\">Cruickshank Report</span> answered no on all three, and was harshest on SME banking: a highly concentrated market, formidable barriers to switching, bank control of the payments plumbing, and persistent excess profits earned from small-business customers. SME banking was referred to the Competition Commission.</p><p>The Commission's March 2002 report — <span class=\"xref\" data-term=\"competition-commission-2002\">Competition Commission 2002</span> — made the finding that titles this module: a <em>complex monopoly</em> under the Fair Trading Act, operated by the largest clearing groups, whose practices restricted price competition in SME banking. The remedies were behavioural rather than structural. As a transitional measure, the big four in England and Wales had, from 2003, to offer SMEs either a current account paying interest at no less than Bank of England base rate minus 2.5 percentage points, or an account free of money-transmission charges, or the choice. Standing undertakings barred <em>bundling</em> — compelling a customer to hold a business current account as the price of a loan or deposit account — with compliance audited for two decades.</p><p>The afterlife measures the problem's stubbornness. The interest-paying transitional remedy was released in 2007 once judged to have served its purpose; the bundling prohibitions survived until the Competition and Markets Authority, citing digital challengers, easier switching and the Consumer Duty, released the final provisions on 1 December 2025 — over the objections of small-business lobbies. It took twenty-three years to declare the 2002 remedy obsolete, and the deeper verdicts of 2000 — concentration, inertia, information asymmetry — resurfaced almost verbatim in the <span class=\"xref\" data-term=\"cma-2016\">CMA's 2016 retail banking investigation</span>.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Competition remedies move impairment inputs. Forcing interest onto SME current accounts and unbundling lending from transaction banking compress the deposit and fee margins that historically subsidised thin-spread SME lending — pressuring banks to reprice or re-risk the loan book. When origination reaches for yield to replace lost cross-subsidy, tomorrow's <span class=\"xref\" data-term=\"stage-2\">Stage 2</span> migrations and <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratios</span> are being set today.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "What was the core mechanical change Competition and Credit Control made in September 1971?",
+      "options": [
+        "It introduced quantitative lending ceilings for the first time",
+        "It nationalised the secondary banks to control property lending",
+        "It abolished lending ceilings and the clearing-bank cartel, controlling credit through price instead of rationing",
+        "It forced the clearing banks to divest their branch networks"
+      ],
+      "answer": 2,
+      "explain": "CCC replaced administrative rationing (ceilings, cartel rates) with market-based control via interest rates and special deposits. Ceilings were abolished, not introduced; no nationalisation or divestment was involved."
+    },
+    {
+      "q": "Why did the secondary banking crisis of 1973–75 cost the clearing banks money even though the reckless lending was mostly done by secondary banks?",
+      "options": [
+        "The Bank of England corralled the clearers into funding the Lifeboat support operation, ultimately up to £1.3bn",
+        "The clearers had guaranteed the secondary banks' deposits by statute",
+        "The clearers owned the secondary banks outright",
+        "Depositors sued the clearing banks for negligence"
+      ],
+      "answer": 0,
+      "explain": "The Lifeboat was a Bank-of-England-orchestrated pool, funded ~90% by the clearers, that supported twenty-six failing institutions. There was no statutory guarantee, no general ownership, and no successful depositor litigation driving the cost."
+    },
+    {
+      "q": "Which best describes the causal chain from CCC 1971 to the 1973–75 losses?",
+      "options": [
+        "Cartel reinstated → credit famine → recession → defaults",
+        "Ceilings abolished → clearers exit property → secondary banks fail from lack of business",
+        "Special deposits raised → money supply shrank → property boom",
+        "Ceilings abolished → broad money up ~72% → property lending up eight-fold → rates spike, collateral collapses → funding runs and losses"
+      ],
+      "answer": 3,
+      "explain": "The chain runs liberalisation → monetary boom → property-concentrated lending (led by secondary banks) → rate shock and property crash → wholesale runs, Lifeboat, and write-offs. The other options invert or scramble the mechanism."
+    },
+    {
+      "q": "What was the primary route by which Big Bang 1986 affected business banking, given it directly deregulated only the Stock Exchange?",
+      "options": [
+        "It required clearers to spin off their SME lending arms",
+        "It diverted clearers' capital and attention into investment banking while capital-markets disintermediation pushed them down-market into SME and property lending",
+        "It capped the interest rates banks could charge small firms",
+        "It abolished the business current account"
+      ],
+      "answer": 1,
+      "explain": "The effects were indirect: acquisitions like Barclays' BZW absorbed capital and talent, while large corporates funding via capital markets thinned lending margins and pushed banks toward mid-corporate, SME and property risk. Big Bang imposed no SME price caps or structural separations."
+    },
+    {
+      "q": "In the early-1990s recession, why did the on-demand overdraft structure amplify SME losses?",
+      "options": [
+        "Overdrafts were unsecured, so LGD was always 100%",
+        "Overdraft interest was fixed, so banks lost margin as rates rose",
+        "Banks could and did call facilities at the point of maximum borrower distress, tipping viable firms into failure and selling collateral into a falling market",
+        "Overdrafts could not legally be withdrawn, so exposures grew unchecked"
+      ],
+      "answer": 2,
+      "explain": "On-demand means repayable at the bank's discretion; limit-cutting in the downturn was procyclical and self-fulfilling. Overdrafts were typically secured on property and guarantees — the problem was the withdrawal dynamic, not an inability to withdraw."
+    },
+    {
+      "q": "What was the 'complex monopoly' finding of the Competition Commission's 2002 report?",
+      "options": [
+        "That the largest clearing groups' parallel practices collectively restricted price competition in SME banking, without any formal cartel agreement",
+        "That the banks had operated an illegal price-fixing ring and would be criminally prosecuted",
+        "That building societies had monopolised SME lending",
+        "That the Bank of England had monopolised money transmission"
+      ],
+      "answer": 0,
+      "explain": "A complex monopoly under the Fair Trading Act describes firms independently behaving in ways that jointly restrict competition — no explicit agreement needed, hence behavioural remedies rather than prosecutions. Building societies had almost no SME franchise."
+    },
+    {
+      "q": "Which was an actual 2002/2003 remedy imposed on the big four for SME banking?",
+      "options": [
+        "A statutory cap on SME loan interest at base plus 2%",
+        "Offering SMEs a current account paying at least base rate minus 2.5%, or free money transmission, or the choice",
+        "Compulsory divestment of 10% of SME customers to challengers",
+        "A ban on taking personal guarantees from directors"
+      ],
+      "answer": 1,
+      "explain": "The transitional behavioural undertaking was the interest-or-free-banking offer; separate undertakings barred bundling accounts with loans. There was no loan-rate cap, no customer divestment (that idea surfaces later with Williams & Glyn), and no guarantee ban."
+    },
+    {
+      "q": "Why did decades of cartel-era credit rationing create a modelling problem that surfaced only after deregulation?",
+      "options": [
+        "Banks recorded losses in cash accounts that were later destroyed",
+        "The cartel required banks to overstate defaults for tax reasons",
+        "Rationing pushed all defaults into the mortgage book instead",
+        "Suppressed lending to marginal borrowers meant near-zero default history, so post-1971 risk was priced off data from an administratively de-risked era"
+      ],
+      "answer": 3,
+      "explain": "When only the safest borrowers get credit, observed default rates say little about the risk of lending freely. Post-liberalisation books were therefore mispriced against a low-default history — the low-default-portfolio calibration trap."
+    },
+    {
+      "q": "Why did 1990s demutualisation intensify competition in mortgages but not in SME banking?",
+      "options": [
+        "Regulation barred converted societies from business lending until 2010",
+        "The converted societies were mortgage-and-savings machines with no business current account capability, SME credit skills or relationship-manager networks",
+        "SME banking was already perfectly competitive",
+        "The demutualised banks were immediately bought by foreign banks"
+      ],
+      "answer": 1,
+      "explain": "Entry into SME banking requires transaction-banking plumbing, credit expertise and distribution the societies never built — so they attacked retail markets instead. No regulatory bar of that kind existed, and several converts (e.g. Woolwich) were bought by UK clearers, deepening concentration."
+    },
+    {
+      "q": "What does the December 2025 release of the last 2002 SME banking undertakings tell an impairment analyst about the market?",
+      "options": [
+        "That SME banking has been renationalised",
+        "That the CMA found the 2002 complex monopoly never existed",
+        "That the CMA judged entry, switching and digital competition had changed enough that the bundling ban was obsolete — 23 years after the remedy was imposed",
+        "That bundling loans with current accounts is now mandatory"
+      ],
+      "answer": 2,
+      "explain": "The CMA released the Limitation on Bundling Provisions on 1 December 2025, citing changed market conditions — not a retrospective reversal of the 2002 finding. The two-decade lifespan is itself the lesson in how slowly SME banking concentration unwinds."
+    }
+  ],
+  "domino": {
+    "title": "CCC 1971 → the secondary banking crisis",
+    "nodes": [
+      { "id": "n1", "label": "Lending ceilings abolished (1971)", "sectionId": "s3" },
+      { "id": "n2", "label": "Interest-rate cartel dismantled", "sectionId": "s3" },
+      { "id": "n3", "label": "Broad money up ~72%", "sectionId": "s3" },
+      { "id": "n4", "label": "Property lending grows eight-fold", "sectionId": "s3" },
+      { "id": "n5", "label": "Oil shock; rates spike", "sectionId": "s3" },
+      { "id": "n6", "label": "Property values collapse", "sectionId": "s3" },
+      { "id": "n7", "label": "Wholesale funding flees secondaries", "sectionId": "s3" },
+      { "id": "n8", "label": "£1.3bn Lifeboat rescue", "sectionId": "s3" },
+      { "id": "n9", "label": "Collateral shortfalls crystallise losses", "sectionId": "s3" },
+      { "id": "n10", "label": "Write-offs hit clearers' P&L", "sectionId": "s3" }
+    ],
+    "edges": [
+      ["n1", "n3"],
+      ["n2", "n3"],
+      ["n3", "n4"],
+      ["n4", "n6"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n6", "n9"],
+      ["n9", "n10"],
+      ["n8", "n10"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "Goldsmith bankers",
+      "slug": "goldsmith-bankers",
+      "definition": "Seventeenth-century London goldsmiths who took deposits for safekeeping, issued receipts that circulated as money, and lent against them — the direct ancestors of English deposit banking. Barclays traces its 1690 origins to the goldsmith-banking partnership of John Freame and Thomas Gould on Lombard Street.",
+      "related": ["clearing-banks"]
+    },
+    {
+      "term": "Clearing banks",
+      "slug": "clearing-banks",
+      "definition": "The large joint-stock banks that settled payments through the London Clearing House — historically the Big Five, later Big Four (Barclays, Lloyds, Midland/HSBC, NatWest). They dominated England and Wales business banking for a century, operating as a de facto oligopoly in deposits, money transmission and SME credit.",
+      "related": ["interest-rate-cartel", "ccc-1971", "competition-commission-2002"]
+    },
+    {
+      "term": "Interest-rate cartel",
+      "slug": "interest-rate-cartel",
+      "definition": "The clearing banks' formal agreement to fix deposit rates and move lending rates in step with Bank Rate, tolerated by the authorities in exchange for compliance with credit controls. Abolished by Competition and Credit Control in 1971.",
+      "related": ["clearing-banks", "ccc-1971"]
+    },
+    {
+      "term": "Macmillan gap",
+      "slug": "macmillan-gap",
+      "definition": "The structural shortfall in long-term finance for small firms identified by the Macmillan Committee in 1931 — too small for capital markets, too risky for rationed bank credit. The founding diagnosis of UK SME finance policy, rediscovered by successive inquiries ever since.",
+      "related": ["cruickshank-report", "sme"]
+    },
+    {
+      "term": "Competition and Credit Control (1971)",
+      "slug": "ccc-1971",
+      "definition": "Bank of England reform of September 1971 abolishing lending ceilings and the clearing-bank cartel, switching credit control from rationing to price (interest rates and special deposits). Unleashed the Barber boom — broad money up ~72% by end-1973 — and set up the secondary banking crisis.",
+      "related": ["secondary-banking-crisis", "lifeboat-operation", "interest-rate-cartel"]
+    },
+    {
+      "term": "Secondary banking crisis (1973–75)",
+      "slug": "secondary-banking-crisis",
+      "definition": "Collapse of lightly supervised, wholesale-funded 'fringe' banks that had lent heavily against commercial property after 1971 liberalisation. Rate spikes and a property crash triggered funding runs; twenty-six institutions needed support. The template UK cycle: liberalisation, property concentration, collateral collapse, losses.",
+      "related": ["ccc-1971", "lifeboat-operation"]
+    },
+    {
+      "term": "Lifeboat operation",
+      "slug": "lifeboat-operation",
+      "definition": "The Bank of England-orchestrated support pool, launched December 1973 and funded ~90% by the clearing banks, that lent up to £1.3bn to twenty-six failing secondary banks to contain the 1973–75 crisis. An early lesson that clearers pay for systemic property-lending excess even when others originate it.",
+      "related": ["secondary-banking-crisis", "clearing-banks"]
+    },
+    {
+      "term": "Big Bang (1986)",
+      "slug": "big-bang",
+      "definition": "The 27 October 1986 deregulation of the London Stock Exchange: fixed commissions abolished, broker/jobber separation ended, outside ownership permitted, screen trading introduced. Pulled clearing banks into investment banking and, via disintermediation of large corporates, pushed their lending down-market toward SMEs and property.",
+      "related": ["bzw", "clearing-banks"]
+    },
+    {
+      "term": "BZW",
+      "slug": "bzw",
+      "definition": "Barclays de Zoete Wedd — the investment bank Barclays assembled at Big Bang from broker de Zoete & Bevan and jobber Wedd Durlacher. Emblem of the era's diversion of clearers' capital and attention from business banking; largely sold to Credit Suisse in 1997, with remnants becoming Barclays Capital.",
+      "related": ["big-bang"]
+    },
+    {
+      "term": "Overdraft culture",
+      "slug": "overdraft-culture",
+      "definition": "The historical UK pattern of financing SMEs through on-demand overdrafts secured on property and personal guarantees rather than term debt. Cheap and flexible in benign times; procyclical in downturns, because banks can cut limits and call facilities exactly when borrowers are weakest — as in 1990–93.",
+      "related": ["overdraft", "personal-guarantee", "small-banks-crisis"]
+    },
+    {
+      "term": "Small banks crisis (1991–94)",
+      "slug": "small-banks-crisis",
+      "definition": "The failure of roughly a quarter of the UK's small and medium-sized banks within three years of BCCI's July 1991 closure, as wholesale funding fled weaker names amid recession and property losses. The Bank of England provided discreet liquidity support to prevent contagion to larger institutions.",
+      "related": ["overdraft-culture", "secondary-banking-crisis"]
+    },
+    {
+      "term": "Demutualisation",
+      "slug": "demutualisation",
+      "definition": "Conversion of mutual building societies into shareholder-owned banks under the Building Societies Act 1986 — Abbey National (1989), then Halifax, Woolwich, Alliance & Leicester and Northern Rock (1997). Transformed mortgage and savings competition while leaving SME banking concentration untouched; several converts were later absorbed by the clearers.",
+      "related": ["clearing-banks"]
+    },
+    {
+      "term": "Cruickshank Report (2000)",
+      "slug": "cruickshank-report",
+      "definition": "Don Cruickshank's Treasury-commissioned review of UK banking competition, published 20 March 2000. Found concentrated markets, switching barriers, bank control of payments, and persistent excess profits from personal and SME customers — and triggered the Competition Commission's SME banking inquiry.",
+      "related": ["competition-commission-2002", "clearing-banks"]
+    },
+    {
+      "term": "Competition Commission SME banking report (2002)",
+      "slug": "competition-commission-2002",
+      "definition": "The March 2002 inquiry finding a 'complex monopoly' in SME banking: the big four held ~90% of the market and their parallel practices restricted price competition. Remedies were behavioural — interest on SME current accounts (base minus 2.5%) or free banking from 2003, plus anti-bundling undertakings, the last released in December 2025.",
+      "related": ["cruickshank-report", "clearing-banks", "cma-2016"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Barclays — Our history (official archive)",
+      "url": "https://home.barclays/who-we-are/our-history/",
+      "note": "1690 founding by John Freame and Thomas Gould, Lombard Street, Quaker origins, James Barclay 1736."
+    },
+    {
+      "title": "Quakers in the World — Barclays Bank and its Quaker roots",
+      "url": "https://www.quakersintheworld.org/quakers-in-action/327/Barclays-Bank-and-its-Quaker-roots",
+      "note": "Quaker network as credit infrastructure; financing of Quaker traders and ventures; bill re-discounting."
+    },
+    {
+      "title": "Wikipedia — Competition and credit control (UK)",
+      "url": "https://en.wikipedia.org/wiki/Competition_and_credit_control_(UK)",
+      "note": "September 1971 reforms: cartel abolition, removal of credit ceilings, special deposits; ~72% broad money growth by December 1973."
+    },
+    {
+      "title": "The Property Chronicle — The story of the secondary banking crisis 1973–1975",
+      "url": "https://www.propertychronicle.com/secondary-banking-crisis-1973-1975/",
+      "note": "Eight-fold growth in property lending 1970–74; secondary banks overtaking clearers; Lifeboat support of up to £1.3bn to twenty-six banks."
+    },
+    {
+      "title": "Wikipedia — Big Bang (financial markets)",
+      "url": "https://en.wikipedia.org/wiki/Big_Bang_(financial_markets)",
+      "note": "27 October 1986 LSE deregulation: fixed commissions, broker/jobber distinction, screen trading, foreign ownership."
+    },
+    {
+      "title": "Bank of England Quarterly Bulletin 2016 Q1 — The small bank failures of the early 1990s",
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q1/the-small-bank-failures-of-the-early-1990s-another-story-of-boom-and-bust",
+      "note": "A quarter of small/medium UK banks failed within three years of BCCI's July 1991 closure; BoE liquidity support to prevent contagion."
+    },
+    {
+      "title": "Practical Law — The Cruickshank report: Competition in the banking industry under scrutiny",
+      "url": "https://uk.practicallaw.thomsonreuters.com/7-101-1508",
+      "note": "Publication 20 March 2000; findings on SME concentration, switching barriers, payments control, excess profits."
+    },
+    {
+      "title": "Hansard (Lords, 14 March 2002) — Banking Services: Competition Commission Report",
+      "url": "https://hansard.parliament.uk/Lords/2002-03-14/debates/71d49771-df14-4307-840e-fc87f6a724f0/BankingServicesCompetitionCommissionReport",
+      "note": "Complex monopoly finding; big four ~90/91% share of SME liquidity management (1999); base-minus-2.5% or free-banking transitional remedy."
+    },
+    {
+      "title": "GOV.UK — SME banking 2002 behavioural undertakings: compliance audit reports",
+      "url": "https://www.gov.uk/government/collections/sme-banking-2002-behavioural-undertakings-cma-reports-on-banks-compliance-audits",
+      "note": "The bundling prohibition undertakings and their audited compliance regime across two decades."
+    },
+    {
+      "title": "A&O Shearman FinReg — UK CMA final decision on the SME Banking Undertakings 2002",
+      "url": "https://finreg.aoshearman.com/uk-cma-final-decision-of-the-sme-banking-undertakings-2002",
+      "note": "CMA final decision of 1 December 2025 releasing the remaining Limitation on Bundling Provisions; rationale of changed market conditions."
+    }
+  ]
+}

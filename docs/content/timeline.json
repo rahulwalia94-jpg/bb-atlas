@@ -1,0 +1,483 @@
+{
+  "range": [1690, 2026],
+  "themes": {
+    "regulation": "Regulation & policy",
+    "crisis": "Crisis & losses",
+    "competition": "Competition & structure",
+    "technology": "Technology & data"
+  },
+  "events": [
+    {
+      "year": 1690,
+      "date": "1690",
+      "title": "Barclays' Quaker origins",
+      "theme": "competition",
+      "text": "John Freame and Thomas Gould, Quaker goldsmith-bankers, begin trading in Lombard Street. Quaker networks of trust and plain dealing become the founding culture of what will become Barclays — a bank built on knowing your customer personally.",
+      "moduleId": 4
+    },
+    {
+      "year": 1694,
+      "date": "1694",
+      "title": "Bank of England founded",
+      "theme": "regulation",
+      "text": "Chartered to fund William III's war with France, the Bank of England becomes the anchor of English finance — eventually banker to the banks, note issuer, and lender of last resort. Every later chapter of UK banking runs through it.",
+      "moduleId": 1
+    },
+    {
+      "year": 1728,
+      "date": "1728",
+      "title": "The Black Spread Eagle",
+      "theme": "competition",
+      "text": "The firm moves to 54 Lombard Street, trading under the sign of the Black Spread Eagle — still Barclays' emblem today. James Barclay joins as partner in 1736, giving the bank its name.",
+      "moduleId": 4
+    },
+    {
+      "year": 1826,
+      "date": "1826",
+      "title": "Country Bankers Act",
+      "theme": "regulation",
+      "text": "After the 1825 crash felled dozens of small country banks, Parliament permits joint-stock banks outside a 65-mile radius of London. Larger, better-capitalised banks begin replacing fragile private partnerships — the start of branch banking at scale.",
+      "moduleId": 1
+    },
+    {
+      "year": 1844,
+      "date": "1844",
+      "title": "Bank Charter Act",
+      "theme": "regulation",
+      "text": "Peel's Act centralises note issue in the Bank of England and splits its issue and banking departments. Commercial banks pivot from issuing notes to taking deposits and lending — the modern business-banking model takes shape.",
+      "moduleId": 1
+    },
+    {
+      "year": 1866,
+      "date": "1866",
+      "title": "Overend Gurney collapse",
+      "theme": "crisis",
+      "text": "The great discount house fails with £11m of liabilities, triggering the last major London run before Northern Rock. Bagehot's Lombard Street distils the lesson: in a panic, lend freely at a penalty rate against good collateral.",
+      "moduleId": 1
+    },
+    {
+      "year": 1878,
+      "date": "1878",
+      "title": "City of Glasgow Bank failure",
+      "theme": "crisis",
+      "text": "Fraudulent accounts conceal massive losses; unlimited-liability shareholders are ruined. The disaster drives banks to adopt limited liability and publish audited accounts — an early lesson that opaque books destroy confidence.",
+      "moduleId": 1
+    },
+    {
+      "year": 1896,
+      "date": "1896",
+      "title": "Barclay & Company formed",
+      "theme": "competition",
+      "text": "Twenty private banks, largely Quaker and linked by family ties, amalgamate into Barclay & Company Ltd with 182 branches — the 'Quaker bank'. Acquisitions follow rapidly, building a national clearing bank by the 1920s.",
+      "moduleId": 4
+    },
+    {
+      "year": 1918,
+      "date": "1918",
+      "title": "The Big Five emerge",
+      "theme": "competition",
+      "text": "A final merger wave — Barclays absorbs London, Provincial & South Western — creates the Big Five clearers. The Colwyn Committee alarms Treasury, which blocks further amalgamations. UK banking's concentrated structure is now set for a century.",
+      "moduleId": 1
+    },
+    {
+      "year": 1920,
+      "date": "1920s–60s",
+      "title": "The clearing-bank cartel era",
+      "theme": "competition",
+      "text": "The clearers operate an interest-rate cartel: deposit rates fixed relative to Bank Rate, no price competition, credit rationed by quantitative ceilings. Safe, stodgy, and profitable — SMEs get overdrafts from the branch manager who knows them.",
+      "moduleId": 1
+    },
+    {
+      "year": 1946,
+      "date": "1946",
+      "title": "Bank of England nationalised",
+      "theme": "regulation",
+      "text": "The Attlee government takes the Bank into public ownership. Through the post-war decades it steers credit by moral suasion and lending ceilings rather than statute — supervision by raised eyebrow, with no formal banking law.",
+      "moduleId": 1
+    },
+    {
+      "year": 1966,
+      "date": "1966",
+      "title": "Barclaycard launches",
+      "theme": "technology",
+      "text": "Barclays launches Britain's first credit card, mailing a million unsolicited cards. It signals a new appetite for consumer and small-business credit outside the overdraft — and a first-mover instinct in payments technology.",
+      "moduleId": 4
+    },
+    {
+      "year": 1967,
+      "date": "1967",
+      "title": "World's first ATM",
+      "theme": "technology",
+      "text": "Barclays unveils the world's first cash machine at Enfield. Automation begins its long march through banking — from counting cash to, decades later, underwriting loans.",
+      "moduleId": 4
+    },
+    {
+      "year": 1968,
+      "date": "1968",
+      "title": "NatWest created",
+      "theme": "competition",
+      "text": "National Provincial and Westminster merge to form National Westminster Bank, the largest UK clearer. The Big Five become the Big Four — Barclays, NatWest, Midland, Lloyds — the incumbents every later competition inquiry will scrutinise.",
+      "moduleId": 5
+    },
+    {
+      "year": 1971,
+      "date": "1971",
+      "title": "Competition and Credit Control",
+      "theme": "regulation",
+      "text": "The Bank of England dismantles the cartel and lending ceilings, letting banks compete on rates and volume. Credit explodes — M3 grows nearly 30% a year — inflating a property and fringe-bank boom that ends badly.",
+      "moduleId": 1
+    },
+    {
+      "year": 1973,
+      "date": "1973–75",
+      "title": "Secondary banking crisis",
+      "theme": "crisis",
+      "text": "Rate rises and a property crash sink the lightly supervised 'fringe' banks that boomed after CCC. The Bank of England's Lifeboat quietly supports around thirty of them. Lesson one of UK credit cycles: liberalisation, property, bust.",
+      "moduleId": 1
+    },
+    {
+      "year": 1979,
+      "date": "1979",
+      "title": "Banking Act 1979",
+      "theme": "regulation",
+      "text": "The first statutory framework for UK bank supervision, born of the secondary banking crisis: authorisation requirements, a two-tier recognition system, and deposit protection. Supervision by raised eyebrow gives way to law.",
+      "moduleId": 1
+    },
+    {
+      "year": 1986,
+      "date": "1986",
+      "title": "Big Bang",
+      "theme": "competition",
+      "text": "Stock Exchange deregulation lets banks own brokers and jobbers. Barclays builds BZW; clearers rush into securities. Retail-and-commercial banking is now yoked to investment banking — a structural marriage the 2008 crisis will put on trial.",
+      "moduleId": 1
+    },
+    {
+      "year": 1990,
+      "date": "1990–93",
+      "title": "Early-90s recession scars SMEs",
+      "theme": "crisis",
+      "text": "Rates near 15%, a property slump, and mass small-business failures. Banks call in overdrafts and enforce personal guarantees; accusations of abandoning viable firms leave a generation of SME distrust — and prompt the first voluntary banking codes.",
+      "moduleId": 1
+    },
+    {
+      "year": 1991,
+      "date": "1991",
+      "title": "BCCI closed",
+      "theme": "crisis",
+      "text": "Regulators shut the Bank of Credit and Commerce International amid massive fraud, stranding UK depositors including small businesses and councils. The Bingham inquiry forces a rethink of how the Bank of England supervises.",
+      "moduleId": 1
+    },
+    {
+      "year": 1997,
+      "date": "1997",
+      "title": "BoE independence; FSA created",
+      "theme": "regulation",
+      "text": "The new Labour government grants the Bank operational independence over monetary policy and moves bank supervision to a single new regulator, the FSA. The tripartite system — Treasury, Bank, FSA — will be tested in 2007 and found wanting.",
+      "moduleId": 1
+    },
+    {
+      "year": 2000,
+      "date": "2000",
+      "title": "Cruickshank review",
+      "theme": "competition",
+      "text": "Don Cruickshank's report finds SME banking an entrenched oligopoly earning supernormal profits behind high switching barriers, and recommends a Competition Commission referral. The founding document of two decades of SME-banking competition policy.",
+      "moduleId": 1
+    },
+    {
+      "year": 2002,
+      "date": "2002",
+      "title": "Competition Commission SME remedies",
+      "theme": "competition",
+      "text": "The Commission finds the big four earning roughly £725m a year in excess profits from SMEs. Remedies: pay interest on SME current accounts or offer free banking, plus behavioural undertakings. Structural change is ducked; concentration persists.",
+      "moduleId": 1
+    },
+    {
+      "year": 2005,
+      "date": "2005",
+      "title": "IAS 39 incurred-loss provisioning",
+      "theme": "regulation",
+      "text": "With EU-mandated IFRS, UK banks provision under IAS 39: losses recognised only once incurred. In the coming crisis this proves 'too little, too late', understating risk in the boom — the failure IFRS 9 is later designed to fix.",
+      "moduleId": 7
+    },
+    {
+      "year": 2007,
+      "date": "Sep 2007",
+      "title": "Run on Northern Rock",
+      "theme": "crisis",
+      "text": "Wholesale funding markets freeze and depositors queue outside branches — the first run on a British bank since 1866. Emergency liquidity support fails to calm nerves; Northern Rock is nationalised in February 2008.",
+      "moduleId": 2
+    },
+    {
+      "year": 2008,
+      "date": "Oct 2008",
+      "title": "Bailouts of RBS and Lloyds-HBOS",
+      "theme": "crisis",
+      "text": "After Lehman, the state recapitalises RBS (£45.5bn) and Lloyds-HBOS (£20.3bn). Barclays instead raises over £7bn from Qatari and Abu Dhabi investors, avoiding government ownership — a choice with long legal and cultural echoes.",
+      "moduleId": 2
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "title": "Barclays sells BGI, avoids state aid",
+      "theme": "crisis",
+      "text": "Barclays sells Barclays Global Investors to BlackRock for $13.5bn, repairing capital without taxpayer money — while buying Lehman's US business from the wreckage. Meanwhile QE begins and the Asset Protection Scheme backstops RBS's toxic assets.",
+      "moduleId": 4
+    },
+    {
+      "year": 2010,
+      "date": "2010",
+      "title": "Metro Bank: first new licence in a century",
+      "theme": "competition",
+      "text": "Metro Bank receives the first new UK high-street banking licence in over 100 years. Entry is possible after all — a proof of concept that regulators will soon systematise for a wave of challengers.",
+      "moduleId": 5
+    },
+    {
+      "year": 2011,
+      "date": "Feb 2011",
+      "title": "Project Merlin",
+      "theme": "regulation",
+      "text": "Under political pressure over post-crisis credit rationing, the big banks pledge £190bn of gross new lending, £76bn to SMEs, plus pay restraint. SME targets are narrowly missed; Merlin becomes shorthand for the limits of lending-by-promise.",
+      "moduleId": 2
+    },
+    {
+      "year": 2011,
+      "date": "Sep 2011",
+      "title": "Vickers Commission reports",
+      "theme": "regulation",
+      "text": "The Independent Commission on Banking prescribes ring-fencing: retail and SME banking legally separated from investment banking, with higher capital. Enacted in the Banking Reform Act 2013, live from 2019 — Big Bang's marriage partially annulled.",
+      "moduleId": 2
+    },
+    {
+      "year": 2012,
+      "date": "Jun 2012",
+      "title": "LIBOR scandal breaks at Barclays",
+      "theme": "crisis",
+      "text": "Barclays pays £290m in fines for rate-rigging; Bob Diamond resigns; the Salz review dissects the culture. First mover in settlement, Barclays takes the reputational brunt of an industry-wide scandal.",
+      "moduleId": 4
+    },
+    {
+      "year": 2012,
+      "date": "Jun 2012",
+      "title": "IRHP mis-selling redress",
+      "theme": "crisis",
+      "text": "The FSA agrees a review of interest-rate hedging products sold to small businesses alongside loans — swaps many customers never understood. Banks ultimately pay roughly £2.2bn in redress. SME conduct becomes a board-level risk.",
+      "moduleId": 2
+    },
+    {
+      "year": 2012,
+      "date": "Jul 2012",
+      "title": "Funding for Lending Scheme",
+      "theme": "regulation",
+      "text": "The Bank of England and Treasury offer banks cheap funding tied to net lending growth. Mortgage lending responds; SME credit barely does. From 2013 the scheme is refocused on business lending — with modest results.",
+      "moduleId": 2
+    },
+    {
+      "year": 2013,
+      "date": "Apr 2013",
+      "title": "Twin peaks: FCA and PRA",
+      "theme": "regulation",
+      "text": "The FSA is split: the PRA (within the Bank of England) takes prudential supervision, the FCA conduct. The same year, a new bank authorisation regime cuts entry capital and adds a mobilisation path — opening the door to challengers.",
+      "moduleId": 2
+    },
+    {
+      "year": 2013,
+      "date": "Nov 2013",
+      "title": "Tomlinson Report and the GRG scandal",
+      "theme": "crisis",
+      "text": "Lawrence Tomlinson alleges RBS's Global Restructuring Group pushed viable SMEs into distress for profit. A later FCA-commissioned review finds widespread inappropriate treatment, but most business lending sits outside the regulatory perimeter — no enforcement follows.",
+      "moduleId": 8
+    },
+    {
+      "year": 2014,
+      "date": "Nov 2014",
+      "title": "British Business Bank launches",
+      "theme": "regulation",
+      "text": "The state's economic development bank goes live, channelling guarantees and funding through private lenders to close SME finance gaps. Six years later it will find itself administering the largest business-lending programme in British history.",
+      "moduleId": 3
+    },
+    {
+      "year": 2015,
+      "date": "2015",
+      "title": "OakNorth licensed",
+      "theme": "competition",
+      "text": "OakNorth wins its licence and targets the 'missing middle' — bespoke loans of £0.5m–£25m to growth businesses, underwritten with granular data and speed. It is profitable within a year, proving specialist SME lending can pay.",
+      "moduleId": 5
+    },
+    {
+      "year": 2016,
+      "date": "2016–19",
+      "title": "Challenger cohort arrives",
+      "theme": "competition",
+      "text": "Starling gains its licence in 2016, Monzo's restrictions lift in 2017, Allica is authorised in 2019. App-first current accounts, fast onboarding, and SME-focused lending models begin chipping at the incumbents' franchise.",
+      "moduleId": 5
+    },
+    {
+      "year": 2016,
+      "date": "Aug 2016",
+      "title": "CMA retail banking final report",
+      "theme": "competition",
+      "text": "The CMA finds SME and personal banking still concentrated, with weak switching. It declines structural remedies and bets instead on information: mandated Open Banking APIs, service-quality league tables, and prompts. Plumbing over break-up.",
+      "moduleId": 5
+    },
+    {
+      "year": 2018,
+      "date": "Jan 2018",
+      "title": "Open Banking goes live",
+      "theme": "technology",
+      "text": "The CMA9 must open payment-account data to licensed third parties via APIs. Cloud accounting integrations, cash-flow-based lending, and account aggregation follow — the data rails on which modern SME credit assessment increasingly runs.",
+      "moduleId": 5
+    },
+    {
+      "year": 2018,
+      "date": "Jan 2018",
+      "title": "IFRS 9 goes live",
+      "theme": "regulation",
+      "text": "Expected credit loss replaces incurred loss: provisions from day one, three stages, forward-looking scenarios. Business lending now carries an accounting cost at origination, and provisioning becomes procyclical in a new way — as 2020 will demonstrate.",
+      "moduleId": 7
+    },
+    {
+      "year": 2019,
+      "date": "2019",
+      "title": "RBS alternative remedies (BCR)",
+      "theme": "competition",
+      "text": "In lieu of divesting Williams & Glyn, RBS funds a £775m package: Capability and Innovation grants and Incentivised Switching to boost SME-banking rivals. Starling, Metro and others win large awards — with mixed delivery records.",
+      "moduleId": 5
+    },
+    {
+      "year": 2019,
+      "date": "Jan 2019",
+      "title": "Ring-fencing in force",
+      "theme": "regulation",
+      "text": "The largest UK banks separate retail and SME banking into ring-fenced entities — Barclays UK carved from Barclays International. Vickers implemented: depositors and small businesses insulated, at real cost in structure and capital allocation.",
+      "moduleId": 2
+    },
+    {
+      "year": 2020,
+      "date": "Mar 2020",
+      "title": "COVID: CBILS and CLBILS launch",
+      "theme": "crisis",
+      "text": "Lockdown halts cash flow overnight. Within weeks the government launches CBILS (80% guarantee, up to £5m) and CLBILS for larger firms, with the Bank cutting rates to 0.1% and funding lenders via TFSME. Speed over precision.",
+      "moduleId": 3
+    },
+    {
+      "year": 2020,
+      "date": "May 2020",
+      "title": "Bounce Back Loans",
+      "theme": "crisis",
+      "text": "BBLS offers £2k–£50k with a 100% state guarantee, self-certification, and 24-hour payout. £46.6bn reaches over 1.5m businesses — a lifeline at extraordinary pace, with a long tail of fraud and defaults that will shadow the scheme for years.",
+      "moduleId": 3
+    },
+    {
+      "year": 2020,
+      "date": "Jun 2020",
+      "title": "CIGA 2020",
+      "theme": "regulation",
+      "text": "The Corporate Insolvency and Governance Act delivers a standalone moratorium, the restructuring plan with cross-class cram-down, and an ipso facto ban, plus temporary wrongful-trading relief. The biggest reshaping of UK insolvency law in decades.",
+      "moduleId": 8
+    },
+    {
+      "year": 2020,
+      "date": "Dec 2020",
+      "title": "HMRC preference restored",
+      "theme": "regulation",
+      "text": "From 1 December 2020, HMRC regains secondary preferential status for VAT and PAYE, jumping ahead of floating-charge holders in insolvency. Recoveries on floating-charge lending fall — a quiet but material repricing of SME credit risk.",
+      "moduleId": 8
+    },
+    {
+      "year": 2021,
+      "date": "Feb 2021",
+      "title": "Pay As You Grow",
+      "theme": "regulation",
+      "text": "BBLS borrowers gain repayment flexibility: term extensions to ten years, interest-only periods, and payment holidays. Forbearance is built into the scheme's design — softening the cliff-edge but stretching the tail of COVID debt.",
+      "moduleId": 3
+    },
+    {
+      "year": 2021,
+      "date": "Apr 2021",
+      "title": "Recovery Loan Scheme",
+      "theme": "regulation",
+      "text": "The RLS succeeds the emergency schemes with an 80% guarantee and more normal underwriting, iterating through 2024. The state guarantee shifts from crisis triage to a standing feature of the SME lending landscape.",
+      "moduleId": 3
+    },
+    {
+      "year": 2022,
+      "date": "Sep 2022",
+      "title": "Mini-budget rate shock",
+      "theme": "crisis",
+      "text": "The Truss-Kwarteng fiscal statement sends gilt yields spiking, forces Bank intervention in the LDI crisis, and reprices the entire rate curve. SMEs refinancing cheap pandemic-era debt meet a sharply harsher cost of borrowing.",
+      "moduleId": 8
+    },
+    {
+      "year": 2023,
+      "date": "Mar 2023",
+      "title": "SVB UK rescued for £1",
+      "theme": "crisis",
+      "text": "When Silicon Valley Bank's US parent fails, its UK arm — banker to much of the innovation economy — is sold to HSBC for £1 over a weekend, using post-2008 resolution tools. Concentration risk in niche business banking, made vivid.",
+      "moduleId": 5
+    },
+    {
+      "year": 2023,
+      "date": "2023–24",
+      "title": "Insolvency peak",
+      "theme": "crisis",
+      "text": "Company insolvencies in England and Wales hit 25,158 in 2023 — the highest since 1993, led by record creditors' voluntary liquidations — and stay elevated through 2024 as COVID debt, energy costs, and higher rates converge on small firms.",
+      "moduleId": 8
+    },
+    {
+      "year": 2024,
+      "date": "Jul 2024",
+      "title": "Growth Guarantee Scheme",
+      "theme": "regulation",
+      "text": "The GGS launches on 1 July 2024 as successor to the RLS: a 70% guarantee on facilities up to £2m, delivered through accredited lenders. The state guarantee is now permanent infrastructure of UK SME finance.",
+      "moduleId": 3
+    },
+    {
+      "year": 2024,
+      "date": "Oct 2024",
+      "title": "APP-fraud mandatory reimbursement",
+      "theme": "regulation",
+      "text": "From 7 October 2024, the PSR requires reimbursement of authorised push payment fraud victims up to £85,000, with costs split 50/50 between sending and receiving firms. Fraud liability moves decisively onto banks — including for microenterprise customers.",
+      "moduleId": 9
+    },
+    {
+      "year": 2025,
+      "date": "Jan 2025",
+      "title": "Basel 3.1 delayed to 2027",
+      "theme": "regulation",
+      "text": "On 17 January 2025 the PRA, citing US uncertainty, delays Basel 3.1 to 1 January 2027, with full implementation still 1 January 2030. The SME support factor's removal — and its Pillar 2 offset — keeps SME capital treatment in play.",
+      "moduleId": 9
+    },
+    {
+      "year": 2025,
+      "date": "Feb 2025",
+      "title": "Ring-fencing threshold raised to £35bn",
+      "theme": "regulation",
+      "text": "The Smarter Ring-Fencing Reforms lift the deposit threshold from £25bn to £35bn from 4 February 2025 and exempt retail-focused banks with minimal trading books — easing the regime's bite as growth pressure builds against post-crisis structure.",
+      "moduleId": 9
+    },
+    {
+      "year": 2026,
+      "date": "Q1 2026",
+      "title": "FCA probes SME access to finance",
+      "theme": "regulation",
+      "text": "The FCA gathers evidence from SMEs on their experience of applying for finance — process, outcomes, and support — as part of a growth-focused strategy that prioritises SME lending and asks whether regulation itself impedes credit supply.",
+      "moduleId": 9
+    },
+    {
+      "year": 2026,
+      "date": "May 2026",
+      "title": "Ring-Fencing Review published",
+      "theme": "regulation",
+      "text": "HM Treasury publishes 'Safeguarding Stability, Enabling Growth', its review of the ring-fencing regime. With banks lobbying hard for carve-outs, the post-2008 architecture separating SME deposits from trading is formally on the table.",
+      "moduleId": 9
+    },
+    {
+      "year": 2026,
+      "date": "Jul 2026",
+      "title": "GGS uplift and extension",
+      "theme": "regulation",
+      "text": "The Growth Guarantee Scheme, already extended to March 2030 at the 2025 Spending Review, receives a £6.5bn uplift: some facility terms stretch to ten years and the turnover cap rises from £45m to £54m, reaching an estimated 33,000 businesses.",
+      "moduleId": 9
+    }
+  ]
+}

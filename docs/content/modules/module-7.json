@@ -1,0 +1,345 @@
+{
+  "id": 7,
+  "slug": "ifrs9-bb",
+  "title": "IFRS 9 for Business Banking",
+  "kicker": "Module 07 · The Bridge",
+  "summary": "You already run the IFRS 9 machine on mortgages and cards. This module rebuilds every stage of it for a book where behavioural data runs thin, single names move the charge, and a government guarantee can sit inside your LGD. It is the bridge between the retail impairment world you know and the SME one you are joining.",
+  "readingTime": 14,
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "Same Standard, Different Animal",
+      "html": "<p>Nothing in the standard changes when you cross the corridor from retail to Business Banking. <span class=\"xref\" data-term=\"ifrs9\">IFRS 9</span> is the same text; <span class=\"xref\" data-term=\"ecl\">ECL</span> is still the probability-weighted present value of cash shortfalls; the engine still multiplies <span class=\"xref\" data-term=\"pd\">PD</span>, <span class=\"xref\" data-term=\"lgd\">LGD</span> and <span class=\"xref\" data-term=\"ead\">EAD</span> and discounts at the effective interest rate. What changes is the terrain the standard has to be applied to — and the terrain changes almost everything about how the number is actually produced.</p><p>Five shifts matter. First, data density collapses as exposure size rises: a card book gives you millions of homogeneous accounts refreshed monthly by the bureau; an <span class=\"xref\" data-term=\"sme\">SME</span> book gives you a fat tail of micro-businesses that behave almost like retail and a thin head of larger relationships where defaults are rare and every case is idiosyncratic. Second, qualitative human judgment — relationship-manager gradings, watchlist committees — stops being colour and becomes a model input with a direct P&amp;L consequence. Third, <span class=\"xref\" data-term=\"staging\">staging</span> migrates in lumps rather than smooth score-driven flows, because the triggers are events, not deltas. Fourth, government guarantees from the Covid schemes sit inside the loss estimate itself, producing books that are visibly stressed and almost unprovisioned at the same time. Fifth, the share of the final number that comes from management judgment — individual assessments, <span class=\"xref\" data-term=\"pma\">PMAs</span>, scenario choices — is far higher than anything you will have signed off in mortgages.</p><p>The rest of this module takes those shifts one at a time. Keep one question running throughout: for each mechanism, ask what would have done this job in retail — and what breaks when that machinery is no longer available.</p>"
+    },
+    {
+      "id": "s2",
+      "heading": "Staging When the Data Runs Thin",
+      "html": "<p>In retail, <span class=\"xref\" data-term=\"sicr\">SICR</span> is an industrialised, quantitative affair: residual lifetime PD compared against origination, bureau score deltas, arrears buckets rolling forward month by month, and the 30-days-past-due backstop sweeping up whatever the models miss. The signals are dense, continuous and cheap. Business Banking keeps the same Stage 1 → <span class=\"xref\" data-term=\"stage-2\">Stage 2</span> architecture but has to feed it differently, because above the micro end the behavioural data that powers retail SICR simply is not there in usable volume.</p><p>At the smallest end — sole traders, one-director companies — the <span class=\"xref\" data-term=\"bca\">business current account</span> is actually a rich behavioural asset, and <span class=\"xref\" data-term=\"transactional-data-lending\">transactional-data</span> triggers do real work: a sustained collapse in BCA credit turnover of, say, a third against the prior year is one of the most reliable early-warning signals a bank holds, often firing months before any missed payment. But as exposures grow, staging leans increasingly on discrete, qualitative events. The canonical BB SICR triggers are: entry onto the <span class=\"xref\" data-term=\"watchlist\">watchlist</span>; a <span class=\"xref\" data-term=\"covenant-breach\">covenant breach</span> on an interest-cover, leverage or loan-to-value test — a trigger with no retail equivalent at all; BCA turnover collapse; sector flags applied at <span class=\"xref\" data-term=\"sic-code\">SIC-code</span> level when a committee downgrades commercial real estate, construction or hospitality; hardcore overdraft utilisation and repeated excess requests; and late or qualified accounts at Companies House.</p><p>The 30 DPD backstop still applies — but treat it as a smoke alarm in a house already burning. A struggling firm typically keeps its bank current while quietly defaulting on HMRC, landlords and trade creditors, because the bank holds the overdraft and the <span class=\"xref\" data-term=\"personal-guarantee\">personal guarantee</span>. By the time bank arrears appear, the deterioration is old news.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Qualitative triggers make Stage 2 lumpy and committee-driven. When a watchlist forum admits twenty names, or a sector flag is applied to every construction SIC code, lifetime ECL switches on for all of them at once — a step-change in coverage that no retail analyst would recognise. Watchlist governance is therefore staging governance: minutes, entry criteria and exit criteria are all, in effect, ECL controls, and auditors treat them as such.</p></aside>"
+    },
+    {
+      "id": "s3",
+      "heading": "Collective by Default, Individual by Exception",
+      "html": "<p>The mass of the SME book is provisioned exactly as you would expect: <span class=\"xref\" data-term=\"collective-assessment\">collective assessment</span>, with exposures pooled by product, size band, sector and grade, and modelled PD, LGD and EAD applied across each pool. That works for the same reason it works in cards — the accounts are numerous, individually small, and statistically well-behaved in aggregate.</p><p>It stops working at the top of the book. Every bank sets thresholds — commonly a gross exposure in the low single-digit millions, though the level is house policy, not regulation — above which a <span class=\"xref\" data-term=\"stage-3\">Stage 3</span> case, and often a watchlist Stage 2 case, flips out of the models entirely and becomes <span class=\"xref\" data-term=\"individually-assessed\">individually assessed</span>. Size is not the only trigger: fraud, litigation, complex or cross-collateralised security, or an active insolvency process will push a smaller case into individual treatment because modelled parameters have nothing sensible to say about it.</p><p>The individual assessment itself is a <span class=\"xref\" data-term=\"dcf-workout\">DCF workout</span>. The case manager — usually in the <span class=\"xref\" data-term=\"business-support-unit\">business support unit</span> — constructs the realistic recovery strategies: trade-out under a restructured facility, consensual sale of the business or assets, or enforcement through <span class=\"xref\" data-term=\"administration\">administration</span> or liquidation. Each strategy gets its own cash-flow projection — asset realisations net of costs and prior charges, guarantee recoveries, contributions under personal guarantees, time to realise — discounted at the original effective interest rate. The strategies are then probability-weighted, and the provision is simply exposure less the weighted present value of recoveries. It is scenario-weighting in miniature: the same expected-value logic as the macro scenarios, applied to one borrower's endgame.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Individually assessed provisions are where the BB charge becomes lumpy. One £15m name moving from a trade-out assumption to an enforcement assumption can swing the quarterly impairment line by more than an entire retail portfolio's model recalibration. Expect single-name commentary in every results pack — and expect auditors to test the strategy weights and property values, not the arithmetic.</p></aside>"
+    },
+    {
+      "id": "s4",
+      "heading": "The Guarantee Question: Integral or Not",
+      "html": "<p>The Covid schemes left BB books carrying something retail never had to think about: a government guarantee wired into the loss estimate. <span class=\"xref\" data-term=\"bbls\">BBLS</span> came with a 100% guarantee of principal and interest; <span class=\"xref\" data-term=\"cbils\">CBILS</span> and its successors with 80% (70% under the current Growth Guarantee Scheme). The accounting question is where that guarantee lives — and it is one of the genuinely contested corners of IFRS 9.</p><p>IFRS 9 says ECL cash flows include cash from credit enhancements that are <em>integral to the contractual terms</em> of the loan and not separately recognised. If the guarantee qualifies, expected claims sit inside the ECL calculation as a recovery — mechanically, a reduction in LGD. If it does not qualify, the bank must measure ECL gross and recognise the expected reimbursement as a separate asset, IAS 37-style — same net balance sheet, very different presentation, coverage ratios and audit trail. The standard never defines <em>integral</em>, and the IFRS Interpretations Committee's staff analysis left it as a judgment on facts and circumstances. UK banks converged on the answer that the scheme guarantees are <span class=\"xref\" data-term=\"integral-guarantee\">integral</span>: the guarantee exists only because the loan was written under scheme rules, was in place at origination, is held by the lender under the British Business Bank's agreement, and was not purchased separately.</p><p>The consequence is one of the strangest sights in UK bank reporting. Staging reflects the borrower's credit risk, not the expected loss — so a deteriorated BBLS loan sits in Stage 2 or Stage 3 like any other. But with a 100% guarantee inside LGD, its ECL is close to nil. The result: large, visibly stressed guaranteed books carrying near-zero coverage, and a BB <span class=\"xref\" data-term=\"coverage-ratio\">coverage ratio</span> that looks reckless against retail unsecured until you strip the guaranteed exposure out. The residual risk is not credit but operational — <span class=\"xref\" data-term=\"guarantee-claim\">claim</span> eligibility, breaches of scheme rules, <span class=\"xref\" data-term=\"self-certification\">self-certification</span> fraud discovered post-default — and banks hold PMAs against precisely that.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>Never compare coverage ratios across BB books, or between BB and retail, without splitting guaranteed from unguaranteed exposure. A bank with a big BBLS back-book will show Stage 3 coverage that looks implausibly thin; the guarantee, not under-provisioning, is doing the work. Disclosure tables split these out — read them before forming any view on adequacy.</p></aside>"
+    },
+    {
+      "id": "s5",
+      "heading": "PMAs: The Judgment Layer",
+      "html": "<p>Every ECL estimate carries adjustments, but BB carries proportionally more of them. A <span class=\"xref\" data-term=\"pma\">post-model adjustment</span> — or <span class=\"xref\" data-term=\"overlay\">overlay</span>, the terms blur, though some houses reserve overlay for economics-level adjustments and PMA for model-deficiency fixes — is a quantified amendment to modelled ECL for a risk the models cannot see. The reasons BB accumulates them follow directly from everything above: the models are coarser and rebuilt less often than retail's; default data is thin, so calibration uncertainty is real; sector event risk — a CRE repricing, an energy-cost shock to hospitality, reservoir-level rules hitting agriculture — arrives faster than any model redevelopment cycle; insolvency responds to stress with a lag no GDP-conditioned model captures cleanly; and the guarantee books carry claim-eligibility risk that has no modelled home at all.</p><p>Typical BB PMAs in current disclosures: sector overlays on CRE, construction and hospitality; affordability and refinance-risk adjustments for borrowers rolling off cheap fixed-rate debt; adjustments for the lag between economic stress and insolvency outcomes; and guarantee-recovery haircuts. The PRA has made the completeness and governance of PMAs a running theme of its Dear CFO letters — the September 2025 letter again flagged elevated model risk amid macro and geopolitical uncertainty, pressed firms to challenge whether PMAs capture risks their models were never built for, and repeated the expectation that persistent overlays be folded back into models rather than left standing indefinitely.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>A PMA is only as good as its release condition. Quantification method, trigger for release, and a sunset review are what separate a defensible adjustment from a cookie jar — and they are exactly what auditors and the PRA probe. In BB, where PMAs can be a double-digit percentage of the total allowance, PMA governance effectively is impairment governance.</p></aside>"
+    },
+    {
+      "id": "s6",
+      "heading": "The Low Default Portfolio Problem",
+      "html": "<p>Move up the size scale and you hit a statistical wall retail never faces: the <span class=\"xref\" data-term=\"low-default-portfolio\">low default portfolio</span>. A grade in a mid-corporate or larger-SME rating scale might see a handful of defaults a year — sometimes none. You cannot estimate a stable PD from that; the confidence interval around the estimate is wider than the estimate itself. The responses are familiar from IRB practice and carry straight into IFRS 9. Rating comes from expert-judgment scorecards blending financials, sector and management assessment rather than pure statistical models. Calibration borrows from outside — external benchmarks, rating-agency corporate default studies, national insolvency rates — and an explicit <em>margin of conservatism</em> is added to acknowledge estimation uncertainty. For specialised lending such as CRE development, banks use slotting-like approaches: exposures mapped to a small number of supervisory-style categories, each carrying an assigned risk band, in place of a modelled PD altogether.</p><p>For ECL specifically, the pain point is converting these through-the-cycle-flavoured grades into the point-in-time, forward-looking term structures IFRS 9 demands. The usual machinery — macro scalars applied to a master scale — preserves rank-ordering well but leaves the <em>level</em> of lifetime PD genuinely uncertain, and grade-level backtesting is close to impossible when annual defaults per grade are countable on one hand. Rank-ordering errors mis-sort borrowers; calibration errors mis-state the allowance. In a low default portfolio, the second problem is the live one — which is why margin of conservatism and benchmark-driven PMAs cluster exactly here.</p>"
+    },
+    {
+      "id": "s7",
+      "heading": "Forward-Looking Economics for Firms, Not Households",
+      "html": "<p>Retail <span class=\"xref\" data-term=\"forward-looking-economics\">forward-looking economics</span> runs on a famous pairing: unemployment drives PD, HPI drives secured LGD. Neither does much work for an SME book. The variables that actually move SME ECL are GDP growth (demand for the borrower's product), the corporate insolvency rate (the closest thing to a direct default-rate anchor), Bank of England base rate (most BB lending floats over base, so rate rises transmit straight into debt service — the opposite of a fixed-rate mortgage book), and commercial real estate indices (collateral values behind <span class=\"xref\" data-term=\"commercial-mortgage\">commercial mortgages</span> and much secured trading-business lending). Sector-level output indices matter too, because SME stress is rarely uniform: in the twelve months to December 2025, construction, wholesale/retail and hospitality alone accounted for roughly 47% of the c.23,900 UK company insolvencies, with the overall insolvency rate at about 53 per 10,000 active companies.</p><p>Designing the multiple economic scenarios for an SME book differs accordingly. The insolvency-rate path does the heavy lifting, and it behaves badly: insolvencies lag GDP, then spike late-cycle and non-linearly — the post-Covid years proved the point, when government support suppressed insolvencies through 2020–21 before they surged past pre-pandemic levels from 2022 onwards even as GDP recovered. A model conditioned on GDP alone missed that entirely, which is precisely why insolvency-lag PMAs exist. Downside scenarios and their weights therefore matter more than in retail: the SME loss distribution is fat-tailed, so ECL is highly convex in scenario severity, and a book can look adequately provided on the base case while being badly short on a plausible downside. Good practice conditions the scenarios at sector level — applying CRE paths to property-secured exposure and sector output paths to trading exposure — rather than letting one aggregate GDP line stand in for a heterogeneous economy.</p><aside class=\"lens\"><h4>Impairment Lens</h4><p>If you inherit a BB macro framework, test one thing first: how the models translate a GDP shock into an insolvency-rate path, and with what lag. That transformation — not the scenario narratives, not the weights — is where SME ECL turning points are won or lost. A framework that fits retail history will systematically underpredict SME losses at exactly the moment prediction matters.</p></aside>"
+    }
+  ],
+  "quiz": [
+    {
+      "q": "A BB portfolio's Stage 2 population jumps 15% in one quarter with no movement in arrears. What has most likely happened?",
+      "options": [
+        "A bureau score refresh has repriced lifetime PDs",
+        "A sector flag or watchlist committee decision has triggered SICR for a block of exposures at once",
+        "The 30-days-past-due backstop has fired across the book",
+        "Effective interest rates have been recalculated"
+      ],
+      "answer": 1,
+      "explain": "BB staging is event-driven: sector flags and watchlist entries move whole cohorts into Stage 2 in a single step. Bureau refreshes and DPD backstops are retail-style continuous signals, and neither moves without arrears or score data changing."
+    },
+    {
+      "q": "Which SICR trigger is distinctively Business Banking, with no real retail equivalent?",
+      "options": [
+        "30 days past due",
+        "A bureau score deterioration",
+        "Breach of an interest-cover covenant",
+        "A payment-holiday flag"
+      ],
+      "answer": 2,
+      "explain": "Financial covenants exist only in negotiated commercial lending; retail products carry no leverage or interest-cover tests. The other three are standard retail signals."
+    },
+    {
+      "q": "Why is 30 DPD a weaker early-warning signal in BB than in retail?",
+      "options": [
+        "Struggling firms typically keep the bank current while defaulting on HMRC and trade creditors, so bank arrears arrive late",
+        "SME facilities have no repayment schedules to fall behind on",
+        "The backstop does not apply to corporate borrowers under IFRS 9",
+        "DPD data is not collected on business current accounts"
+      ],
+      "answer": 0,
+      "explain": "The bank holds the overdraft and often a personal guarantee, so it is the last creditor a director stops paying. The backstop still applies legally — it is simply a lagging indicator. BCA turnover and covenant data fire much earlier."
+    },
+    {
+      "q": "A defaulted exposure crosses the bank's individual-assessment threshold. What changes mechanically?",
+      "options": [
+        "It transfers back to Stage 2 pending review",
+        "Its LGD is floored at the collective average",
+        "Its modelled PD is recalibrated with a margin of conservatism",
+        "It leaves the collective models and is provisioned via a scenario-weighted DCF workout"
+      ],
+      "answer": 3,
+      "explain": "Above the threshold, modelled parameters are replaced by a bespoke assessment: recovery strategies with individual cash flows, probability weights, and discounting at the original EIR. Staging does not reverse and collective parameters no longer apply."
+    },
+    {
+      "q": "In a DCF workout with three candidate recovery strategies, the provision equals…",
+      "options": [
+        "EAD × PD × LGD for the borrower's grade",
+        "Exposure less the probability-weighted present value of each strategy's recovery cash flows, discounted at the original EIR",
+        "Exposure less recoveries under the worst-case strategy",
+        "Exposure less recoveries under the single most likely strategy"
+      ],
+      "answer": 1,
+      "explain": "Individual assessment is expected-value logic in miniature: all realistic strategies are projected, weighted and discounted. Using only the worst or most likely case would violate the probability-weighted principle of IFRS 9."
+    },
+    {
+      "q": "A bank concludes the BBLS guarantee is integral to the loan's contractual terms. What follows?",
+      "options": [
+        "The loan is exempt from staging while the guarantee holds",
+        "ECL is measured gross and a separate reimbursement asset is booked",
+        "Expected guarantee claims enter the ECL cash flows, effective LGD approaches zero, but staging still reflects the borrower's credit risk",
+        "The loan is derecognised and replaced by a claim on government"
+      ],
+      "answer": 2,
+      "explain": "Integral treatment puts the guarantee inside the loss estimate as a recovery — but staging tracks credit risk, not expected loss, so deteriorated BBLS loans still migrate to Stages 2 and 3 with near-zero coverage. Gross-plus-reimbursement-asset is the non-integral treatment."
+    },
+    {
+      "q": "If the guarantee were judged NOT integral, the correct treatment would be…",
+      "options": [
+        "Measure ECL gross of the guarantee and recognise expected reimbursement as a separate asset",
+        "Reduce the borrower's PD to reflect government support",
+        "Net the guarantee against EAD at default",
+        "Recognise no ECL, as the exposure is sovereign risk"
+      ],
+      "answer": 0,
+      "explain": "Non-integral enhancements cannot enter ECL cash flows; the recovery is recognised separately, IAS 37 reimbursement-asset style. The net balance sheet is similar but gross ECL, coverage ratios and presentation all differ — which is why the classification debate mattered."
+    },
+    {
+      "q": "Why does Business Banking carry proportionally more PMA than retail?",
+      "options": [
+        "Regulators prescribe a fixed PMA percentage for SME books",
+        "Retail portfolios are prohibited from carrying overlays",
+        "BB provisions are set entirely by management discretion",
+        "BB models are coarser, default data thinner, and sector event risk and insolvency lags sit outside what the models were built to capture"
+      ],
+      "answer": 3,
+      "explain": "PMAs fill the gap between what models capture and what management expects to lose. That gap is structurally wider in BB — coarse models, low-default calibration uncertainty, fast-moving sector shocks, guarantee-claim risk. No regulator prescribes PMA levels, and retail books carry overlays too, just smaller ones."
+    },
+    {
+      "q": "In a low default portfolio, the margin of conservatism added to PD estimates compensates for…",
+      "options": [
+        "Expected fraud losses on scheme lending",
+        "Statistical uncertainty in calibration when observed defaults are too few to estimate PD reliably",
+        "Missing collateral valuations in the LGD model",
+        "IFRS 9's prohibition on expert judgment"
+      ],
+      "answer": 1,
+      "explain": "With a handful of defaults per grade per year, the confidence interval around any PD estimate is enormous; the margin of conservatism buffers that estimation risk. IFRS 9 permits — in LDPs, effectively requires — expert judgment; fraud and collateral gaps are handled elsewhere."
+    },
+    {
+      "q": "Which set of macroeconomic variables does the heavy lifting in SME ECL models?",
+      "options": [
+        "GDP, corporate insolvency rates, base rate and commercial real estate indices",
+        "House price index and unemployment",
+        "The FTSE 100 and sterling exchange rate",
+        "CPI inflation alone"
+      ],
+      "answer": 0,
+      "explain": "SME default is anchored to insolvency rates and demand (GDP), debt service is exposed to base rate because most BB lending floats, and CRE indices drive secured LGD. HPI and unemployment are the retail pairing — the exact trap this module exists to flag."
+    }
+  ],
+  "domino": {
+    "title": "From sector stress to the P&L",
+    "nodes": [
+      { "id": "n1", "label": "Sector stress deepens", "sectionId": "s7" },
+      { "id": "n2", "label": "BCA turnover collapses", "sectionId": "s2" },
+      { "id": "n3", "label": "Covenant test fails", "sectionId": "s2" },
+      { "id": "n4", "label": "Watchlist entry", "sectionId": "s2" },
+      { "id": "n5", "label": "SICR — Stage 2", "sectionId": "s2" },
+      { "id": "n6", "label": "Lifetime ECL applies", "sectionId": "s2" },
+      { "id": "n7", "label": "Default — Stage 3", "sectionId": "s3" },
+      { "id": "n8", "label": "Individual DCF workout", "sectionId": "s3" },
+      { "id": "n9", "label": "Guarantee trims LGD", "sectionId": "s4" },
+      { "id": "n10", "label": "Sector PMA layered on", "sectionId": "s5" },
+      { "id": "n11", "label": "Coverage and P&L charge", "sectionId": "s4" }
+    ],
+    "edges": [
+      ["n1", "n2"],
+      ["n2", "n3"],
+      ["n2", "n4"],
+      ["n3", "n4"],
+      ["n4", "n5"],
+      ["n5", "n6"],
+      ["n6", "n7"],
+      ["n7", "n8"],
+      ["n8", "n9"],
+      ["n9", "n11"],
+      ["n1", "n10"],
+      ["n10", "n11"]
+    ]
+  },
+  "glossaryTerms": [
+    {
+      "term": "IFRS 9",
+      "slug": "ifrs9",
+      "definition": "The accounting standard governing classification, measurement and impairment of financial instruments. Its expected-loss model forces provisions against SME lending before default. In Business Banking, its judgment-heavy corners — qualitative SICR, individual assessment, guarantee treatment, overlays — dominate the reported number far more than in retail.",
+      "related": ["ecl", "staging", "sicr"]
+    },
+    {
+      "term": "Expected credit loss (ECL)",
+      "slug": "ecl",
+      "definition": "The probability-weighted present value of cash shortfalls over 12 months (Stage 1) or lifetime (Stages 2–3). In BB it is assembled from coarser models, a larger share of case-by-case judgment, and proportionally bigger post-model adjustments than its retail equivalent.",
+      "related": ["pd", "lgd", "ead", "pma"]
+    },
+    {
+      "term": "Probability of default (PD)",
+      "slug": "pd",
+      "definition": "The likelihood of default over a 12-month or lifetime horizon. Retail PDs come from dense behavioural and bureau data; BB PDs above the micro end come from sparse default histories, expert-judgment grades and explicit margins of conservatism — making calibration, not rank-ordering, the hard problem.",
+      "related": ["low-default-portfolio", "ecl"]
+    },
+    {
+      "term": "Loss given default (LGD)",
+      "slug": "lgd",
+      "definition": "The share of exposure lost after recoveries. In BB it is driven by security packages — fixed and floating charges, debentures, personal guarantees — realisation costs and timelines, and, on Covid-scheme lending, government guarantees that can push effective LGD towards zero.",
+      "related": ["integral-guarantee", "dcf-workout"]
+    },
+    {
+      "term": "Exposure at default (EAD)",
+      "slug": "ead",
+      "definition": "The predicted balance outstanding at default. Harder in BB than retail: overdrafts and revolving working-capital limits draw down as firms deteriorate, so credit conversion factors must capture a struggling business's tendency to use every pound of headroom before failing.",
+      "related": ["ecl", "lgd"]
+    },
+    {
+      "term": "Significant increase in credit risk (SICR)",
+      "slug": "sicr",
+      "definition": "The Stage 1 to Stage 2 trigger. In BB it rests less on quantitative PD deltas and more on events — watchlist entry, covenant breach, BCA turnover collapse, sector flags — with the 30-days-past-due backstop as a late-arriving safety net rather than a primary signal.",
+      "related": ["staging", "watchlist", "covenant-breach"]
+    },
+    {
+      "term": "Staging",
+      "slug": "staging",
+      "definition": "Allocation of exposures to Stage 1 (12-month ECL), Stage 2 (lifetime ECL) or Stage 3 (credit-impaired). BB staging migrates in lumps, driven by discrete events and committee decisions, rather than the smooth score-driven monthly flows of a retail book.",
+      "related": ["sicr", "stage-2", "stage-3"]
+    },
+    {
+      "term": "Stage 2",
+      "slug": "stage-2",
+      "definition": "Exposures whose credit risk has increased significantly since origination, carrying lifetime ECL. In BB, Stage 2 is populated heavily by qualitative triggers — watchlist entries, covenant breaches, sector flags — so its size and coverage can step-change when a committee re-grades a sector.",
+      "related": ["sicr", "watchlist"]
+    },
+    {
+      "term": "Stage 3",
+      "slug": "stage-3",
+      "definition": "Credit-impaired exposures — the IFRS 9 analogue of default. In BB, larger Stage 3 cases leave the collective models entirely and are individually assessed through discounted-cash-flow workouts, making the Stage 3 charge lumpy and single-name driven.",
+      "related": ["individually-assessed", "dcf-workout"]
+    },
+    {
+      "term": "Individually assessed",
+      "slug": "individually-assessed",
+      "definition": "Provisioning a specific exposure on its own facts — bespoke recovery strategies, cash flows and probability weights — instead of modelled parameters. Triggered above a house exposure threshold or where fraud, litigation or complex security makes modelled outputs meaningless.",
+      "related": ["dcf-workout", "collective-assessment", "stage-3"]
+    },
+    {
+      "term": "Collective assessment",
+      "slug": "collective-assessment",
+      "definition": "Modelled ECL for pools of exposures sharing risk characteristics — product, size band, sector, grade. The default treatment for the SME mass market, where accounts are numerous and individually small enough for statistical parameters to be meaningful.",
+      "related": ["individually-assessed", "ecl"]
+    },
+    {
+      "term": "Post-model adjustment (PMA)",
+      "slug": "pma",
+      "definition": "A quantified amendment to modelled ECL for risks the models miss — sector stress, insolvency lag, guarantee-claim risk, refinance affordability. BB books carry proportionally more PMA than retail because the underlying models are coarser and event risk larger; the PRA repeatedly probes their completeness and governance.",
+      "related": ["overlay", "ecl"]
+    },
+    {
+      "term": "Overlay",
+      "slug": "overlay",
+      "definition": "Umbrella term for management adjustments layered onto modelled ECL, often used interchangeably with PMA; some banks reserve overlay for economics- or scenario-level adjustments and PMA for model-deficiency fixes. Either way it demands quantification, a release condition and an audit trail — or it is a cookie jar.",
+      "related": ["pma", "forward-looking-economics"]
+    },
+    {
+      "term": "Low default portfolio",
+      "slug": "low-default-portfolio",
+      "definition": "A portfolio with too few observed defaults to calibrate PD statistically — mid-corporates, larger SMEs, specialised lending. Forces reliance on expert-judgment rating scales, external benchmarks, slotting-like category approaches and explicit margins of conservatism, leaving the level of ECL genuinely uncertain even when rank-ordering is sound.",
+      "related": ["pd", "pma"]
+    },
+    {
+      "term": "Integral guarantee",
+      "slug": "integral-guarantee",
+      "definition": "A guarantee treated as part of a loan's contractual terms, so expected claims enter ECL cash flows and reduce LGD. UK banks judged the BBLS/CBILS guarantees integral — created at origination under scheme rules and held by the lender — producing stressed guaranteed books with near-zero coverage.",
+      "related": ["lgd", "bbls", "cbils"]
+    },
+    {
+      "term": "Watchlist",
+      "slug": "watchlist",
+      "definition": "The governed register of exposures showing early deterioration, fed by relationship managers, monitoring triggers and account conduct. Entry usually constitutes SICR, so watchlist governance is staging governance: a committee decision with a direct lifetime-ECL consequence.",
+      "related": ["sicr", "stage-2"]
+    },
+    {
+      "term": "Covenant breach",
+      "slug": "covenant-breach",
+      "definition": "Failure of a contractual financial test — leverage, interest cover, loan-to-value, minimum net worth. A canonical BB SICR trigger with no retail equivalent; whether waived or enforced, a breach signals the borrower's finances have left the envelope the bank underwrote.",
+      "related": ["sicr", "watchlist"]
+    },
+    {
+      "term": "DCF workout",
+      "slug": "dcf-workout",
+      "definition": "Individual Stage 3 provisioning by projecting cash flows under alternative recovery strategies — trade-out, consensual sale, insolvency — probability-weighting them and discounting at the original effective interest rate. The provision is exposure less the weighted present value of recoveries.",
+      "related": ["individually-assessed", "stage-3"]
+    },
+    {
+      "term": "Forward-looking economics",
+      "slug": "forward-looking-economics",
+      "definition": "Incorporating macroeconomic forecasts into ECL through multiple weighted scenarios. For SME books the load-bearing variables are GDP, corporate insolvency rates, base rate and CRE indices — not the HPI-and-unemployment pairing that dominates retail models — with insolvency lag the defining design problem.",
+      "related": ["ecl", "overlay"]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025",
+      "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+      "note": "2025 annual figures: c.23,900 company insolvencies, rate of 52.9 per 10,000 companies, sector breakdown led by construction, retail and hospitality."
+    },
+    {
+      "title": "PRA Dear CFO letter — Thematic feedback on accounting for IFRS 9 ECL (September 2025)",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/letter/2025/thematic-feedback-on-accounting-for-ifrs-9-ecl-2025.pdf",
+      "note": "Elevated model risk, completeness of PMAs, and timely SICR capture — the supervisory framing used in the PMA section."
+    },
+    {
+      "title": "PRA Dear CFO letter — Thematic feedback on IFRS 9 ECL and climate risk (2024)",
+      "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/letter/2024/thematic-feedback-on-accounting-for-ifrs-9-ecl-and-climate-risk.pdf",
+      "note": "Prior-year expectation that firms challenge PMA completeness and fold persistent overlays back into models."
+    },
+    {
+      "title": "IFRS Interpretations Committee staff paper AP6 — Credit enhancement in the measurement of ECL",
+      "url": "https://www.ifrs.org/content/dam/ifrs/meetings/2018/november/ifric/ap6-ifrs-9-credit-enhancement-in-measurement-of-ecl.pdf",
+      "note": "The 'integral to the contractual terms' test and absence of a bright-line definition — basis of the integral-vs-separate guarantee discussion."
+    },
+    {
+      "title": "PRA statement on CRM eligibility and leverage ratio treatment of Bounce Back Loans",
+      "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2020/pra-statement-on-crm-and-leverage-ratio-loans-under-bbls",
+      "note": "Confirms the 100% government guarantee structure of BBLS and its recognition as unfunded credit protection."
+    },
+    {
+      "title": "National Bank of Belgium — Guarantee schemes: IFRS 9 treatment Q&A",
+      "url": "https://www.nbb.be/en/financial-oversight/prudential-supervision/areas-responsibility/credit-institutions/qas-moratoriu-15",
+      "note": "Supervisory articulation of integral-guarantee-in-LGD versus separate recognition for state guarantee schemes."
+    },
+    {
+      "title": "Barclays Bank UK PLC Annual Report 2025",
+      "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/reports-and-events/annual-reports/2025/Barclays-Bank-UK-PLC-Annual-Report-2025.pdf",
+      "note": "Live example of BB ECL disclosure: scenario refreshes, staging tables split by guaranteed exposure, and coverage ratios."
+    },
+    {
+      "title": "EFRAG — PIR of IFRS 9 impairment: loan commitments and financial guarantee contracts",
+      "url": "https://www.efrag.org/system/files/sites/webpublishing/Meeting%20Documents/2404171248186676/02-02%20-%20PIR%20IFRS%209%20Impairment%20-%20Loan%20commitments%20and%20financial%20guarantee%20contracts%20-%20EFRAG%20FR%20TEG%2024-05-15.pdf",
+      "note": "Post-implementation review evidence that guarantee treatment under IFRS 9 remains judgmental and divergent in practice."
+    }
+  ]
+}

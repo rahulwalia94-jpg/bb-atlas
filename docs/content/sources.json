@@ -1,0 +1,579 @@
+{
+ "modules": [
+  {
+   "id": 0,
+   "title": "What Business Banking Actually Is",
+   "sources": [
+    {
+     "title": "Barclays — Business Banking",
+     "url": "https://www.barclays.co.uk/business-banking/",
+     "note": "Barclays Business Banking serves firms up to £6.5m annual turnover"
+    },
+    {
+     "title": "Barclays Corporate Banking — Contact us",
+     "url": "https://www.barclayscorporate.com/contact-us/",
+     "note": "Corporate Banking serves UK businesses above £6.5m annual turnover"
+    },
+    {
+     "title": "Barclays PLC 2025 Results Announcement (FY25)",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf",
+     "note": "Group loan loss rate of 52bps in FY25; UK Corporate Bank / Business Banking performance"
+    },
+    {
+     "title": "Lloyds Bank — Larger Business Accounts",
+     "url": "https://www.lloydsbank.com/business/business-accounts/larger-businesses.html/1000",
+     "note": "Lloyds segmentation: sub-£3m small business, £3m–£25m business tier, £25m+ Commercial Banking"
+    },
+    {
+     "title": "NatWest — Small-to-medium business banking",
+     "url": "https://www.natwest.com/business/enterprise/small-to-medium-business.html",
+     "note": "NatWest business banking segment for firms with turnover up to ~£2m"
+    },
+    {
+     "title": "House of Commons Library — Business statistics (2025 business population)",
+     "url": "https://commonslibrary.parliament.uk/research-briefings/sn06152/",
+     "note": "5.7m UK private sector businesses at start of 2025; 99.85% SMEs; ~56% sole traders; 16.9m employed; £2.8tn turnover"
+    },
+    {
+     "title": "UK Finance — SME lending increases for second consecutive year",
+     "url": "https://www.ukfinance.org.uk/news-and-insight/press-release/sme-lending-increases-second-consecutive-year",
+     "note": "Gross SME bank lending grew 9% to £68bn in 2025, strongest among sub-£2m turnover firms"
+    },
+    {
+     "title": "Insolvency Service — Company Insolvency Statistics, December 2025 commentary",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+     "note": "23,938 registered company insolvencies in England & Wales in 2025; 18,525 CVLs (~77%)"
+    },
+    {
+     "title": "British Business Bank — Growth Guarantee Scheme",
+     "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme",
+     "note": "70% government guarantee; scheme extended to 31 March 2030, capacity expanded July 2026"
+    }
+   ]
+  },
+  {
+   "id": 1,
+   "title": "History & Evolution of UK Business Banking",
+   "sources": [
+    {
+     "title": "Barclays — Our history (official archive)",
+     "url": "https://home.barclays/who-we-are/our-history/",
+     "note": "1690 founding by John Freame and Thomas Gould, Lombard Street, Quaker origins, James Barclay 1736."
+    },
+    {
+     "title": "Quakers in the World — Barclays Bank and its Quaker roots",
+     "url": "https://www.quakersintheworld.org/quakers-in-action/327/Barclays-Bank-and-its-Quaker-roots",
+     "note": "Quaker network as credit infrastructure; financing of Quaker traders and ventures; bill re-discounting."
+    },
+    {
+     "title": "Wikipedia — Competition and credit control (UK)",
+     "url": "https://en.wikipedia.org/wiki/Competition_and_credit_control_(UK)",
+     "note": "September 1971 reforms: cartel abolition, removal of credit ceilings, special deposits; ~72% broad money growth by December 1973."
+    },
+    {
+     "title": "The Property Chronicle — The story of the secondary banking crisis 1973–1975",
+     "url": "https://www.propertychronicle.com/secondary-banking-crisis-1973-1975/",
+     "note": "Eight-fold growth in property lending 1970–74; secondary banks overtaking clearers; Lifeboat support of up to £1.3bn to twenty-six banks."
+    },
+    {
+     "title": "Wikipedia — Big Bang (financial markets)",
+     "url": "https://en.wikipedia.org/wiki/Big_Bang_(financial_markets)",
+     "note": "27 October 1986 LSE deregulation: fixed commissions, broker/jobber distinction, screen trading, foreign ownership."
+    },
+    {
+     "title": "Bank of England Quarterly Bulletin 2016 Q1 — The small bank failures of the early 1990s",
+     "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2016/q1/the-small-bank-failures-of-the-early-1990s-another-story-of-boom-and-bust",
+     "note": "A quarter of small/medium UK banks failed within three years of BCCI's July 1991 closure; BoE liquidity support to prevent contagion."
+    },
+    {
+     "title": "Practical Law — The Cruickshank report: Competition in the banking industry under scrutiny",
+     "url": "https://uk.practicallaw.thomsonreuters.com/7-101-1508",
+     "note": "Publication 20 March 2000; findings on SME concentration, switching barriers, payments control, excess profits."
+    },
+    {
+     "title": "Hansard (Lords, 14 March 2002) — Banking Services: Competition Commission Report",
+     "url": "https://hansard.parliament.uk/Lords/2002-03-14/debates/71d49771-df14-4307-840e-fc87f6a724f0/BankingServicesCompetitionCommissionReport",
+     "note": "Complex monopoly finding; big four ~90/91% share of SME liquidity management (1999); base-minus-2.5% or free-banking transitional remedy."
+    },
+    {
+     "title": "GOV.UK — SME banking 2002 behavioural undertakings: compliance audit reports",
+     "url": "https://www.gov.uk/government/collections/sme-banking-2002-behavioural-undertakings-cma-reports-on-banks-compliance-audits",
+     "note": "The bundling prohibition undertakings and their audited compliance regime across two decades."
+    },
+    {
+     "title": "A&O Shearman FinReg — UK CMA final decision on the SME Banking Undertakings 2002",
+     "url": "https://finreg.aoshearman.com/uk-cma-final-decision-of-the-sme-banking-undertakings-2002",
+     "note": "CMA final decision of 1 December 2025 releasing the remaining Limitation on Bundling Provisions; rationale of changed market conditions."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "title": "The 2008 Crisis and Its Long Shadow",
+   "sources": [
+    {
+     "title": "FCA — Update on review of RBS's treatment of SME customers referred to GRG",
+     "url": "https://www.fca.org.uk/news/press-releases/update-fca-review-rbs-treatment-sme-customers-global-restructuring-group",
+     "note": "s.166 review by Promontory, findings of widespread inappropriate treatment, GRG timeline"
+    },
+    {
+     "title": "FCA — Statement on the final GRG report",
+     "url": "https://www.fca.org.uk/news/press-releases/review-royal-bank-scotland-treatment-customers-referred-global-restructuring-group",
+     "note": "FCA conclusion of no enforcement action; commercial lending outside the regulatory perimeter"
+    },
+    {
+     "title": "FCA — Publication of the Swift Review into the IRHP supervisory intervention",
+     "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-swift-review-supervisory-intervention-interest-rate-hedging-products",
+     "note": "£2.2bn redress, ~14,000 accepted offers, sophistication-test criticism, FCA response"
+    },
+    {
+     "title": "Bank of England / HM Treasury — Extension to the Funding for Lending Scheme (April 2013)",
+     "url": "https://www.bankofengland.co.uk/news/2013/april/boe-hmt-announce-extension-to-the-fls",
+     "note": "FLS mechanics and the SME-skewed drawing multiples in the 2013 extension"
+    },
+    {
+     "title": "Insider.co.uk — Project Merlin banks fail to hit lending targets to small businesses",
+     "url": "https://www.insider.co.uk/news/project-merlin-banks-fail-9882678",
+     "note": "£190bn/£76bn Merlin targets and the SME shortfall"
+    },
+    {
+     "title": "gov.uk — Agreement reached on RBS state aid will boost competition in business banking",
+     "url": "https://www.gov.uk/government/news/agreement-reached-on-rbs-state-aid-will-boost-competition-in-business-banking",
+     "note": "£775m alternative remedies package replacing the Williams & Glyn divestment"
+    },
+    {
+     "title": "CMA — Retail banking market investigation, full final report (August 2016)",
+     "url": "https://assets.publishing.service.gov.uk/media/57ac9667e5274a0f6c00007a/retail-banking-market-investigation-full-final-report.pdf",
+     "note": "Findings on weak competition; open banking mandate and service-quality remedies"
+    },
+    {
+     "title": "City A.M. — Metro, Starling and ClearBank win £280m from RBS competition fund",
+     "url": "https://www.cityam.com/metro-starling-and-clearbank-win-280m-rbs-competition-fund/",
+     "note": "CIF Pool A awards: Metro £120m, Starling £100m, ClearBank/Tide £60m"
+    },
+    {
+     "title": "Business Money — BCR announces the awards of Capability and Innovation Fund Pool B",
+     "url": "https://www.business-money.com/announcements/banking-competition-remedies-ltd-announces-the-awards-of-capability-and-innovation-fund-pool-b/",
+     "note": "Pool B awards: Nationwide £50m, Investec £15m, Co-operative Bank £15m"
+    },
+    {
+     "title": "Business Money — BCR publishes final results of the Incentivised Switching Scheme",
+     "url": "https://www.business-money.com/announcements/bcr-publishes-final-results-of-the-incentivised-switching-scheme/",
+     "note": "69,135 BCAs switched; £250.9m (91%+) of dowries disbursed by 30 June 2021"
+    },
+    {
+     "title": "Tide — Tide and ClearBank on grants returned by Nationwide and Metro Bank",
+     "url": "https://www.tide.co/blog/tide-update/tide-clearbank-apply-for-nationwide-returned-bcr-grant/",
+     "note": "Metro and Nationwide £50m returns and the creation of Pool E"
+    },
+    {
+     "title": "Santander UK — Completion of the £2.65bn acquisition of TSB Banking Group",
+     "url": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-uk-completes-cash-acquisition-of-tsb-banking",
+     "note": "TSB acquisition announced July 2025, completed 30 April 2026"
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "title": "COVID, Government Schemes, and the Book That Defines Today",
+   "sources": [
+    {
+     "title": "NAO — Investigation into the Bounce Back Loan Scheme (October 2020)",
+     "url": "https://www.nao.org.uk/press-releases/bounce-back-loan-scheme/",
+     "note": "Scheme design, conscious acceptance of fraud risk, early loss assumptions of 35–60% (£15–26bn)."
+    },
+    {
+     "title": "NAO — The Bounce Back Loan Scheme: an update (December 2021)",
+     "url": "https://www.nao.org.uk/reports/the-bounce-back-loan-scheme-an-update/",
+     "note": "March 2021 departmental estimates: 37% (£17bn) non-repayment, 11% (£4.9bn) fraud; counter-fraud response."
+    },
+    {
+     "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+     "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026",
+     "note": "As-at 31 March 2026: drawn values (£46.47bn/£25.83bn/£4.54bn), BBLS status splits (19.4% repaid, 28.3% settled), £12.98bn settled claims, £1.88bn fraud flags, £1.16bn guarantee removals, 37.17% PAYG uptake."
+    },
+    {
+     "title": "British Business Bank — Final Coronavirus loan scheme data analysis",
+     "url": "https://www.british-business-bank.co.uk/news-and-events/news/analysis-of-final-coronavirus-loan-scheme-data-shows-79-3bn-of-loans-to-1-67m-businesses-evenly-distributed-across-whole-of-the-uk",
+     "note": "£79.3bn approved to 1.67m businesses across the three schemes; distribution analysis."
+    },
+    {
+     "title": "British Business Bank — Bounce Back Loan Scheme: Pay As You Grow",
+     "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls/bounce-back-loan-scheme-pay-you-grow",
+     "note": "PAYG option mechanics: 10-year extension at 2.5%, interest-only periods, repayment holiday."
+    },
+    {
+     "title": "British Business Bank — GGS (including RLS iteration 3) performance data as at 31 March 2026",
+     "url": "https://www.british-business-bank.co.uk/about/research-and-publications/ggs-including-rls-iteration-3-performance-data-31-march-2026",
+     "note": "GGS current status: ~£3.6bn delivered, 70+ lenders, 70% guarantee; extension to March 2030."
+    },
+    {
+     "title": "Committee of Public Accounts — BEIS Annual Report and Accounts 2021–22",
+     "url": "https://publications.parliament.uk/pa/cm5803/cmselect/cmpubacc/1254/report.html",
+     "note": "Revised departmental fraud and error estimate of ~£1.1bn (8%), with internal estimates of £3.5–4.9bn."
+    },
+    {
+     "title": "OBR — Pandemic-related loan guarantee schemes",
+     "url": "https://obr.uk/forecasts-in-depth/tax-by-tax-spend-by-spend/pandemic-related-loan-guarantee-schemes/",
+     "note": "Fiscal treatment and evolving cost forecasts of the guarantee schemes."
+    },
+    {
+     "title": "NAO — Department for Business and Trade Accounts 2024-25",
+     "url": "https://www.nao.org.uk/reports/department-for-business-and-trade-accounts-2024-25/",
+     "note": "Guarantee liability measurement sensitivity to PD, LGD and fraud assumptions; recognised losses to date."
+    },
+    {
+     "title": "British Business Bank — Recovery Loan Scheme",
+     "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/recovery-loan-scheme",
+     "note": "RLS iteration terms: guarantee percentages, caps, eligibility changes across 2021–2024."
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "title": "Barclays Business Banking Today",
+   "sources": [
+    {
+     "title": "Barclays PLC 2025 Results Announcement (FY25)",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf",
+     "note": "BB loans £17.9bn (2024: £19.7bn), deposits £51.9bn, income £2,126m, £39m charge vs £29m FY24 release; BUK loans £215.6bn, deposits £244.7bn, LLR 18bps, RoTE 20.7%; cards coverage 4.3%"
+    },
+    {
+     "title": "Barclays Bank UK PLC Annual Report 2025",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/reports-and-events/annual-reports/2025/Barclays-Bank-UK-PLC-Annual-Report-2025.pdf",
+     "note": "Ring-fenced entity credit risk disclosures; BBUK impairment charge £393m (2024: £352m); government scheme repayment commentary"
+    },
+    {
+     "title": "Barclays PLC 2023 Results Announcement (FY23)",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2023Results/20240220-BPLC-FY2023-RA.pdf",
+     "note": "BB income £1,905m FY23 (+17%); Barclays UK loan loss rate 14bps; government scheme repayment driving BB balance decline"
+    },
+    {
+     "title": "Barclays Group Reporting Changes — Resegmentation Document (Feb 2024)",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2023Results/20240220-Barclays-FY2023-Resegmentation-Document.pdf",
+     "note": "Five-division structure; Business Banking within Barclays UK; UK Corporate Bank defined as clients >£6.5m turnover"
+    },
+    {
+     "title": "Barclays UK Corporate Bank deep dive (June 2024)",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/IRNewsPresentations/2024News/20240618-Barclays-UK-Corporate-Bank-Deep-Dive.pdf",
+     "note": "£6.5m turnover boundary between Business Banking and UK Corporate Bank"
+    },
+    {
+     "title": "Barclays and Brookfield enter into strategic partnership (Apr 2025)",
+     "url": "https://home.barclays/news/press-releases/2025/04/Barclays-and-Brookfield-enter-into-strategic-partnership/",
+     "note": "c.£400m Barclays investment; Brookfield option over ~70–80% of the merchant acquiring business in years 3–7"
+    },
+    {
+     "title": "Barclays Eagle Labs — Digital Growth Grant announcement",
+     "url": "https://labs.uk.barclays/learning-and-insights/news-and-insights/news/barclays-eagle-labs-chosen-to-help-turbocharge-next-generation-of-uk-tech-stars/",
+     "note": "£12.09m Digital Growth Grant, April 2023–March 2025; 22,000+ businesses, 80%+ outside London"
+    },
+    {
+     "title": "Barclays UK Unlocked — SME investing opportunity (2025)",
+     "url": "https://home.barclays/insights/2025/10/SME-Golden-Investment-Opportunity/",
+     "note": "Barclays proprietary data across c.1 million SMEs and a quarter of UK corporates; £22bn lending capacity for BB and UK Corporate clients in 2025"
+    },
+    {
+     "title": "British Business Bank — Bounce Back Loan Scheme (BBLS)",
+     "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls",
+     "note": "BBLS terms: 100% government guarantee; Pay As You Grow term extensions to 10 years"
+    },
+    {
+     "title": "Barclays H1 2026 results summary (6-K filing coverage)",
+     "url": "https://www.stocktitan.net/sec-filings/BCS/6-k-barclays-plc-current-report-foreign-issuer-44c133bd58a0.html",
+     "note": "H1 2026 impairment £1.4bn, loan loss rate 62bps, group coverage c.1.2%; through-the-cycle guidance 50–60bps"
+    },
+    {
+     "title": "MerchantSavvy — Barclaycard Merchant Services review (2025)",
+     "url": "https://www.merchantsavvy.co.uk/payment-processors/barclaycard-merchant-services-review/",
+     "note": "Barclaycard Payments scale: c.8.7bn transactions annually; among the largest UK acquirers"
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "title": "The Competitor Map",
+   "sources": [
+    {
+     "title": "British Business Bank — Small Business Finance Markets 2025/26",
+     "url": "https://www.british-business-bank.co.uk/sites/g/files/sovrnj166/files/2026-03/report-small-business-finance-markets-2026.pdf",
+     "note": "Gross SME bank lending of £68bn in 2025 (+9%); challenger and specialist banks at 60% share, ahead of the big five for a fourth year."
+    },
+    {
+     "title": "Starling Bank — Annual Report 2025",
+     "url": "https://www.starlingbank.com/investors/2025/annual-report-2025/",
+     "note": "FY2025 revenue £714m; c.9.7% SME business-account share; SME deposit franchise."
+    },
+    {
+     "title": "CNBC — Starling Bank reports 26% profit drop as it flags Covid loan issue (May 2025)",
+     "url": "https://www.cnbc.com/2025/05/28/goldman-backed-starling-bank-profit-drops-amid-covid-loan-issue.html",
+     "note": "£28.2m BBLS provision after voluntary removal of the government guarantee on non-compliant loans; £29m FCA financial-crime fine."
+    },
+    {
+     "title": "Tide — Tide crosses 2 million members worldwide (May 2026)",
+     "url": "https://www.businesswire.com/news/home/20260526076712/en/Tide-Crosses-2-Million-Members-Worldwide---Big-Step-Forward-in-Mission-to-Support-and-Grow-Small-Businesses",
+     "note": "c.900,000 UK members and self-reported c.15% share of UK SMEs by count as at mid-2026."
+    },
+    {
+     "title": "Monzo — Annual Report FY2026",
+     "url": "https://monzo.com/annual-report",
+     "note": "Business customers up 45% to over 905,000 — roughly one in seven UK SMEs; business banking c.12% of revenue."
+    },
+    {
+     "title": "Allica Bank — Record results press release (2025 full year)",
+     "url": "https://www.allica.bank/press-releases/allica-bank-reports-record-2025-results",
+     "note": "Lending +23% to £3.7bn; deposits £5.7bn; commercial mortgages £2.4bn; asset finance £507m; underlying PBT £43.7m."
+    },
+    {
+     "title": "OakNorth — 2025 Annual Results",
+     "url": "https://oaknorth.co.uk/press/oaknorth-2025-annual-results/",
+     "note": "£223m pre-tax profit; facilities +18% to £7.2bn; cumulative principal losses 0.045% (£6.9m) over ten years; ON Credit Intelligence."
+    },
+    {
+     "title": "Funding Circle — Full Year 2025 Results",
+     "url": "https://corporate.fundingcircle.com/media/newsroom/full-year-2025-results",
+     "note": "AuM £2.96bn; credit extended +29% to £2.45bn; revenue £204.3m; PBT £20.3m; FlexiPay balance-sheet pivot."
+    },
+    {
+     "title": "iwoca — £200m funding line after £2.5bn lent; 2025 lending figures",
+     "url": "https://www.iwoca.co.uk/news/sme-lender-iwoca-raises-new-ps200-million-funding-line-after-reaching-ps2-5bn-in-finance-lent",
+     "note": "£1.3bn lent in 2025 across 58,000 loans (+60% YoY); embedded distribution reaching c.3m businesses; wholesale funding facilities."
+    },
+    {
+     "title": "Mortgage Solutions — Shawbrook loan book grows 16% to £19.2bn in 2025",
+     "url": "https://www.mortgagesolutions.co.uk/specialist-lending/commercial-finance/2026/03/12/shawbrooks-loan-book-grows-16-to-19-2bn-in-2025/",
+     "note": "2025 loan book £19.2bn; SME £4.4bn; real estate £7.6bn; underlying PBT £340.5m; ThinCats acquisition."
+    },
+    {
+     "title": "Santander UK — Completion of TSB acquisition (April 2026)",
+     "url": "https://www.santander.co.uk/about-santander/media-centre/press-releases/santander-uk-completes-cash-acquisition-of-tsb-banking",
+     "note": "£2.65bn cash acquisition completed 30 April 2026; TSB's c.5m personal and small-business customers."
+    },
+    {
+     "title": "FF News — Zempler Bank full-year results, 58% profit growth (FY to March 2025)",
+     "url": "https://ffnews.com/newsarticle/fintech/zempler-bank-full-year-results-2025/",
+     "note": "Pre-tax profit £5.2m; c.170,000 business accounts; iwoca lending partnership."
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "title": "SME Credit Risk & Underwriting",
+   "sources": [
+    {
+     "title": "ICAEW — Companies House accounts changes confirmed for April 2028",
+     "url": "https://www.icaew.com/insights/viewpoints-on-the-news/2026/jun-2026/companies-house-accounts-changes-confirmed-for-april-2028",
+     "note": "ECCTA small-company accounts reforms paused; software-only filing and abolition of abridged/filleted filing deferred to 1 April 2028"
+    },
+    {
+     "title": "AIA — New company size thresholds come into effect on 6 April 2025",
+     "url": "https://www.aiaworldwide.com/news/news/new-company-size-thresholds-come-into-effect-on-6-april-2025/",
+     "note": "Small-company thresholds raised to £15m turnover / £7.5m balance sheet / 50 employees; ~133,000 entities reclassified"
+    },
+    {
+     "title": "CMS — ECCTA identity verification mandatory from 18 November 2025",
+     "url": "https://cms.law/en/gbr/legal-updates/economic-crime-and-corporate-transparency-act-2023-identity-verification-becomes-mandatory-from-18-november-2025",
+     "note": "Director and PSC identity verification requirements in force from 18 November 2025"
+    },
+    {
+     "title": "GOV.UK — Commentary: Company Insolvency Statistics, March 2026",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-march-2026/commentary-company-insolvency-statistics-march-2026",
+     "note": "Monthly insolvency volumes running ~2,000–2,100 in England and Wales through 2025–26; sector breakdown with construction largest"
+    },
+    {
+     "title": "BCIS — Construction insolvencies latest news",
+     "url": "https://www.bcis.co.uk/news/construction-insolvencies-latest-news/",
+     "note": "~3,827 construction insolvencies in 12 months to March 2026, down 7% year on year but ~19% above 2019; construction ~17% of all insolvencies"
+    },
+    {
+     "title": "Open Banking Ltd — 2026: a landmark year for open banking",
+     "url": "https://www.openbanking.org.uk/insights/2026-a-landmark-year-for-open-banking/",
+     "note": "UK open banking passed 15 million users in 2026, connections approaching 19 million; Data Use and Access Act extending scope toward open finance and SME lending data"
+    },
+    {
+     "title": "FinTech Global — iwoca secures £250m facility to boost UK SME lending (July 2026)",
+     "url": "https://fintech.global/2026/07/28/iwoca-secures-250m-facility-to-boost-uk-sme-lending/",
+     "note": "iwoca's July 2026 £250m facility; £50k–£100k loans rising to 42% of applications in Q1 2026; open-banking-led underwriting at scale"
+    },
+    {
+     "title": "R3 — Creditor order of priority",
+     "url": "https://www.r3.org.uk/creditor-order-of-priority/",
+     "note": "Insolvency waterfall: fixed charge, expenses, ordinary and secondary preferential creditors, prescribed part (50% of first £10k + 20%, £800k cap), floating charge, unsecured"
+    },
+    {
+     "title": "Law Society of Scotland — Insolvency: HMRC moves up the rankings",
+     "url": "https://www.lawscot.org.uk/members/journal/issues/vol-65-issue-12/insolvency-hmrc-moves-up-the-rankings/",
+     "note": "HMRC secondary preferential status from 1 December 2020 for VAT, PAYE, employee NICs, CIS — uncapped, ranking ahead of floating-charge holders"
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "title": "IFRS 9 for Business Banking",
+   "sources": [
+    {
+     "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+     "note": "2025 annual figures: c.23,900 company insolvencies, rate of 52.9 per 10,000 companies, sector breakdown led by construction, retail and hospitality."
+    },
+    {
+     "title": "PRA Dear CFO letter — Thematic feedback on accounting for IFRS 9 ECL (September 2025)",
+     "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/letter/2025/thematic-feedback-on-accounting-for-ifrs-9-ecl-2025.pdf",
+     "note": "Elevated model risk, completeness of PMAs, and timely SICR capture — the supervisory framing used in the PMA section."
+    },
+    {
+     "title": "PRA Dear CFO letter — Thematic feedback on IFRS 9 ECL and climate risk (2024)",
+     "url": "https://www.bankofengland.co.uk/-/media/boe/files/prudential-regulation/letter/2024/thematic-feedback-on-accounting-for-ifrs-9-ecl-and-climate-risk.pdf",
+     "note": "Prior-year expectation that firms challenge PMA completeness and fold persistent overlays back into models."
+    },
+    {
+     "title": "IFRS Interpretations Committee staff paper AP6 — Credit enhancement in the measurement of ECL",
+     "url": "https://www.ifrs.org/content/dam/ifrs/meetings/2018/november/ifric/ap6-ifrs-9-credit-enhancement-in-measurement-of-ecl.pdf",
+     "note": "The 'integral to the contractual terms' test and absence of a bright-line definition — basis of the integral-vs-separate guarantee discussion."
+    },
+    {
+     "title": "PRA statement on CRM eligibility and leverage ratio treatment of Bounce Back Loans",
+     "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2020/pra-statement-on-crm-and-leverage-ratio-loans-under-bbls",
+     "note": "Confirms the 100% government guarantee structure of BBLS and its recognition as unfunded credit protection."
+    },
+    {
+     "title": "National Bank of Belgium — Guarantee schemes: IFRS 9 treatment Q&A",
+     "url": "https://www.nbb.be/en/financial-oversight/prudential-supervision/areas-responsibility/credit-institutions/qas-moratoriu-15",
+     "note": "Supervisory articulation of integral-guarantee-in-LGD versus separate recognition for state guarantee schemes."
+    },
+    {
+     "title": "Barclays Bank UK PLC Annual Report 2025",
+     "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/reports-and-events/annual-reports/2025/Barclays-Bank-UK-PLC-Annual-Report-2025.pdf",
+     "note": "Live example of BB ECL disclosure: scenario refreshes, staging tables split by guaranteed exposure, and coverage ratios."
+    },
+    {
+     "title": "EFRAG — PIR of IFRS 9 impairment: loan commitments and financial guarantee contracts",
+     "url": "https://www.efrag.org/system/files/sites/webpublishing/Meeting%20Documents/2404171248186676/02-02%20-%20PIR%20IFRS%209%20Impairment%20-%20Loan%20commitments%20and%20financial%20guarantee%20contracts%20-%20EFRAG%20FR%20TEG%2024-05-15.pdf",
+     "note": "Post-implementation review evidence that guarantee treatment under IFRS 9 remains judgmental and divergent in practice."
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "title": "Distress, Collections, and Insolvency",
+   "sources": [
+    {
+     "title": "Insolvency Service — Company Insolvency Statistics, December 2025 (annual commentary)",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+     "note": "2025 annual figures: 23,938 insolvencies; 18,525 CVLs; 3,730 compulsory liquidations (highest since 2012); 1,495 administrations; 186 CVAs; 52.5 per 10,000 rate (1 in 190)."
+    },
+    {
+     "title": "Insolvency Service — Company Insolvency Statistics, June 2026",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026/commentary-company-insolvency-statistics-june-2026",
+     "note": "June 2026: 1,845 company insolvencies, ~10% below June 2025; CVLs ~74% of cases — the 2026 easing from the plateau."
+    },
+    {
+     "title": "Insolvency Service — Company Insolvency Statistics, November 2025 (sector commentary)",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-november-2025/commentary-company-insolvency-statistics-november-2025",
+     "note": "Sector mix in the 12 months to November 2025: wholesale/retail 16% and accommodation & food services 14% of insolvencies with captured SIC codes."
+    },
+    {
+     "title": "The Insolvency Act 1986 (Prescribed Part) (Amendment) Order 2020 (SI 2020/211)",
+     "url": "https://www.legislation.gov.uk/uksi/2020/211/made",
+     "note": "Raised the prescribed part cap from £600,000 to £800,000 for floating charges created on or after 6 April 2020; formula remains 50% of first £10k plus 20% of balance."
+    },
+    {
+     "title": "R3 — HMRC as Secondary Preferential Creditor in Insolvencies",
+     "url": "https://www.r3.org.uk/technical-library/england-wales/legislation/guidance/more/29666/page/1/hmrc-secondary-preferential-creditor-in-insolvencies-corporate-and-personal/",
+     "note": "Scope and ranking of HMRC's secondary preferential status from 1 December 2020 under the Finance Act 2020."
+    },
+    {
+     "title": "Grant Thornton — What HMRC's preferential creditor status means for lenders",
+     "url": "https://www.grantthornton.co.uk/insights/what-hmrcs-preferential-creditor-status-means-for-lenders/",
+     "note": "Lender-side impact: dilution of floating-charge recoveries, tax-arrears monitoring and the shift toward fixed-charge structuring."
+    },
+    {
+     "title": "The Administration (Restrictions on Disposal etc. to Connected Persons) Regulations 2021 (SI 2021/427)",
+     "url": "https://www.legislation.gov.uk/uksi/2021/427/made",
+     "note": "From 30 April 2021, connected-party disposals within eight weeks of administration require creditor approval or an evaluator's written opinion."
+    },
+    {
+     "title": "Insolvency Service — Corporate Insolvency and Governance Act 2020: Final Evaluation Report (November 2022)",
+     "url": "https://www.gov.uk/government/publications/corporate-insolvency-and-governance-act-2020-evaluation-reports/corporate-insolvency-and-governance-act-2020-final-evaluation-report-november-2022",
+     "note": "Take-up and effectiveness of the CIGA 2020 measures: low moratorium usage; only 12 Part 26A plans registered to September 2022."
+    },
+    {
+     "title": "FCA — Final Summary of the Independent Review of RBS GRG",
+     "url": "https://www.fca.org.uk/news/press-releases/fca-publishes-final-summary-rbs-treatment-sme-customers",
+     "note": "Promontory s166 findings: widespread inappropriate treatment of SME customers, partly systematic, rooted in GRG's conflicting turnaround and commercial objectives; no enforcement given the unregulated perimeter."
+    },
+    {
+     "title": "Purbeck — Personal guarantee trends, Q2 2025",
+     "url": "https://www.purbeckinsurance.co.uk/blog/business-loans-to-keep-the-lights-on-fall-in-q2-2025-but-the-average-personal-guarantee-risk-for-smes-edges-nearer-to-200k",
+     "note": "Average personal guarantee demanded of SME directors reached ~£194,500 in Q2 2025, up 6.4% on Q1 — sizing the PG recovery pool."
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "title": "Current State & Forward Radar (2024–2026)",
+   "sources": [
+    {
+     "title": "Bank of England — Monetary Policy Summary, June 2026 (Bank Rate held at 3.75%)",
+     "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026",
+     "note": "Current Bank Rate level, vote splits, and the 2025 cutting path (May, August, December 2025)."
+    },
+    {
+     "title": "PRA news release — Delay to implementation of Basel 3.1 (17 January 2025)",
+     "url": "https://www.bankofengland.co.uk/news/2025/january/the-pra-announces-a-delay-to-the-implementation-of-basel-3-1",
+     "note": "One-year delay to 1 January 2027, citing US implementation uncertainty; final rules followed in January 2026 with FRTB-IMA deferred to 2028 and the SME supporting factor's removal offset by a firm-specific Pillar 2A SME lending adjustment."
+    },
+    {
+     "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+     "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026",
+     "note": "BBLS £46.47bn drawn; 19.4% fully repaid, 47.0% on schedule, 3.9% arrears, 28.3% guarantee settled, as at 31 March 2026."
+    },
+    {
+     "title": "British Business Bank — Bounce Back Loan Scheme: Pay As You Grow",
+     "url": "https://www.british-business-bank.co.uk/finance-options/legacy-programmes/bounce-back-loan-scheme-bbls/bounce-back-loan-scheme-pay-you-grow",
+     "note": "PAYG mechanics: ten-year extensions at 2.5%, payment holidays, interest-only periods; guarantee unaffected."
+    },
+    {
+     "title": "Edgar, Dunn & Company — One year on: the UK's APP fraud reimbursement rules",
+     "url": "https://www.edgardunn.com/articles/one-year-on-uks-app-fraud-reimbursement-rules",
+     "note": "Regime mechanics (£85,000 cap, five-day deadline, 50/50 split, micro-enterprise/charity scope); ~£112m reimbursed and 88% of stolen funds returned October 2024–June 2025; independent review from October 2025, findings due 2026/27."
+    },
+    {
+     "title": "Skadden — UK Government abolishes Payment Systems Regulator (March 2025)",
+     "url": "https://www.skadden.com/insights/publications/2025/03/uk-government-abolishes-payment-systems-regulator",
+     "note": "PSR abolition announcement; functions consolidating into the FCA, confirmed by HM Treasury April 2026 with legislation May 2026."
+    },
+    {
+     "title": "PSR/FCA — Commercial variable recurring payments: update on delivery (December 2025)",
+     "url": "https://www.psr.org.uk/media/xgjcblmb/cvrp-update-on-delivery-_-dec-2025.pdf",
+     "note": "UK Payments Initiative (31 firms) formed late 2025; first live commercial VRP payments expected Q1 2026; VRPs ~16% of open banking payments."
+    },
+    {
+     "title": "Norton Rose Fulbright, Regulation Tomorrow — Government response: commercial credit data sharing and bank referrals (May 2026)",
+     "url": "https://www.regulationtomorrow.com/2026/05/government-response-access-to-finance-policy-commercial-credit-data-sharing-and-bank-referrals/",
+     "note": "May 2026 decision: no legislative overhaul of the Bank Referral Scheme; CCDS designation to be widened beyond banks."
+    },
+    {
+     "title": "Alternative Credit Investor — Non-bank lenders drive UK SME lending growth to £68bn (March 2026)",
+     "url": "https://alternativecreditinvestor.com/2026/03/17/non-bank-lenders-drive-uk-sme-lending-growth-to-68bn/",
+     "note": "2025 SME lending up ~10% to £68bn; 68% written by challenger/specialist banks and non-bank lenders."
+    },
+    {
+     "title": "Research and Markets via GlobeNewswire — UK B2B Buy Now Pay Later Business Report 2026",
+     "url": "https://www.globenewswire.com/news-release/2026/04/22/3279156/28124/en/united-kingdom-b2b-buy-now-pay-later-business-report-2026-16-5-billion-market-expands-as-kriya-hokodo-and-iwoca-scale-embedded-payment-solutions-and-trade-ledger-powers-bank-led-cr.html",
+     "note": "UK B2B BNPL market sizing (~US$13.7bn 2025, toward US$16.5bn); Kriya owned by Allica Bank with £1bn deployment plan."
+    },
+    {
+     "title": "FCA — PS26/1: Regulation of Deferred Payment Credit (BNPL)",
+     "url": "https://www.fca.org.uk/publications/policy-statements/ps26-1-regulation-deferred-payment-credit",
+     "note": "Consumer BNPL regulation live 15 July 2026 — affordability checks, FOS access; B2B BNPL remains outside the perimeter."
+    },
+    {
+     "title": "Insolvency Service — Company insolvency statistics, December 2025 commentary",
+     "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025",
+     "note": "23,938 company insolvencies in England and Wales in 2025; compulsory liquidations at 3,730, highest since 2012."
+    }
+   ]
+  }
+ ]
+}

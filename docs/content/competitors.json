@@ -1,0 +1,215 @@
+{
+  "asAt": "2026-08",
+  "columns": [
+    { "key": "name", "label": "Institution" },
+    { "key": "type", "label": "Type" },
+    { "key": "bcaShare", "label": "BCA share", "numeric": true },
+    { "key": "smeLending", "label": "SME lending stock (£bn)", "numeric": true },
+    { "key": "funding", "label": "Funding model" },
+    { "key": "appetite", "label": "Credit appetite" },
+    { "key": "risk", "label": "Distinctive risk" },
+    { "key": "colour", "label": "" }
+  ],
+  "rows": [
+    {
+      "name": "Barclays",
+      "type": "incumbent",
+      "colour": "gold",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "BCA float + retail deposits",
+      "appetite": "Full-service; secured bias, centralised decisioning; payments franchise via Barclaycard",
+      "risk": "Adverse selection as challengers skim safest flow; Covid-scheme book run-off"
+    },
+    {
+      "name": "Lloyds (inc. Bank of Scotland)",
+      "type": "incumbent",
+      "colour": "violet",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Largest UK retail deposit base — cheapest float in market",
+      "appetite": "Largest SME franchise; conservative, secured, margin-harvesting",
+      "risk": "Pure UK-economy concentration; retrenchment cedes flow and data to rivals"
+    },
+    {
+      "name": "NatWest",
+      "type": "incumbent",
+      "colour": "violet",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "BCA float + retail deposits",
+      "appetite": "Historic #1 SME bank; cautious workout posture post-GRG; Mettle and Tyl as digital flankers",
+      "risk": "Conduct legacy constrains recovery tactics; ventures subscale against fintech rivals"
+    },
+    {
+      "name": "HSBC UK",
+      "type": "incumbent",
+      "colour": "violet",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Global deposit franchise",
+      "appetite": "Trade and internationally minded SMEs; Kinetic at the small end",
+      "risk": "Appetite cyclicality — de-risks early and hard when group risk view turns"
+    },
+    {
+      "name": "Santander UK (+ TSB)",
+      "type": "incumbent",
+      "colour": "violet",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Retail deposits; TSB acquired Apr 2026 (£2.65bn)",
+      "appetite": "Subscale in BB; retail and small-business scale play via TSB",
+      "risk": "Integration distraction; long-questioned commitment to UK SME credit"
+    },
+    {
+      "name": "Starling",
+      "type": "challenger",
+      "colour": "green",
+      "bcaShare": 9.7,
+      "smeLending": null,
+      "funding": "SME and retail deposits — surplus liquidity",
+      "appetite": "Lending-light; BBLS-era book in run-off; mortgages via Fleet acquisition",
+      "risk": "BBLS guarantee eligibility — £28.2m FY25 provision after voluntarily removing guarantee; £29m FCA fin-crime fine"
+    },
+    {
+      "name": "Tide",
+      "type": "challenger",
+      "colour": "green",
+      "bcaShare": 15,
+      "smeLending": null,
+      "funding": "E-money — client funds safeguarded at ClearBank, not deposits",
+      "appetite": "Payments and subscriptions first; credit mostly via partners",
+      "risk": "Not a UK bank; share is self-reported members over all 5.5m SMEs, not lending or deposit share"
+    },
+    {
+      "name": "Monzo Business",
+      "type": "challenger",
+      "colour": "green",
+      "bcaShare": 14,
+      "smeLending": null,
+      "funding": "Retail + SME deposits",
+      "appetite": "Micro-SME accounts via retail-brand crossover; lending nascent",
+      "risk": "Unseasoned credit vintages; share figure ('1 in 7 SMEs') counts businesses, not value"
+    },
+    {
+      "name": "Zempler",
+      "type": "challenger",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "SME deposits; profitable three consecutive years",
+      "appetite": "Micro-business accounts (~170k); credit embedded via iwoca",
+      "risk": "Thin margins at the micro end; dependent on partner credit appetite"
+    },
+    {
+      "name": "Allica",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": 3.7,
+      "funding": "Fixed-term savings + business rewards deposits",
+      "appetite": "Established SMEs (10–250 staff): commercial mortgages, asset, growth and bridging finance",
+      "risk": "23% annual growth — unseasoned book; commercial-property collateral sensitivity"
+    },
+    {
+      "name": "OakNorth",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": 7.2,
+      "funding": "Retail savings + deposits; sells ON Credit Intelligence software",
+      "appetite": "£250k–£100m property and trading-business credit; granular forward-looking monitoring",
+      "risk": "Low-default portfolio — 0.045% ten-year losses give no internal data for PD calibration; property concentration"
+    },
+    {
+      "name": "Shawbrook (+ ThinCats)",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": 4.4,
+      "funding": "Retail savings + securitisation",
+      "appetite": "Specialist secured; SME £4.4bn within £19.2bn total book; mid-market via ThinCats",
+      "risk": "Wholesale-market reliance; ThinCats integration and larger single-name exposures"
+    },
+    {
+      "name": "Aldermore",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Retail savings (FirstRand-owned)",
+      "appetite": "Asset finance, invoice finance, commercial mortgages; GGS-accredited",
+      "risk": "Cyclical asset-finance exposure — losses track used-asset values and SME capex"
+    },
+    {
+      "name": "Paragon",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Retail savings + securitisation",
+      "appetite": "Buy-to-let heritage plus SME asset finance; GGS allocations; automated small-ticket decisioning",
+      "risk": "Property-cycle correlation across both sides of the book"
+    },
+    {
+      "name": "ThinCats",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Institutional capital; Shawbrook-owned since 2025",
+      "appetite": "Bespoke, larger-ticket funding for established mid-sized SMEs",
+      "risk": "Concentrated single-name exposures; adviser-led origination quality"
+    },
+    {
+      "name": "Funding Circle",
+      "type": "marketplace",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": 3.0,
+      "funding": "Institutional forward-flow + own balance sheet (FlexiPay)",
+      "appetite": "Unsecured SME term loans and working-capital lines",
+      "risk": "Marketplace-to-balance-sheet pivot brings credit risk home; unsecured book in a downturn"
+    },
+    {
+      "name": "iwoca",
+      "type": "specialist",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Wholesale debt facilities (e.g. £250m Waterfall line)",
+      "appetite": "Short-term unsecured working capital; embedded API distribution reaching ~3m businesses",
+      "risk": "High-PD segment; wholesale funding retrenches first in stress"
+    },
+    {
+      "name": "Wise Business",
+      "type": "adjacent",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Safeguarded client funds — non-lender",
+      "appetite": "No credit; cross-border payments and multi-currency accounts",
+      "risk": "Erodes incumbent FX and payments fee income that subsidises cheap SME credit"
+    },
+    {
+      "name": "Revolut Business",
+      "type": "adjacent",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "E-money/deposits; UK bank build-out in progress",
+      "appetite": "Payments-led (~0.8m businesses globally, +33% in 2025); credit ambitions nascent",
+      "risk": "Scale and speed versus controls maturity; UK credit entry would target transactional flow"
+    },
+    {
+      "name": "Square / SumUp",
+      "type": "adjacent",
+      "colour": "green",
+      "bcaShare": null,
+      "smeLending": null,
+      "funding": "Group funding; advances held on own book",
+      "appetite": "Merchant cash advances repaid as a share of card takings — pure transactional-data lending",
+      "risk": "Losses track merchant revenue collapse in real time; concentrated in hospitality and retail"
+    }
+  ]
+}

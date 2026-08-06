@@ -1,0 +1,2959 @@
+{
+ "terms": {
+  "bca": {
+   "term": "Business current account (BCA)",
+   "definition": "The transactional bank account through which a business routes receipts, payments and wages. The anchor BB product: source of cheap deposits, fee income, cross-sale, and — critically for credit risk — live behavioural data on trading health via account turnover and limit usage.",
+   "related": [
+    "bca-turnover",
+    "overdraft",
+    "behavioural-scoring"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=1#s6",
+     "label": "M01 · Demutualisation and the last consolidation of the clearers"
+    },
+    {
+     "href": "module.html?id=3#s2",
+     "label": "M03 · BBLS anatomy: underwriting, deleted"
+    },
+    {
+     "href": "module.html?id=4#s3",
+     "label": "M04 · The Current Account Is the Product"
+    },
+    {
+     "href": "module.html?id=4#s5",
+     "label": "M04 · Eagle Labs and the Digital Front Door"
+    },
+    {
+     "href": "module.html?id=5#s1",
+     "label": "M05 · A Concentrated Front, a Dispersed War"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    },
+    {
+     "href": "module.html?id=6#s4",
+     "label": "M06 · The working-capital cycle, read through a current account"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    }
+   ]
+  },
+  "sme": {
+   "term": "SME",
+   "definition": "Small and medium-sized enterprise, conventionally a firm with fewer than 250 employees. UK SMEs numbered ~5.68 million at the start of 2025 — 99.85% of all businesses — employing ~16.9 million people. Banks sub-segment them by annual turnover, with 'business banking' boundaries ranging from ~£2m to £25m.",
+   "related": [
+    "sole-trader",
+    "small-corporate",
+    "turnover-segmentation"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s1",
+     "label": "M00 · The territory: from market stall to mid-corporate"
+    },
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    },
+    {
+     "href": "module.html?id=1#s4",
+     "label": "M01 · Big Bang 1986: the side-effects reach the business bank"
+    },
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=3#s1",
+     "label": "M03 · Eleven days that built the book"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=5#s1",
+     "label": "M05 · A Concentrated Front, a Dispersed War"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    }
+   ]
+  },
+  "sole-trader": {
+   "term": "Sole trader",
+   "definition": "An unincorporated business owned by one individual with no legal separation between personal and business assets — the owner is personally liable for all debts. Around 56% of UK businesses; most employ nobody. For lenders, effectively consumer credit wearing a trading name.",
+   "related": [
+    "sme",
+    "personal-guarantee"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s1",
+     "label": "M00 · The territory: from market stall to mid-corporate"
+    }
+   ]
+  },
+  "overdraft": {
+   "term": "Overdraft",
+   "definition": "A revolving borrowing limit on the BCA, repayable on demand, funding day-to-day working capital. Usually unsecured or floating-charge secured at the small end. Risk is EAD-shaped: utilisation climbs towards and through the limit as a firm approaches default.",
+   "related": [
+    "bca",
+    "ead",
+    "floating-charge"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=4#s3",
+     "label": "M04 · The Current Account Is the Product"
+    },
+    {
+     "href": "module.html?id=6#s4",
+     "label": "M06 · The working-capital cycle, read through a current account"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    },
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    }
+   ]
+  },
+  "term-loan": {
+   "term": "Term loan",
+   "definition": "A fixed advance repaid on an amortising schedule, typically over one to ten-plus years, funding expansion, acquisition or refinancing. EAD is predictable; risk concentrates in PD — whether cash flows survive the term — and in LGD where the loan is unsecured.",
+   "related": [
+    "overdraft",
+    "commercial-mortgage",
+    "pd"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    }
+   ]
+  },
+  "commercial-mortgage": {
+   "term": "Commercial mortgage",
+   "definition": "A long-term loan (typically 15–25 years) secured on business premises or investment property. LGD is driven by the commercial property cycle, which is more volatile and less liquid than residential; for investment property, tenant quality can matter as much as borrower quality.",
+   "related": [
+    "term-loan",
+    "fixed-charge",
+    "lgd"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=7#s7",
+     "label": "M07 · Forward-Looking Economics for Firms, Not Households"
+    }
+   ]
+  },
+  "asset-finance": {
+   "term": "Asset finance",
+   "definition": "Hire purchase and leasing used to fund vehicles, plant and equipment, with the asset as security and title often retained by the funder. LGD turns on used-asset resale values: 'hard' assets with liquid secondary markets recover well; bespoke 'soft' assets do not.",
+   "related": [
+    "invoice-finance",
+    "lgd"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=5#s1",
+     "label": "M05 · A Concentrated Front, a Dispersed War"
+    }
+   ]
+  },
+  "invoice-finance": {
+   "term": "Invoice finance",
+   "definition": "Lending advanced against unpaid trade invoices — typically 80–90% of face value — via factoring or invoice discounting. Self-liquidating: debtor payments repay the advance, so EAD is short-dated and LGD modest. Tail risk is fraud: fresh-air invoices and double-financing.",
+   "related": [
+    "asset-finance",
+    "working-capital-cycle"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=1#s1",
+     "label": "M01 · Quakers, goldsmiths, and the original business bank"
+    },
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    },
+    {
+     "href": "module.html?id=6#s4",
+     "label": "M06 · The working-capital cycle, read through a current account"
+    }
+   ]
+  },
+  "merchant-acquiring": {
+   "term": "Merchant acquiring",
+   "definition": "Processing card payments on behalf of businesses, earning a margin per transaction — Barclays operates through Barclaycard Payments. Carries contingent credit risk: if a merchant fails after taking payment but before delivering goods or services, chargebacks fall on the acquirer.",
+   "related": [
+    "bca",
+    "barclaycard-payments"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=4#s4",
+     "label": "M04 · Barclaycard Payments and the Brookfield Turn"
+    },
+    {
+     "href": "module.html?id=5#s5",
+     "label": "M05 · Marketplaces, Embedded Credit and the Payments Flank"
+    }
+   ]
+  },
+  "small-corporate": {
+   "term": "Small corporate",
+   "definition": "A firm at the top of the BB pyramid — near the segment boundary (£6.5m turnover at Barclays) — with proper financial management, fuller accounts and multi-product needs. Large enough for manual underwriting and individual impairment assessment; small enough to lack capital-markets access.",
+   "related": [
+    "sme",
+    "turnover-segmentation",
+    "individually-assessed"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s1",
+     "label": "M00 · The territory: from market stall to mid-corporate"
+    }
+   ]
+  },
+  "turnover-segmentation": {
+   "term": "Turnover segmentation",
+   "definition": "Dividing business customers into bank segments by annual turnover. Boundaries vary by bank — Barclays moves firms to its UK Corporate Bank at £6.5m; Lloyds runs tiers at £3m and £25m; NatWest's business segment ends near £2m — so cross-bank 'SME book' comparisons rarely compare like with like.",
+   "related": [
+    "sme",
+    "coverage-ratio"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s2",
+     "label": "M00 · Where the banks draw the lines"
+    }
+   ]
+  },
+  "bca-turnover": {
+   "term": "BCA turnover",
+   "definition": "The gross credit flow through a firm's business current account — a live, hard-to-falsify proxy for trading revenue, available months before filed accounts. A core input to BB behavioural PD models and SICR triggers, but noisy and endogenous: firms can route receipts elsewhere.",
+   "related": [
+    "bca",
+    "behavioural-scoring",
+    "pd"
+   ],
+   "homeModule": 0,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    }
+   ]
+  },
+  "goldsmith-bankers": {
+   "term": "Goldsmith bankers",
+   "definition": "Seventeenth-century London goldsmiths who took deposits for safekeeping, issued receipts that circulated as money, and lent against them — the direct ancestors of English deposit banking. Barclays traces its 1690 origins to the goldsmith-banking partnership of John Freame and Thomas Gould on Lombard Street.",
+   "related": [
+    "clearing-banks"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s1",
+     "label": "M01 · Quakers, goldsmiths, and the original business bank"
+    }
+   ]
+  },
+  "clearing-banks": {
+   "term": "Clearing banks",
+   "definition": "The large joint-stock banks that settled payments through the London Clearing House — historically the Big Five, later Big Four (Barclays, Lloyds, Midland/HSBC, NatWest). They dominated England and Wales business banking for a century, operating as a de facto oligopoly in deposits, money transmission and SME credit.",
+   "related": [
+    "interest-rate-cartel",
+    "ccc-1971",
+    "competition-commission-2002"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    },
+    {
+     "href": "module.html?id=6#s4",
+     "label": "M06 · The working-capital cycle, read through a current account"
+    }
+   ]
+  },
+  "interest-rate-cartel": {
+   "term": "Interest-rate cartel",
+   "definition": "The clearing banks' formal agreement to fix deposit rates and move lending rates in step with Bank Rate, tolerated by the authorities in exchange for compliance with credit controls. Abolished by Competition and Credit Control in 1971.",
+   "related": [
+    "clearing-banks",
+    "ccc-1971"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    }
+   ]
+  },
+  "macmillan-gap": {
+   "term": "Macmillan gap",
+   "definition": "The structural shortfall in long-term finance for small firms identified by the Macmillan Committee in 1931 — too small for capital markets, too risky for rationed bank credit. The founding diagnosis of UK SME finance policy, rediscovered by successive inquiries ever since.",
+   "related": [
+    "cruickshank-report",
+    "sme"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    }
+   ]
+  },
+  "ccc-1971": {
+   "term": "Competition and Credit Control (1971)",
+   "definition": "Bank of England reform of September 1971 abolishing lending ceilings and the clearing-bank cartel, switching credit control from rationing to price (interest rates and special deposits). Unleashed the Barber boom — broad money up ~72% by end-1973 — and set up the secondary banking crisis.",
+   "related": [
+    "secondary-banking-crisis",
+    "lifeboat-operation",
+    "interest-rate-cartel"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    }
+   ]
+  },
+  "secondary-banking-crisis": {
+   "term": "Secondary banking crisis (1973–75)",
+   "definition": "Collapse of lightly supervised, wholesale-funded 'fringe' banks that had lent heavily against commercial property after 1971 liberalisation. Rate spikes and a property crash triggered funding runs; twenty-six institutions needed support. The template UK cycle: liberalisation, property concentration, collateral collapse, losses.",
+   "related": [
+    "ccc-1971",
+    "lifeboat-operation"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    }
+   ]
+  },
+  "lifeboat-operation": {
+   "term": "Lifeboat operation",
+   "definition": "The Bank of England-orchestrated support pool, launched December 1973 and funded ~90% by the clearing banks, that lent up to £1.3bn to twenty-six failing secondary banks to contain the 1973–75 crisis. An early lesson that clearers pay for systemic property-lending excess even when others originate it.",
+   "related": [
+    "secondary-banking-crisis",
+    "clearing-banks"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    }
+   ]
+  },
+  "big-bang": {
+   "term": "Big Bang (1986)",
+   "definition": "The 27 October 1986 deregulation of the London Stock Exchange: fixed commissions abolished, broker/jobber separation ended, outside ownership permitted, screen trading introduced. Pulled clearing banks into investment banking and, via disintermediation of large corporates, pushed their lending down-market toward SMEs and property.",
+   "related": [
+    "bzw",
+    "clearing-banks"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s4",
+     "label": "M01 · Big Bang 1986: the side-effects reach the business bank"
+    }
+   ]
+  },
+  "bzw": {
+   "term": "BZW",
+   "definition": "Barclays de Zoete Wedd — the investment bank Barclays assembled at Big Bang from broker de Zoete & Bevan and jobber Wedd Durlacher. Emblem of the era's diversion of clearers' capital and attention from business banking; largely sold to Credit Suisse in 1997, with remnants becoming Barclays Capital.",
+   "related": [
+    "big-bang"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s4",
+     "label": "M01 · Big Bang 1986: the side-effects reach the business bank"
+    }
+   ]
+  },
+  "overdraft-culture": {
+   "term": "Overdraft culture",
+   "definition": "The historical UK pattern of financing SMEs through on-demand overdrafts secured on property and personal guarantees rather than term debt. Cheap and flexible in benign times; procyclical in downturns, because banks can cut limits and call facilities exactly when borrowers are weakest — as in 1990–93.",
+   "related": [
+    "overdraft",
+    "personal-guarantee",
+    "small-banks-crisis"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    }
+   ]
+  },
+  "small-banks-crisis": {
+   "term": "Small banks crisis (1991–94)",
+   "definition": "The failure of roughly a quarter of the UK's small and medium-sized banks within three years of BCCI's July 1991 closure, as wholesale funding fled weaker names amid recession and property losses. The Bank of England provided discreet liquidity support to prevent contagion to larger institutions.",
+   "related": [
+    "overdraft-culture",
+    "secondary-banking-crisis"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    }
+   ]
+  },
+  "demutualisation": {
+   "term": "Demutualisation",
+   "definition": "Conversion of mutual building societies into shareholder-owned banks under the Building Societies Act 1986 — Abbey National (1989), then Halifax, Woolwich, Alliance & Leicester and Northern Rock (1997). Transformed mortgage and savings competition while leaving SME banking concentration untouched; several converts were later absorbed by the clearers.",
+   "related": [
+    "clearing-banks"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s6",
+     "label": "M01 · Demutualisation and the last consolidation of the clearers"
+    }
+   ]
+  },
+  "cruickshank-report": {
+   "term": "Cruickshank Report (2000)",
+   "definition": "Don Cruickshank's Treasury-commissioned review of UK banking competition, published 20 March 2000. Found concentrated markets, switching barriers, bank control of payments, and persistent excess profits from personal and SME customers — and triggered the Competition Commission's SME banking inquiry.",
+   "related": [
+    "competition-commission-2002",
+    "clearing-banks"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s7",
+     "label": "M01 · Cruickshank and the Competition Commission: the complex monopoly, named"
+    }
+   ]
+  },
+  "competition-commission-2002": {
+   "term": "Competition Commission SME banking report (2002)",
+   "definition": "The March 2002 inquiry finding a 'complex monopoly' in SME banking: the big four held ~90% of the market and their parallel practices restricted price competition. Remedies were behavioural — interest on SME current accounts (base minus 2.5%) or free banking from 2003, plus anti-bundling undertakings, the last released in December 2025.",
+   "related": [
+    "cruickshank-report",
+    "clearing-banks",
+    "cma-2016"
+   ],
+   "homeModule": 1,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s7",
+     "label": "M01 · Cruickshank and the Competition Commission: the complex monopoly, named"
+    }
+   ]
+  },
+  "project-merlin": {
+   "term": "Project Merlin",
+   "definition": "February 2011 agreement between the Treasury and five major banks committing 'capacity and willingness' for £190bn gross new business lending in 2011, £76bn to SMEs. Overall target exceeded; SME target missed by about £1bn. Criticised for counting gross lending while net SME credit kept shrinking, with no penalty mechanism.",
+   "related": [
+    "fls",
+    "sme"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s2",
+     "label": "M02 · Merlin and FLS: The Limits of Exhortation"
+    }
+   ]
+  },
+  "fls": {
+   "term": "Funding for Lending Scheme",
+   "definition": "Bank of England/Treasury scheme (2012–18) giving banks cheap funding priced off their net lending. The April 2013 extension skewed incentives to SMEs — up to £10 of drawings per £1 of net SME lending. Revived mortgage pricing and crushed savings rates; evaluations found no identifiable direct boost to SME credit.",
+   "related": [
+    "project-merlin"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s2",
+     "label": "M02 · Merlin and FLS: The Limits of Exhortation"
+    }
+   ]
+  },
+  "grg": {
+   "term": "Global Restructuring Group",
+   "definition": "RBS's division for distressed business customers; around 12,000 SMEs passed through it 2008–13. The FCA's s.166 review found widespread inappropriate treatment, with about one in six customers materially harmed by the bank. No enforcement followed — commercial lending sat outside the regulatory perimeter. RBS set aside £400m for fee refunds and complaints.",
+   "related": [
+    "tomlinson-report",
+    "s166-review",
+    "west-register",
+    "business-support-unit"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    },
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    },
+    {
+     "href": "module.html?id=8#s2",
+     "label": "M08 · Business Support, and the long shadow of GRG"
+    }
+   ]
+  },
+  "irhp": {
+   "term": "Interest-Rate Hedging Products",
+   "definition": "Swaps, caps, collars and structured collars sold alongside SME loans 2001–11, often as a lending condition. When rates collapsed, fixed payments and huge break costs crippled borrowers. An FSA-brokered review saw nine banks pay over £2.2bn redress on some 14,000 accepted offers; a 'sophistication test' excluded roughly 10,000 sales.",
+   "related": [
+    "swift-review",
+    "grg"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s4",
+     "label": "M02 · The Hedges That Strangled"
+    },
+    {
+     "href": "module.html?id=2#s8",
+     "label": "M02 · The Long Shadow at the Impairment Desk"
+    },
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    }
+   ]
+  },
+  "cma-2016": {
+   "term": "CMA 2016 Market Investigation",
+   "definition": "Competition and Markets Authority investigation into personal current account and SME banking, final report August 2016. Found weak competition driven by customer inertia. Remedies were behavioural, not structural: the open banking API mandate, published service-quality league tables, overdraft alerts and charge caps, and SME loan-price transparency tools.",
+   "related": [
+    "open-banking",
+    "bcr"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s7",
+     "label": "M01 · Cruickshank and the Competition Commission: the complex monopoly, named"
+    },
+    {
+     "href": "module.html?id=2#s6",
+     "label": "M02 · The CMA's 2016 Verdict"
+    }
+   ]
+  },
+  "bcr": {
+   "term": "Banking Competition Remedies",
+   "definition": "Independent body created in 2018 to administer RBS's £775m state-aid alternative remedies package: a £425m Capability & Innovation Fund of grants and £350m for incentivised switching of SME customers. Agreed with the European Commission in 2017 after the Williams & Glyn divestment was abandoned.",
+   "related": [
+    "capability-innovation-fund",
+    "incentivised-switching",
+    "williams-and-glyn"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s7",
+     "label": "M02 · The £775m Consolation Prize"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    }
+   ]
+  },
+  "incentivised-switching": {
+   "term": "Incentivised Switching Scheme",
+   "definition": "BCR scheme (2019–21) paying dowries to challenger banks for each former Williams & Glyn SME customer switching their business current account: £275m for dowries plus £75m towards customer costs. Delivered 69,135 switches against ambitions of up to 120,000; £250.9m (over 91%) disbursed. Starling switched the most.",
+   "related": [
+    "bcr",
+    "starling"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s7",
+     "label": "M02 · The £775m Consolation Prize"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    }
+   ]
+  },
+  "williams-and-glyn": {
+   "term": "Williams & Glyn",
+   "definition": "The 300-plus-branch SME-heavy business RBS was ordered to divest as an EU state-aid condition of its £45.5bn bailout. A Santander sale collapsed in 2012; standalone-bank plans consumed over £1.5bn, mostly on IT separation. Abandoned in 2017 and replaced by the £775m alternative remedies package.",
+   "related": [
+    "bcr",
+    "tsb-carve-out"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s5",
+     "label": "M02 · Children of State Aid: Williams & Glyn and TSB"
+    }
+   ]
+  },
+  "tomlinson-report": {
+   "term": "Tomlinson Report",
+   "definition": "November 2013 report by Lawrence Tomlinson, entrepreneur in residence at the business department, alleging RBS GRG pushed viable SMEs into distress via revaluations and fees, with the bank's West Register arm acquiring their assets. Triggered the FCA's skilled-person review of GRG.",
+   "related": [
+    "grg",
+    "s166-review",
+    "west-register"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    }
+   ]
+  },
+  "s166-review": {
+   "term": "Section 166 Review",
+   "definition": "A 'skilled person' review under s.166 of the Financial Services and Markets Act 2000: the regulator requires an independent expert report on a firm's conduct or systems. Promontory, assisted by Mazars, conducted the GRG s.166 review, delivering its report to the FCA in September 2016.",
+   "related": [
+    "grg",
+    "tomlinson-report"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    }
+   ]
+  },
+  "capability-innovation-fund": {
+   "term": "Capability & Innovation Fund",
+   "definition": "The £425m grant arm of the BCR package. Pool A (2019): Metro Bank £120m, Starling £100m, ClearBank with Tide £60m. Pool B: Nationwide £50m, Investec £15m, Co-op Bank £15m. Pool C: £10m grants; Pool D: £5m grants. Metro and Nationwide each returned £50m, recycled as Pool E in 2020.",
+   "related": [
+    "bcr",
+    "incentivised-switching",
+    "starling",
+    "tide"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s7",
+     "label": "M02 · The £775m Consolation Prize"
+    }
+   ]
+  },
+  "swift-review": {
+   "term": "Swift Review",
+   "definition": "John Swift QC's lessons-learned review of the IRHP redress scheme, published December 2021. Found most in-scope customers likely did better inside the scheme than outside, but criticised the exclusion of 'sophisticated' customers and weak FCA governance. The FCA declined to reopen redress; courts upheld that in 2023.",
+   "related": [
+    "irhp"
+   ],
+   "homeModule": 2,
+   "mentions": []
+  },
+  "tsb-carve-out": {
+   "term": "TSB Carve-out",
+   "definition": "Lloyds' EU-mandated divestment (Project Verde). After the Co-op purchase collapsed in 2013, TSB launched, IPO'd in 2014 and was sold to Sabadell in 2015 for £1.7bn. Its 2018 IT migration locked out up to 1.9m customers, drawing £48.65m in fines. Santander's £2.65bn acquisition completed 30 April 2026.",
+   "related": [
+    "williams-and-glyn"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s5",
+     "label": "M02 · Children of State Aid: Williams & Glyn and TSB"
+    }
+   ]
+  },
+  "west-register": {
+   "term": "West Register",
+   "definition": "RBS's property-investment arm, which could acquire assets sold by distressed customers managed in GRG — the conflict of interest at the heart of the Tomlinson allegations. The s.166 review did not find a deliberate asset-stripping strategy, but the optics led banks to bar workout units from buying customer assets.",
+   "related": [
+    "grg",
+    "tomlinson-report"
+   ],
+   "homeModule": 2,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    }
+   ]
+  },
+  "bbls": {
+   "term": "Bounce Back Loan Scheme (BBLS)",
+   "definition": "COVID emergency scheme (May 2020–March 2021): loans of £2k–£50k, capped at 25% of turnover, 2.5% fixed, six-year term, 100% government guarantee, self-certified eligibility, no credit checks. £46.5bn drawn across ~1.5m facilities. The defining book of modern BB impairment.",
+   "related": [
+    "cbils",
+    "pay-as-you-grow",
+    "self-certification",
+    "guarantee-claim"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=3#s1",
+     "label": "M03 · Eleven days that built the book"
+    },
+    {
+     "href": "module.html?id=3#s2",
+     "label": "M03 · BBLS anatomy: underwriting, deleted"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=4#s7",
+     "label": "M04 · The Book from the Impairment Seat"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=5#s6",
+     "label": "M05 · What the Field Teaches the Impairment Desk"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    },
+    {
+     "href": "module.html?id=8#s3",
+     "label": "M08 · Liquidation: the CVL machine and its compulsory cousin"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "cbils": {
+   "term": "Coronavirus Business Interruption Loan Scheme (CBILS)",
+   "definition": "COVID scheme (March 2020–March 2021) for businesses with turnover up to £45m: facilities up to £5m across loans, overdrafts, invoice and asset finance, 80% government guarantee, lender underwriting retained, government-paid first-year interest and fees, no personal guarantees below £250k. £25.8bn drawn; far better performance than BBLS.",
+   "related": [
+    "bbls",
+    "clbils",
+    "rls"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s1",
+     "label": "M03 · Eleven days that built the book"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    }
+   ]
+  },
+  "clbils": {
+   "term": "Coronavirus Large Business Interruption Loan Scheme (CLBILS)",
+   "definition": "COVID scheme for firms with turnover above £45m: facilities eventually up to £200m, 80% guarantee, dividend and executive-pay restrictions on larger facilities. £4.5bn drawn, ~96% fully repaid by March 2026 — negligible for impairment purposes.",
+   "related": [
+    "cbils",
+    "bbls"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s1",
+     "label": "M03 · Eleven days that built the book"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    }
+   ]
+  },
+  "rls": {
+   "term": "Recovery Loan Scheme (RLS)",
+   "definition": "Successor guarantee scheme launched April 2021. Iteration 1: 80% guarantee, up to £10m. From January 2022: 70%, £2m cap, SMEs only. From August 2022: no COVID-impact test required — a standing SME guarantee programme. Renamed the Growth Guarantee Scheme in July 2024.",
+   "related": [
+    "growth-guarantee-scheme",
+    "cbils"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    }
+   ]
+  },
+  "growth-guarantee-scheme": {
+   "term": "Growth Guarantee Scheme (GGS)",
+   "definition": "The RLS's current form (from July 2024): 70% government guarantee on facilities up to £2m, full commercial underwriting and pricing, personal guarantees permitted excluding principal residences. Extended to March 2030 at the June 2025 Spending Review; ~£3.6bn delivered through 70+ lenders by March 2026.",
+   "related": [
+    "rls",
+    "british-business-bank"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=4#s3",
+     "label": "M04 · The Current Account Is the Product"
+    },
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    }
+   ]
+  },
+  "pay-as-you-grow": {
+   "term": "Pay As You Grow (PAYG)",
+   "definition": "Built-in BBLS repayment flexibility, exercisable at borrower option without lender assessment: term extension from six to ten years at the same 2.5% rate; six months interest-only (up to three times); one six-month repayment holiday. Used by ~37% of BBLS facilities; guarantee unaffected. Stretched and flattened arrears emergence.",
+   "related": [
+    "bbls",
+    "sicr"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s4",
+     "label": "M03 · Pay As You Grow: forbearance by design"
+    },
+    {
+     "href": "module.html?id=3#s8",
+     "label": "M03 · Run-off: the book in 2025–2026"
+    },
+    {
+     "href": "module.html?id=4#s7",
+     "label": "M04 · The Book from the Impairment Seat"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "british-business-bank": {
+   "term": "British Business Bank (BBB)",
+   "definition": "State economic-development bank, owned by the Department for Business and Trade. Accredits lenders to the guarantee schemes, sets and audits scheme rules, administers the Scheme Portal (system of record), and processes guarantee claims on behalf of the Secretary of State as guarantor.",
+   "related": [
+    "guarantee-claim",
+    "guarantee-removal",
+    "growth-guarantee-scheme"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s6",
+     "label": "M03 · The British Business Bank: plumbing, portal, claims"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "guarantee-claim": {
+   "term": "Guarantee claim",
+   "definition": "The process by which a lender recovers guaranteed losses: after default, the lender completes required recovery steps under scheme rules, submits the claim via the BBB Scheme Portal, and is reimbursed the guaranteed share. Post-settlement recoveries are remitted to government pro rata. £12.98bn settled across the COVID schemes by March 2026.",
+   "related": [
+    "british-business-bank",
+    "guarantee-removal",
+    "lgd"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s6",
+     "label": "M03 · The British Business Bank: plumbing, portal, claims"
+    },
+    {
+     "href": "module.html?id=5#s6",
+     "label": "M05 · What the Field Teaches the Impairment Desk"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "self-certification": {
+   "term": "Self-certification",
+   "definition": "The BBLS application basis: borrowers attested their own turnover, COVID impact and eligibility on a short form, with lenders explicitly relieved of credit and affordability assessment (fraud/AML/KYC checks only). The scheme's core speed mechanism — and its core fraud vulnerability.",
+   "related": [
+    "bbls",
+    "fraud-flag"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s2",
+     "label": "M03 · BBLS anatomy: underwriting, deleted"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    }
+   ]
+  },
+  "business-interruption-payment": {
+   "term": "Business Interruption Payment (BIP)",
+   "definition": "Government payment covering the first twelve months of interest (and, for CBILS, fees) on COVID scheme facilities, paid directly to the lender so borrowers faced no cost in year one. Combined with the BBLS capital holiday, it delayed the first true affordability test to 2021–22.",
+   "related": [
+    "bbls",
+    "cbils"
+   ],
+   "homeModule": 3,
+   "mentions": []
+  },
+  "guarantee-removal": {
+   "term": "Guarantee removal",
+   "definition": "Retrospective withdrawal of the government guarantee from a scheme facility, typically after BBB audit finds scheme-rule breaches or data errors. £1.16bn across 14,757 loans removed by March 2026. Converts a state-backed exposure into ordinary unsecured lending — an operational event with an LGD-cliff impairment consequence.",
+   "related": [
+    "guarantee-claim",
+    "british-business-bank",
+    "lgd"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s6",
+     "label": "M03 · The British Business Bank: plumbing, portal, claims"
+    }
+   ]
+  },
+  "fraud-flag": {
+   "term": "Fraud flag",
+   "definition": "A lender's marker on a scheme facility suspected of fraudulent application or use, reported through the BBB Scheme Portal. As at March 2026, £1.88bn of BBLS drawn value (4.04%) was flagged — well below early official estimates of 11% (£4.9bn). Flagged loans follow counter-fraud recovery routes distinct from ordinary collections.",
+   "related": [
+    "self-certification",
+    "bbls"
+   ],
+   "homeModule": 3,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s3",
+     "label": "M03 · The fraud problem, in three estimates"
+    }
+   ]
+  },
+  "barclays-uk": {
+   "term": "Barclays UK",
+   "definition": "Barclays' ring-fenced division (legal entity Barclays Bank UK PLC), holding UK retail and small-business banking. Reports three segments: Personal Banking, Barclaycard Consumer UK, and Business Banking. End-2025: £215.6bn loans, £244.7bn deposits, 20.7% RoTE. Business Banking clients hand off to the UK Corporate Bank above ~£6.5m turnover.",
+   "related": [
+    "ring-fencing",
+    "uk-corporate-bank",
+    "ara"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s2",
+     "label": "M00 · Where the banks draw the lines"
+    },
+    {
+     "href": "module.html?id=4#s1",
+     "label": "M04 · Where Business Banking Lives"
+    }
+   ]
+  },
+  "eagle-labs": {
+   "term": "Eagle Labs",
+   "definition": "Barclays' national incubator network for tech start-ups, launched 2015, offering workspace, mentoring and growth programmes. Delivered the government's £12.09m Digital Growth Grant (2023–25) supporting 22,000+ businesses, 80% outside London. Strategically an origination funnel and franchise asset — it holds no credit exposure itself.",
+   "related": [
+    "digital-growth-grant",
+    "sme"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s5",
+     "label": "M04 · Eagle Labs and the Digital Front Door"
+    }
+   ]
+  },
+  "barclaycard-payments": {
+   "term": "Barclaycard Payments",
+   "definition": "Barclays' merchant acquiring business — among the top two UK acquirers, processing c.8.7bn transactions annually (as at 2025). Historically a key SME differentiator and early-warning data source. Since April 2025, subject to a Brookfield partnership with a staged path toward Brookfield majority ownership.",
+   "related": [
+    "merchant-acquiring",
+    "brookfield-partnership"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=4#s4",
+     "label": "M04 · Barclaycard Payments and the Brookfield Turn"
+    }
+   ]
+  },
+  "coverage-ratio": {
+   "term": "Coverage ratio",
+   "definition": "Impairment allowance divided by gross exposure, overall or by stage. Barclays UK end-2025 markers: retail credit cards 4.3% total coverage, mortgages of the order of 0.1%, group c.1.2%. For BB, guarantees and secured/unsecured mix distort the blend — always decompose before comparing across books.",
+   "related": [
+    "ecl",
+    "staging",
+    "integral-guarantee"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s2",
+     "label": "M00 · Where the banks draw the lines"
+    },
+    {
+     "href": "module.html?id=1#s7",
+     "label": "M01 · Cruickshank and the Competition Commission: the complex monopoly, named"
+    },
+    {
+     "href": "module.html?id=3#s7",
+     "label": "M03 · What a guarantee does to LGD"
+    },
+    {
+     "href": "module.html?id=4#s6",
+     "label": "M04 · Reading the Results: Where BB Shows Up"
+    },
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    }
+   ]
+  },
+  "ara": {
+   "term": "ARA (Annual Report and Accounts)",
+   "definition": "A bank's statutory annual disclosure. For BB analysis, the Barclays Bank UK PLC ARA matters most: it carries the ring-fenced bank's credit risk section, staging and coverage tables, and government-scheme commentary. Quarterly results announcements (RAs) give the interim segment view.",
+   "related": [
+    "barclays-uk",
+    "coverage-ratio"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s1",
+     "label": "M04 · Where Business Banking Lives"
+    },
+    {
+     "href": "module.html?id=4#s6",
+     "label": "M04 · Reading the Results: Where BB Shows Up"
+    }
+   ]
+  },
+  "ring-fencing": {
+   "term": "Ring-fencing",
+   "definition": "UK regime (in force 2019, from the Financial Services (Banking Reform) Act 2013) requiring large banks to separate core retail and SME deposit-taking into an independently capitalised entity, insulated from investment banking. Business Banking sits inside Barclays' ring-fenced bank, Barclays Bank UK PLC.",
+   "related": [
+    "barclays-uk"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s1",
+     "label": "M04 · Where Business Banking Lives"
+    }
+   ]
+  },
+  "uk-corporate-bank": {
+   "term": "UK Corporate Bank",
+   "definition": "Barclays division (one of five since the February 2024 reorganisation) serving companies above roughly £6.5m annual turnover with lending, cash management, trade and FX. The upper boundary of Business Banking: larger, chunkier credits — and their impairment — are disclosed here, not in BB.",
+   "related": [
+    "barclays-uk"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s1",
+     "label": "M04 · Where Business Banking Lives"
+    }
+   ]
+  },
+  "loan-loss-rate": {
+   "term": "Loan loss rate",
+   "definition": "Annualised credit impairment charge as basis points of gross loans. Barclays UK: 14bps (FY23), 16bps (FY24), 18bps (FY25) — mortgage-dominated, hence far below group through-the-cycle guidance of 50–60bps. Group H1 2026: 62bps. The drift matters more than the level.",
+   "related": [
+    "coverage-ratio",
+    "ecl"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s6",
+     "label": "M04 · Reading the Results: Where BB Shows Up"
+    }
+   ]
+  },
+  "brookfield-partnership": {
+   "term": "Brookfield partnership",
+   "definition": "April 2025 agreement on Barclays' UK merchant acquiring business: Barclays invests c.£400m over three years to modernise the platform; Brookfield Asset Management leads transformation and holds an option to acquire roughly 70–80% between years three and seven — a staged majority exit from acquiring.",
+   "related": [
+    "barclaycard-payments",
+    "merchant-acquiring"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s4",
+     "label": "M04 · Barclaycard Payments and the Brookfield Turn"
+    }
+   ]
+  },
+  "digital-growth-grant": {
+   "term": "Digital Growth Grant",
+   "definition": "£12.09m UK government grant awarded to Barclays Eagle Labs to deliver start-up and scale-up support from April 2023 to March 2025 — over 22,000 businesses targeted, at least 80% outside London. Controversial at award (displacing Tech Nation), it cemented Eagle Labs' ecosystem role.",
+   "related": [
+    "eagle-labs"
+   ],
+   "homeModule": 4,
+   "mentions": [
+    {
+     "href": "module.html?id=4#s5",
+     "label": "M04 · Eagle Labs and the Digital Front Door"
+    }
+   ]
+  },
+  "starling": {
+   "term": "Starling Bank",
+   "definition": "Digital bank founded 2014; the largest BCR-era challenger, holding c.10% of UK SME business current accounts with £714m revenue in FY2025. Deposit-rich, lending-light. Booked a £28.2m provision in FY2025 after voluntarily removing the government guarantee from BBLS loans whose origination checks failed scheme conditions.",
+   "related": [
+    "bbls",
+    "bcr",
+    "integral-guarantee"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=2#s7",
+     "label": "M02 · The £775m Consolation Prize"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=6#s6",
+     "label": "M06 · Open banking: reading someone else's current account"
+    }
+   ]
+  },
+  "tide": {
+   "term": "Tide",
+   "definition": "E-money business-banking platform — not a UK bank — holding client funds via ClearBank. Roughly 900,000 UK members by mid-2026, a self-reported c.15% of UK SMEs by count. Monetises payments and subscriptions; credit mostly originated through partners. Its share metric counts businesses, not lending or deposit value.",
+   "related": [
+    "bca",
+    "starling",
+    "zempler"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s7",
+     "label": "M02 · The £775m Consolation Prize"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=6#s6",
+     "label": "M06 · Open banking: reading someone else's current account"
+    }
+   ]
+  },
+  "allica": {
+   "term": "Allica Bank",
+   "definition": "Full-service digital bank for established SMEs (roughly 10–250 employees). Lending grew 23% to £3.7bn in 2025 — mostly commercial mortgages plus asset, growth and bridging finance — funded by £5.7bn of savings deposits. Third consecutive profitable year; the standing example of relationship underwriting rebuilt on modern rails.",
+   "related": [
+    "commercial-mortgage",
+    "asset-finance",
+    "relationship-lending"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "oaknorth": {
+   "term": "OakNorth",
+   "definition": "UK bank lending £250k–£100m to property and trading businesses; £7.2bn of facilities and £223m pre-tax profit in 2025. Cumulative principal losses of 0.045% (£6.9m) across its first decade — the canonical low-default portfolio. Sells its underwriting and monitoring stack to other banks as ON Credit Intelligence.",
+   "related": [
+    "low-default-portfolio",
+    "allica",
+    "shawbrook"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    }
+   ]
+  },
+  "funding-circle": {
+   "term": "Funding Circle",
+   "definition": "UK SME lending platform that pioneered marketplace lending, then pivoted: US exit, and growth via FlexiPay working-capital lines held on its own balance sheet. In 2025: £3.0bn under management, £2.5bn of credit extended, £20.3m pre-tax profit. Proof that originate-to-distribute relocates credit risk rather than removing it.",
+   "related": [
+    "marketplace-lending",
+    "iwoca"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s5",
+     "label": "M05 · Marketplaces, Embedded Credit and the Payments Flank"
+    },
+    {
+     "href": "module.html?id=6#s6",
+     "label": "M06 · Open banking: reading someone else's current account"
+    }
+   ]
+  },
+  "iwoca": {
+   "term": "iwoca",
+   "definition": "Data-driven lender of short-term unsecured working capital to small businesses; £1.3bn lent across 58,000 loans in 2025, up 60%. Distributes through embedded API partnerships — accountancy software, payment firms, neobanks — reaching c.3m businesses. Wholesale-funded via facilities such as a £250m Waterfall Asset Management line.",
+   "related": [
+    "transactional-data-lending",
+    "zempler",
+    "funding-circle"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=6#s6",
+     "label": "M06 · Open banking: reading someone else's current account"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "mettle": {
+   "term": "Mettle",
+   "definition": "NatWest's standalone app-based business current account for sole traders and small limited companies — the incumbent's defensive answer to Starling and Tide, run as a separate brand with fee-free accounts and integrated accounting software.",
+   "related": [
+    "tyl",
+    "starling",
+    "bca"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    }
+   ]
+  },
+  "tyl": {
+   "term": "Tyl",
+   "definition": "NatWest's merchant-acquiring service, launched 2019, offering card terminals and payment processing to SMEs. Among the fastest-growing UK bank-owned acquirers; entered a technology partnership with Endava in 2026. Gives NatWest the card-takings data stream that fintech acquirers use for lending.",
+   "related": [
+    "merchant-acquiring",
+    "mettle",
+    "transactional-data-lending"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    }
+   ]
+  },
+  "kinetic": {
+   "term": "Kinetic",
+   "definition": "HSBC UK's app-based business banking platform for small businesses — account opening, overdrafts and small loans delivered digitally. HSBC's vehicle for defending the small-SME end of its franchise while its core appetite concentrates on internationally trading firms.",
+   "related": [
+    "bca",
+    "mettle",
+    "overdraft"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    }
+   ]
+  },
+  "shawbrook": {
+   "term": "Shawbrook",
+   "definition": "Specialist UK bank funded by retail savings and securitisation; £19.2bn loan book at end-2025 (up 16%), including £4.4bn of SME lending alongside real-estate and retail mortgages. Acquired ThinCats to deepen mid-market SME reach and returned to the London Stock Exchange.",
+   "related": [
+    "thincats",
+    "aldermore",
+    "asset-finance"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    }
+   ]
+  },
+  "aldermore": {
+   "term": "Aldermore",
+   "definition": "Specialist bank owned by South Africa's FirstRand, focused on asset finance, invoice finance and commercial mortgages for SMEs, funded largely by retail savings. Accredited under the Growth Guarantee Scheme, having previously lent under the Recovery Loan Scheme.",
+   "related": [
+    "asset-finance",
+    "invoice-finance",
+    "growth-guarantee-scheme"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    }
+   ]
+  },
+  "zempler": {
+   "term": "Zempler Bank",
+   "definition": "Small-business bank, formerly Cashplus, with c.170,000 business accounts and three consecutive years of profit to FY2025. Embeds iwoca's lending inside its own accounts rather than building a large credit book — a working example of the embedded-credit pattern among account-first challengers.",
+   "related": [
+    "iwoca",
+    "tide",
+    "bca"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    }
+   ]
+  },
+  "thincats": {
+   "term": "ThinCats",
+   "definition": "Specialist lender providing bespoke, typically larger-ticket funding to established, growth-focused mid-sized SMEs, originated through advisers and its own regional team. Acquired by Shawbrook in 2025, extending the bank's reach into relationship-underwritten mid-market credit.",
+   "related": [
+    "shawbrook",
+    "relationship-lending"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    }
+   ]
+  },
+  "marketplace-lending": {
+   "term": "Marketplace lending",
+   "definition": "Originate-to-distribute model: a platform originates loans, sells them to institutional investors and retains servicing fees, holding little or no credit risk itself. Risk is relocated, not removed — when investor demand or economics shift, originators pivot to balance-sheet lending and the ECL comes home.",
+   "related": [
+    "funding-circle",
+    "iwoca"
+   ],
+   "homeModule": 5,
+   "mentions": [
+    {
+     "href": "module.html?id=5#s5",
+     "label": "M05 · Marketplaces, Embedded Credit and the Payments Flank"
+    }
+   ]
+  },
+  "relationship-lending": {
+   "term": "Relationship lending",
+   "definition": "Underwriting built on soft information a relationship manager accumulates about a business and its owners over time — character, competence, local context. Powerful for opaque SMEs but expensive and unscalable; largely stripped out of UK banking as credit decisions were centralised away from branches.",
+   "related": [
+    "transactional-data-lending",
+    "financial-statement-lending"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=1#s1",
+     "label": "M01 · Quakers, goldsmiths, and the original business bank"
+    },
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    }
+   ]
+  },
+  "transactional-data-lending": {
+   "term": "Transactional-data lending",
+   "definition": "Underwriting from the live flow of a business's current-account transactions — receipts, payments, balances — rather than financial statements. The dominant modern BB technology: timely, unfakeable, and the foundation of behavioural scoring. Open banking extended it to lenders who don't hold the account.",
+   "related": [
+    "behavioural-scoring",
+    "open-banking",
+    "relationship-lending"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s6",
+     "label": "M02 · The CMA's 2016 Verdict"
+    },
+    {
+     "href": "module.html?id=5#s5",
+     "label": "M05 · Marketplaces, Embedded Credit and the Payments Flank"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    }
+   ]
+  },
+  "financial-statement-lending": {
+   "term": "Financial-statement lending",
+   "definition": "Underwriting from a company's accounts: ratio analysis of profitability, gearing, interest cover and asset quality. Works for larger SMEs with audited, timely numbers; degrades badly for small companies whose public filings are abbreviated, unaudited and up to two years stale.",
+   "related": [
+    "companies-house",
+    "filleted-accounts"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    }
+   ]
+  },
+  "companies-house": {
+   "term": "Companies House",
+   "definition": "The UK registrar of companies — the free public record of incorporations, directors, filed accounts and registered charges. BB underwriting's baseline data source, weakened by small-company filing exemptions and nine-month filing lags. ECCTA reforms added director identity verification (November 2025); fuller accounts reform is deferred to 2028.",
+   "related": [
+    "filleted-accounts",
+    "sic-code"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    }
+   ]
+  },
+  "filleted-accounts": {
+   "term": "Filleted accounts",
+   "definition": "Accounts a small company files at Companies House with the profit and loss account (and directors' report) removed — legally showing the public a balance sheet but no trading performance. Available to companies under the small-company thresholds (from April 2025: £15m turnover, £7.5m balance sheet, 50 employees).",
+   "related": [
+    "companies-house",
+    "financial-statement-lending"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    }
+   ]
+  },
+  "sic-code": {
+   "term": "SIC code",
+   "definition": "Standard Industrial Classification code self-declared at incorporation to describe a company's activity. Drives banks' sector segmentation, concentration limits and scenario mapping despite being frequently inaccurate and rarely updated — a shaky foundation load-bearing far more risk infrastructure than it deserves.",
+   "related": [
+    "companies-house"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s3",
+     "label": "M06 · Sectors, SIC codes and concentration you never had in retail"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    }
+   ]
+  },
+  "working-capital-cycle": {
+   "term": "Working-capital cycle",
+   "definition": "The time between cash leaving a business and coming back: stock days plus debtor days minus creditor days. Positive cycles (builders, manufacturers) create permanent funding needs; negative cycles (pubs, retailers) generate float. Most SME failures are working-capital failures — profitable businesses that ran out of cash.",
+   "related": [
+    "bca",
+    "overdraft",
+    "invoice-finance"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s4",
+     "label": "M06 · The working-capital cycle, read through a current account"
+    }
+   ]
+  },
+  "behavioural-scoring": {
+   "term": "Behavioural scoring",
+   "definition": "Monthly statistical scoring of a business from its current-account conduct — turnover trends, excesses, unpaid items, balance volatility. Outperforms financial-statement models because it is current. In BB it drives limit management, watchlist entry and, critically, IFRS 9 SICR triggers and Stage 2 migration.",
+   "related": [
+    "transactional-data-lending",
+    "sicr",
+    "stage-2"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=3#s2",
+     "label": "M03 · BBLS anatomy: underwriting, deleted"
+    },
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    }
+   ]
+  },
+  "open-banking": {
+   "term": "Open banking",
+   "definition": "The CMA-mandated API regime (live 2018) letting authorised third parties access bank-account data with customer consent. Passed 15 million UK users by mid-2026. In SME underwriting it lets challengers like iwoca and Tide read applicants' transaction histories — commoditising the incumbent's oldest data advantage.",
+   "related": [
+    "transactional-data-lending",
+    "iwoca",
+    "tide"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=2#s6",
+     "label": "M02 · The CMA's 2016 Verdict"
+    },
+    {
+     "href": "module.html?id=4#s5",
+     "label": "M04 · Eagle Labs and the Digital Front Door"
+    },
+    {
+     "href": "module.html?id=6#s6",
+     "label": "M06 · Open banking: reading someone else's current account"
+    },
+    {
+     "href": "module.html?id=9#s4",
+     "label": "M09 · Plumbing: referrals, open finance, and the end of the PSR"
+    }
+   ]
+  },
+  "personal-guarantee": {
+   "term": "Personal guarantee",
+   "definition": "A director's personal promise to repay company debt if the company cannot — converting limited liability back into personal exposure. Valued as both signal (willingness reveals the director's private confidence) and security, though recoveries are slow, contested and limited by the guarantor's actual wealth.",
+   "related": [
+    "debenture",
+    "lgd"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s1",
+     "label": "M00 · The territory: from market stall to mid-corporate"
+    },
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=2#s8",
+     "label": "M02 · The Long Shadow at the Impairment Desk"
+    },
+    {
+     "href": "module.html?id=3#s5",
+     "label": "M03 · CBILS, CLBILS and the long tail of successors"
+    },
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    },
+    {
+     "href": "module.html?id=8#s7",
+     "label": "M08 · Personal guarantees: the last mile"
+    }
+   ]
+  },
+  "debenture": {
+   "term": "Debenture",
+   "definition": "The standard bank security document taking fixed and floating charges over all of a company's assets, registered at Companies House. Gives the lender priority claims and the power to appoint an administrator, but its floating-charge element is eroded by preferential creditors and the prescribed part.",
+   "related": [
+    "fixed-charge",
+    "floating-charge",
+    "prescribed-part"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=2#s8",
+     "label": "M02 · The Long Shadow at the Impairment Desk"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    }
+   ]
+  },
+  "fixed-charge": {
+   "term": "Fixed charge",
+   "definition": "Security attached to specific, identifiable assets — typically property or plant — which the company cannot sell or deal with without the lender's consent. Fixed-charge holders sit at the top of the insolvency waterfall, paid from their asset ahead of preferential creditors and the prescribed part.",
+   "related": [
+    "floating-charge",
+    "debenture"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=8#s3",
+     "label": "M08 · Liquidation: the CVL machine and its compulsory cousin"
+    }
+   ]
+  },
+  "floating-charge": {
+   "term": "Floating charge",
+   "definition": "Security hovering over a company's circulating assets — stock, debtors, work in progress — which the business trades freely until insolvency crystallises the charge over whatever remains. Recoveries are diluted by insolvency costs, preferential creditors (including uncapped HMRC claims since 2020) and the prescribed part.",
+   "related": [
+    "fixed-charge",
+    "prescribed-part",
+    "hmrc-preferential"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    }
+   ]
+  },
+  "prescribed-part": {
+   "term": "Prescribed part",
+   "definition": "The statutory carve-out from floating-charge realisations for unsecured creditors under s176A Insolvency Act 1986: 50% of the first £10,000 plus 20% of the remainder, capped at £800,000 for charges created on or after 6 April 2020. A direct, legislated reduction in the bank's floating-charge recovery.",
+   "related": [
+    "floating-charge",
+    "lgd"
+   ],
+   "homeModule": 6,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=8#s6",
+     "label": "M08 · The waterfall: HMRC's return and the prescribed part"
+    }
+   ]
+  },
+  "ifrs9": {
+   "term": "IFRS 9",
+   "definition": "The accounting standard governing classification, measurement and impairment of financial instruments. Its expected-loss model forces provisions against SME lending before default. In Business Banking, its judgment-heavy corners — qualitative SICR, individual assessment, guarantee treatment, overlays — dominate the reported number far more than in retail.",
+   "related": [
+    "ecl",
+    "staging",
+    "sicr"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    },
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    }
+   ]
+  },
+  "ecl": {
+   "term": "Expected credit loss (ECL)",
+   "definition": "The probability-weighted present value of cash shortfalls over 12 months (Stage 1) or lifetime (Stages 2–3). In BB it is assembled from coarser models, a larger share of case-by-case judgment, and proportionally bigger post-model adjustments than its retail equivalent.",
+   "related": [
+    "pd",
+    "lgd",
+    "ead",
+    "pma"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=0#s7",
+     "label": "M00 · Where you sit, and why the number moves"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=3#s3",
+     "label": "M03 · The fraud problem, in three estimates"
+    },
+    {
+     "href": "module.html?id=3#s7",
+     "label": "M03 · What a guarantee does to LGD"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=5#s1",
+     "label": "M05 · A Concentrated Front, a Dispersed War"
+    },
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "pd": {
+   "term": "Probability of default (PD)",
+   "definition": "The likelihood of default over a 12-month or lifetime horizon. Retail PDs come from dense behavioural and bureau data; BB PDs above the micro end come from sparse default histories, expert-judgment grades and explicit margins of conservatism — making calibration, not rank-ordering, the hard problem.",
+   "related": [
+    "low-default-portfolio",
+    "ecl"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    },
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=3#s2",
+     "label": "M03 · BBLS anatomy: underwriting, deleted"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=5#s1",
+     "label": "M05 · A Concentrated Front, a Dispersed War"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=6#s2",
+     "label": "M06 · Companies House: a public ledger with holes in it"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "lgd": {
+   "term": "Loss given default (LGD)",
+   "definition": "The share of exposure lost after recoveries. In BB it is driven by security packages — fixed and floating charges, debentures, personal guarantees — realisation costs and timelines, and, on Covid-scheme lending, government guarantees that can push effective LGD towards zero.",
+   "related": [
+    "integral-guarantee",
+    "dcf-workout"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    },
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=3#s1",
+     "label": "M03 · Eleven days that built the book"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    },
+    {
+     "href": "module.html?id=8#s6",
+     "label": "M08 · The waterfall: HMRC's return and the prescribed part"
+    },
+    {
+     "href": "module.html?id=8#s8",
+     "label": "M08 · The numbers, and what they do to your provisions"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "ead": {
+   "term": "Exposure at default (EAD)",
+   "definition": "The predicted balance outstanding at default. Harder in BB than retail: overdrafts and revolving working-capital limits draw down as firms deteriorate, so credit conversion factors must capture a struggling business's tendency to use every pound of headroom before failing.",
+   "related": [
+    "ecl",
+    "lgd"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s4",
+     "label": "M00 · The lending shelf: five products, five risk shapes"
+    },
+    {
+     "href": "module.html?id=1#s5",
+     "label": "M01 · The early-1990s recession: scar tissue that never faded"
+    },
+    {
+     "href": "module.html?id=4#s2",
+     "label": "M04 · The Scale of the Home Team"
+    },
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "sicr": {
+   "term": "Significant increase in credit risk (SICR)",
+   "definition": "The Stage 1 to Stage 2 trigger. In BB it rests less on quantitative PD deltas and more on events — watchlist entry, covenant breach, BCA turnover collapse, sector flags — with the 30-days-past-due backstop as a late-arriving safety net rather than a primary signal.",
+   "related": [
+    "staging",
+    "watchlist",
+    "covenant-breach"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s3",
+     "label": "M00 · The anchor product: the current account and the money that moves"
+    },
+    {
+     "href": "module.html?id=1#s3",
+     "label": "M01 · 1971: Competition and Credit Control lights the fuse"
+    },
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    },
+    {
+     "href": "module.html?id=3#s4",
+     "label": "M03 · Pay As You Grow: forbearance by design"
+    },
+    {
+     "href": "module.html?id=4#s4",
+     "label": "M04 · Barclaycard Payments and the Brookfield Turn"
+    },
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    },
+    {
+     "href": "module.html?id=8#s2",
+     "label": "M08 · Business Support, and the long shadow of GRG"
+    },
+    {
+     "href": "module.html?id=9#s6",
+     "label": "M09 · The fraud bill arrives: APP reimbursement"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "staging": {
+   "term": "Staging",
+   "definition": "Allocation of exposures to Stage 1 (12-month ECL), Stage 2 (lifetime ECL) or Stage 3 (credit-impaired). BB staging migrates in lumps, driven by discrete events and committee decisions, rather than the smooth score-driven monthly flows of a retail book.",
+   "related": [
+    "sicr",
+    "stage-2",
+    "stage-3"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s7",
+     "label": "M00 · Where you sit, and why the number moves"
+    },
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    },
+    {
+     "href": "module.html?id=4#s7",
+     "label": "M04 · The Book from the Impairment Seat"
+    },
+    {
+     "href": "module.html?id=5#s2",
+     "label": "M05 · The Incumbents: Retreat in Good Order"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "stage-2": {
+   "term": "Stage 2",
+   "definition": "Exposures whose credit risk has increased significantly since origination, carrying lifetime ECL. In BB, Stage 2 is populated heavily by qualitative triggers — watchlist entries, covenant breaches, sector flags — so its size and coverage can step-change when a committee re-grades a sector.",
+   "related": [
+    "sicr",
+    "watchlist"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=1#s7",
+     "label": "M01 · Cruickshank and the Competition Commission: the complex monopoly, named"
+    },
+    {
+     "href": "module.html?id=3#s4",
+     "label": "M03 · Pay As You Grow: forbearance by design"
+    },
+    {
+     "href": "module.html?id=4#s4",
+     "label": "M04 · Barclaycard Payments and the Brookfield Turn"
+    },
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    },
+    {
+     "href": "module.html?id=8#s2",
+     "label": "M08 · Business Support, and the long shadow of GRG"
+    }
+   ]
+  },
+  "stage-3": {
+   "term": "Stage 3",
+   "definition": "Credit-impaired exposures — the IFRS 9 analogue of default. In BB, larger Stage 3 cases leave the collective models entirely and are individually assessed through discounted-cash-flow workouts, making the Stage 3 charge lumpy and single-name driven.",
+   "related": [
+    "individually-assessed",
+    "dcf-workout"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    },
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    },
+    {
+     "href": "module.html?id=8#s8",
+     "label": "M08 · The numbers, and what they do to your provisions"
+    },
+    {
+     "href": "module.html?id=9#s6",
+     "label": "M09 · The fraud bill arrives: APP reimbursement"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "individually-assessed": {
+   "term": "Individually assessed",
+   "definition": "Provisioning a specific exposure on its own facts — bespoke recovery strategies, cash flows and probability weights — instead of modelled parameters. Triggered above a house exposure threshold or where fraud, litigation or complex security makes modelled outputs meaningless.",
+   "related": [
+    "dcf-workout",
+    "collective-assessment",
+    "stage-3"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s7",
+     "label": "M00 · Where you sit, and why the number moves"
+    },
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    },
+    {
+     "href": "module.html?id=8#s2",
+     "label": "M08 · Business Support, and the long shadow of GRG"
+    }
+   ]
+  },
+  "collective-assessment": {
+   "term": "Collective assessment",
+   "definition": "Modelled ECL for pools of exposures sharing risk characteristics — product, size band, sector, grade. The default treatment for the SME mass market, where accounts are numerous and individually small enough for statistical parameters to be meaningful.",
+   "related": [
+    "individually-assessed",
+    "ecl"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s7",
+     "label": "M00 · Where you sit, and why the number moves"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    }
+   ]
+  },
+  "pma": {
+   "term": "Post-model adjustment (PMA)",
+   "definition": "A quantified amendment to modelled ECL for risks the models miss — sector stress, insolvency lag, guarantee-claim risk, refinance affordability. BB books carry proportionally more PMA than retail because the underlying models are coarser and event risk larger; the PRA repeatedly probes their completeness and governance.",
+   "related": [
+    "overlay",
+    "ecl"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s7",
+     "label": "M00 · Where you sit, and why the number moves"
+    },
+    {
+     "href": "module.html?id=3#s6",
+     "label": "M03 · The British Business Bank: plumbing, portal, claims"
+    },
+    {
+     "href": "module.html?id=4#s7",
+     "label": "M04 · The Book from the Impairment Seat"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=6#s3",
+     "label": "M06 · Sectors, SIC codes and concentration you never had in retail"
+    },
+    {
+     "href": "module.html?id=7#s1",
+     "label": "M07 · Same Standard, Different Animal"
+    },
+    {
+     "href": "module.html?id=7#s5",
+     "label": "M07 · PMAs: The Judgment Layer"
+    },
+    {
+     "href": "module.html?id=8#s6",
+     "label": "M08 · The waterfall: HMRC's return and the prescribed part"
+    },
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "overlay": {
+   "term": "Overlay",
+   "definition": "Umbrella term for management adjustments layered onto modelled ECL, often used interchangeably with PMA; some banks reserve overlay for economics- or scenario-level adjustments and PMA for model-deficiency fixes. Either way it demands quantification, a release condition and an audit trail — or it is a cookie jar.",
+   "related": [
+    "pma",
+    "forward-looking-economics"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s8",
+     "label": "M03 · Run-off: the book in 2025–2026"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=7#s5",
+     "label": "M07 · PMAs: The Judgment Layer"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "low-default-portfolio": {
+   "term": "Low default portfolio",
+   "definition": "A portfolio with too few observed defaults to calibrate PD statistically — mid-corporates, larger SMEs, specialised lending. Forces reliance on expert-judgment rating scales, external benchmarks, slotting-like category approaches and explicit margins of conservatism, leaving the level of ECL genuinely uncertain even when rank-ordering is sound.",
+   "related": [
+    "pd",
+    "pma"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=1#s2",
+     "label": "M01 · The cartel century: an oligopoly rations credit"
+    },
+    {
+     "href": "module.html?id=5#s4",
+     "label": "M05 · The Specialists: Credit as the Product"
+    },
+    {
+     "href": "module.html?id=6#s1",
+     "label": "M06 · Why SME PD refuses to behave like retail PD"
+    },
+    {
+     "href": "module.html?id=7#s6",
+     "label": "M07 · The Low Default Portfolio Problem"
+    }
+   ]
+  },
+  "integral-guarantee": {
+   "term": "Integral guarantee",
+   "definition": "A guarantee treated as part of a loan's contractual terms, so expected claims enter ECL cash flows and reduce LGD. UK banks judged the BBLS/CBILS guarantees integral — created at origination under scheme rules and held by the lender — producing stressed guaranteed books with near-zero coverage.",
+   "related": [
+    "lgd",
+    "bbls",
+    "cbils"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s7",
+     "label": "M03 · What a guarantee does to LGD"
+    },
+    {
+     "href": "module.html?id=4#s7",
+     "label": "M04 · The Book from the Impairment Seat"
+    },
+    {
+     "href": "module.html?id=5#s3",
+     "label": "M05 · The Insurgents: Paid to Exist"
+    },
+    {
+     "href": "module.html?id=7#s4",
+     "label": "M07 · The Guarantee Question: Integral or Not"
+    },
+    {
+     "href": "module.html?id=9#s2",
+     "label": "M09 · The long tail of the bounce back book"
+    }
+   ]
+  },
+  "watchlist": {
+   "term": "Watchlist",
+   "definition": "The governed register of exposures showing early deterioration, fed by relationship managers, monitoring triggers and account conduct. Entry usually constitutes SICR, so watchlist governance is staging governance: a committee decision with a direct lifetime-ECL consequence.",
+   "related": [
+    "sicr",
+    "stage-2"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    },
+    {
+     "href": "module.html?id=9#s6",
+     "label": "M09 · The fraud bill arrives: APP reimbursement"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "covenant-breach": {
+   "term": "Covenant breach",
+   "definition": "Failure of a contractual financial test — leverage, interest cover, loan-to-value, minimum net worth. A canonical BB SICR trigger with no retail equivalent; whether waived or enforced, a breach signals the borrower's finances have left the envelope the bank underwrote.",
+   "related": [
+    "sicr",
+    "watchlist"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    },
+    {
+     "href": "module.html?id=7#s2",
+     "label": "M07 · Staging When the Data Runs Thin"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    }
+   ]
+  },
+  "dcf-workout": {
+   "term": "DCF workout",
+   "definition": "Individual Stage 3 provisioning by projecting cash flows under alternative recovery strategies — trade-out, consensual sale, insolvency — probability-weighting them and discounting at the original effective interest rate. The provision is exposure less the weighted present value of recoveries.",
+   "related": [
+    "individually-assessed",
+    "stage-3"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    },
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    }
+   ]
+  },
+  "forward-looking-economics": {
+   "term": "Forward-looking economics",
+   "definition": "Incorporating macroeconomic forecasts into ECL through multiple weighted scenarios. For SME books the load-bearing variables are GDP, corporate insolvency rates, base rate and CRE indices — not the HPI-and-unemployment pairing that dominates retail models — with insolvency lag the defining design problem.",
+   "related": [
+    "ecl",
+    "overlay"
+   ],
+   "homeModule": 7,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s1",
+     "label": "M02 · When the Money Markets Closed"
+    },
+    {
+     "href": "module.html?id=6#s3",
+     "label": "M06 · Sectors, SIC codes and concentration you never had in retail"
+    },
+    {
+     "href": "module.html?id=7#s7",
+     "label": "M07 · Forward-Looking Economics for Firms, Not Households"
+    },
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    },
+    {
+     "href": "module.html?id=9#s7",
+     "label": "M09 · What will move BB ECL in the next 24 months"
+    }
+   ]
+  },
+  "cvl": {
+   "term": "Creditors' Voluntary Liquidation (CVL)",
+   "definition": "Director-initiated wind-up of an insolvent company: shareholders resolve to liquidate, an insolvency practitioner sells assets at break-up values and distributes via the statutory waterfall. The dominant UK insolvency route (~75% of cases). Unsecured recoveries are typically pence in the pound or nil; final distributions take one to two years.",
+   "related": [
+    "compulsory-liquidation",
+    "administration",
+    "prescribed-part"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s6",
+     "label": "M00 · Why SME books misbehave"
+    },
+    {
+     "href": "module.html?id=8#s3",
+     "label": "M08 · Liquidation: the CVL machine and its compulsory cousin"
+    }
+   ]
+  },
+  "compulsory-liquidation": {
+   "term": "Compulsory liquidation",
+   "definition": "Court-ordered winding-up on a creditor's petition — frequently HMRC's. Slower than a CVL (months from petition to order) and typically lower-recovery, as the business has deteriorated untreated. 2025's total of 3,730 was the highest since 2012, driven by HMRC's post-Covid return to enforcement.",
+   "related": [
+    "cvl",
+    "hmrc-preferential"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s3",
+     "label": "M08 · Liquidation: the CVL machine and its compulsory cousin"
+    }
+   ]
+  },
+  "administration": {
+   "term": "Administration",
+   "definition": "Insolvency regime with a rescue-first purpose hierarchy and a moratorium on enforcement. A qualifying floating-charge holder can appoint out of court. Lasts twelve months (extendable); going-concern sales can materially beat break-up values, supporting the strongest secured recoveries. Around 1,495 UK administrations in 2025.",
+   "related": [
+    "pre-pack",
+    "cvl",
+    "moratorium"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    },
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    }
+   ]
+  },
+  "pre-pack": {
+   "term": "Pre-pack administration",
+   "definition": "An administration where the business sale is negotiated before appointment and completed immediately after, preserving goodwill and jobs at the cost of transparency. Since 30 April 2021, connected-party sales within the first eight weeks require creditor approval or an independent evaluator's opinion.",
+   "related": [
+    "administration",
+    "evaluator"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    }
+   ]
+  },
+  "evaluator": {
+   "term": "Evaluator",
+   "definition": "Independent reviewer created by the 2021 pre-pack regulations. Provides a written opinion on whether a connected-party disposal in administration is reasonable. An adverse opinion does not block the sale — the administrator may proceed but must explain the decision to creditors.",
+   "related": [
+    "pre-pack",
+    "administration"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s4",
+     "label": "M08 · Administration and the pre-pack"
+    }
+   ]
+  },
+  "cva": {
+   "term": "Company Voluntary Arrangement (CVA)",
+   "definition": "A deal with unsecured creditors, approved by 75% by value, under which the company trades on and pays contributions over typically three to five years. Cannot bind secured creditors without consent. Now rare (186 in 2025) and fragile — historically roughly half fail into a subsequent insolvency.",
+   "related": [
+    "part-26a",
+    "cvl"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s5",
+     "label": "M08 · The compromise tools: CVA, Part 26A, and the moratorium"
+    }
+   ]
+  },
+  "part-26a": {
+   "term": "Part 26A restructuring plan",
+   "definition": "Court-sanctioned compromise introduced by CIGA 2020 that can bind secured creditors and cram down entire dissenting classes if no member is worse off than in the relevant alternative. Powerful but costly — two hearings and seven-figure fees keep it a large-cap and upper-mid-market tool.",
+   "related": [
+    "cross-class-cram-down",
+    "cva",
+    "moratorium"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s5",
+     "label": "M08 · The compromise tools: CVA, Part 26A, and the moratorium"
+    }
+   ]
+  },
+  "cross-class-cram-down": {
+   "term": "Cross-class cram-down",
+   "definition": "The Part 26A mechanism letting the court sanction a restructuring plan despite a whole class voting against it, provided dissenters are no worse off than in the relevant alternative and one in-the-money class approves. It removes the veto that dissenting creditor classes hold under schemes and CVAs.",
+   "related": [
+    "part-26a"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s5",
+     "label": "M08 · The compromise tools: CVA, Part 26A, and the moratorium"
+    }
+   ]
+  },
+  "moratorium": {
+   "term": "Standalone moratorium",
+   "definition": "CIGA 2020 breathing-space procedure: 20 business days (extendable to 40, further with consent or court order) under a monitor, staying most creditor action while directors stay in control. Take-up is minimal — debts under financial services contracts are excluded from the payment holiday, so bank debt must still be serviced.",
+   "related": [
+    "part-26a",
+    "administration"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=8#s5",
+     "label": "M08 · The compromise tools: CVA, Part 26A, and the moratorium"
+    }
+   ]
+  },
+  "hmrc-preferential": {
+   "term": "HMRC preferential status",
+   "definition": "Since 1 December 2020 (Finance Act 2020), HMRC ranks as secondary preferential creditor for taxes collected on its behalf — VAT, PAYE, employee NICs, CIS — ahead of floating-charge holders and unsecured creditors, uncapped and without age limit. Corporation tax remains unsecured. A direct hit to floating-charge LGD.",
+   "related": [
+    "prescribed-part",
+    "floating-charge"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=6#s7",
+     "label": "M06 · Security, the waterfall, and where LGD is actually decided"
+    },
+    {
+     "href": "module.html?id=8#s6",
+     "label": "M08 · The waterfall: HMRC's return and the prescribed part"
+    }
+   ]
+  },
+  "business-support-unit": {
+   "term": "Business Support Unit",
+   "definition": "A bank's specialist turnaround function for deteriorating business customers — restructuring facilities, commissioning independent business reviews, choosing workout strategy. Post-GRG, these units operate under fair-treatment frameworks separating turnaround support from recovery profit incentives. Transfer in is a strong SICR indicator.",
+   "related": [
+    "grg",
+    "watchlist"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=2#s3",
+     "label": "M02 · GRG: What Happened in the Workout Room"
+    },
+    {
+     "href": "module.html?id=6#s5",
+     "label": "M06 · Behavioural scoring: the account never lies for long"
+    },
+    {
+     "href": "module.html?id=7#s3",
+     "label": "M07 · Collective by Default, Individual by Exception"
+    },
+    {
+     "href": "module.html?id=8#s1",
+     "label": "M08 · The road in: how a loan becomes a case"
+    }
+   ]
+  },
+  "insolvency-service": {
+   "term": "Insolvency Service",
+   "definition": "The government agency overseeing UK insolvency: it runs the Official Receiver service, regulates the IP profession, investigates director misconduct and publishes the official insolvency statistics — the canonical source for regime mix, sector patterns and failure rates used in BB credit and impairment analysis.",
+   "related": [
+    "cvl",
+    "compulsory-liquidation"
+   ],
+   "homeModule": 8,
+   "mentions": [
+    {
+     "href": "module.html?id=3#s3",
+     "label": "M03 · The fraud problem, in three estimates"
+    },
+    {
+     "href": "module.html?id=8#s8",
+     "label": "M08 · The numbers, and what they do to your provisions"
+    }
+   ]
+  },
+  "basel-3-1": {
+   "term": "Basel 3.1",
+   "definition": "The UK's implementation of the final Basel III capital standards: revised standardised risk weights, constrained internal models, and an output floor. PRA near-final rules came in 2024; implementation was delayed in January 2025 to 1 January 2027, with the market-risk internal model approach following in 2028.",
+   "related": [
+    "sme-supporting-factor",
+    "sme-lending-adjustment",
+    "sddt"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s3",
+     "label": "M09 · Basel 3.1: the capital reshuffle behind SME pricing"
+    }
+   ]
+  },
+  "sme-supporting-factor": {
+   "term": "SME supporting factor",
+   "definition": "An EU-inherited Pillar 1 discount that scaled down capital risk weights on qualifying SME exposures, making small-business lending cheaper for banks to hold. Under UK Basel 3.1 it is removed from Pillar 1 from January 2027, offset by a firm-specific Pillar 2A SME lending adjustment.",
+   "related": [
+    "basel-3-1",
+    "sme-lending-adjustment"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=0#s5",
+     "label": "M00 · Neither retail nor corporate"
+    },
+    {
+     "href": "module.html?id=9#s3",
+     "label": "M09 · Basel 3.1: the capital reshuffle behind SME pricing"
+    }
+   ]
+  },
+  "sme-lending-adjustment": {
+   "term": "SME lending adjustment",
+   "definition": "The PRA's firm-specific Pillar 2A offset introduced with Basel 3.1 to neutralise the aggregate capital impact of removing the SME supporting factor. Being supervisory and reviewable rather than automatic, it is less reliable for loan pricing than the Pillar 1 factor it replaces.",
+   "related": [
+    "basel-3-1",
+    "sme-supporting-factor"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s3",
+     "label": "M09 · Basel 3.1: the capital reshuffle behind SME pricing"
+    }
+   ]
+  },
+  "sddt": {
+   "term": "Small Domestic Deposit Taker (SDDT)",
+   "definition": "The PRA's simplified prudential regime for smaller, domestically focused UK banks and building societies, developed alongside Basel 3.1. It spares eligible challengers the full complexity of the new framework — shaping the capital economics of the specialist lenders now writing most SME flow.",
+   "related": [
+    "basel-3-1"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s3",
+     "label": "M09 · Basel 3.1: the capital reshuffle behind SME pricing"
+    }
+   ]
+  },
+  "bank-referral-scheme": {
+   "term": "Bank Referral Scheme",
+   "definition": "Statutory scheme (from November 2016) requiring major banks to refer declined SME finance applicants, with consent, to designated platforms — Funding Options, Funding Xchange, Alternative Business Funding, Business Finance Technology — that match them with alternative lenders. Reviewed in 2024–26; government opted against legislative overhaul in May 2026.",
+   "related": [
+    "open-finance"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s4",
+     "label": "M09 · Plumbing: referrals, open finance, and the end of the PSR"
+    }
+   ]
+  },
+  "open-finance": {
+   "term": "Open finance",
+   "definition": "The extension of open banking's data-sharing principles beyond payment accounts to savings, credit, investments and commercial products. The FCA is building the framework under 2026 legislation granting it rule-making powers, with commercial data expected to reshape SME credit assessment and monitoring.",
+   "related": [
+    "commercial-vrp",
+    "open-banking"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s4",
+     "label": "M09 · Plumbing: referrals, open finance, and the end of the PSR"
+    }
+   ]
+  },
+  "commercial-vrp": {
+   "term": "Commercial VRP",
+   "definition": "Variable recurring payments extended beyond sweeping between own accounts to third-party billing — utilities, subscriptions, government. A 31-firm UK Payments Initiative scheme formed in late 2025, with first live payments from early 2026. VRPs already account for roughly 16% of open banking payment volumes.",
+   "related": [
+    "open-finance",
+    "open-banking"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s4",
+     "label": "M09 · Plumbing: referrals, open finance, and the end of the PSR"
+    }
+   ]
+  },
+  "app-fraud": {
+   "term": "APP fraud",
+   "definition": "Authorised push payment fraud: the victim is deceived into instructing a genuine payment to a fraudster. Since 7 October 2024, UK rules mandate reimbursement up to £85,000 within five business days, split 50/50 between sending and receiving firms. Scope covers consumers, micro-enterprises and charities — not larger business accounts.",
+   "related": [
+    "commercial-vrp"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s6",
+     "label": "M09 · The fraud bill arrives: APP reimbursement"
+    }
+   ]
+  },
+  "private-credit": {
+   "term": "Private credit",
+   "definition": "Non-bank lending by funds — direct lending, asset-based strategies — funded by institutional capital rather than deposits. Having absorbed much of leveraged lending, it is moving down into UK SME credit: non-banks and challengers wrote roughly 68% of the £68bn 2025 SME lending flow.",
+   "related": [
+    "embedded-finance",
+    "bnpl"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s3",
+     "label": "M09 · Basel 3.1: the capital reshuffle behind SME pricing"
+    },
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "bnpl": {
+   "term": "BNPL (business)",
+   "definition": "Buy-now-pay-later: short-term instalment credit at the point of sale. Consumer BNPL became FCA-regulated on 15 July 2026; B2B BNPL — pay-later terms embedded in trade checkouts by Kriya, Hokodo, iwocaPay — remains unregulated, growing toward an estimated US$16.5bn UK market, and largely invisible to credit bureaus.",
+   "related": [
+    "embedded-finance",
+    "private-credit"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "embedded-finance": {
+   "term": "Embedded finance",
+   "definition": "Credit, payments or insurance delivered inside a non-financial platform — accounting software, e-commerce checkouts, procurement portals — rather than through a bank channel. In UK SME finance it is displacing manual invoice finance, with regulated balance sheets (e.g. Allica–Kriya) increasingly funding fintech distribution.",
+   "related": [
+    "bnpl",
+    "private-credit"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s5",
+     "label": "M09 · New money: private credit, B2B BNPL, embedded finance"
+    }
+   ]
+  },
+  "refinancing-wall": {
+   "term": "Refinancing wall",
+   "definition": "The concentration of fixed-rate SME debt written in the ultra-low-rate 2020–21 window maturing across 2024–2027, forcing refinancing at materially higher rates. It transmits rate rises to borrower cash flow with a multi-year lag — so debt-service stress keeps building even while Bank Rate falls.",
+   "related": [
+    "basel-3-1"
+   ],
+   "homeModule": 9,
+   "mentions": [
+    {
+     "href": "module.html?id=9#s1",
+     "label": "M09 · The rate that came down — and stopped"
+    }
+   ]
+  }
+ }
+}
