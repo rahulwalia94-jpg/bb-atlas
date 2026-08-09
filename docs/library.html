@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BB Atlas — Master Domino Map</title>
+<title>BB Atlas — Library</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
 </head>
-<body data-page="map">
+<body data-page="library">
 
 <nav class="nav">
   <div class="nav-inner">
@@ -19,10 +19,10 @@
       <a href="desk.html">Desk</a>
       <a href="index.html">Modules</a>
       <a href="people.html">People</a>
-      <a href="library.html">Library</a>
+      <a href="library.html" class="active">Library</a>
       <a href="timeline.html">Timeline</a>
       <a href="compare.html">Compare</a>
-      <a href="map.html" class="active">Map</a>
+      <a href="map.html">Map</a>
       <a href="glossary.html">Glossary</a>
     </div>
     <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
@@ -32,25 +32,20 @@
 
 <header class="page-head">
   <div class="wrap">
-    <p class="kicker"><span class="tick">◈</span> Cause → effect → ECL</p>
-    <h1 class="display">The <em>Master Domino Map.</em></h1>
-    <p class="lede">Every module's causal chain, plus the master spine that connects them. Click any node to open the module it lives in.</p>
+    <p class="kicker"><span class="tick">◈</span> <span id="lib-count">…</span> curated sources · as at <span id="lib-asat">…</span></p>
+    <h1 class="display">The <em>Library.</em></h1>
+    <p class="lede">Every podcast, video channel, document shelf, newsletter and data source a UK business banking professional needs — each with why it earns your time, tagged to the module it feeds.</p>
+    <div class="chip-bar" id="chip-bar"></div>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="master-chain">
-    <p class="kicker"><span class="tick">◈</span> <span id="master-title">Master chain</span></p>
-    <p style="font-size:0.85rem;color:var(--ink-dim);margin:0.8rem 0 1.2rem;max-width:38rem" id="master-note"></p>
-    <div id="master-host"></div>
-  </div>
-
-  <div id="module-chains"></div>
+  <div class="lib-grid" id="lib-grid"></div>
 </main>
 
 <footer class="site">
   <div class="wrap">
-    <span>BB Atlas · pull one domino and watch the coverage ratio move</span>
+    <span>BB Atlas · read the primary source</span>
     <a href="sources.html">Sources</a>
   </div>
 </footer>
@@ -60,7 +55,6 @@
 <script src="js/progress.js"></script>
 <script src="js/search.js"></script>
 <script src="js/tutor.js"></script>
-<script src="js/domino.js"></script>
-<script src="js/map.js"></script>
+<script src="js/library.js"></script>
 </body>
 </html>

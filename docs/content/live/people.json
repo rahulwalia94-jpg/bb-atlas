@@ -1,0 +1,318 @@
+{
+  "asAt": "2026-08",
+  "note": "Verified from public sources (press releases, FCA register, financial press). Roles change — check the source before relying on a name.",
+  "institutions": [
+    {
+      "name": "Barclays",
+      "colour": "gold",
+      "people": [
+        {
+          "role": "Group CEO",
+          "name": "C.S. Venkatakrishnan",
+          "since": "2021",
+          "note": "Former Group CRO turned CEO — a risk-first leader whose three-year plan leans on UK retail and business banking returns, keeping impairment discipline central.",
+          "source": { "title": "C.S. Venkatakrishnan, Group Chief Executive — Barclays", "url": "https://home.barclays/who-we-are/structure-and-leadership/leadership/c-s-venkatakrishnan/" }
+        },
+        {
+          "role": "CEO, Barclays UK",
+          "name": "Vim Maru",
+          "since": "2024",
+          "note": "Runs the ring-fenced bank that houses Business Banking; ex-Lloyds retail veteran driving UK growth ambitions that shape BB lending appetite.",
+          "source": { "title": "Vim Maru, Chief Executive of Barclays UK — Barclays", "url": "https://home.barclays/who-we-are/structure-and-leadership/leadership/vim-maru/" }
+        },
+        {
+          "role": "Group Finance Director (CFO)",
+          "name": "Anna Cross",
+          "since": "2022",
+          "note": "Owns the IFRS 9 numbers presented to the market — impairment charge, coverage ratios and macro scenario disclosures flow up to her.",
+          "source": { "title": "Anna Cross to become Barclays Group Finance Director — Barclays", "url": "https://home.barclays/news/2022/02/anna-cross-appointed-as-group-cfo/" }
+        },
+        {
+          "role": "Group Chief Risk Officer",
+          "name": "Taalib Shaah",
+          "since": "2020",
+          "note": "Sets group risk appetite and approves the scenario weights and PMAs that drive BB expected credit loss outcomes.",
+          "source": { "title": "Barclays appoints Group Chief Risk Officer — Barclays press release", "url": "https://home.barclays/news/press-releases/2020/09/barclays-appoints-group-chief-risk-officer/" }
+        }
+      ]
+    },
+    {
+      "name": "Lloyds",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "Group CEO",
+          "name": "Charlie Nunn",
+          "since": "2021",
+          "note": "Leads the UK's biggest domestic lender — Lloyds' SME book and its impairment disclosures are the closest peer benchmark for Barclays BB.",
+          "source": { "title": "Charlie Nunn: day one as Chief Executive — Lloyds Banking Group", "url": "https://www.lloydsbankinggroup.com/insights/charlie-nunn-day-one.html" }
+        },
+        {
+          "role": "Group Chief Risk Officer",
+          "name": "Stephen Shelley",
+          "since": "2017",
+          "note": "Long-tenured CRO with a wholesale credit background (ex-Barclays Corporate CRO); his stance anchors Lloyds' through-cycle SME provisioning.",
+          "source": { "title": "Stephen Shelley, Chief Risk Officer at Lloyds Banking Group — The Org", "url": "https://theorg.com/org/lloyds-banking-group/org-chart/stephen-shelley" }
+        },
+        {
+          "role": "CEO, Business & Commercial Banking",
+          "name": "Amanda Murphy",
+          "since": "2026",
+          "note": "Joined February 2026 from HSBC commercial banking (Asia and UK); her growth agenda will set the tone for Lloyds' SME lending standards.",
+          "source": { "title": "Amanda Murphy appointed as CEO of Business & Commercial Banking — Lloyds Banking Group", "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/banking-group-appoints-amanda-murphy-as-chief-executive-officer-.html" }
+        },
+        {
+          "role": "CEO, Corporate & Institutional Banking",
+          "name": "John Langley",
+          "since": "2026",
+          "note": "Ex-Wells Fargo; runs the corporate book that sits one segment above BB — his risk appetite affects mid-corporate refinancing conditions.",
+          "source": { "title": "Lloyds Banking Group appoints John Langley as CEO of Corporate & Institutional Banking", "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/lloyds-banking-group-appoints-john-langley.html" }
+        }
+      ]
+    },
+    {
+      "name": "NatWest",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "Group CEO",
+          "name": "Paul Thwaite",
+          "since": "2024",
+          "note": "Came up through commercial/SME banking — a CEO who knows the business-lending P&L and pushes NatWest's claim as the UK's biggest bank for business.",
+          "source": { "title": "NatWest Group CEO Appointment — NatWest Group press release (Feb 2024)", "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/our-updates/2024/feb/natwest-group-ceo-appointment.html" }
+        },
+        {
+          "role": "Group Chief Risk Officer",
+          "name": "Abib Bocresion",
+          "since": "2026",
+          "note": "Promoted from NatWest Markets CRO in July 2026 (ex-Barclays, M&G); a new CRO's first cycle review often resets sector caps and watchlist criteria.",
+          "source": { "title": "People: NatWest gets new group CRO — Risk.net", "url": "https://www.risk.net/people/7963932/people-natwest-gets-new-group-cro-jpm-tunes-up-top-team-and-more" }
+        },
+        {
+          "role": "CEO, Commercial & Institutional",
+          "name": "Robert Begbie",
+          "since": "2024",
+          "note": "Runs the franchise containing NatWest's business and commercial lending — the largest direct competitor book to Barclays BB.",
+          "source": { "title": "Executive management team — NatWest Group", "url": "https://www.natwestgroup.com/who-we-are/board-and-governance/executive-management-team.html" }
+        },
+        {
+          "role": "CEO, Retail Banking",
+          "name": "Solange Chamberlain",
+          "since": "2025",
+          "note": "Former Commercial Bank COO now running retail — her crossover history keeps SME servicing close to retail-style cost discipline.",
+          "source": { "title": "NatWest Group appoints Solange Chamberlain as CEO, Retail Banking", "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/our-updates/2025/jun/natwest-group-appoints-solange-chamberlain-as-ceo-retail-banking.html" }
+        }
+      ]
+    },
+    {
+      "name": "HSBC UK",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "CEO, HSBC UK",
+          "name": "David Lindberg",
+          "since": "2025",
+          "note": "Ex-NatWest retail CEO, in post December 2025; expected to push harder UK growth — watch whether HSBC UK loosens SME credit to win share.",
+          "source": { "title": "David Lindberg appointed as CEO of HSBC UK — HSBC", "url": "https://www.about.hsbc.co.uk/news-and-media/david-lindberg-appointed-as-ceo-of-hsbc-uk" }
+        },
+        {
+          "role": "Head of Business Banking",
+          "name": "Tom Wood",
+          "since": "2024",
+          "note": "Runs HSBC UK's SME franchise; moved over from Global Payments Solutions, signalling a payments-led (fee, not just credit) SME strategy.",
+          "source": { "title": "HSBC UK appoints new head of business banking — Insider Media", "url": "https://www.insidermedia.com/news/national/hsbc-uk-appoints-new-head-of-business-banking" }
+        }
+      ]
+    },
+    {
+      "name": "Santander UK",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "CEO, Santander UK",
+          "name": "Mahesh Aditya",
+          "since": "2026",
+          "note": "Former Santander group CRO, in post March 2026 to drive the TSB integration — a risk-bred CEO usually means conservative credit through an integration.",
+          "source": { "title": "Mahesh Aditya named as new Santander UK CEO — FinTech Futures", "url": "https://www.fintechfutures.com/job-cuts-new-hires/santander-uk-names-new-ceo" }
+        }
+      ]
+    },
+    {
+      "name": "Starling",
+      "colour": "green",
+      "people": [
+        {
+          "role": "Group CEO",
+          "name": "Raman Bhatia",
+          "since": "2024",
+          "note": "Ex-OVO Energy and HSBC digital chief; steering Starling towards scale and Engine software revenue after legacy Covid-loan (BBLS) remediation.",
+          "source": { "title": "Raman Bhatia — Starling", "url": "https://www.starlingbank.com/people/raman-bhatia/" }
+        },
+        {
+          "role": "Group Chief Risk Officer",
+          "name": "Keith Algie",
+          "since": "2026",
+          "note": "Hired March 2026 from ANZ; a heavyweight international CRO hire signals Starling hardening risk controls after past FCA scrutiny of its financial-crime framework.",
+          "source": { "title": "Starling Bank appoints new chief risk officer — UKTN", "url": "https://www.uktech.news/fintech/starling-bank-appoints-new-chief-risk-officer-20260324" }
+        }
+      ]
+    },
+    {
+      "name": "Tide",
+      "colour": "green",
+      "people": [
+        {
+          "role": "CEO",
+          "name": "Oliver Prill",
+          "since": "2018",
+          "note": "Runs the largest non-bank SME current-account platform (800k+ UK members); Tide's partner-lending model shifts credit risk to funding partners, not its own balance sheet.",
+          "source": { "title": "Major Milestones in 2025 and a Look Ahead to 2026: A Letter from Our CEO — Tide", "url": "https://www.tide.co/blog/tide-update/major-milestones-in-2025-and-a-look-ahead-to-2026-a-letter-from-our-ceo/" }
+        }
+      ]
+    },
+    {
+      "name": "Monzo",
+      "colour": "green",
+      "people": [
+        {
+          "role": "Group CEO",
+          "name": "Diana Layfield",
+          "since": "2026",
+          "note": "Ex-Google and ex-Standard Chartered Africa CEO, in post 2026; her IPO-readiness mandate implies tighter unit economics in Monzo's growing business banking arm.",
+          "source": { "title": "Meet our Executive team — Monzo", "url": "https://monzo.com/meet-our-executive-team" }
+        },
+        {
+          "role": "Group Chief Risk Officer",
+          "name": "Iain Laing",
+          "since": "2021",
+          "note": "Ex-Santander UK and Nationwide risk leader; oversees credit risk as Monzo scales unsecured and business lending off a young book with limited cycle history.",
+          "source": { "title": "Meet our Executive team — Monzo", "url": "https://monzo.com/meet-our-executive-team" }
+        },
+        {
+          "role": "Vice-Chair (former Group CEO)",
+          "name": "TS Anil",
+          "since": "2026",
+          "note": "Stepped back March 2026 after taking Monzo to profitability; continuity signal for lending strategy through the CEO transition.",
+          "source": { "title": "Meet our Board Members — Monzo", "url": "https://monzo.com/meet-our-board" }
+        }
+      ]
+    },
+    {
+      "name": "Allica",
+      "colour": "green",
+      "people": [
+        {
+          "role": "CEO",
+          "name": "Richard Davies",
+          "since": "2020",
+          "note": "Ex-Revolut, TSB and HSBC; built Allica into the fastest-growing UK SME lender focused on established SMEs — a direct challenger to incumbent BB relationship lending.",
+          "source": { "title": "Allica Bank appoints Richard Davies as CEO — Allica Bank", "url": "https://www.allica.bank/press-releases/allica-bank-appoints-richard-davies-as-ceo" }
+        }
+      ]
+    },
+    {
+      "name": "OakNorth",
+      "colour": "green",
+      "people": [
+        {
+          "role": "Co-founder & CEO",
+          "name": "Rishi Khosla",
+          "since": "2015",
+          "note": "Pioneer of data-driven mid-market SME credit with famously low reported loss rates; OakNorth's granular monitoring approach is the benchmark challengers cite against IFRS 9 portfolio modelling.",
+          "source": { "title": "Rishi Khosla, CEO, OakNorth — Innovate Finance", "url": "https://www.innovatefinance.com/profiles/rishi-khosla/" }
+        }
+      ]
+    },
+    {
+      "name": "Shawbrook",
+      "colour": "green",
+      "people": [
+        {
+          "role": "CEO",
+          "name": "Marcelino Castrillo",
+          "since": "2021",
+          "note": "Ex-NatWest and Santander commercial banker running a specialist SME and property lender — Shawbrook's arrears trends are an early-warning read on marginal SME credit.",
+          "source": { "title": "Shawbrook Group plc Executive & Employee Information — GlobalData", "url": "https://www.globaldata.com/company-profile/shawbrook-group-plc/executives/" }
+        }
+      ]
+    },
+    {
+      "name": "iwoca",
+      "colour": "green",
+      "people": [
+        {
+          "role": "Co-founder & CEO",
+          "name": "Christoph Rieche",
+          "since": "2011",
+          "note": "Runs one of the biggest UK small-business embedded lenders (£2.5bn+ lent); iwoca's approval-rate and demand data is a useful proxy for micro-SME credit stress.",
+          "source": { "title": "Christoph Rieche, CEO & Co-founder, iwoca — Crunchbase", "url": "https://www.crunchbase.com/person/christoph-rieche" }
+        }
+      ]
+    },
+    {
+      "name": "Funding Circle",
+      "colour": "green",
+      "people": [
+        {
+          "role": "CEO",
+          "name": "Lisa Jacobs",
+          "since": "2022",
+          "note": "Leads the listed SME lending platform; Funding Circle's published cohort loss curves are rare public data on unsecured UK SME default behaviour.",
+          "source": { "title": "Our leadership — Funding Circle Holdings plc", "url": "https://corporate.fundingcircle.com/about-us/our-leadership" }
+        }
+      ]
+    },
+    {
+      "name": "British Business Bank",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "CEO",
+          "name": "Louis Taylor",
+          "since": "2022",
+          "note": "Standing down end-September 2026 (CFO David Hourican interim from October); BBB guarantee schemes (RLS/Growth Guarantee) directly affect BB recovery outcomes on covered loans.",
+          "source": { "title": "Louis Taylor to stand down as British Business Bank CEO — British Business Bank", "url": "https://www.british-business-bank.co.uk/news-and-events/news/louis-taylor-stand-down-british-business-bank-ceo-after-leading-four-year-transformation-bank" }
+        }
+      ]
+    },
+    {
+      "name": "PRA",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "CEO, PRA / BoE Deputy Governor for Prudential Regulation",
+          "name": "Katharine Braddick",
+          "since": "2026",
+          "note": "Took over from Sam Woods July 2026, joining from Barclays; her stance on Basel 3.1 and the SME supporting factor shapes capital held against BB exposures.",
+          "source": { "title": "Braddick to take the helm at the UK's banking watchdog — Bank of England", "url": "https://www.bankofengland.co.uk/news/2026/february/braddick-to-take-the-helm-at-the-uks-banking-watchdog" }
+        }
+      ]
+    },
+    {
+      "name": "FCA",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "Chief Executive",
+          "name": "Nikhil Rathi",
+          "since": "2020",
+          "note": "Reappointed April 2025 to 2030; FCA stances on SME forbearance, Consumer Duty read-across and BBLS collections directly shape BB workout practices.",
+          "source": { "title": "Nikhil Rathi reappointed as FCA chief executive — FCA", "url": "https://www.fca.org.uk/news/press-releases/nikhil-rathi-reappointed-fca-chief-executive" }
+        }
+      ]
+    },
+    {
+      "name": "Insolvency Service",
+      "colour": "violet",
+      "people": [
+        {
+          "role": "Chief Executive",
+          "name": "Duncan Beach",
+          "since": "2026",
+          "note": "In post January 2026, ex-HSBC global head of risk & compliance transformation; the agency's insolvency statistics are the core external default indicator for UK SME books.",
+          "source": { "title": "Insolvency Service appoints new Chief Executive — Credit Connect", "url": "https://www.credit-connect.co.uk/news/insolvency-service-appoints-new-chief-executive/" }
+        }
+      ]
+    }
+  ]
+}

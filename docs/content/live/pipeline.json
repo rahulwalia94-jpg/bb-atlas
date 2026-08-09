@@ -1,0 +1,85 @@
+{
+  "asAt": "2026-08-06",
+  "items": [
+    {
+      "name": "Basel 3.1 (UK)",
+      "stage": "Final rules published (PS1/26, Jan 2026) — implementation 1 Jan 2027, transitional period to end-2030",
+      "nextDate": "2027-01-01",
+      "status": "red",
+      "eclImpact": "Removes the Pillar 1 SME support factor, offset by a firm-specific SME lending adjustment in Pillar 2A, and introduces a 45% risk weight for retail SME transactors. Changes the capital cost of BB lending and interacts with IFRS 9 provisioning via the output floor and expected-loss capital deductions.",
+      "source": { "title": "Norton Rose Fulbright, Global Regulation Tomorrow — Implementation of Basel 3.1: PRA publishes final rules", "url": "https://www.regulationtomorrow.com/2026/01/implementation-of-basel-3-1-pra-publishes-final-rules/" }
+    },
+    {
+      "name": "Ring-fencing reform",
+      "stage": "HMT review conclusions published 18 May 2026 — deposit threshold raised £25bn to £35bn; PRA consulting summer 2026 on shared services; growth allowance up to 10% of credit RWAs proposed",
+      "nextDate": "2026-09-30",
+      "status": "amber",
+      "eclImpact": "Reshapes which entity books BB exposure and how group capital/MREL is calibrated (RFB internal MREL scalar review in H2 2026). A growth allowance letting RFBs take otherwise-prohibited exposures could alter the risk mix behind the BB ECL stack.",
+      "source": { "title": "HM Treasury — Safeguarding Stability, Enabling Growth: The Ring-Fencing Review", "url": "https://www.gov.uk/government/publications/safeguarding-stability-enabling-growth-the-ring-fencing-review" }
+    },
+    {
+      "name": "Companies House reform (ECCTA)",
+      "stage": "Mandatory identity verification for new directors/PSCs live since 18 Nov 2025; existing directors must verify by autumn 2026; accounts reform (small-company P&L filing, software-only) phased to 2027",
+      "nextDate": "2026-11-18",
+      "status": "amber",
+      "eclImpact": "Small-company P&L filing ends abridged/filleted accounts, materially improving financial data available for BB credit assessment and PD modelling of micro-SMEs. IDV cleans the register that KYC, fraud screening and early-warning tools depend on.",
+      "source": { "title": "ICAEW — Timeline for Companies House ID changes", "url": "https://www.icaew.com/insights/viewpoints-on-the-news/2025/mar-2025/companies-house-id-requirements-start-on-18-march" }
+    },
+    {
+      "name": "APP fraud reimbursement review",
+      "stage": "Independent evaluation published 1 Jul 2026 (losses down ~£73m/yr, 97% reimbursement); formal consultation on £85k cap and 50/50 PSP split due December 2026",
+      "nextDate": "2026-12-01",
+      "status": "amber",
+      "eclImpact": "Reimbursement liability sits with sending/receiving PSPs, creating a non-credit loss line that competes with impairment for P&L attention; any cap recalibration changes fraud-loss provisioning for business payment fraud on BB accounts.",
+      "source": { "title": "Global Regulation Tomorrow — Payment fraud falls by £73m following PSR reimbursement scheme", "url": "https://www.regulationtomorrow.com/2026/07/payment-fraud-falls-by-73m-following-psr-reimbursement-scheme/" }
+    },
+    {
+      "name": "Commercial VRPs (open banking payments)",
+      "stage": "UKPI cVRP scheme went live 2 Jun 2026 (Wave 1: utilities, financial services, government); Wave 2 e-commerce expected end-2026; FCA to fold lessons into long-term framework",
+      "nextDate": "2026-12-31",
+      "status": "green",
+      "eclImpact": "cVRP-enabled sweeping and payments erode BCA transaction data primacy — the richest early-warning input for BB SICR triggers. Longer-term, open banking rails support cash-flow-based underwriting that could reshape PD data sources.",
+      "source": { "title": "PSR/FCA — Commercial variable recurring payments: update on delivery (Dec 2025)", "url": "https://www.psr.org.uk/publications/policy-statements/commercial-variable-recurring-payments-update-on-delivery/" }
+    },
+    {
+      "name": "Bank Referral Scheme & CCDS reform",
+      "stage": "HMT response 11 May 2026: no BRS legislation — industry-led improvement proposals due to HMT by 18 Dec 2026; CCDS to be expanded by legislation beyond banks",
+      "nextDate": "2026-12-18",
+      "status": "amber",
+      "eclImpact": "Expanded commercial credit data sharing widens the bureau data behind SME PD models and improves visibility of borrower leverage across lenders — a data-quality upgrade for ECL and affordability assessment.",
+      "source": { "title": "HM Treasury — Government response: Commercial Credit Data Sharing and Bank Referral Scheme", "url": "https://www.gov.uk/government/consultations/commercial-credit-data-sharing-and-bank-referral-scheme-consultation-and-call-for-evidence--2" }
+    },
+    {
+      "name": "Growth Guarantee Scheme extension",
+      "stage": "Extended in 2025 Spending Review to 31 March 2030; 70% guarantee, terms unchanged; RLS3/GGS performance data published quarterly",
+      "nextDate": "2030-03-31",
+      "status": "green",
+      "eclImpact": "Keeps a 70% government guarantee available on eligible BB new-lend to 2030, structurally lowering LGD on covered facilities and cushioning risk appetite through the Basel 3.1 capital transition.",
+      "source": { "title": "British Business Bank — Growth Guarantee Scheme (GGS)", "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme" }
+    },
+    {
+      "name": "FCA SME access-to-finance work",
+      "stage": "Call for Input closed (issued 18 Mar 2026); stakeholder roundtables held May 2026; summary of insights and next steps due later in 2026",
+      "nextDate": "2026-12-31",
+      "status": "amber",
+      "eclImpact": "Could extend conduct expectations further into (largely unregulated) SME lending; any push on lending criteria, forbearance treatment or declined-application transparency would touch BB collections and staging practice.",
+      "source": { "title": "FCA — Understanding how our regulation can help SMEs access finance (Call for Input)", "url": "https://www.fca.org.uk/publications/calls-input/understanding-regulation-smes-access-finance" }
+    },
+    {
+      "name": "PRA IFRS 9 ECL expectations (Dear CFO)",
+      "stage": "Latest thematic Dear CFO letter (2025): model risk elevated, PMA completeness and LGD recovery-assumption realism under scrutiny; annual thematic cycle continues into 2026",
+      "nextDate": "2026-12-31",
+      "status": "amber",
+      "eclImpact": "Direct supervisory pressure on BB ECL practice: challenge model responsiveness to current credit-risk drivers, evidence PMAs, and de-bias LGD for vulnerable sectors — expect these themes in year-end audit and PRA engagement.",
+      "source": { "title": "Bank of England PRA — Thematic feedback on accounting for IFRS 9 expected credit losses (Dear CFO letter)", "url": "https://www.bankofengland.co.uk/prudential-regulation/letter/2025/thematic-feedback-on-accounting-for-ifrs-9-ecl" }
+    },
+    {
+      "name": "FCA Open Finance Roadmap",
+      "stage": "Roadmap published April 2026 — SME lending and mortgages named first priority use cases; TechSprints ran Nov 2025-Feb 2026; full regulatory framework targeted by end-2027",
+      "nextDate": "2027-12-31",
+      "status": "green",
+      "eclImpact": "Open finance data-sharing for SME credit would broaden the cash-flow and account data available for underwriting and monitoring — over time a richer SICR/early-warning toolkit, and lower information advantage for incumbent BCA banks.",
+      "source": { "title": "Global Regulation Tomorrow — FCA publishes Open Finance Roadmap", "url": "https://www.regulationtomorrow.com/2026/04/fca-publishes-open-finance-roadmap/" }
+    }
+  ]
+}

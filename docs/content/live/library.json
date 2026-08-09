@@ -1,0 +1,464 @@
+{
+  "asAt": "2026-08",
+  "items": [
+    {
+      "type": "podcast",
+      "title": "Fintech Insider",
+      "creator": "11:FS",
+      "url": "https://www.11fs.com/podcasts-category/fintech-insider",
+      "why": "Monday news show tracks challenger-bank and SME-fintech moves that reshape the competitive set your book competes against.",
+      "cadence": "weekly",
+      "moduleIds": [0, 5, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "Making Money",
+      "creator": "Damien Jordan & Timeyin Akerele (Most)",
+      "url": "https://www.damienjordan.co.uk/podcast",
+      "why": "The UK household money mood in plain English - useful read-across to sole-trader and micro-business affordability.",
+      "cadence": "weekly",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "The Rest Is Money",
+      "creator": "Robert Peston & Steph McGovern (Goalhanger)",
+      "url": "https://podcasts.apple.com/gb/podcast/the-rest-is-money/id1703785141",
+      "why": "Twice-weekly UK macro and business-policy narrative - the stories that end up in your macroeconomic scenario overlays.",
+      "cadence": "weekly",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "This is Money Podcast",
+      "creator": "This is Money / Daily Mail Group",
+      "url": "https://podcasts.apple.com/gb/podcast/this-is-money-podcast/id979600898",
+      "why": "Long-running weekly on UK rates, banks and small-business finance - a cheap barometer of retail and SME sentiment.",
+      "cadence": "weekly",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "The R3 Podcast",
+      "creator": "R3 (Association of Business Recovery Professionals)",
+      "url": "https://www.r3.org.uk/technical-library/r3-podcast/",
+      "why": "Insolvency practitioners on what they are actually seeing in restructurings - ground truth for your Stage 3 and recoveries assumptions.",
+      "cadence": "monthly",
+      "moduleIds": [8]
+    },
+    {
+      "type": "podcast",
+      "title": "Risk & Regulation Rundown",
+      "creator": "PwC UK",
+      "url": "https://www.pwc.co.uk/industries/financial-services/risk-and-regulation-rundown-podcast.html",
+      "why": "PwC's FS risk team unpacks PRA and FCA workstreams before they hit your impairment governance agenda.",
+      "cadence": "monthly",
+      "moduleIds": [6, 7, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "Risk and Regulation Unravelled",
+      "creator": "Grant Thornton UK",
+      "url": "https://www.grantthornton.co.uk/insights/risk-and-regulation-unravelled-podcast/",
+      "why": "Mid-tier audit view of regulatory change - often closer to the SME lender segment than Big Four bank coverage.",
+      "cadence": "monthly",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "UK Finance Podcast Hub",
+      "creator": "UK Finance",
+      "url": "https://www.ukfinance.org.uk/news-and-insight/podcast-hub",
+      "why": "The trade body of the banks whose SME data you benchmark against, talking about its own agenda.",
+      "cadence": "ongoing",
+      "moduleIds": [0, 5, 6]
+    },
+    {
+      "type": "podcast",
+      "title": "Bank of England audio channel",
+      "creator": "Bank of England",
+      "url": "https://soundcloud.com/bankofengland",
+      "why": "MPC and FPC speeches in audio form - hear the exact framing behind the base, upside and downside scenarios you consume.",
+      "cadence": "ongoing",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "podcast",
+      "title": "Banking Media Hub",
+      "creator": "Linklaters",
+      "url": "https://www.linklaters.com/en-us/insights/thought-leadership/podcasts/practice-podcast-series/banking-media-hub",
+      "why": "Magic-circle lawyers on loan documentation, security and workout mechanics - the legal plumbing behind LGD.",
+      "cadence": "ongoing",
+      "moduleIds": [6, 8]
+    },
+    {
+      "type": "video",
+      "title": "Barclays financial results webcasts and presentations",
+      "creator": "Barclays Investor Relations",
+      "url": "https://home.barclays/investor-relations/reports-and-events/financial-results/",
+      "why": "Watch your own CFO walk analysts through impairment, coverage ratios and the UK Corporate Bank every quarter.",
+      "cadence": "quarterly",
+      "moduleIds": [4, 7]
+    },
+    {
+      "type": "video",
+      "title": "Lloyds Banking Group event presentations and webcasts",
+      "creator": "Lloyds Banking Group",
+      "url": "https://www.lloydsbankinggroup.com/investors/financial-downloads/event-presentations-webcasts.html",
+      "why": "The biggest UK SME lender's results calls - listen for how their BB impairment commentary differs from yours.",
+      "cadence": "quarterly",
+      "moduleIds": [5, 7]
+    },
+    {
+      "type": "video",
+      "title": "HSBC investor events and presentations",
+      "creator": "HSBC Holdings",
+      "url": "https://www.hsbc.com/investors/results-and-announcements/investor-events-and-presentations",
+      "why": "HSBC UK commercial banking commentary with a global-trade lens your book lacks - good for spotting imported risk.",
+      "cadence": "quarterly",
+      "moduleIds": [5]
+    },
+    {
+      "type": "video",
+      "title": "Parliamentlive.tv - Committees",
+      "creator": "UK Parliament",
+      "url": "https://parliamentlive.tv/Committees",
+      "why": "Live and archived committee video - watch bank CEOs and BoE officials questioned under oath, unedited.",
+      "cadence": "ongoing",
+      "moduleIds": [2, 9]
+    },
+    {
+      "type": "video",
+      "title": "Treasury Committee - all events",
+      "creator": "House of Commons Treasury Committee",
+      "url": "https://committees.parliament.uk/committee/158/treasury-committee/events/all/",
+      "why": "The diary of upcoming evidence sessions on banks, SME finance and the Budget - know what is landing before it lands.",
+      "cadence": "ongoing",
+      "moduleIds": [9]
+    },
+    {
+      "type": "video",
+      "title": "Bank of England YouTube channel",
+      "creator": "Bank of England",
+      "url": "https://www.youtube.com/BankofEnglandUK",
+      "why": "Monetary Policy Report and Financial Stability Report press conferences in full - the Q&A is where the caveats live.",
+      "cadence": "ongoing",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "video",
+      "title": "British Business Bank events and webinars",
+      "creator": "British Business Bank",
+      "url": "https://www.british-business-bank.co.uk/news-and-events/events",
+      "why": "The state SME-finance body's own webinars, including Business Finance Week - direct line into scheme design thinking.",
+      "cadence": "ongoing",
+      "moduleIds": [3, 9]
+    },
+    {
+      "type": "video",
+      "title": "Latest from the Governor",
+      "creator": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/news/latest-from-the-governor",
+      "why": "One page collecting Bailey's speeches, press conferences and TSC appearances - the fastest read on the policy path.",
+      "cadence": "ongoing",
+      "moduleIds": [9]
+    },
+    {
+      "type": "document",
+      "title": "Barclays Annual Reports and Pillar 3 hub",
+      "creator": "Barclays",
+      "url": "https://home.barclays/investor-relations/reports-and-events/annual-reports/",
+      "why": "Your bank's ARA and Pillar 3 disclosures - the published version of the ECL numbers your desk produces.",
+      "cadence": "annual",
+      "moduleIds": [4, 7]
+    },
+    {
+      "type": "document",
+      "title": "Lloyds Banking Group financial downloads",
+      "creator": "Lloyds Banking Group",
+      "url": "https://www.lloydsbankinggroup.com/investors/financial-downloads.html",
+      "why": "Full results pack from the largest UK BB competitor - benchmark stage migration and coverage against yours.",
+      "cadence": "quarterly",
+      "moduleIds": [5, 7]
+    },
+    {
+      "type": "document",
+      "title": "NatWest Group Results Centre",
+      "creator": "NatWest Group",
+      "url": "https://investors.natwestgroup.com/results-centre",
+      "why": "Announcements, Excel data supplements and webcasts from the other big commercial lender - their supplement is unusually granular.",
+      "cadence": "quarterly",
+      "moduleIds": [5, 7]
+    },
+    {
+      "type": "document",
+      "title": "HSBC results and announcements",
+      "creator": "HSBC Holdings",
+      "url": "https://www.hsbc.com/investors/results-and-announcements",
+      "why": "Full archive of HSBC results and regulatory documents - the UK commercial segment disclosures are the comparator you need.",
+      "cadence": "quarterly",
+      "moduleIds": [5]
+    },
+    {
+      "type": "document",
+      "title": "Santander UK Group Holdings investor relations",
+      "creator": "Santander UK",
+      "url": "https://www.santander.co.uk/about-santander/investor-relations/santander-uk-group-holdings-plc",
+      "why": "Quarterly statements and risk disclosures from the challenger-scale competitor squeezing mid-market margins.",
+      "cadence": "quarterly",
+      "moduleIds": [5]
+    },
+    {
+      "type": "document",
+      "title": "Money and Credit statistical release (statistics hub)",
+      "creator": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/statistics",
+      "why": "Monthly lending-to-business flows and rates - the earliest system-wide signal of SME credit demand and repayment stress.",
+      "cadence": "monthly",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "document",
+      "title": "Credit Conditions Survey",
+      "creator": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/credit-conditions-survey/2026/2026-q1",
+      "why": "Lenders' own quarterly read on corporate and small-business credit supply, demand and default expectations.",
+      "cadence": "quarterly",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "document",
+      "title": "Financial Stability Reports",
+      "creator": "Bank of England Financial Policy Committee",
+      "url": "https://www.bankofengland.co.uk/financial-stability-report/financial-stability-reports",
+      "why": "Twice-yearly FPC view including the corporate debt vulnerability charts your downside scenarios should rhyme with.",
+      "cadence": "ongoing",
+      "moduleIds": [2, 9]
+    },
+    {
+      "type": "document",
+      "title": "Company Insolvency Statistics releases",
+      "creator": "The Insolvency Service",
+      "url": "https://www.gov.uk/government/collections/company-insolvency-statistics-releases",
+      "why": "Monthly CVL, administration and compulsory liquidation counts by sector - the single most direct default-rate input.",
+      "cadence": "monthly",
+      "moduleIds": [8, 9]
+    },
+    {
+      "type": "document",
+      "title": "Individual Insolvency Statistics releases",
+      "creator": "The Insolvency Service",
+      "url": "https://www.gov.uk/government/collections/individual-insolvency-statistics-releases",
+      "why": "Bankruptcies, IVAs and DROs - the personal-guarantee and sole-trader side of business banking default risk.",
+      "cadence": "monthly",
+      "moduleIds": [8]
+    },
+    {
+      "type": "document",
+      "title": "Small Business Finance Markets Report 2026",
+      "creator": "British Business Bank",
+      "url": "https://www.british-business-bank.co.uk/about/research-and-publications/small-business-finance-markets-report-2026",
+      "why": "The annual census of the SME funding landscape - challenger share now 60 percent of gross lending, which reframes competitor risk.",
+      "cadence": "annual",
+      "moduleIds": [0, 3, 5, 9]
+    },
+    {
+      "type": "document",
+      "title": "The Bounce Back Loan Scheme: an update",
+      "creator": "National Audit Office",
+      "url": "https://www.nao.org.uk/press-releases/the-bounce-back-loan-scheme-an-update/",
+      "why": "The NAO's follow-up on BBLS losses and fraud - context for every legacy COVID facility still sitting in your book.",
+      "cadence": "one-off",
+      "moduleIds": [3]
+    },
+    {
+      "type": "document",
+      "title": "Investigation into the Bounce Back Loan Scheme",
+      "creator": "National Audit Office",
+      "url": "https://www.nao.org.uk/press-release/investigation-into-the-bounce-back-loan-scheme/",
+      "why": "The original 2020 audit: no credit checks, 100 percent guarantee - explains why BBLS impairment behaves unlike normal lending.",
+      "cadence": "one-off",
+      "moduleIds": [3]
+    },
+    {
+      "type": "document",
+      "title": "Thematic feedback on accounting for IFRS 9 ECL and climate risk (Dear CFO letter)",
+      "creator": "Prudential Regulation Authority",
+      "url": "https://www.bankofengland.co.uk/prudential-regulation/letter/2024/thematic-feedback-on-accounting-for-ifrs-9-ecl-and-climate-risk",
+      "why": "The PRA telling CFOs exactly what it dislikes about current ECL models and PMAs - required reading before model committee.",
+      "cadence": "annual",
+      "moduleIds": [7]
+    },
+    {
+      "type": "document",
+      "title": "Taskforce on Disclosures about Expected Credit Losses (DECL) reports",
+      "creator": "PRA / FCA / FRC Taskforce",
+      "url": "https://www.bankofengland.co.uk/prudential-regulation/publication/2022/september/taskforce-on-disclosures-about-expected-credit-losses",
+      "why": "The DECL recommendations define what good ECL disclosure looks like - the template your published numbers are judged against.",
+      "cadence": "one-off",
+      "moduleIds": [7]
+    },
+    {
+      "type": "document",
+      "title": "Basel 3.1 implementation policy statements",
+      "creator": "Prudential Regulation Authority",
+      "url": "https://www.bankofengland.co.uk/news/2023/december/pra-publishes-first-of-two-policy-statements-for-basel-3-1-standards-implementation",
+      "why": "Basel 3.1 goes live 1 January 2027 - the credit-risk RWA rewrite will change the capital cost of every BB exposure class.",
+      "cadence": "one-off",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "document",
+      "title": "Business Finance Review",
+      "creator": "UK Finance",
+      "url": "https://www.ukfinance.org.uk/data-and-research/data/business-finance-review",
+      "why": "Quarterly commentary on SME loans, overdrafts and invoice finance across the high street banks - your market-share mirror.",
+      "cadence": "quarterly",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "document",
+      "title": "FCA publications",
+      "creator": "Financial Conduct Authority",
+      "url": "https://www.fca.org.uk/publications",
+      "why": "Filterable hub for FCA policy, portfolio letters and market studies touching SME lending and Consumer Duty read-across.",
+      "cadence": "ongoing",
+      "moduleIds": [9]
+    },
+    {
+      "type": "document",
+      "title": "Treasury Committee oral evidence transcripts",
+      "creator": "House of Commons Treasury Committee",
+      "url": "https://committees.parliament.uk/committee/158/treasury-committee/publications/oral-evidence/",
+      "why": "Searchable transcripts of every grilling of bank bosses and regulators - what was said about SME lending, on the record.",
+      "cadence": "ongoing",
+      "moduleIds": [2, 9]
+    },
+    {
+      "type": "document",
+      "title": "Red Flag Alert business health statistics",
+      "creator": "Begbies Traynor Group",
+      "url": "https://www.begbies-traynorgroup.com/news/business-health-statistics",
+      "why": "Quarterly counts of firms in significant and critical distress by sector - a leading indicator that runs ahead of formal insolvencies.",
+      "cadence": "quarterly",
+      "moduleIds": [8, 9]
+    },
+    {
+      "type": "newsletter",
+      "title": "Bank Underground",
+      "creator": "Bank of England staff",
+      "url": "https://bankunderground.co.uk/",
+      "why": "BoE staff research without the house-view filter - regular posts on corporate credit, SME finance and IFRS 9 procyclicality.",
+      "cadence": "ongoing",
+      "moduleIds": [6, 7, 9]
+    },
+    {
+      "type": "newsletter",
+      "title": "Fintech Brainfood",
+      "creator": "Simon Taylor",
+      "url": "https://www.fintechbrainfood.com/",
+      "why": "Weekly strategic read on fintech and banking by an ex-Barclays VP - early warning on who is coming for SME deposits and lending.",
+      "cadence": "weekly",
+      "moduleIds": [5, 9]
+    },
+    {
+      "type": "newsletter",
+      "title": "Regulation Tomorrow",
+      "creator": "Norton Rose Fulbright",
+      "url": "https://www.regulationtomorrow.com/",
+      "why": "Same-week legal summaries of every PRA and FCA publication - lets you triage regulatory flow in minutes.",
+      "cadence": "ongoing",
+      "moduleIds": [9]
+    },
+    {
+      "type": "newsletter",
+      "title": "Financial Regulation Weekly Bulletin",
+      "creator": "Slaughter and May",
+      "url": "https://www.slaughterandmay.com/insights/financial-regulation-weekly-bulletin/",
+      "why": "A disciplined weekly digest of UK and EU regulatory developments - the structured complement to ad-hoc news flow.",
+      "cadence": "weekly",
+      "moduleIds": [9]
+    },
+    {
+      "type": "newsletter",
+      "title": "Insolvency Service email alerts",
+      "creator": "GOV.UK / The Insolvency Service",
+      "url": "https://www.gov.uk/email-signup?link=/government/organisations/insolvency-service",
+      "why": "Push notification the morning insolvency statistics drop - beat the trade press to the monthly default read.",
+      "cadence": "ongoing",
+      "moduleIds": [8]
+    },
+    {
+      "type": "newsletter",
+      "title": "UK Finance news and insight",
+      "creator": "UK Finance",
+      "url": "https://www.ukfinance.org.uk/news-and-insight",
+      "why": "Press releases and blogs from the banking trade body - the industry's official line on SME lending trends, quotable in packs.",
+      "cadence": "ongoing",
+      "moduleIds": [0, 9]
+    },
+    {
+      "type": "data",
+      "title": "Bank of England Interactive Statistical Database (IADB)",
+      "creator": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/boeapps/iadb/",
+      "why": "Full downloadable back-runs of lending, deposit and rate series - build your own PD-cycle charts instead of screenshotting releases.",
+      "cadence": "ongoing",
+      "moduleIds": [6, 9]
+    },
+    {
+      "type": "data",
+      "title": "Bankstats tables",
+      "creator": "Bank of England",
+      "url": "https://www.bankofengland.co.uk/statistics/tables",
+      "why": "Monthly monetary and financial statistics tables including lending to non-financial businesses by industry.",
+      "cadence": "monthly",
+      "moduleIds": [6]
+    },
+    {
+      "type": "data",
+      "title": "Business demography, quarterly, UK",
+      "creator": "Office for National Statistics",
+      "url": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/datasets/businessdemographyquarterlyexperimentalstatisticsuk",
+      "why": "Quarterly business births and deaths by industry and region - the denominator context for insolvency rates.",
+      "cadence": "quarterly",
+      "moduleIds": [8, 9]
+    },
+    {
+      "type": "data",
+      "title": "Find and update company information (Companies House)",
+      "creator": "Companies House",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "why": "Free filings, accounts, charges and officer data on any obligor - first stop in every single-name credit review.",
+      "cadence": "ongoing",
+      "moduleIds": [6, 8]
+    },
+    {
+      "type": "data",
+      "title": "Financial Services Register",
+      "creator": "Financial Conduct Authority",
+      "url": "https://register.fca.org.uk/",
+      "why": "Authoritative record of who is authorised for what - essential when a borrower or broker claims regulated status.",
+      "cadence": "ongoing",
+      "moduleIds": [5, 6]
+    },
+    {
+      "type": "data",
+      "title": "COVID-19 loan guarantee schemes repayment data",
+      "creator": "Department for Business and Trade / British Business Bank",
+      "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026",
+      "why": "Quarterly facility-level performance of BBLS, CBILS and CLBILS - the external benchmark for your own scheme-book arrears.",
+      "cadence": "quarterly",
+      "moduleIds": [3]
+    },
+    {
+      "type": "data",
+      "title": "SME Lending and Deposits data",
+      "creator": "UK Finance",
+      "url": "https://www.ukfinance.org.uk/data-and-research/data/business-finance/sme-lending-and-deposits",
+      "why": "Bank-contributed SME lending and deposit series covering Barclays and peers - the cleanest market-share denominator available.",
+      "cadence": "quarterly",
+      "moduleIds": [5, 6]
+    }
+  ]
+}

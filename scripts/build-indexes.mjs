@@ -164,6 +164,32 @@ for (const [slug, t] of Object.entries(terms)) {
     text: t.definition,
   });
 }
+
+// live-data content (guarded — these files may not exist yet)
+const tryRead = (name) => {
+  try { return JSON.parse(fs.readFileSync(path.join(contentDir, "live", name), "utf8")); }
+  catch { return null; }
+};
+const lib = tryRead("library.json");
+if (lib) {
+  for (const i of lib.items || []) {
+    docs.push({ title: i.title, where: `Library · ${i.type}`, href: "library.html", text: `${i.creator || ""} — ${i.why || ""}` });
+  }
+}
+const ppl = tryRead("people.json");
+if (ppl) {
+  for (const inst of ppl.institutions || []) {
+    for (const p of inst.people || []) {
+      docs.push({ title: `${p.name} — ${p.role}`, where: `People · ${inst.name}`, href: "people.html", text: p.note || "" });
+    }
+  }
+}
+const moves = tryRead("moves.json");
+if (moves) {
+  for (const m of moves.moves || []) {
+    docs.push({ title: `${m.person}: ${m.from} → ${m.to}`, where: "People · movement", href: "people.html", text: m.signal || "" });
+  }
+}
 write("search-index.json", { docs });
 
 // ---------- report ----------

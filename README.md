@@ -45,6 +45,24 @@ window.BB_CONFIG = {
 
 > Free-tier Render services sleep after inactivity; the first question after a quiet spell takes ~30s while the service wakes. The tutor panel says so when it happens.
 
+## 2b · Live data & the refresh engine
+
+The **Desk** (`desk.html`), **People** (`people.html`) and **Library** (`library.html`) pages read from `docs/content/live/*.json`:
+
+| File | What it is |
+|---|---|
+| `live/metrics.json` | Key BB metrics with as-at dates, sources, and value history |
+| `live/deltas.json` | The "what changed" log, newest first |
+| `live/pipeline.json` | Regulatory pipeline with ECL-impact notes |
+| `live/calendar.json` | Results dates, stats releases, MPC dates |
+| `live/people.json` / `live/moves.json` | Key people roster + movement feed |
+| `live/library.json` | Podcasts, videos, documents, newsletters, data sources |
+
+Two refresh paths:
+
+1. **"Refresh now" button** (Desk page) → calls the Render backend `POST /api/refresh`, which re-verifies metrics via live web search and shows the result immediately (kept in localStorage until baked).
+2. **Weekly bake** — `.github/workflows/refresh.yml` runs every Monday 06:00 UTC (or manually via Actions → "Weekly live-data refresh" → Run workflow). It updates `metrics.json`, appends value history, writes the delta log, and commits — Pages redeploys automatically. **Requires a repo secret:** Settings → Secrets and variables → Actions → New repository secret → `ANTHROPIC_API_KEY`. Without the secret the job skips harmlessly.
+
 ## 3 · Updating content
 
 All content lives in `docs/content/`:

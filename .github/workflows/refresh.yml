@@ -1,0 +1,31 @@
+name: Weekly live-data refresh
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh live metrics (needs ANTHROPIC_API_KEY secret)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/refresh-live.mjs
+      - name: Rebuild indexes
+        run: node scripts/build-indexes.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "bb-atlas-refresh[bot]"
+          git config user.email "actions@github.com"
+          git add docs/content
+          git diff --cached --quiet && echo "No changes." || git commit -m "refresh: weekly live-data bake $(date -u +%F)"
+          git push

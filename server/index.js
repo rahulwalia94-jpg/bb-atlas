@@ -113,4 +113,51 @@ app.post("/api/ask", async (req, res) => {
   }
 });
 
+// Body: { metrics: [{id,label,value,asAt}] } — the currently-baked values.
+// Uses live web search to re-verify each and returns updated values + a change list.
+app.post("/api/refresh", async (req, res) => {
+  try {
+    const { metrics } = req.body || {};
+    if (!Array.isArray(metrics) || !metrics.length || metrics.length > 30) {
+      return res.status(400).json({ error: "metrics array (1-30 items) required" });
+    }
+
+    const response = await client.messages.create({
+      model: "claude-sonnet-4-6",
+      max_tokens: 4096,
+      thinking: { type: "adaptive" },
+      system:
+        "You verify UK business-banking metrics using live web search. You are precise, cite-driven, and never guess. Today's date matters: prefer the most recent official figure.",
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 8 }],
+      messages: [
+        {
+          role: "user",
+          content:
+            `Re-verify these UK business banking metrics with web search. For each metric where you find a NEWER or DIFFERENT official figure, return it; skip metrics that are unchanged or that you cannot verify.\n\n` +
+            `Current baked values:\n${JSON.stringify(metrics, null, 1)}\n\n` +
+            `Respond with ONLY a JSON object, no prose:\n` +
+            `{"metrics":[{"id":"<same id>","value":"<new value>","detail":"<one-line context>","asAt":"<YYYY-MM>","trend":"up|down|flat"}],` +
+            `"changes":[{"id":"<id>","summary":"<metric label>: <old> → <new> (why)"}]}`,
+        },
+      ],
+    });
+
+    if (response.stop_reason === "refusal") {
+      return res.status(500).json({ error: "Refresh was declined — try again." });
+    }
+    let text = "";
+    for (const block of response.content) if (block.type === "text") text += block.text;
+    const match = text.match(/\{[\s\S]*\}/);
+    if (!match) return res.status(500).json({ error: "Could not parse refresh result." });
+    const data = JSON.parse(match[0]);
+    res.json({ metrics: data.metrics || [], changes: data.changes || [] });
+  } catch (err) {
+    if (err instanceof Anthropic.RateLimitError) {
+      return res.status(429).json({ error: "Rate-limited — try again in a minute." });
+    }
+    console.error("refresh error:", err);
+    res.status(500).json({ error: "Refresh failed — try again." });
+  }
+});
+
 app.listen(PORT, () => console.log(`BB Atlas tutor listening on :${PORT}`));

@@ -1,0 +1,149 @@
+{
+  "asAt": "2026-08-06",
+  "events": [
+    {
+      "date": "2026-08-13",
+      "institution": "ONS",
+      "event": "GDP first quarterly estimate, Q2 2026",
+      "note": "Q1 printed +0.6%; a soft Q2 would pressure downside scenario weights in ECL macro sets",
+      "confirmed": true,
+      "source": { "title": "ONS release calendar — GDP first quarterly estimate, UK: April to June 2026", "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukapriltojune2026" }
+    },
+    {
+      "date": "2026-08-18 (est)",
+      "institution": "Insolvency Service",
+      "event": "Company insolvencies, July 2026 (monthly statistics)",
+      "note": "June printed 1,845 (-10% YoY); watch whether the administrations spike (real-estate cluster) repeats and whether compulsory liquidations keep falling",
+      "confirmed": false,
+      "source": { "title": "Insolvency Service — Company insolvencies, June 2026 (monthly series; June release published 17 Jul 2026)", "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026" }
+    },
+    {
+      "date": "2026-08-19",
+      "institution": "ONS",
+      "event": "CPI inflation, July 2026",
+      "note": "June fell to 2.6%; continued disinflation underpins the rate-cut path in base-case ECL scenarios",
+      "confirmed": true,
+      "source": { "title": "MoneyWeek — Consumer Prices Index release dates", "url": "https://moneyweek.com/economy/uk-economy/uk-inflation-consumer-price-index-release-dates" }
+    },
+    {
+      "date": "2026-09-01 (est)",
+      "institution": "Bank of England",
+      "event": "Money & Credit, July 2026",
+      "note": "Monthly read on lending to SMEs and businesses — net SME lending trend is the flow signal for BB EAD growth",
+      "confirmed": false,
+      "source": { "title": "Bank of England — Money and Credit statistics series", "url": "https://www.bankofengland.co.uk/statistics/money-and-credit/2026/may-2026" }
+    },
+    {
+      "date": "2026-09-15 (est)",
+      "institution": "Insolvency Service",
+      "event": "Company insolvencies, August 2026 (monthly statistics)",
+      "note": "Mid-month release pattern; quarterly liquidation-rate update (50.5 per 10k at June) refreshes with Q3 data",
+      "confirmed": false,
+      "source": { "title": "Insolvency Service — Company insolvencies (monthly series)", "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026" }
+    },
+    {
+      "date": "2026-09-17",
+      "institution": "Bank of England",
+      "event": "MPC decision (no Monetary Policy Report)",
+      "note": "Bank Rate held at 3.75% all year; first cut would ease debt-service stress on floating-rate BB borrowers and shift scenario weights",
+      "confirmed": true,
+      "source": { "title": "Bank of England — Monetary Policy Committee dates for 2026 and 2027", "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates" }
+    },
+    {
+      "date": "2026-10-22",
+      "institution": "Barclays",
+      "event": "Q3 2026 results",
+      "note": "H1 LLR ran at 62bps, above the 50-60bps TTC range — watch Barclays UK impairment charge, BB coverage and any UK macro PMA moves",
+      "confirmed": true,
+      "source": { "title": "Barclays — Financial calendar", "url": "https://home.barclays/investor-relations/reports-and-events/financial-calendar/" }
+    },
+    {
+      "date": "2026-10-27",
+      "institution": "HSBC",
+      "event": "3Q 2026 earnings release",
+      "note": "Peer read-across for UK commercial banking ECL charges and wholesale coverage direction",
+      "confirmed": true,
+      "source": { "title": "HSBC — Financial calendar", "url": "https://www.hsbc.com/investors/investing-in-hsbc/financial-calendar" }
+    },
+    {
+      "date": "2026-10-28 (est)",
+      "institution": "Santander",
+      "event": "Q3 2026 results (group; Santander UK disclosure may differ)",
+      "note": "Santander UK entity reporting has been curtailed (Q3 2025 announcement was cancelled) — group release is the fallback for UK SME book colour",
+      "confirmed": false,
+      "source": { "title": "Santander UK — Investor relations, Santander UK Group Holdings plc", "url": "https://www.santander.co.uk/about-santander/investor-relations/santander-uk-group-holdings-plc" }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Lloyds",
+      "event": "Q3 2026 Interim Management Statement",
+      "note": "Largest UK SME lender peer — benchmark for BB impairment charge trajectory and coverage ratios",
+      "confirmed": true,
+      "source": { "title": "Lloyds Banking Group — Q1 2026 Interim Management Statement (key dates)", "url": "https://www.lloydsbankinggroup.com/assets/pdfs/investors/financial-performance/lloyds-banking-group-plc/2026/q1/2026-lbg-q1-ims.pdf" }
+    },
+    {
+      "date": "2026-10-29",
+      "institution": "Bank of England",
+      "event": "Money & Credit, September 2026",
+      "note": "Quarter-end read on business lending flows ahead of Q4 ECL scenario refresh",
+      "confirmed": true,
+      "source": { "title": "Bank of England — Money and Credit, September 2026", "url": "https://www.bankofengland.co.uk/statistics/money-and-credit/2026/september-2026" }
+    },
+    {
+      "date": "2026-10-30",
+      "institution": "NatWest",
+      "event": "Q3 2026 results",
+      "note": "Closest peer for commercial/BB mix — watch its wholesale impairment and economic scenario weight disclosures",
+      "confirmed": true,
+      "source": { "title": "NatWest Group — Results news (upcoming results announcements)", "url": "https://www.natwestgroup.com/news-and-insights/news-room/natwest-group-results-news.html" }
+    },
+    {
+      "date": "2026-11-05",
+      "institution": "Bank of England",
+      "event": "MPC decision + Monetary Policy Report",
+      "note": "Full forecast round — the MPR macro projections are a common anchor for year-end IFRS 9 scenario updates",
+      "confirmed": true,
+      "source": { "title": "Bank of England — Monetary Policy Committee dates for 2026 and 2027", "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates" }
+    },
+    {
+      "date": "2026-11-12",
+      "institution": "ONS",
+      "event": "GDP first quarterly estimate, Q3 2026",
+      "note": "Last full GDP print before year-end ECL scenario sign-off",
+      "confirmed": true,
+      "source": { "title": "ONS release calendar — GDP first quarterly estimate, UK: July to September 2026", "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2026" }
+    },
+    {
+      "date": "2026-12-17",
+      "institution": "Bank of England",
+      "event": "MPC decision (final 2026 meeting)",
+      "note": "Sets the rate backdrop carried into FY26 year-end impairment assumptions",
+      "confirmed": true,
+      "source": { "title": "Bank of England — Monetary Policy Committee dates for 2026 and 2027", "url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates" }
+    },
+    {
+      "date": "2026-12-18",
+      "institution": "HM Treasury",
+      "event": "Deadline for industry-led Bank Referral Scheme improvement proposals",
+      "note": "Outcome shapes how declined BB credit applications are re-routed — a conduct and origination-mix watch item",
+      "confirmed": true,
+      "source": { "title": "HM Treasury — Government response: Commercial Credit Data Sharing and Bank Referral Scheme (May 2026)", "url": "https://www.gov.uk/government/consultations/commercial-credit-data-sharing-and-bank-referral-scheme-consultation-and-call-for-evidence--2" }
+    },
+    {
+      "date": "2027-01-01",
+      "institution": "PRA",
+      "event": "Basel 3.1 implementation date (UK)",
+      "note": "SME support factor removed from Pillar 1 (Pillar 2A adjustment instead); capital cost of BB lending changes from this date",
+      "confirmed": true,
+      "source": { "title": "Global Regulation Tomorrow — Implementation of Basel 3.1: PRA publishes final rules (PS1/26)", "url": "https://www.regulationtomorrow.com/2026/01/implementation-of-basel-3-1-pra-publishes-final-rules/" }
+    },
+    {
+      "date": "2027-07 (est)",
+      "institution": "British Business Bank",
+      "event": "Annual Report and Accounts 2026/27 (expected window)",
+      "note": "2025/26 report landed July 2026 with £9.4bn finance supported; next edition updates GGS/BBLS performance and guarantee-scheme loss data",
+      "confirmed": false,
+      "source": { "title": "British Business Bank — Annual Report and Accounts 2026", "url": "https://www.british-business-bank.co.uk/about/research-and-publications/annual-report-and-accounts-2026" }
+    }
+  ]
+}

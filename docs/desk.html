@@ -3,26 +3,26 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BB Atlas — Master Domino Map</title>
+<title>BB Atlas — The Desk</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>◈</text></svg>">
 </head>
-<body data-page="map">
+<body data-page="desk">
 
 <nav class="nav">
   <div class="nav-inner">
     <a class="brand" href="index.html"><span class="bb">BB</span> ATLAS</a>
     <div class="nav-links">
-      <a href="desk.html">Desk</a>
+      <a href="desk.html" class="active">Desk</a>
       <a href="index.html">Modules</a>
       <a href="people.html">People</a>
       <a href="library.html">Library</a>
       <a href="timeline.html">Timeline</a>
       <a href="compare.html">Compare</a>
-      <a href="map.html" class="active">Map</a>
+      <a href="map.html">Map</a>
       <a href="glossary.html">Glossary</a>
     </div>
     <input id="nav-search" type="search" placeholder="Search…" autocomplete="off">
@@ -32,25 +32,32 @@
 
 <header class="page-head">
   <div class="wrap">
-    <p class="kicker"><span class="tick">◈</span> Cause → effect → ECL</p>
-    <h1 class="display">The <em>Master Domino Map.</em></h1>
-    <p class="lede">Every module's causal chain, plus the master spine that connects them. Click any node to open the module it lives in.</p>
+    <p class="kicker"><span class="tick">◈</span> Live data · baked <span id="desk-asat">…</span></p>
+    <h1 class="display">The <em>Desk.</em></h1>
+    <p class="lede">The numbers that move BB ECL, with as-at dates and receipts. Refresh pulls the latest via live web search; the weekly job bakes it into the site with a delta log.</p>
+    <div class="desk-bar">
+      <button id="refresh-btn">◈ Refresh now</button>
+      <span class="stamp" id="refresh-stamp"></span>
+    </div>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="master-chain">
-    <p class="kicker"><span class="tick">◈</span> <span id="master-title">Master chain</span></p>
-    <p style="font-size:0.85rem;color:var(--ink-dim);margin:0.8rem 0 1.2rem;max-width:38rem" id="master-note"></p>
-    <div id="master-host"></div>
-  </div>
+  <div class="tile-grid" id="tile-grid"></div>
 
-  <div id="module-chains"></div>
+  <p class="desk-h"><span class="tick">◈</span> What changed — delta log</p>
+  <ul class="delta-list" id="delta-list"></ul>
+
+  <p class="desk-h"><span class="tick">◈</span> Regulatory pipeline</p>
+  <ul class="pipe-list" id="pipe-list"></ul>
+
+  <p class="desk-h"><span class="tick">◈</span> Calendar — what's coming</p>
+  <ul class="cal-list" id="cal-list"></ul>
 </main>
 
 <footer class="site">
   <div class="wrap">
-    <span>BB Atlas · pull one domino and watch the coverage ratio move</span>
+    <span>BB Atlas · numbers rot — check the as-at date</span>
     <a href="sources.html">Sources</a>
   </div>
 </footer>
@@ -60,7 +67,6 @@
 <script src="js/progress.js"></script>
 <script src="js/search.js"></script>
 <script src="js/tutor.js"></script>
-<script src="js/domino.js"></script>
-<script src="js/map.js"></script>
+<script src="js/desk.js"></script>
 </body>
 </html>

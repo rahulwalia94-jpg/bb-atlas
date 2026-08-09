@@ -1,0 +1,149 @@
+{
+  "asAt": "2026-08",
+  "moves": [
+    {
+      "date": "2026-07",
+      "person": "Katharine Braddick",
+      "role": "CEO, PRA / Deputy Governor for Prudential Regulation",
+      "from": "Barclays (Group Head of Strategic Policy)",
+      "to": "Bank of England / PRA",
+      "signal": "A Barclays policy executive and former HM Treasury financial services director replacing Sam Woods after a decade. Her private-sector vantage point and the government's pro-growth mandate suggest a PRA more receptive to arguments about SME capital treatment under Basel 3.1. Any easing of capital on SME exposures changes the economics of BB lending — and how much cushion sits behind the impairment line.",
+      "source": { "title": "Braddick to take the helm at the UK's banking watchdog — Bank of England", "url": "https://www.bankofengland.co.uk/news/2026/february/braddick-to-take-the-helm-at-the-uks-banking-watchdog" }
+    },
+    {
+      "date": "2026-07",
+      "person": "Abib Bocresion",
+      "role": "Group Chief Risk Officer",
+      "from": "NatWest Markets (CRO)",
+      "to": "NatWest Group",
+      "signal": "An internal promotion of a markets-and-investment-risk specialist (ex-Barclays non-ring-fenced bank CRO, ex-M&G) to group CRO. New CROs typically re-cut sector appetite and watchlist thresholds in their first year, so expect NatWest's commercial book — the biggest UK business-lending competitor — to see refreshed concentration limits. His wholesale background may mean more quantitative, less relationship-led credit decisions at the margin.",
+      "source": { "title": "People: NatWest gets new group CRO — Risk.net", "url": "https://www.risk.net/people/7963932/people-natwest-gets-new-group-cro-jpm-tunes-up-top-team-and-more" }
+    },
+    {
+      "date": "2026-06",
+      "person": "Louis Taylor",
+      "role": "CEO (standing down)",
+      "from": "British Business Bank",
+      "to": "Departure (CFO David Hourican interim CEO from October 2026)",
+      "signal": "Taylor leaves having secured a £25.6bn capacity mandate and consolidated BBB into distinct banking and investment businesses. A CFO-led interim period usually means continuity rather than new scheme launches, so the Growth Guarantee Scheme's terms are unlikely to shift near-term. For impairment, BBB guarantee coverage remains a key LGD mitigant on covered BB facilities — the succession is worth tracking for any change in guarantee appetite.",
+      "source": { "title": "Louis Taylor to stand down as British Business Bank CEO — British Business Bank", "url": "https://www.british-business-bank.co.uk/news-and-events/news/louis-taylor-stand-down-british-business-bank-ceo-after-leading-four-year-transformation-bank" }
+    },
+    {
+      "date": "2026-03",
+      "person": "Keith Algie",
+      "role": "Group Chief Risk Officer",
+      "from": "ANZ (CRO Europe, Americas & Hong Kong)",
+      "to": "Starling Bank",
+      "signal": "Starling importing a seasoned international banking CRO after years of regulatory friction over financial-crime controls and its BBLS legacy. Hiring from a major, conservative bank signals a maturity push ahead of any Engine-led expansion — expect tighter credit governance rather than looser SME lending. A challenger professionalising risk narrows the underwriting-standards gap incumbents rely on when pricing against it.",
+      "source": { "title": "Starling Bank appoints new chief risk officer — UKTN", "url": "https://www.uktech.news/fintech/starling-bank-appoints-new-chief-risk-officer-20260324" }
+    },
+    {
+      "date": "2026-03",
+      "person": "Mahesh Aditya",
+      "role": "CEO, Santander UK",
+      "from": "Santander Group (Chief Risk Officer)",
+      "to": "Santander UK",
+      "signal": "Madrid sent its group CRO to run the UK through the TSB integration after Mike Regnier's exit. A risk-bred CEO overseeing a large integration almost always means conservative credit appetite and a focus on cost and execution, not SME growth. Expect Santander UK to remain a passive competitor in business banking while integration runs — reduced competitive pressure on pricing, but also fewer refinancing options for stressed borrowers exiting other banks.",
+      "source": { "title": "Mahesh Aditya named as new Santander UK CEO — FinTech Futures", "url": "https://www.fintechfutures.com/job-cuts-new-hires/santander-uk-names-new-ceo" }
+    },
+    {
+      "date": "2026-03",
+      "person": "John Langley",
+      "role": "CEO, Corporate & Institutional Banking",
+      "from": "Wells Fargo (COO, Corporate & Investment Banking / Head of International)",
+      "to": "Lloyds Banking Group",
+      "signal": "An American-bank CIB operator hired to grow Lloyds' corporate and markets franchise. Growth ambition one segment above BB usually loosens mid-corporate credit conditions, easing refinancing risk for larger SME borrowers who can graduate upward. Watch whether Lloyds chases corporate lending growth aggressively enough to compress margins across the commercial market.",
+      "source": { "title": "Lloyds Banking Group appoints John Langley as CEO of Corporate & Institutional Banking", "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/lloyds-banking-group-appoints-john-langley.html" }
+    },
+    {
+      "date": "2026-02",
+      "person": "Diana Layfield",
+      "role": "Group CEO",
+      "from": "Google (ex-Standard Chartered Africa CEO)",
+      "to": "Monzo",
+      "signal": "The board replaced TS Anil with a hybrid tech-and-banking executive, reportedly with IPO timing in the background. Pre-IPO discipline typically means proving credit quality, so expect Monzo's fast-growing business banking book to face tighter unit-economics scrutiny rather than land-grab growth. A credible IPO would also validate the challenger model that is steadily pulling SME primary relationships from incumbents.",
+      "source": { "title": "Monzo CEO TS Anil to exit, replaced by former Google executive — Tech.eu", "url": "https://tech.eu/2025/10/30/monzo-ceo-ts-anil-to-exit-replaced-by-former-google-executive/" }
+    },
+    {
+      "date": "2026-02",
+      "person": "Amanda Murphy",
+      "role": "CEO, Business & Commercial Banking",
+      "from": "HSBC (Co-Head of Commercial Banking Asia)",
+      "to": "Lloyds Banking Group",
+      "signal": "Lloyds went outside — to HSBC's commercial bank — to replace Elyn Corfield running the UK's largest SME franchise. An international trade-finance-literate hire suggests Lloyds wants fee income and working-capital products, not just term lending. Her first credit-appetite decisions will set the competitive benchmark for BB pricing and covenant standards across the market.",
+      "source": { "title": "Amanda Murphy appointed as CEO of Business & Commercial Banking — Lloyds Banking Group", "url": "https://www.lloydsbankinggroup.com/media/press-releases/2025/lloyds-banking-group-2025/banking-group-appoints-amanda-murphy-as-chief-executive-officer-.html" }
+    },
+    {
+      "date": "2026-01",
+      "person": "Hannah Bernard",
+      "role": "Group Director of Business Banking",
+      "from": "Barclays UK (Head of Business Banking)",
+      "to": "Nationwide",
+      "signal": "Barclays' long-serving business banking head, who ran the million-customer SME franchise since 2020, left to build Nationwide's push into business banking. Nationwide entering SME banking with a Barclays-trained leader adds a well-capitalised mutual to an already crowded deposit and lending market. For Barclays BB it is both a leadership discontinuity at home and a new competitor that will target exactly the customer base she knows best.",
+      "source": { "title": "Nationwide appoints Hannah Bernard OBE as Group Director of Business Banking — Nationwide", "url": "https://www.nationwide.co.uk/media/news/nationwide-appoints-hannah-bernard-obe-as-group-director-of-business-banking" }
+    },
+    {
+      "date": "2026-01",
+      "person": "Duncan Beach",
+      "role": "Chief Executive",
+      "from": "HSBC (Global Head of Risk & Compliance Transformation)",
+      "to": "Insolvency Service",
+      "signal": "A senior bank risk executive taking over the agency that runs UK corporate insolvency after Dean Beale's 2025 departure. A banker-led Insolvency Service may modernise data and enforcement — relevant because its monthly insolvency statistics are the external default series impairment teams benchmark SME books against. Watch for changes in director-conduct enforcement and bounce-back-loan recovery posture, both of which affect BB recovery expectations.",
+      "source": { "title": "Insolvency Service appoints new Chief Executive — Credit Connect", "url": "https://www.credit-connect.co.uk/news/insolvency-service-appoints-new-chief-executive/" }
+    },
+    {
+      "date": "2025-12",
+      "person": "David Lindberg",
+      "role": "CEO, HSBC UK",
+      "from": "NatWest Group (CEO, Retail Banking)",
+      "to": "HSBC UK",
+      "signal": "HSBC poached NatWest's retail chief to replace Ian Stuart (who moved to Group Customer and Culture Director) as part of Elhedery's group shake-up. Lindberg is a growth-minded retail operator; HSBC UK chasing UK share under new leadership could loosen SME acquisition criteria after years of conservatism. Cross-bank poaching at this level also transfers detailed knowledge of a competitor's credit playbook.",
+      "source": { "title": "David Lindberg appointed as CEO of HSBC UK — HSBC", "url": "https://www.about.hsbc.co.uk/news-and-media/david-lindberg-appointed-as-ceo-of-hsbc-uk" }
+    },
+    {
+      "date": "2025-07",
+      "person": "Solange Chamberlain",
+      "role": "CEO, Retail Banking",
+      "from": "NatWest Commercial & Institutional (COO)",
+      "to": "NatWest Group (Retail)",
+      "signal": "An internal move of the commercial bank's COO to run retail, deepening the bench of executives who understand both books. It left a gap in C&I operations but signals NatWest grooming rounded successors — Chamberlain is a plausible future group CEO candidate. Continuity in the commercial franchise under Begbie means no near-term change to NatWest's SME credit stance.",
+      "source": { "title": "NatWest Group appoints Solange Chamberlain as CEO, Retail Banking", "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/our-updates/2025/jun/natwest-group-appoints-solange-chamberlain-as-ceo-retail-banking.html" }
+    },
+    {
+      "date": "2025-04",
+      "person": "Nikhil Rathi",
+      "role": "Chief Executive (reappointed)",
+      "from": "FCA",
+      "to": "FCA (second five-year term to 2030)",
+      "signal": "The first FCA chief to win a second full term, reappointed with an explicit growth-supporting mandate from the Chancellor. Regulatory continuity plus a pro-growth tilt implies lighter-touch treatment of SME lending conduct issues and continued pressure on banks to keep lending. For impairment teams, the risk is asymmetric: growth-era underwriting is what future default cohorts are made of.",
+      "source": { "title": "Nikhil Rathi reappointed as FCA chief executive — FCA", "url": "https://www.fca.org.uk/news/press-releases/nikhil-rathi-reappointed-fca-chief-executive" }
+    },
+    {
+      "date": "2024-11",
+      "person": "Tom Wood",
+      "role": "Head of Business Banking",
+      "from": "HSBC UK (Head of Global Payments Solutions)",
+      "to": "HSBC UK Business Banking",
+      "signal": "HSBC UK put a payments executive, not a credit banker, in charge of its SME franchise. That reads as a fee-income and primacy strategy — win the current account and payments flow first, lend second — rather than balance-sheet-led growth. Less aggressive SME lending from HSBC reduces competitive pressure on credit standards, but its payments push targets exactly the transaction data that underpins early-warning credit models.",
+      "source": { "title": "HSBC UK appoints new head of business banking — Insider Media", "url": "https://www.insidermedia.com/news/national/hsbc-uk-appoints-new-head-of-business-banking" }
+    },
+    {
+      "date": "2024-06",
+      "person": "Raman Bhatia",
+      "role": "Group CEO",
+      "from": "OVO Energy (CEO)",
+      "to": "Starling Bank",
+      "signal": "Starling's first post-founder-era permanent CEO, hired after Anne Boden's departure and amid FCA scrutiny of onboarding controls. A consumer-scale operator rather than a banker, his mandate has been institutionalising the bank and monetising the Engine platform. Strategic energy going into software revenue rather than balance-sheet lending growth tempers Starling as a direct SME credit competitor, even as it holds a large BBLS-era book with elevated guarantee-backed defaults.",
+      "source": { "title": "Starling Bank names Ovo chief Raman Bhatia as new group CEO — FinTech Futures", "url": "https://www.fintechfutures.com/bankingtech/starling-bank-names-ovo-chief-raman-bhatia-as-new-group-ceo" }
+    },
+    {
+      "date": "2024-02",
+      "person": "Paul Thwaite",
+      "role": "Group CEO (permanent)",
+      "from": "NatWest Commercial & Institutional (CEO); interim Group CEO",
+      "to": "NatWest Group",
+      "signal": "The board confirmed a career commercial banker as permanent CEO after the Farage/Rose crisis, ending a period of instability. A CEO formed in SME and commercial lending has kept business banking central to NatWest's growth strategy, sharpening competition for BB customers. His tenure has coincided with full re-privatisation, freeing NatWest to compete harder on price and risk appetite than at any point since 2008.",
+      "source": { "title": "NatWest Group CEO Appointment — NatWest Group press release", "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/our-updates/2024/feb/natwest-group-ceo-appointment.html" }
+    }
+  ]
+}
