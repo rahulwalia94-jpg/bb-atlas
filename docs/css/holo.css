@@ -1,0 +1,231 @@
+/* ============================================================
+   HOLOGRAM v2 — full HUD terminal.
+   Perspective grid floor, aurora, particles, chromatic glitch
+   type, corner brackets, live status readout, 3D panels.
+   Everything scoped to html[data-theme="holo"].
+   ============================================================ */
+
+html[data-theme="holo"] {
+  --disp: "Orbitron", var(--mono);
+}
+
+/* ---------- stage: grid floor + aurora + particles (injected by app.js) ---------- */
+#holo-stage { display: none; }
+html[data-theme="holo"] #holo-stage {
+  display: block; position: fixed; inset: 0; z-index: 0;
+  pointer-events: none; overflow: hidden;
+}
+/* content sits above the stage */
+html[data-theme="holo"] body > *:not(#holo-stage) { position: relative; z-index: 1; }
+
+/* perspective grid floor, scrolling toward the horizon */
+#holo-stage .grid-floor {
+  position: absolute; left: -50%; right: -50%; bottom: -12%; height: 55%;
+  background:
+    linear-gradient(rgba(0, 229, 255, 0.22) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 229, 255, 0.22) 1px, transparent 1px);
+  background-size: 44px 44px;
+  transform: perspective(420px) rotateX(64deg);
+  transform-origin: 50% 0;
+  animation: grid-run 2.6s linear infinite;
+  -webkit-mask-image: linear-gradient(to top, rgba(0,0,0,0.55), transparent 85%);
+  mask-image: linear-gradient(to top, rgba(0,0,0,0.55), transparent 85%);
+}
+@keyframes grid-run { to { background-position: 0 44px, 0 0; } }
+
+/* horizon glow where the grid meets the void */
+#holo-stage .horizon {
+  position: absolute; left: 0; right: 0; bottom: 38%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(0,229,255,0.7), rgba(255,61,243,0.5), transparent);
+  filter: blur(1px);
+  box-shadow: 0 0 30px 6px rgba(0, 229, 255, 0.25);
+}
+
+/* slow-breathing aurora blobs */
+#holo-stage .aurora {
+  position: absolute; width: 60rem; height: 60rem; border-radius: 50%;
+  filter: blur(90px); opacity: 0.5; mix-blend-mode: screen;
+  animation: aurora-drift 26s ease-in-out infinite alternate;
+}
+#holo-stage .aurora.a1 { top: -30%; right: -15%; background: radial-gradient(circle, rgba(0,229,255,0.24), transparent 65%); }
+#holo-stage .aurora.a2 { top: 15%; left: -25%; background: radial-gradient(circle, rgba(255,61,243,0.16), transparent 65%); animation-delay: -9s; }
+#holo-stage .aurora.a3 { bottom: -35%; left: 30%; background: radial-gradient(circle, rgba(157,107,255,0.2), transparent 65%); animation-delay: -17s; }
+@keyframes aurora-drift {
+  from { transform: translate(0, 0) scale(1); }
+  to { transform: translate(6rem, -4rem) scale(1.15); }
+}
+
+/* floating holo-dust */
+#holo-stage .p {
+  position: absolute; width: 3px; height: 3px; border-radius: 50%;
+  background: rgba(0, 229, 255, 0.8);
+  box-shadow: 0 0 8px 2px rgba(0, 229, 255, 0.4);
+  animation: p-float linear infinite;
+  opacity: 0;
+}
+@keyframes p-float {
+  0% { transform: translateY(12vh); opacity: 0; }
+  12% { opacity: 0.9; }
+  85% { opacity: 0.5; }
+  100% { transform: translateY(-105vh); opacity: 0; }
+}
+
+/* boot sweep — one pass on materialize */
+#holo-stage .boot {
+  position: absolute; left: 0; right: 0; top: 0; height: 3px;
+  background: linear-gradient(90deg, transparent, #00E5FF, transparent);
+  box-shadow: 0 0 26px 4px rgba(0, 229, 255, 0.7);
+  animation: boot-sweep 900ms ease-out 1 forwards;
+}
+@keyframes boot-sweep {
+  0% { top: 0; opacity: 1; }
+  92% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+html[data-theme="holo"] body { animation: materialize 700ms ease-out 1; }
+@keyframes materialize {
+  0% { opacity: 0; filter: brightness(2.2) saturate(0.2); }
+  100% { opacity: 1; filter: none; }
+}
+
+/* ---------- HUD chrome (injected by app.js) ---------- */
+#holo-hud { display: none; }
+html[data-theme="holo"] #holo-hud { display: block; pointer-events: none; }
+#holo-hud .corner {
+  position: fixed; width: 26px; height: 26px; z-index: 99;
+  border: 2px solid rgba(0, 229, 255, 0.65);
+  filter: drop-shadow(0 0 6px rgba(0, 229, 255, 0.5));
+}
+#holo-hud .c-tl { top: 10px; left: 10px; border-right: 0; border-bottom: 0; }
+#holo-hud .c-tr { top: 10px; right: 10px; border-left: 0; border-bottom: 0; }
+#holo-hud .c-bl { bottom: 10px; left: 10px; border-right: 0; border-top: 0; }
+#holo-hud .c-br { bottom: 10px; right: 10px; border-left: 0; border-top: 0; }
+#holo-hud .readout {
+  position: fixed; bottom: 14px; right: 46px; z-index: 99;
+  font-family: var(--disp); font-size: 0.56rem; font-weight: 500;
+  letter-spacing: 0.28em; text-transform: uppercase; text-align: right;
+  color: rgba(0, 229, 255, 0.85); line-height: 1.9;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+}
+#holo-hud .readout .ok { color: var(--green); }
+@media (max-width: 40rem) { #holo-hud .readout { display: none; } }
+
+/* ---------- chromatic glitch type ---------- */
+html[data-theme="holo"] .display {
+  font-family: var(--disp);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: clamp(1.7rem, 4.6vw, 3.3rem);
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  font-variation-settings: normal;
+  /* override v1 gradient-clip — chromatic split reads more HUD */
+  background: none; -webkit-background-clip: initial; background-clip: initial;
+  color: var(--ink);
+  animation: chroma 3.2s infinite steps(1);
+}
+html[data-theme="holo"] .display em {
+  font-style: normal; color: var(--accent);
+  text-shadow: 0 0 18px rgba(0, 229, 255, 0.65);
+}
+@keyframes chroma {
+  0%, 88%, 100% {
+    text-shadow: 1.5px 0 rgba(255, 61, 243, 0.55), -1.5px 0 rgba(0, 229, 255, 0.55);
+    transform: none;
+  }
+  89% {
+    text-shadow: 6px 0 rgba(255, 61, 243, 0.8), -6px 0 rgba(0, 229, 255, 0.8);
+    transform: translateX(2px) skewX(-1.5deg);
+  }
+  91% {
+    text-shadow: -5px 0 rgba(255, 61, 243, 0.8), 5px 0 rgba(0, 229, 255, 0.8);
+    transform: translateX(-2px);
+  }
+  93% {
+    text-shadow: 1.5px 0 rgba(255, 61, 243, 0.55), -1.5px 0 rgba(0, 229, 255, 0.55);
+    transform: none;
+  }
+}
+
+html[data-theme="holo"] article.module-body h2 { font-family: var(--serif); }
+html[data-theme="holo"] article.module-body h2 .sec-no {
+  font-family: var(--disp); letter-spacing: 0.34em;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+}
+html[data-theme="holo"] .mod-card h3 {
+  font-family: var(--disp); font-weight: 500; font-size: 0.98rem;
+  text-transform: uppercase; letter-spacing: 0.08em; line-height: 1.45;
+}
+html[data-theme="holo"] .kicker { font-family: var(--disp); font-weight: 500; }
+html[data-theme="holo"] .brand { font-family: var(--disp); font-weight: 700; }
+html[data-theme="holo"] .brand .bb { text-shadow: 0 0 12px rgba(0, 229, 255, 0.8); }
+
+/* ---------- holo panels: notched corners + shine + 3D tilt ---------- */
+html[data-theme="holo"] .mod-card {
+  clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+  position: relative; overflow: hidden;
+}
+html[data-theme="holo"] .mod-card::after {
+  content: ""; position: absolute; top: 0; bottom: 0; left: -80%; width: 55%;
+  background: linear-gradient(105deg, transparent, rgba(0, 229, 255, 0.13), transparent);
+  transform: skewX(-18deg); transition: left 450ms ease;
+}
+html[data-theme="holo"] .mod-card:hover::after { left: 130%; }
+html[data-theme="holo"] .mod-card:hover {
+  transform: perspective(700px) rotateX(1.6deg) rotateY(-1.6deg) translateY(-2px);
+}
+html[data-theme="holo"] .mod-card .num {
+  font-family: var(--disp); font-weight: 900;
+  color: rgba(0, 229, 255, 0.22);
+}
+html[data-theme="holo"] .mod-card:hover .num {
+  color: var(--accent); text-shadow: 0 0 16px rgba(0, 229, 255, 0.7);
+}
+
+html[data-theme="holo"] aside.lens {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+html[data-theme="holo"] aside.lens h4 { font-family: var(--disp); }
+
+/* nav as HUD bar */
+html[data-theme="holo"] .nav-links a { font-family: var(--disp); font-weight: 500; }
+html[data-theme="holo"] .nav-links a.active, html[data-theme="holo"] .nav-links a:hover {
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.7);
+}
+html[data-theme="holo"] #nav-search { clip-path: polygon(8px 0, 100% 0, 100% 100%, 0 100%, 0 8px); }
+
+/* fab: pulsing beacon */
+html[data-theme="holo"] #tutor-fab {
+  font-family: var(--disp); font-weight: 700;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  animation: fab-pulse 2.4s ease-in-out infinite;
+}
+@keyframes fab-pulse {
+  0%, 100% { box-shadow: 0 0 18px rgba(0, 229, 255, 0.35); }
+  50% { box-shadow: 0 0 42px rgba(0, 229, 255, 0.75); }
+}
+
+/* readiness ring: orbiting halo */
+html[data-theme="holo"] .ring-card { position: relative; }
+html[data-theme="holo"] .ring-card::before {
+  content: ""; position: absolute; left: 50%; top: 75px; width: 170px; height: 170px;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px dashed rgba(0, 229, 255, 0.4);
+  animation: orbit 14s linear infinite;
+}
+@keyframes orbit { to { transform: translate(-50%, -50%) rotate(360deg); } }
+html[data-theme="holo"] .ring-num { font-family: var(--disp); }
+
+/* timeline + compare in HUD dress */
+html[data-theme="holo"] .tl-event .yr { font-family: var(--disp); text-shadow: 0 0 10px rgba(0,229,255,0.4); }
+html[data-theme="holo"] table.cmp th { font-family: var(--disp); }
+html[data-theme="holo"] .cmp-wrap, html[data-theme="holo"] .tl-scroll { backdrop-filter: blur(6px); }
+
+/* reduced motion: kill the party, keep the palette */
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme="holo"] * { animation: none !important; transition: none !important; }
+  #holo-stage .grid-floor, #holo-stage .aurora, #holo-stage .p, #holo-stage .boot { display: none; }
+}
