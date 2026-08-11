@@ -11,6 +11,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 25 # belt-and-braces: the script self-limits per batch
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

@@ -26,8 +26,22 @@ const BATCH_SIZE = 5; // keeps each call well under any timeout
 const baked = JSON.parse(fs.readFileSync(metricsPath, "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 
-/** Stream one Messages API call and return the accumulated text. */
+const REQUEST_TIMEOUT_MS = 4 * 60 * 1000; // hard ceiling per batch
+
+/** Stream one Messages API call and return the accumulated text.
+ *  Aborts on a hard deadline: a stalled stream would otherwise hang forever,
+ *  since there is no inactivity timeout on a reader loop. */
 async function callClaude(batch) {
+  const ac = new AbortController();
+  const killer = setTimeout(() => ac.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    return await streamCall(batch, ac.signal);
+  } finally {
+    clearTimeout(killer);
+  }
+}
+
+async function streamCall(batch, signal) {
   const prompt =
     `Re-verify these UK business banking metrics using web search. For each metric where you find a NEWER or DIFFERENT official figure, return it; omit metrics that are unchanged or that you cannot verify.\n\n` +
     `Current values:\n${JSON.stringify(batch, null, 1)}\n\n` +
@@ -37,6 +51,7 @@ async function callClaude(batch) {
 
   const res = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
+    signal,
     headers: {
       "content-type": "application/json",
       "x-api-key": KEY,
@@ -48,7 +63,7 @@ async function callClaude(batch) {
       stream: true,
       thinking: { type: "adaptive" },
       system: "You verify UK business-banking metrics using live web search. Precise, cite-driven, never guess.",
-      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 6 }],
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 }],
       messages: [{ role: "user", content: prompt }],
     }),
   });
