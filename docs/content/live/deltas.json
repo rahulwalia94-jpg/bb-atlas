@@ -1,6 +1,11 @@
 {
  "entries": [
   {
+   "date": "2026-08-11",
+   "summary": "Weekly refresh — no changes; all figures re-verified as current.",
+   "changes": []
+  },
+  {
    "date": "2026-08-06",
    "summary": "Baseline built — every metric verified against primary sources at launch.",
    "changes": []

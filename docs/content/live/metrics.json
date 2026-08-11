@@ -1,233 +1,385 @@
 {
-  "asAt": "2026-08-06",
-  "metrics": [
+ "asAt": "2026-08-11",
+ "metrics": [
+  {
+   "id": "bank-rate",
+   "label": "Bank Rate",
+   "value": "3.75%",
+   "detail": "Held at 3.75% through 2026 — June MPC voted 7-2 to hold, July MPC held 6-3; next decision 17 September 2026",
+   "asAt": "2026-07",
+   "trend": "flat",
+   "eclNote": "Direct input to PD term structures and affordability overlays; a hold keeps debt-service stress on floating-rate BB borrowers elevated but stable",
+   "moduleId": 9,
+   "source": {
+    "title": "Bank of England — June 2026 Monetary Policy Summary (Bank Rate maintained at 3.75%)",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+   },
+   "history": [
     {
-      "id": "bank-rate",
-      "label": "Bank Rate",
-      "value": "3.75%",
-      "detail": "Held at 3.75% through 2026 — June MPC voted 7-2 to hold, July MPC held 6-3; next decision 17 September 2026",
-      "asAt": "2026-07",
-      "trend": "flat",
-      "eclNote": "Direct input to PD term structures and affordability overlays; a hold keeps debt-service stress on floating-rate BB borrowers elevated but stable",
-      "moduleId": 9,
-      "source": { "title": "Bank of England — June 2026 Monetary Policy Summary (Bank Rate maintained at 3.75%)", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026" },
-      "history": [ { "date": "2026-08-06", "value": "3.75%" } ]
-    },
-    {
-      "id": "cpi-inflation",
-      "label": "CPI inflation",
-      "value": "2.6%",
-      "detail": "12 months to June 2026, down from 2.8% in May — lowest since March 2025, driven by easing transport/motor fuel inflation",
-      "asAt": "2026-06",
-      "trend": "down",
-      "eclNote": "Feeds macroeconomic scenarios for forward-looking PD; cooling inflation supports rate-cut paths in the base case and eases cost pressure on SME margins",
-      "moduleId": 9,
-      "source": { "title": "ONS — Consumer price inflation, UK: June 2026", "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/june2026" },
-      "history": [ { "date": "2026-08-06", "value": "2.6%" } ]
-    },
-    {
-      "id": "monthly-insolvencies",
-      "label": "E&W company insolvencies (monthly)",
-      "value": "1,845",
-      "detail": "June 2026 — flat vs May (1,849) but 10% below June 2025 (2,048); administrations up 80% YoY on ~60 connected real-estate companies",
-      "asAt": "2026-06",
-      "trend": "down",
-      "eclNote": "Primary external benchmark for Stage 3 inflow and default-rate calibration in the BB book; falling counts support PD model back-testing and PMA release debates",
-      "moduleId": 9,
-      "source": { "title": "Insolvency Service — Company insolvencies, June 2026", "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026" },
-      "history": [ { "date": "2026-08-06", "value": "1,845" } ]
-    },
-    {
-      "id": "insolvencies-2025",
-      "label": "2025 full-year insolvencies (E&W)",
-      "value": "23,938",
-      "detail": "Similar to 2024 (23,881); compulsory liquidations rose to highest annual number since 2012 while CVLs edged down",
-      "asAt": "2025-12",
-      "trend": "flat",
-      "eclNote": "Anchors through-the-cycle default assumptions; the compulsory-liquidation rise signals creditor (incl. HMRC) enforcement returning — a Stage 3 loss-given-default driver",
-      "moduleId": 9,
-      "source": { "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025", "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025" },
-      "history": [ { "date": "2026-08-06", "value": "23,938" } ]
-    },
-    {
-      "id": "cvl-share",
-      "label": "CVL share of insolvencies",
-      "value": "77%",
-      "detail": "CVLs were 77% of 2025 E&W company insolvencies (18,525 of 23,938); 74% in June 2026",
-      "asAt": "2025-12",
-      "trend": "flat",
-      "eclNote": "CVL-dominated mix means mostly small, low-asset failures — high LGD on unsecured BB exposure, low recoveries beyond the prescribed part",
-      "moduleId": 9,
-      "source": { "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025", "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025" },
-      "history": [ { "date": "2026-08-06", "value": "77%" } ]
-    },
-    {
-      "id": "liquidation-rate",
-      "label": "Company liquidation rate",
-      "value": "50.5 per 10,000",
-      "detail": "12 months to June 2026, down from 52.4 a year earlier — roughly 1 in 198 companies on the effective register",
-      "asAt": "2026-06",
-      "trend": "down",
-      "eclNote": "The cleanest portfolio-level default-rate proxy for BB PD calibration; a falling rate supports benign base-case scenario weights",
-      "moduleId": 9,
-      "source": { "title": "Insolvency Service — Commentary, Company Insolvency Statistics June 2026", "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026/commentary-company-insolvency-statistics-june-2026" },
-      "history": [ { "date": "2026-08-06", "value": "50.5 per 10,000" } ]
-    },
-    {
-      "id": "sme-gross-lending",
-      "label": "Gross SME bank lending 2025",
-      "value": "£68bn",
-      "detail": "Up 9% on 2024 — second-highest in 13 years after 2020's COVID peak, as credit conditions eased through the year",
-      "asAt": "2025-12",
-      "trend": "up",
-      "eclNote": "New origination grows EAD and dilutes seasoned-book default rates; vintage monitoring needed as 2025-26 cohorts season into 2027",
-      "moduleId": 9,
-      "source": { "title": "British Business Bank — Small Business Finance Markets 2025/26 press release (17 Mar 2026)", "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank" },
-      "history": [ { "date": "2026-08-06", "value": "£68bn" } ]
-    },
-    {
-      "id": "challenger-share",
-      "label": "Challenger & specialist bank share",
-      "value": "60%",
-      "detail": "Share of 2025 gross SME bank lending (39% in 2012); 68% including non-bank lenders",
-      "asAt": "2025-12",
-      "trend": "up",
-      "eclNote": "Incumbent BB books are losing flow to challengers — survivor bias risk in incumbent PD data and adverse selection in retained risk profiles",
-      "moduleId": 9,
-      "source": { "title": "British Business Bank — Small Business Finance Markets 2025/26 press release", "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank" },
-      "history": [ { "date": "2026-08-06", "value": "60%" } ]
-    },
-    {
-      "id": "sme-lending-stock",
-      "label": "SME bank lending stock",
-      "value": "£179.3bn",
-      "detail": "Outstanding stock of UK SME bank lending at end-2024 — still declining as COVID-scheme debt runs off (latest verified stock figure)",
-      "asAt": "2024-12",
-      "trend": "down",
-      "eclNote": "The denominator for portfolio coverage and loss-rate metrics; run-off of legacy COVID debt shrinks EAD while flattering coverage ratios",
-      "moduleId": 9,
-      "source": { "title": "OECD — Financing SMEs and Entrepreneurs 2026: United Kingdom", "url": "https://www.oecd.org/en/publications/financing-smes-and-entrepreneurs-2026_075d8058-en/full-report/united-kingdom_7df2b5e5.html" },
-      "history": [ { "date": "2026-08-06", "value": "£179.3bn" } ]
-    },
-    {
-      "id": "bbls-drawn",
-      "label": "BBLS total drawn",
-      "value": "£46.47bn",
-      "detail": "Total drawn under the Bounce Back Loan Scheme; £1.88bn of drawn value flagged by lenders as suspected fraud",
-      "asAt": "2026-03",
-      "trend": "flat",
-      "eclNote": "Defines the guaranteed legacy EAD pool in BB; 100% government guarantee means low LGD for the bank but heavy operational recovery/claim workload",
-      "moduleId": 9,
-      "source": { "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026", "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026" },
-      "history": [ { "date": "2026-08-06", "value": "£46.47bn" } ]
-    },
-    {
-      "id": "bbls-guarantee-settled",
-      "label": "BBLS guarantee settled",
-      "value": "28.29%",
-      "detail": "Share of BBLS facilities (by volume) with the government guarantee settled at 31 Mar 2026 — £11.82bn paid out, £1.58bn against suspected-fraud-flagged loans",
-      "asAt": "2026-03",
-      "trend": "up",
-      "eclNote": "Settled claims crystallise Stage 3 outcomes without bank loss; watch clawback/assurance risk where guarantee conditions were breached — a residual LGD tail",
-      "moduleId": 9,
-      "source": { "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026", "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026" },
-      "history": [ { "date": "2026-08-06", "value": "28.29%" } ]
-    },
-    {
-      "id": "payg-usage",
-      "label": "Pay As You Grow take-up",
-      "value": "37.17%",
-      "detail": "BBLS borrowers who have used at least one PAYG option (term extension to 10yrs, interest-only, or repayment holiday) at 31 Mar 2026; 46.95% of facilities on schedule, 19.38% fully repaid",
-      "asAt": "2026-03",
-      "trend": "up",
-      "eclNote": "PAYG use is a forbearance-like SICR signal in all but name — extended 10-year tails push BBLS run-off into the 2030s and stretch lifetime ECL horizons",
-      "moduleId": 9,
-      "source": { "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026", "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026" },
-      "history": [ { "date": "2026-08-06", "value": "37.17%" } ]
-    },
-    {
-      "id": "barclays-llr-fy25",
-      "label": "Barclays FY25 loan loss rate",
-      "value": "52bps",
-      "detail": "FY25 credit impairment charge £2,279m (FY24: £1,982m) — within 50-60bps through-the-cycle guidance; driven by GM portfolio acquisition, an IB single name and US macro uncertainty",
-      "asAt": "2025-12",
-      "trend": "up",
-      "eclNote": "The group benchmark BB impairment rolls into; UK wholesale loss rates ran below the TTC range, so BB charges are being watched for normalisation not deterioration",
-      "moduleId": 9,
-      "source": { "title": "Barclays PLC 2025 Results Announcement (FY25 RA)", "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf" },
-      "history": [ { "date": "2026-08-06", "value": "52bps" } ]
-    },
-    {
-      "id": "barclays-llr-h1-2026",
-      "label": "Barclays H1 2026 loan loss rate",
-      "value": "62bps",
-      "detail": "H1 26 impairment £1.4bn (incl. £228m IB single name and motor-finance redress); Q2 charge included £160m for Barclays UK; FY26 guided to top of 50-60bps range",
-      "asAt": "2026-06",
-      "trend": "up",
-      "eclNote": "Above-range H1 print pressures the group ECL budget; BB staging and coverage assumptions face tighter challenge into Q3 (results 22 Oct 2026)",
-      "moduleId": 9,
-      "source": { "title": "Barclays PLC Interim Results Announcement 30 June 2026", "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/H12026Results/Q226-BPLC-Results-RA.pdf" },
-      "history": [ { "date": "2026-08-06", "value": "62bps" } ]
-    },
-    {
-      "id": "ggs-status",
-      "label": "Growth Guarantee Scheme",
-      "value": "70% guarantee, to Mar 2030",
-      "detail": "Extended in the 2025 Spending Review from March 2026 to 31 March 2030; facilities £10k-£2m, terms unchanged",
-      "asAt": "2026-08",
-      "trend": "flat",
-      "eclNote": "The 70% guarantee cuts LGD on covered new-lend; scheme extension keeps a guaranteed origination channel open through the Basel 3.1 transition",
-      "moduleId": 9,
-      "source": { "title": "British Business Bank — Growth Guarantee Scheme (GGS)", "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme" },
-      "history": [ { "date": "2026-08-06", "value": "70% guarantee, to Mar 2030" } ]
-    },
-    {
-      "id": "hmrc-preferential",
-      "label": "HMRC preference / prescribed part",
-      "value": "£800k cap",
-      "detail": "HMRC secondary preferential (VAT, PAYE, employee NIC, CIS) since 1 Dec 2020 with no cap; prescribed part for unsecured creditors capped at £800k for floating charges created on/after 6 Apr 2020",
-      "asAt": "2026-08",
-      "trend": "flat",
-      "eclNote": "HMRC ranks ahead of floating-charge realisations, directly depressing LGD recoveries on floating-charge-secured BB lending — a structural LGD assumption, not a cycle effect",
-      "moduleId": 9,
-      "source": { "title": "Kirkland & Ellis — HMRC as Preferential Creditor takes effect 1 December 2020", "url": "https://www.kirkland.com/publications/kirkland-alert/2020/11/hmrc-as-preferential-creditor-takes-effect" },
-      "history": [ { "date": "2026-08-06", "value": "£800k cap" } ]
-    },
-    {
-      "id": "personal-guarantee-size",
-      "label": "Avg personal-guarantee-backed loan",
-      "value": "£317,000",
-      "detail": "Q2 2026 average PG-backed SME loan (Purbeck) — above £300k for a second quarter; PG-backed loan applications up 63% YoY",
-      "asAt": "2026-06",
-      "trend": "up",
-      "eclNote": "PGs are a second-way-out recovery assumption in BB LGD; rising guarantee sizes raise director exposure and realisation uncertainty in enforcement",
-      "moduleId": 9,
-      "source": { "title": "Business Manchester — SME finance demand climbs 63% in Q2 2026 (Purbeck data)", "url": "https://www.businessmanchester.co.uk/2026/07/07/sme-finance-demand-climbs-63-in-q2-2026-as-businesses-navigate-higher-costs" },
-      "history": [ { "date": "2026-08-06", "value": "£317,000" } ]
-    },
-    {
-      "id": "starling-sme-share",
-      "label": "Starling SME banking share",
-      "value": "~9.7%",
-      "detail": "Starling holds roughly 9.7% of the UK SME banking market (600k+ business customers), targeting 12.5%",
-      "asAt": "2025-12",
-      "trend": "up",
-      "eclNote": "Marks the competitive erosion of incumbent BCA primacy — losing the current-account data feed weakens incumbents' early-warning/SICR signal quality on shared customers",
-      "moduleId": 9,
-      "source": { "title": "Business of Apps — Starling Bank Revenue and Usage Statistics (2026)", "url": "https://www.businessofapps.com/data/starling-bank-statistics/" },
-      "history": [ { "date": "2026-08-06", "value": "~9.7%" } ]
-    },
-    {
-      "id": "gdp-growth",
-      "label": "UK GDP growth (latest quarter)",
-      "value": "+0.6% (Q1 2026)",
-      "detail": "Strongest quarter since Q1 2025; services +0.8%. 2025 full-year growth 1.4%. Q2 2026 first estimate due 13 Aug 2026",
-      "asAt": "2026-03",
-      "trend": "up",
-      "eclNote": "Core macroeconomic variable in ECL scenario sets; stronger growth shifts probability weight to the base/upside cases and supports PMA release pressure",
-      "moduleId": 9,
-      "source": { "title": "ONS — GDP first quarterly estimate, UK: January to March 2026", "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/januarytomarch2026" },
-      "history": [ { "date": "2026-08-06", "value": "+0.6%" } ]
+     "date": "2026-08-06",
+     "value": "3.75%"
     }
-  ]
+   ]
+  },
+  {
+   "id": "cpi-inflation",
+   "label": "CPI inflation",
+   "value": "2.6%",
+   "detail": "12 months to June 2026, down from 2.8% in May — lowest since March 2025, driven by easing transport/motor fuel inflation",
+   "asAt": "2026-06",
+   "trend": "down",
+   "eclNote": "Feeds macroeconomic scenarios for forward-looking PD; cooling inflation supports rate-cut paths in the base case and eases cost pressure on SME margins",
+   "moduleId": 9,
+   "source": {
+    "title": "ONS — Consumer price inflation, UK: June 2026",
+    "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/june2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "2.6%"
+    }
+   ]
+  },
+  {
+   "id": "monthly-insolvencies",
+   "label": "E&W company insolvencies (monthly)",
+   "value": "1,845",
+   "detail": "June 2026 — flat vs May (1,849) but 10% below June 2025 (2,048); administrations up 80% YoY on ~60 connected real-estate companies",
+   "asAt": "2026-06",
+   "trend": "down",
+   "eclNote": "Primary external benchmark for Stage 3 inflow and default-rate calibration in the BB book; falling counts support PD model back-testing and PMA release debates",
+   "moduleId": 9,
+   "source": {
+    "title": "Insolvency Service — Company insolvencies, June 2026",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "1,845"
+    }
+   ]
+  },
+  {
+   "id": "insolvencies-2025",
+   "label": "2025 full-year insolvencies (E&W)",
+   "value": "23,938",
+   "detail": "Similar to 2024 (23,881); compulsory liquidations rose to highest annual number since 2012 while CVLs edged down",
+   "asAt": "2025-12",
+   "trend": "flat",
+   "eclNote": "Anchors through-the-cycle default assumptions; the compulsory-liquidation rise signals creditor (incl. HMRC) enforcement returning — a Stage 3 loss-given-default driver",
+   "moduleId": 9,
+   "source": {
+    "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "23,938"
+    }
+   ]
+  },
+  {
+   "id": "cvl-share",
+   "label": "CVL share of insolvencies",
+   "value": "77%",
+   "detail": "CVLs were 77% of 2025 E&W company insolvencies (18,525 of 23,938); 74% in June 2026",
+   "asAt": "2025-12",
+   "trend": "flat",
+   "eclNote": "CVL-dominated mix means mostly small, low-asset failures — high LGD on unsecured BB exposure, low recoveries beyond the prescribed part",
+   "moduleId": 9,
+   "source": {
+    "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "77%"
+    }
+   ]
+  },
+  {
+   "id": "liquidation-rate",
+   "label": "Company liquidation rate",
+   "value": "50.5 per 10,000",
+   "detail": "12 months to June 2026, down from 52.4 a year earlier — roughly 1 in 198 companies on the effective register",
+   "asAt": "2026-06",
+   "trend": "down",
+   "eclNote": "The cleanest portfolio-level default-rate proxy for BB PD calibration; a falling rate supports benign base-case scenario weights",
+   "moduleId": 9,
+   "source": {
+    "title": "Insolvency Service — Commentary, Company Insolvency Statistics June 2026",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026/commentary-company-insolvency-statistics-june-2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "50.5 per 10,000"
+    }
+   ]
+  },
+  {
+   "id": "sme-gross-lending",
+   "label": "Gross SME bank lending 2025",
+   "value": "£68bn",
+   "detail": "Up 9% on 2024 — second-highest in 13 years after 2020's COVID peak, as credit conditions eased through the year",
+   "asAt": "2025-12",
+   "trend": "up",
+   "eclNote": "New origination grows EAD and dilutes seasoned-book default rates; vintage monitoring needed as 2025-26 cohorts season into 2027",
+   "moduleId": 9,
+   "source": {
+    "title": "British Business Bank — Small Business Finance Markets 2025/26 press release (17 Mar 2026)",
+    "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "£68bn"
+    }
+   ]
+  },
+  {
+   "id": "challenger-share",
+   "label": "Challenger & specialist bank share",
+   "value": "60%",
+   "detail": "Share of 2025 gross SME bank lending (39% in 2012); 68% including non-bank lenders",
+   "asAt": "2025-12",
+   "trend": "up",
+   "eclNote": "Incumbent BB books are losing flow to challengers — survivor bias risk in incumbent PD data and adverse selection in retained risk profiles",
+   "moduleId": 9,
+   "source": {
+    "title": "British Business Bank — Small Business Finance Markets 2025/26 press release",
+    "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "60%"
+    }
+   ]
+  },
+  {
+   "id": "sme-lending-stock",
+   "label": "SME bank lending stock",
+   "value": "£179.3bn",
+   "detail": "Outstanding stock of UK SME bank lending at end-2024 — still declining as COVID-scheme debt runs off (latest verified stock figure)",
+   "asAt": "2024-12",
+   "trend": "down",
+   "eclNote": "The denominator for portfolio coverage and loss-rate metrics; run-off of legacy COVID debt shrinks EAD while flattering coverage ratios",
+   "moduleId": 9,
+   "source": {
+    "title": "OECD — Financing SMEs and Entrepreneurs 2026: United Kingdom",
+    "url": "https://www.oecd.org/en/publications/financing-smes-and-entrepreneurs-2026_075d8058-en/full-report/united-kingdom_7df2b5e5.html"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "£179.3bn"
+    }
+   ]
+  },
+  {
+   "id": "bbls-drawn",
+   "label": "BBLS total drawn",
+   "value": "£46.47bn",
+   "detail": "Total drawn under the Bounce Back Loan Scheme; £1.88bn of drawn value flagged by lenders as suspected fraud",
+   "asAt": "2026-03",
+   "trend": "flat",
+   "eclNote": "Defines the guaranteed legacy EAD pool in BB; 100% government guarantee means low LGD for the bank but heavy operational recovery/claim workload",
+   "moduleId": 9,
+   "source": {
+    "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+    "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "£46.47bn"
+    }
+   ]
+  },
+  {
+   "id": "bbls-guarantee-settled",
+   "label": "BBLS guarantee settled",
+   "value": "28.29%",
+   "detail": "Share of BBLS facilities (by volume) with the government guarantee settled at 31 Mar 2026 — £11.82bn paid out, £1.58bn against suspected-fraud-flagged loans",
+   "asAt": "2026-03",
+   "trend": "up",
+   "eclNote": "Settled claims crystallise Stage 3 outcomes without bank loss; watch clawback/assurance risk where guarantee conditions were breached — a residual LGD tail",
+   "moduleId": 9,
+   "source": {
+    "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+    "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "28.29%"
+    }
+   ]
+  },
+  {
+   "id": "payg-usage",
+   "label": "Pay As You Grow take-up",
+   "value": "37.17%",
+   "detail": "BBLS borrowers who have used at least one PAYG option (term extension to 10yrs, interest-only, or repayment holiday) at 31 Mar 2026; 46.95% of facilities on schedule, 19.38% fully repaid",
+   "asAt": "2026-03",
+   "trend": "up",
+   "eclNote": "PAYG use is a forbearance-like SICR signal in all but name — extended 10-year tails push BBLS run-off into the 2030s and stretch lifetime ECL horizons",
+   "moduleId": 9,
+   "source": {
+    "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
+    "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "37.17%"
+    }
+   ]
+  },
+  {
+   "id": "barclays-llr-fy25",
+   "label": "Barclays FY25 loan loss rate",
+   "value": "52bps",
+   "detail": "FY25 credit impairment charge £2,279m (FY24: £1,982m) — within 50-60bps through-the-cycle guidance; driven by GM portfolio acquisition, an IB single name and US macro uncertainty",
+   "asAt": "2025-12",
+   "trend": "up",
+   "eclNote": "The group benchmark BB impairment rolls into; UK wholesale loss rates ran below the TTC range, so BB charges are being watched for normalisation not deterioration",
+   "moduleId": 9,
+   "source": {
+    "title": "Barclays PLC 2025 Results Announcement (FY25 RA)",
+    "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/FullYear2025Results/FY25-BPLC-Results-RA.pdf"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "52bps"
+    }
+   ]
+  },
+  {
+   "id": "barclays-llr-h1-2026",
+   "label": "Barclays H1 2026 loan loss rate",
+   "value": "62bps",
+   "detail": "H1 26 impairment £1.4bn (incl. £228m IB single name and motor-finance redress); Q2 charge included £160m for Barclays UK; FY26 guided to top of 50-60bps range",
+   "asAt": "2026-06",
+   "trend": "up",
+   "eclNote": "Above-range H1 print pressures the group ECL budget; BB staging and coverage assumptions face tighter challenge into Q3 (results 22 Oct 2026)",
+   "moduleId": 9,
+   "source": {
+    "title": "Barclays PLC Interim Results Announcement 30 June 2026",
+    "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/H12026Results/Q226-BPLC-Results-RA.pdf"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "62bps"
+    }
+   ]
+  },
+  {
+   "id": "ggs-status",
+   "label": "Growth Guarantee Scheme",
+   "value": "70% guarantee, to Mar 2030",
+   "detail": "Extended in the 2025 Spending Review from March 2026 to 31 March 2030; facilities £10k-£2m, terms unchanged",
+   "asAt": "2026-08",
+   "trend": "flat",
+   "eclNote": "The 70% guarantee cuts LGD on covered new-lend; scheme extension keeps a guaranteed origination channel open through the Basel 3.1 transition",
+   "moduleId": 9,
+   "source": {
+    "title": "British Business Bank — Growth Guarantee Scheme (GGS)",
+    "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "70% guarantee, to Mar 2030"
+    }
+   ]
+  },
+  {
+   "id": "hmrc-preferential",
+   "label": "HMRC preference / prescribed part",
+   "value": "£800k cap",
+   "detail": "HMRC secondary preferential (VAT, PAYE, employee NIC, CIS) since 1 Dec 2020 with no cap; prescribed part for unsecured creditors capped at £800k for floating charges created on/after 6 Apr 2020",
+   "asAt": "2026-08",
+   "trend": "flat",
+   "eclNote": "HMRC ranks ahead of floating-charge realisations, directly depressing LGD recoveries on floating-charge-secured BB lending — a structural LGD assumption, not a cycle effect",
+   "moduleId": 9,
+   "source": {
+    "title": "Kirkland & Ellis — HMRC as Preferential Creditor takes effect 1 December 2020",
+    "url": "https://www.kirkland.com/publications/kirkland-alert/2020/11/hmrc-as-preferential-creditor-takes-effect"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "£800k cap"
+    }
+   ]
+  },
+  {
+   "id": "personal-guarantee-size",
+   "label": "Avg personal-guarantee-backed loan",
+   "value": "£317,000",
+   "detail": "Q2 2026 average PG-backed SME loan (Purbeck) — above £300k for a second quarter; PG-backed loan applications up 63% YoY",
+   "asAt": "2026-06",
+   "trend": "up",
+   "eclNote": "PGs are a second-way-out recovery assumption in BB LGD; rising guarantee sizes raise director exposure and realisation uncertainty in enforcement",
+   "moduleId": 9,
+   "source": {
+    "title": "Business Manchester — SME finance demand climbs 63% in Q2 2026 (Purbeck data)",
+    "url": "https://www.businessmanchester.co.uk/2026/07/07/sme-finance-demand-climbs-63-in-q2-2026-as-businesses-navigate-higher-costs"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "£317,000"
+    }
+   ]
+  },
+  {
+   "id": "starling-sme-share",
+   "label": "Starling SME banking share",
+   "value": "~9.7%",
+   "detail": "Starling holds roughly 9.7% of the UK SME banking market (600k+ business customers), targeting 12.5%",
+   "asAt": "2025-12",
+   "trend": "up",
+   "eclNote": "Marks the competitive erosion of incumbent BCA primacy — losing the current-account data feed weakens incumbents' early-warning/SICR signal quality on shared customers",
+   "moduleId": 9,
+   "source": {
+    "title": "Business of Apps — Starling Bank Revenue and Usage Statistics (2026)",
+    "url": "https://www.businessofapps.com/data/starling-bank-statistics/"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "~9.7%"
+    }
+   ]
+  },
+  {
+   "id": "gdp-growth",
+   "label": "UK GDP growth (latest quarter)",
+   "value": "+0.6% (Q1 2026)",
+   "detail": "Strongest quarter since Q1 2025; services +0.8%. 2025 full-year growth 1.4%. Q2 2026 first estimate due 13 Aug 2026",
+   "asAt": "2026-03",
+   "trend": "up",
+   "eclNote": "Core macroeconomic variable in ECL scenario sets; stronger growth shifts probability weight to the base/upside cases and supports PMA release pressure",
+   "moduleId": 9,
+   "source": {
+    "title": "ONS — GDP first quarterly estimate, UK: January to March 2026",
+    "url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/gdpfirstquarterlyestimateuk/januarytomarch2026"
+   },
+   "history": [
+    {
+     "date": "2026-08-06",
+     "value": "+0.6%"
+    }
+   ]
+  }
+ ]
 }
