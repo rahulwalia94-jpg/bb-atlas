@@ -30,6 +30,21 @@ app.use((req, res, next) => {
 
 app.get("/healthz", (_req, res) => res.json({ ok: true }));
 
+// Friendly root — this service is an API, not a website. Without this,
+// visiting the base URL in a browser shows a bare "Cannot GET /".
+app.get("/", (_req, res) => {
+  res
+    .type("html")
+    .send(
+      `<body style="background:#020510;color:#D9F2FF;font-family:ui-monospace,monospace;padding:3rem;line-height:1.7">
+        <h1 style="color:#00E5FF;letter-spacing:.1em">◈ BB ATLAS — TUTOR ONLINE</h1>
+        <p>This is the API backend, not the site. Nothing to see here — that's expected.</p>
+        <p>The site is at <a style="color:#00E5FF" href="https://rahulwalia94-jpg.github.io/bb-atlas/">rahulwalia94-jpg.github.io/bb-atlas</a></p>
+        <p style="color:#7FA8C9;font-size:.85rem">Endpoints: <code>GET /healthz</code> · <code>POST /api/ask</code> · <code>POST /api/refresh</code></p>
+      </body>`
+    );
+});
+
 // Body: { question: string, moduleId?: number, moduleTitle?: string,
 //         moduleSummary?: string, history?: [{role:"user"|"assistant", content:string}] }
 app.post("/api/ask", async (req, res) => {
