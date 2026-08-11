@@ -123,6 +123,11 @@ app.post("/api/ask", async (req, res) => {
     if (err instanceof Anthropic.AuthenticationError) {
       return res.status(500).json({ error: "Server misconfigured: invalid ANTHROPIC_API_KEY." });
     }
+    if (/credit balance is too low/i.test(err?.message || "")) {
+      return res.status(402).json({
+        error: "The Anthropic account is out of API credits. Top up at console.anthropic.com → Plans & Billing, and the tutor comes straight back. Everything else on the site works offline.",
+      });
+    }
     console.error("ask error:", err);
     res.status(500).json({ error: "The tutor hit an unexpected error. Try again." });
   }
@@ -169,6 +174,11 @@ app.post("/api/refresh", async (req, res) => {
   } catch (err) {
     if (err instanceof Anthropic.RateLimitError) {
       return res.status(429).json({ error: "Rate-limited — try again in a minute." });
+    }
+    if (/credit balance is too low/i.test(err?.message || "")) {
+      return res.status(402).json({
+        error: "The Anthropic account is out of API credits, so live refresh is paused. Top up at console.anthropic.com → Plans & Billing. The baked figures below are still valid — check their as-at dates.",
+      });
     }
     console.error("refresh error:", err);
     res.status(500).json({ error: "Refresh failed — try again." });
