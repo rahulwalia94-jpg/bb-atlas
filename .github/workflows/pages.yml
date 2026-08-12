@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # A commit made by the refresh bot uses GITHUB_TOKEN, which by design does
+  # NOT trigger `push`. Without this, refreshed data lands in the repo but
+  # never reaches the live site.
+  workflow_run:
+    workflows: ["Weekly live-data refresh"]
+    types: [completed]
 
 permissions:
   contents: read
