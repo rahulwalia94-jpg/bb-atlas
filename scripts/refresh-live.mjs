@@ -22,11 +22,14 @@ const liveDir = path.join(root, "docs", "content", "live");
 const metricsPath = path.join(liveDir, "metrics.json");
 const deltasPath = path.join(liveDir, "deltas.json");
 
-const BATCH_SIZE = 5; // keeps each call well under any timeout
+// Small batches run CONCURRENTLY. Sequential batches of 5 each took >4 min
+// (several web searches per metric), so the job blew its own time cap.
+const BATCH_SIZE = 2;
+const CONCURRENCY = 4;
 const baked = JSON.parse(fs.readFileSync(metricsPath, "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 
-const REQUEST_TIMEOUT_MS = 4 * 60 * 1000; // hard ceiling per batch
+const REQUEST_TIMEOUT_MS = 3 * 60 * 1000; // hard ceiling per batch
 
 /** Stream one Messages API call and return the accumulated text.
  *  Aborts on a hard deadline: a stalled stream would otherwise hang forever,
@@ -59,11 +62,13 @@ async function streamCall(batch, signal) {
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-6",
-      max_tokens: 4096,
+      max_tokens: 2048,
       stream: true,
-      thinking: { type: "adaptive" },
-      system: "You verify UK business-banking metrics using live web search. Precise, cite-driven, never guess.",
-      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 4 }],
+      // Lookup-and-compare work: deep reasoning only adds latency here.
+      thinking: { type: "disabled" },
+      output_config: { effort: "low" },
+      system: "You verify UK business-banking metrics using live web search. Precise, cite-driven, never guess. Be fast: one or two targeted searches per metric, then answer.",
+      tools: [{ type: "web_search_20260209", name: "web_search", max_uses: 3 }],
       messages: [{ role: "user", content: prompt }],
     }),
   });
@@ -103,33 +108,48 @@ for (let i = 0; i < baked.metrics.length; i += BATCH_SIZE) {
   batches.push(baked.metrics.slice(i, i + BATCH_SIZE));
 }
 
-console.log(`Refreshing ${baked.metrics.length} metrics in ${batches.length} batches…`);
+console.log(
+  `Refreshing ${baked.metrics.length} metrics in ${batches.length} batches, ${CONCURRENCY} at a time…`
+);
+const started = Date.now();
 
-for (const [n, batch] of batches.entries()) {
+async function runBatch(batch, n) {
   const slim = batch.map(({ id, label, value, asAt }) => ({ id, label, value, asAt }));
   let text = null;
+  // One retry only — a second failure usually means the batch is genuinely slow.
   for (let attempt = 1; attempt <= 2 && text === null; attempt++) {
     try {
       text = await callClaude(slim);
     } catch (e) {
       console.warn(`  batch ${n + 1} attempt ${attempt} failed: ${e.message}`);
       if (attempt === 2) console.warn(`  batch ${n + 1} skipped.`);
-      else await new Promise((r) => setTimeout(r, 4000));
     }
   }
-  if (text === null) continue;
+  if (text === null) return;
 
   const match = text.match(/\{[\s\S]*\}/);
-  if (!match) { console.warn(`  batch ${n + 1}: unparseable output, skipped.`); continue; }
+  if (!match) { console.warn(`  batch ${n + 1}: unparseable output, skipped.`); return; }
   try {
     const parsed = JSON.parse(match[0]);
     allUpdates.push(...(parsed.metrics || []));
     allChanges.push(...(parsed.changes || []));
-    console.log(`  batch ${n + 1}/${batches.length}: ${(parsed.metrics || []).length} update(s)`);
+    console.log(`  batch ${n + 1}/${batches.length} ok: ${(parsed.metrics || []).length} update(s)`);
   } catch {
     console.warn(`  batch ${n + 1}: invalid JSON, skipped.`);
   }
 }
+
+// simple worker pool
+let cursor = 0;
+await Promise.all(
+  Array.from({ length: Math.min(CONCURRENCY, batches.length) }, async () => {
+    while (cursor < batches.length) {
+      const n = cursor++;
+      await runBatch(batches[n], n);
+    }
+  })
+);
+console.log(`All batches finished in ${Math.round((Date.now() - started) / 1000)}s.`);
 
 const byId = Object.fromEntries(allUpdates.map((m) => [m.id, m]));
 let changed = 0;
