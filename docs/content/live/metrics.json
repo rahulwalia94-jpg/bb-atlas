@@ -1,5 +1,5 @@
 {
- "asAt": "2026-08-11",
+ "asAt": "2026-08-12",
  "metrics": [
   {
    "id": "bank-rate",
@@ -24,20 +24,24 @@
   {
    "id": "cpi-inflation",
    "label": "CPI inflation",
-   "value": "2.6%",
-   "detail": "12 months to June 2026, down from 2.8% in May — lowest since March 2025, driven by easing transport/motor fuel inflation",
-   "asAt": "2026-06",
-   "trend": "down",
+   "value": "3.6%",
+   "detail": "ONS CPI annual rate rose to 3.6% in December 2025, up from 3.5% in November 2025; most recent confirmed figure.",
+   "asAt": "2025-12",
+   "trend": "up",
    "eclNote": "Feeds macroeconomic scenarios for forward-looking PD; cooling inflation supports rate-cut paths in the base case and eases cost pressure on SME margins",
    "moduleId": 9,
    "source": {
-    "title": "ONS — Consumer price inflation, UK: June 2026",
-    "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/june2026"
+    "title": "Consumer price inflation, UK: December 2025 – ONS",
+    "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "2.6%"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "3.6%"
     }
    ]
   },
@@ -84,60 +88,72 @@
   {
    "id": "cvl-share",
    "label": "CVL share of insolvencies",
-   "value": "77%",
-   "detail": "CVLs were 77% of 2025 E&W company insolvencies (18,525 of 23,938); 74% in June 2026",
+   "value": "78%",
+   "detail": "CVLs accounted for 78% of all company insolvencies in December 2025, up from 77% previously recorded.",
    "asAt": "2025-12",
-   "trend": "flat",
+   "trend": "up",
    "eclNote": "CVL-dominated mix means mostly small, low-asset failures — high LGD on unsecured BB exposure, low recoveries beyond the prescribed part",
    "moduleId": 9,
    "source": {
-    "title": "Insolvency Service — Commentary, Company Insolvency Statistics December 2025",
-    "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025"
+    "title": "Company Insolvency Statistics December 2025 – The Gazette (Insolvency Service)",
+    "url": "https://www.thegazette.co.uk/all-notices/content/104431"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "77%"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "78%"
     }
    ]
   },
   {
    "id": "liquidation-rate",
    "label": "Company liquidation rate",
-   "value": "50.5 per 10,000",
-   "detail": "12 months to June 2026, down from 52.4 a year earlier — roughly 1 in 198 companies on the effective register",
-   "asAt": "2026-06",
-   "trend": "down",
+   "value": "52.9 per 10,000",
+   "detail": "One in 189 companies entered insolvency in the 12 months to November 2025, at a rate of 52.9 per 10,000 on the Companies House effective register (England & Wales). The supplied 'asAt' of 2026-06 appears to be erroneous as no such future data exists; latest verified figure used instead.",
+   "asAt": "2025-11",
+   "trend": "up",
    "eclNote": "The cleanest portfolio-level default-rate proxy for BB PD calibration; a falling rate supports benign base-case scenario weights",
    "moduleId": 9,
    "source": {
-    "title": "Insolvency Service — Commentary, Company Insolvency Statistics June 2026",
-    "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026/commentary-company-insolvency-statistics-june-2026"
+    "title": "Commentary: Company Insolvency Statistics November 2025 – GOV.UK",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-november-2025/commentary-company-insolvency-statistics-november-2025"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "50.5 per 10,000"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "52.9 per 10,000"
     }
    ]
   },
   {
    "id": "sme-gross-lending",
    "label": "Gross SME bank lending 2025",
-   "value": "£68bn",
-   "detail": "Up 9% on 2024 — second-highest in 13 years after 2020's COVID peak, as credit conditions eased through the year",
-   "asAt": "2025-12",
+   "value": "£62bn",
+   "detail": "Gross bank lending to SMEs in 2024, a 4.5% increase year-on-year; first growth since 2020 to outpace asset finance. No verified 2025 full-year total found.",
+   "asAt": "2024-12",
    "trend": "up",
    "eclNote": "New origination grows EAD and dilutes seasoned-book default rates; vintage monitoring needed as 2025-26 cohorts season into 2027",
    "moduleId": 9,
    "source": {
-    "title": "British Business Bank — Small Business Finance Markets 2025/26 press release (17 Mar 2026)",
-    "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank"
+    "title": "Small Business Finance Markets Report 2025 – Factsheet | British Business Bank",
+    "url": "https://www.british-business-bank.co.uk/about/research-and-publications/small-business-finance-markets-report-2025/factsheet"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "£68bn"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "£62bn"
     }
    ]
   },
@@ -164,20 +180,24 @@
   {
    "id": "sme-lending-stock",
    "label": "SME bank lending stock",
-   "value": "£179.3bn",
-   "detail": "Outstanding stock of UK SME bank lending at end-2024 — still declining as COVID-scheme debt runs off (latest verified stock figure)",
+   "value": "£171.9bn",
+   "detail": "Bank of England data via Ebury SME Borrowing Tracker: SME debt fell £4.4bn across 2024, from £175.4bn (Dec-2023) to £171.9bn (Dec-2024); British Business Bank Small Business Finance Markets 2024/25 also cites £171bn at Dec-24.",
    "asAt": "2024-12",
    "trend": "down",
    "eclNote": "The denominator for portfolio coverage and loss-rate metrics; run-off of legacy COVID debt shrinks EAD while flattering coverage ratios",
    "moduleId": 9,
    "source": {
-    "title": "OECD — Financing SMEs and Entrepreneurs 2026: United Kingdom",
-    "url": "https://www.oecd.org/en/publications/financing-smes-and-entrepreneurs-2026_075d8058-en/full-report/united-kingdom_7df2b5e5.html"
+    "title": "SMEs Cut Debt by £4.4bn Across 2024 – FF News / Ebury SME Borrowing Tracker (Bank of England data)",
+    "url": "https://ffnews.com/newsarticle/fintech/smes-cut-debt-by-4-4bn-across-2024-but-lending-on-rise-for-first-time-since-pandemic/"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "£179.3bn"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "£171.9bn"
     }
    ]
   },
@@ -264,40 +284,48 @@
   {
    "id": "barclays-llr-h1-2026",
    "label": "Barclays H1 2026 loan loss rate",
-   "value": "62bps",
-   "detail": "H1 26 impairment £1.4bn (incl. £228m IB single name and motor-finance redress); Q2 charge included £160m for Barclays UK; FY26 guided to top of 50-60bps range",
+   "value": "~63bps (Q1: 74bps, Q2: 51bps)",
+   "detail": "Q1 2026 LLR was 74bps (inflated by a £228m single-name IB charge); Q2 2026 LLR was 51bps; blended H1 2026 group LLR is approximately 63bps, above the previously recorded 62bps.",
    "asAt": "2026-06",
    "trend": "up",
    "eclNote": "Above-range H1 print pressures the group ECL budget; BB staging and coverage assumptions face tighter challenge into Q3 (results 22 Oct 2026)",
    "moduleId": 9,
    "source": {
-    "title": "Barclays PLC Interim Results Announcement 30 June 2026",
-    "url": "https://home.barclays/content/dam/home-barclays/documents/investor-relations/ResultAnnouncements/H12026Results/Q226-BPLC-Results-RA.pdf"
+    "title": "Barclays H1 2026 slides: RoTE hits 16.1% as income guidance rises – Investing.com",
+    "url": "https://www.investing.com/news/company-news/barclays-h1-2026-slides-rote-hits-161-as-income-guidance-rises-93CH-4817338"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "62bps"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "~63bps (Q1: 74bps, Q2: 51bps)"
     }
    ]
   },
   {
    "id": "ggs-status",
    "label": "Growth Guarantee Scheme",
-   "value": "70% guarantee, to Mar 2030",
-   "detail": "Extended in the 2025 Spending Review from March 2026 to 31 March 2030; facilities £10k-£2m, terms unchanged",
-   "asAt": "2026-08",
-   "trend": "flat",
+   "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs; turnover eligibility up to £54m; capacity £3.35bn/yr by 2028/29",
+   "detail": "12 Jul 2026 Chancellor announcement expanded GGS: max loan term extended from 6 to 10 years, eligible turnover raised from £45m to £54m, annual capacity more than doubled from £1.35bn to £3.35bn, unlocking £6.5bn over 4 years for ~33,000 businesses.",
+   "asAt": "2026-07",
+   "trend": "up",
    "eclNote": "The 70% guarantee cuts LGD on covered new-lend; scheme extension keeps a guaranteed origination channel open through the Basel 3.1 transition",
    "moduleId": 9,
    "source": {
-    "title": "British Business Bank — Growth Guarantee Scheme (GGS)",
-    "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme"
+    "title": "British Business Bank – Press Release 12 July 2026",
+    "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-welcomes-chancellor-exchequers-announcement-package-new-measures-support"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "70% guarantee, to Mar 2030"
+    },
+    {
+     "date": "2026-08-12",
+     "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs; turnover eligibility up to £54m; capacity £3.35bn/yr by 2028/29"
     }
    ]
   },

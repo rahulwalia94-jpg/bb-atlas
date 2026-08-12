@@ -1,6 +1,19 @@
 {
  "entries": [
   {
+   "date": "2026-08-12",
+   "summary": "Weekly refresh — 7 metrics updated.",
+   "changes": [
+    "Gross SME bank lending 2025: £68bn (2025-12, unverified) → £62bn (2024-12, British Business Bank official); no verified 2025 full-year figure exists; latest confirmed data point is £62bn for full-year 2024",
+    "CPI inflation: 2.6% (2026-06, unverifiable future date) → 3.6% (2025-12, latest confirmed ONS figure); stored date was beyond available data, most recent official reading is materially higher.",
+    "CVL share of insolvencies: 77% → 78% (Insolvency Service December 2025 release shows CVLs rose to 78% of all company insolvencies)",
+    "Company liquidation rate: 50.5 per 10,000 (asAt 2026-06, unverifiable future date) → 52.9 per 10,000 (12 months to November 2025, latest official GOV.UK figure; original asAt date appears erroneous)",
+    "SME bank lending stock: £179.3bn → £171.9bn (Bank of England Dec-2024 data shows net £4.4bn reduction across 2024; stored figure overstated by ~£7.4bn)",
+    "Growth Guarantee Scheme: '70% guarantee, to Mar 2030' → '70% guarantee, to Mar 2030; facility terms up to 10 yrs; turnover eligibility up to £54m; capacity £3.35bn/yr by 2028/29' (12 Jul 2026 Chancellor expansion doubled annual capacity, extended max loan term from 6 to 10 years, raised turnover threshold from £45m to £54m)",
+    "Barclays H1 2026 loan loss rate: 62bps → ~63bps (Q1 2026 LLR was 74bps due to a £228m single-name Investment Bank charge; Q2 2026 LLR was 51bps; blended H1 figure is approximately 63bps, marginally above the stored value)"
+   ]
+  },
+  {
    "date": "2026-08-11",
    "summary": "Weekly refresh — no changes; all figures re-verified as current.",
    "changes": []
