@@ -1,5 +1,5 @@
 {
- "asAt": "2026-08-12",
+ "asAt": "2026-08-17",
  "metrics": [
   {
    "id": "bank-rate",
@@ -24,14 +24,14 @@
   {
    "id": "cpi-inflation",
    "label": "CPI inflation",
-   "value": "3.6%",
-   "detail": "ONS CPI annual rate rose to 3.6% in December 2025, up from 3.5% in November 2025; most recent confirmed figure.",
+   "value": "3.4%",
+   "detail": "ONS: CPI rose 3.4% in 12 months to December 2025, up from 3.2% in November; input value of 3.6% was October 2025 figure",
    "asAt": "2025-12",
    "trend": "up",
    "eclNote": "Feeds macroeconomic scenarios for forward-looking PD; cooling inflation supports rate-cut paths in the base case and eases cost pressure on SME margins",
    "moduleId": 9,
    "source": {
-    "title": "Consumer price inflation, UK: December 2025 – ONS",
+    "title": "Consumer price inflation, UK: December 2025 | ONS",
     "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/december2025"
    },
    "history": [
@@ -42,6 +42,10 @@
     {
      "date": "2026-08-12",
      "value": "3.6%"
+    },
+    {
+     "date": "2026-08-17",
+     "value": "3.4%"
     }
    ]
   },
@@ -136,15 +140,15 @@
   {
    "id": "sme-gross-lending",
    "label": "Gross SME bank lending 2025",
-   "value": "£62bn",
-   "detail": "Gross bank lending to SMEs in 2024, a 4.5% increase year-on-year; first growth since 2020 to outpace asset finance. No verified 2025 full-year total found.",
-   "asAt": "2024-12",
+   "value": "£68bn",
+   "detail": "Gross SME bank lending rose 9% to £68bn in 2025, the second highest level in 13 years after the 2020 COVID peak, per the British Business Bank Small Business Finance Markets 2025/26 report.",
+   "asAt": "2025-12",
    "trend": "up",
    "eclNote": "New origination grows EAD and dilutes seasoned-book default rates; vintage monitoring needed as 2025-26 cohorts season into 2027",
    "moduleId": 9,
    "source": {
-    "title": "Small Business Finance Markets Report 2025 – Factsheet | British Business Bank",
-    "url": "https://www.british-business-bank.co.uk/about/research-and-publications/small-business-finance-markets-report-2025/factsheet"
+    "title": "Smaller business lending markets showing signs of improvement – British Business Bank",
+    "url": "https://www.british-business-bank.co.uk/news-and-events/news/smaller-business-lending-markets-showing-signs-improvement-finds-latest-british-business-bank"
    },
    "history": [
     {
@@ -154,6 +158,10 @@
     {
      "date": "2026-08-12",
      "value": "£62bn"
+    },
+    {
+     "date": "2026-08-17",
+     "value": "£68bn"
     }
    ]
   },
@@ -284,14 +292,14 @@
   {
    "id": "barclays-llr-h1-2026",
    "label": "Barclays H1 2026 loan loss rate",
-   "value": "~63bps (Q1: 74bps, Q2: 51bps)",
-   "detail": "Q1 2026 LLR was 74bps (inflated by a £228m single-name IB charge); Q2 2026 LLR was 51bps; blended H1 2026 group LLR is approximately 63bps, above the previously recorded 62bps.",
+   "value": "~62bps (Q1: 74bps, Q2: 51bps)",
+   "detail": "H1 2026 group loan loss rate confirmed at 62bps; Q1 74bps (elevated by ~20bps GM portfolio single-name fraud charge), Q2 51bps — both within 50-60bps through-the-cycle guidance range.",
    "asAt": "2026-06",
-   "trend": "up",
+   "trend": "down",
    "eclNote": "Above-range H1 print pressures the group ECL budget; BB staging and coverage assumptions face tighter challenge into Q3 (results 22 Oct 2026)",
    "moduleId": 9,
    "source": {
-    "title": "Barclays H1 2026 slides: RoTE hits 16.1% as income guidance rises – Investing.com",
+    "title": "Barclays H1 2026 slides: RoTE hits 16.1% as income guidance rises — Investing.com",
     "url": "https://www.investing.com/news/company-news/barclays-h1-2026-slides-rote-hits-161-as-income-guidance-rises-93CH-4817338"
    },
    "history": [
@@ -302,21 +310,25 @@
     {
      "date": "2026-08-12",
      "value": "~63bps (Q1: 74bps, Q2: 51bps)"
+    },
+    {
+     "date": "2026-08-17",
+     "value": "~62bps (Q1: 74bps, Q2: 51bps)"
     }
    ]
   },
   {
    "id": "ggs-status",
    "label": "Growth Guarantee Scheme",
-   "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs; turnover eligibility up to £54m; capacity £3.35bn/yr by 2028/29",
-   "detail": "12 Jul 2026 Chancellor announcement expanded GGS: max loan term extended from 6 to 10 years, eligible turnover raised from £45m to £54m, annual capacity more than doubled from £1.35bn to £3.35bn, unlocking £6.5bn over 4 years for ~33,000 businesses.",
+   "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs (Term Loans & Asset Finance); turnover eligibility up to £54m; July 2026: additional £6.5bn lending capacity unlocked over next 4 years (est. 33,000 businesses supported)",
+   "detail": "On 12 July 2026, Chancellor announced £6.5bn additional GGS capacity over 4 years; turnover uplift to £54m and 10-yr terms confirmed but pending operationalisation with accredited lenders.",
    "asAt": "2026-07",
    "trend": "up",
    "eclNote": "The 70% guarantee cuts LGD on covered new-lend; scheme extension keeps a guaranteed origination channel open through the Basel 3.1 transition",
    "moduleId": 9,
    "source": {
-    "title": "British Business Bank – Press Release 12 July 2026",
-    "url": "https://www.british-business-bank.co.uk/news-and-events/news/british-business-bank-welcomes-chancellor-exchequers-announcement-package-new-measures-support"
+    "title": "Growth Guarantee Scheme – British Business Bank",
+    "url": "https://www.british-business-bank.co.uk/finance-options/debt-finance/growth-guarantee-scheme"
    },
    "history": [
     {
@@ -326,6 +338,10 @@
     {
      "date": "2026-08-12",
      "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs; turnover eligibility up to £54m; capacity £3.35bn/yr by 2028/29"
+    },
+    {
+     "date": "2026-08-17",
+     "value": "70% guarantee, to Mar 2030; facility terms up to 10 yrs (Term Loans & Asset Finance); turnover eligibility up to £54m; July 2026: additional £6.5bn lending capacity unlocked over next 4 years (est. 33,000 businesses supported)"
     }
    ]
   },
@@ -352,20 +368,24 @@
   {
    "id": "personal-guarantee-size",
    "label": "Avg personal-guarantee-backed loan",
-   "value": "£317,000",
-   "detail": "Q2 2026 average PG-backed SME loan (Purbeck) — above £300k for a second quarter; PG-backed loan applications up 63% YoY",
-   "asAt": "2026-06",
+   "value": "£174,000",
+   "detail": "Purbeck Insurance Services Q4 2024 data: average PG-backed SME loan rose 9% to £174k from £159k in Q4 2023; £317,000 figure could not be verified in any official source.",
+   "asAt": "2024-12",
    "trend": "up",
    "eclNote": "PGs are a second-way-out recovery assumption in BB LGD; rising guarantee sizes raise director exposure and realisation uncertainty in enforcement",
    "moduleId": 9,
    "source": {
-    "title": "Business Manchester — SME finance demand climbs 63% in Q2 2026 (Purbeck data)",
-    "url": "https://www.businessmanchester.co.uk/2026/07/07/sme-finance-demand-climbs-63-in-q2-2026-as-businesses-navigate-higher-costs"
+    "title": "Average personal guarantee backed loan rises 9% - Credit Connect",
+    "url": "https://www.credit-connect.co.uk/news/average-personal-guarantee-backed-loan-rises-9/"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "£317,000"
+    },
+    {
+     "date": "2026-08-17",
+     "value": "£174,000"
     }
    ]
   },

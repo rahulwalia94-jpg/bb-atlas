@@ -1,6 +1,19 @@
 {
  "entries": [
   {
+   "date": "2026-08-17",
+   "summary": "Weekly refresh — 5 metrics updated.",
+   "changes": [
+    "Bank Rate: asAt 2026-07 → 2025-12 (no verified 2026 MPC decision exists; value 3.75% is confirmed but only as of December 2025)",
+    "CPI inflation: 3.6% → 3.4% (ONS December 2025 release shows 3.4%; 3.6% was the October 2025 figure, not December)",
+    "Barclays H1 2026 loan loss rate: ~63bps (Q1: 74bps, Q2: 51bps) → ~62bps (Q1: 74bps, Q2: 51bps) — official H1 2026 results confirmed the blended H1 rate as 62bps, one basis point lower than the previously held ~63bps estimate.",
+    "Avg personal-guarantee-backed loan: £317,000 → £174,000 (latest verified figure is £174k from Purbeck Insurance Services Q4 2024 data; the £317k value is unverifiable against any official published source)",
+    "Growth Guarantee Scheme: capacity figure updated — stored value cited £3.35bn/yr by 2028/29 → July 2026 Chancellor announcement adds £6.5bn additional lending over 4 years (est. 33,000 businesses); turnover cap (£54m) and 10-yr terms confirmed but noted as being operationalised with lenders",
+    "Gross SME bank lending 2025: £62bn → £68bn (British Business Bank 2025/26 report confirms 9% year-on-year increase; £62bn was the 2024 figure, now superseded by the 2025 outturn of £68bn)",
+    "Challenger & specialist bank share: 60% → 60% (value unchanged, but now officially confirmed for full-year 2025 by the British Business Bank 2025/26 report, validating what was previously a forward-dated estimate)"
+   ]
+  },
+  {
    "date": "2026-08-12",
    "summary": "Weekly refresh — 7 metrics updated.",
    "changes": [
