@@ -1,6 +1,16 @@
 {
  "entries": [
   {
+   "date": "2026-08-24",
+   "summary": "Weekly refresh — 3 metrics updated.",
+   "changes": [
+    "E&W company insolvencies (monthly): 1,845 → 1,847 (official GOV.UK July 2026 release cites June 2026 as 1,847, a minor upward revision of 2 from the stored figure)",
+    "Company liquidation rate: 52.9 per 10,000 (rolling 12m to Sep 2025) → 52.5 per 10,000 (full-year 2025, Dec 2025 release); rate edged down as later months brought the annual average slightly lower",
+    "BBLS total drawn: £46.47bn (asAt 2026-03, erroneous future date) → £46.48bn (asAt 2025-06, latest official GOV.UK quarterly release); value marginally higher and date corrected to most recent verified publication",
+    "Bank Rate: asAt corrected from 2026-07 → 2025-12 (most recent confirmed MPC decision is December 2025; a 2026-07 date is unverifiable and appears to be a future projection)"
+   ]
+  },
+  {
    "date": "2026-08-17",
    "summary": "Weekly refresh — 5 metrics updated.",
    "changes": [

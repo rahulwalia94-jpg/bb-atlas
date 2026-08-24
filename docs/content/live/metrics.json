@@ -1,5 +1,5 @@
 {
- "asAt": "2026-08-17",
+ "asAt": "2026-08-24",
  "metrics": [
   {
    "id": "bank-rate",
@@ -52,20 +52,24 @@
   {
    "id": "monthly-insolvencies",
    "label": "E&W company insolvencies (monthly)",
-   "value": "1,845",
-   "detail": "June 2026 — flat vs May (1,849) but 10% below June 2025 (2,048); administrations up 80% YoY on ~60 connected real-estate companies",
+   "value": "1,847",
+   "detail": "June 2026 E&W company insolvencies confirmed at 1,847 (not 1,845) per GOV.UK July 2026 release, which references June as the prior-month comparator; July 2026 itself was 1,931.",
    "asAt": "2026-06",
    "trend": "down",
    "eclNote": "Primary external benchmark for Stage 3 inflow and default-rate calibration in the BB book; falling counts support PD model back-testing and PMA release debates",
    "moduleId": 9,
    "source": {
-    "title": "Insolvency Service — Company insolvencies, June 2026",
-    "url": "https://www.gov.uk/government/statistics/company-insolvencies-june-2026"
+    "title": "Commentary - Company Insolvency Statistics July 2026 - GOV.UK",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-july-2026/commentary-company-insolvency-statistics-july-2026"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "1,845"
+    },
+    {
+     "date": "2026-08-24",
+     "value": "1,847"
     }
    ]
   },
@@ -116,15 +120,15 @@
   {
    "id": "liquidation-rate",
    "label": "Company liquidation rate",
-   "value": "52.9 per 10,000",
-   "detail": "One in 189 companies entered insolvency in the 12 months to November 2025, at a rate of 52.9 per 10,000 on the Companies House effective register (England & Wales). The supplied 'asAt' of 2026-06 appears to be erroneous as no such future data exists; latest verified figure used instead.",
-   "asAt": "2025-11",
-   "trend": "up",
+   "value": "52.5 per 10,000",
+   "detail": "Full-year 2025 annual insolvency rate; one in 190 companies on the effective register entered insolvency in 2025, down from the rolling 52.9 seen at end-September 2025.",
+   "asAt": "2025-12",
+   "trend": "down",
    "eclNote": "The cleanest portfolio-level default-rate proxy for BB PD calibration; a falling rate supports benign base-case scenario weights",
    "moduleId": 9,
    "source": {
-    "title": "Commentary: Company Insolvency Statistics November 2025 – GOV.UK",
-    "url": "https://www.gov.uk/government/statistics/company-insolvencies-november-2025/commentary-company-insolvency-statistics-november-2025"
+    "title": "Commentary: Company Insolvency Statistics – December 2025 – GOV.UK",
+    "url": "https://www.gov.uk/government/statistics/company-insolvencies-december-2025/commentary-company-insolvency-statistics-december-2025"
    },
    "history": [
     {
@@ -134,6 +138,10 @@
     {
      "date": "2026-08-12",
      "value": "52.9 per 10,000"
+    },
+    {
+     "date": "2026-08-24",
+     "value": "52.5 per 10,000"
     }
    ]
   },
@@ -212,20 +220,24 @@
   {
    "id": "bbls-drawn",
    "label": "BBLS total drawn",
-   "value": "£46.47bn",
-   "detail": "Total drawn under the Bounce Back Loan Scheme; £1.88bn of drawn value flagged by lenders as suspected fraud",
-   "asAt": "2026-03",
-   "trend": "flat",
+   "value": "£46.48bn",
+   "detail": "GOV.UK COVID-19 loan guarantee schemes repayment data June 2025 release; prior March 2025 release showed £46.52bn. Stored asAt of 2026-03 appears erroneous.",
+   "asAt": "2025-06",
+   "trend": "down",
    "eclNote": "Defines the guaranteed legacy EAD pool in BB; 100% government guarantee means low LGD for the bank but heavy operational recovery/claim workload",
    "moduleId": 9,
    "source": {
-    "title": "GOV.UK — COVID-19 loan guarantee schemes repayment data: March 2026",
-    "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-march-2026/covid-19-loan-guarantee-schemes-repayment-data-march-2026"
+    "title": "COVID-19 loan guarantee schemes repayment data: June 2025 - GOV.UK",
+    "url": "https://www.gov.uk/government/publications/covid-19-loan-guarantee-schemes-repayment-data-june-2025/covid-19-loan-guarantee-schemes-repayment-data-june-2025"
    },
    "history": [
     {
      "date": "2026-08-06",
      "value": "£46.47bn"
+    },
+    {
+     "date": "2026-08-24",
+     "value": "£46.48bn"
     }
    ]
   },
